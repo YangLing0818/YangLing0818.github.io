@@ -21,161 +21,53 @@ If you are interested, please feel free to email me.
 
 # Publications
 
-Dpgn: Distribution propagation graph network for few-shot learning
-
+Dpgn: Distribution propagation graph network for few-shot learning 
 Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
-
 CVPR2020
-
 ![Editing a markdown file for a talk](/images/dpgn.png)
 
-
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/dpgn.png" align = "center" width="300" height="300">
-
-
-<font >Dpgn: Distribution propagation graph network for few-shot learning</font>
-
- 
-
-Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
-
-CVPR2020
-
-
-
-
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/oepg.png" align = "center" width="300" height="300">
-
-
-
-<font >Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
-
- 
-
+Omni-granular ego-semantic propagation for self-supervised graph representation learning 
 Ling Yang, Shenda Hong
+ICML2022
+![Editing a markdown file for a talk](/images/oepg.png)
 
-
-
-ICML2022 
-
-
-
- 
-
- 
-
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/btsf.png" align = "center" width="300" height="300">
-
- 
-
-<font >Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
-
- 
-
+Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion
 Ling Yang, Shenda Hong
+ICML2022
+![Editing a markdown file for a talk](/images/btsf.png)
 
-
-
-ICML2022 
- 
-
- 
-
-
- 
-
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/isgib.png" align = "center" width="300" height="300">
-
- 
-
-<font >Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
-
- 
-
+Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization
 Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wentao Zhang, Bin Cui
+TKDE2023
+![Editing a markdown file for a talk](/images/isgib.png)
 
-
-
-TKDE2023 
-
- 
-
-
- 
-
- 
-
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/transformer.png" align = "center" width="300" height="300">
-
-
-
-<font >Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
-
- 
-
+Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer
 Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
-
-
-
 TNNLS2023
- 
- 
+![Editing a markdown file for a talk](/images/transformer.png)
 
 
- 
-
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/sgdiff.png" align = "center" width="300" height="300">
-
- 
-
-<font >Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
-
- 
-
-Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
-
-
-
-Arxiv2022
- 
-
-
-
- 
-
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/survey.png" align = "center" width="300" height="300">
-
-
-
-<font >Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
-
- 
-
+Diffusion Models: A Comprehensive Survey of Methods and Applications
 Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
-
-
-
 Arxiv2022
- 
+![Editing a markdown file for a talk](/images/survey.png)
 
+Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training
+Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
+Arxiv2022
+![Editing a markdown file for a talk](/images/sgdiff.png)
 
- 
-
-
- 
-
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/vqgraph.png" align = "center" width="300" height="300">
-
- 
-
-<font >VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
-
-
+VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs
 Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
-
-
-
 Arxiv2023
+![Editing a markdown file for a talk](/images/vqgraph.png)
+
+
+ 
+
+ 
+
+
  
 
 
