@@ -26,47 +26,46 @@ If you are interested, please feel free to email me.
 * One paper is accepted by **CVPR 2020**.
 
 # Publications
-
-**[CVPR 2020]** Dpgn: Distribution propagation graph network for few-shot learning 
+<font size=5> **[CVPR 2020]** Dpgn: Distribution propagation graph network for few-shot learning </font>
 
 **[Author List]** Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
-![Editing a markdown file for a talk](/images/dpgn.png)
+
 
 **[ICML 2022]** Omni-granular ego-semantic propagation for self-supervised graph representation learning 
 
 **[Author List]** Ling Yang, Shenda Hong
-![Editing a markdown file for a talk](/images/oepg.png)
+
 
 **[ICML 2022]** Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion
 
 **[Author List]** Ling Yang, Shenda Hong
-![Editing a markdown file for a talk](/images/btsf.png)
+
 
 **[TKDE 2023]** Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization
 
 **[Author List]** Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wentao Zhang, Bin Cui
-![Editing a markdown file for a talk](/images/isgib.png)
+
 
 **[TNNLS 2023]** Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer
 
 **[Author List]** Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
-![Editing a markdown file for a talk](/images/transformer.png)
+
 
 
 **[Arxiv 2022]** Diffusion Models: A Comprehensive Survey of Methods and Applications
 
 **[Author List]** Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
-![Editing a markdown file for a talk](/images/survey.png)
+
 
 **[Arxiv 2022]** Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training
 
 **[Author List]** Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
-![Editing a markdown file for a talk](/images/sgdiff.png)
+
 
 **[Arxiv 2023]** VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs
 
 **[Author List]** Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
-![Editing a markdown file for a talk](/images/vqgraph.png)
+
 
 
  
