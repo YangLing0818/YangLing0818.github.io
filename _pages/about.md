@@ -26,14 +26,14 @@ If you are interested, please feel free to email me.
 * One paper is accepted by **CVPR 2020**.
 
 # Publications
-<font size=5> **[CVPR 2020]** Dpgn: Distribution propagation graph network for few-shot learning </font>
+<font size=5> [CVPR 2020] Dpgn: Distribution propagation graph network for few-shot learning </font>
 
-**[Author List]** Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
+Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
 
 
-**[ICML 2022]** Omni-granular ego-semantic propagation for self-supervised graph representation learning 
+<font size=5> [ICML 2022] Omni-granular ego-semantic propagation for self-supervised graph representation learning </font>
 
-**[Author List]** Ling Yang, Shenda Hong
+Ling Yang, Shenda Hong
 
 
 **[ICML 2022]** Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion
