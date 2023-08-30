@@ -26,9 +26,10 @@ If you are interested, please feel free to email me.
 * One paper is accepted by **CVPR 2020**.
 
 # Publications
-**[CVPR 2020]** [Dpgn: Distribution propagation graph network for few-shot learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html)
 
-*Author List*: **Ling Yang**, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
+**[Arxiv 2022]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
+
+*Author List*: **Ling Yang**, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
 
 
 **[ICML 2022]** [Omni-granular ego-semantic propagation for self-supervised graph representation learning](https://proceedings.mlr.press/v162/yang22d.html)
@@ -40,6 +41,10 @@ If you are interested, please feel free to email me.
 
 *Author List*: **Ling Yang**, Shenda Hong
 
+**[CVPR 2020]** [Dpgn: Distribution propagation graph network for few-shot learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html)
+
+*Author List*: **Ling Yang**, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
+
 
 **[TKDE 2023]** [Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization](https://ieeexplore.ieee.org/abstract/document/10168296/)
 
@@ -49,12 +54,6 @@ If you are interested, please feel free to email me.
 **[TNNLS 2023]** [Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer](https://arxiv.org/abs/2205.09928)
 
 *Author List*: Wenrui Zhang\*, **Ling Yang**\*, Shijia Geng, Shenda Hong
-
-
-
-**[Arxiv 2022]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
-
-*Author List*: **Ling Yang**, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
 
 
 **[Arxiv 2022]** [Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training](https://arxiv.org/abs/2211.11138)
