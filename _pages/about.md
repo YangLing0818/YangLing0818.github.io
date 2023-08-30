@@ -37,54 +37,6 @@ If you are interested, please feel free to email me.
 <img src=https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/oepg.png width=60% />
 </div>
 
-**[ICML 2022]** Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion
-
-**[Author List]** Ling Yang, Shenda Hong
-
-<div align="center">
-<img src=https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/btsf.png width=50% />
-</div>
-
-**[TKDE 2023]** Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization
-
-**[Author List]** Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wentao Zhang, Bin Cui
-
-<div align="center">
-<img src=https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/isgib.png width=50% />
-</div>
-
-**[TNNLS 2023]** Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer
-
-**[Author List]** Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
-
-<div align="center">
-<img src=https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/transformer.png width=40% />
-</div>
-
-
-**[Arxiv 2022]** Diffusion Models: A Comprehensive Survey of Methods and Applications
-
-**[Author List]** Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
-
-<div align="center">
-<img src=https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/survey.png width=60% />
-</div>
-
-**[Arxiv 2022]** Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training
-
-**[Author List]** Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
-
-<div align="center">
-<img src=https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/sgdiff.png width=60% />
-</div>
-
-**[Arxiv 2023]** VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs
-
-**[Author List]** Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
-
-<div align="center">
-<img src=https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/vqgraph.png width=60% />
-</div>
 
 
  
