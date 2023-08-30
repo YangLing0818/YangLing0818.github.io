@@ -21,11 +21,10 @@ If you are interested, please feel free to email me.
 
 # Publications
 
-&nbsp;
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/dpgn.png" align = "center" width=50% height=50%>
 
-&nbsp;
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/dpgn.png" align = "center" width=50% height=50%>
+
 
 <font >Dpgn: Distribution propagation graph network for few-shot learning</font>
 
@@ -35,12 +34,12 @@ Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu
 
 CVPR2020
 
-&nbsp;
 
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/oepg.png" align = "center" width=50% height=50%>
 
-&nbsp;
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/oepg.png" align = "center" width=50% height=50%>
+
+
 
 <font >Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
 
@@ -52,15 +51,15 @@ Ling Yang, Shenda Hong
 
 ICML2022 
 
-&nbsp;
+
 
  
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/btsf.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/btsf.png" align = "center" width=50% height=50%>
 
- &nbsp;
+ 
 
 <font >Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
 
@@ -74,13 +73,13 @@ ICML2022
  
 
  
-&nbsp;
+
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/isgib.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/isgib.png" align = "center" width=50% height=50%>
 
- &nbsp;
+ 
 
 <font >Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
 
@@ -93,15 +92,15 @@ Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wen
 TKDE2023 
 
  
-&nbsp;
+
 
  
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/transformer.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/transformer.png" align = "center" width=50% height=50%>
 
-&nbsp;
+
 
 <font >Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
 
@@ -114,13 +113,13 @@ Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
 TNNLS2023
  
  
-&nbsp;
+
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/sgdiff.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/sgdiff.png" align = "center" width=50% height=50%>
 
-&nbsp; 
+ 
 
 <font >Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
 
@@ -133,13 +132,13 @@ Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cu
 Arxiv2022
  
 
-&nbsp;
+
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/survey.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/survey.png" align = "center" width=50% height=50%>
 
-&nbsp;
+
 
 <font >Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
 
@@ -154,13 +153,13 @@ Arxiv2022
 
 
  
-&nbsp;
+
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/vqgraph.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/vqgraph.png" align = "center" width=50% height=50%>
 
- &nbsp;
+ 
 
 <font >VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
 
@@ -172,7 +171,7 @@ Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, B
 Arxiv2023
  
 
-&nbsp;
+
  
 
  
