@@ -12,7 +12,7 @@ Ling Yang is a second-year PhD student at Peking University in Beijing, advised 
 
 
 # Publications
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/dpgn.png" align = "left" height= "150" width = "250">
 
 
 <font size=4>Dpgn: Distribution propagation graph network for few-shot learning</font>
@@ -27,7 +27,7 @@ CVPR2020
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/oepg.png" align = "left" height= "150" width = "250">
 
 &nbsp;
 
@@ -45,7 +45,7 @@ ICML2022
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/btsf.png" align = "left" height= "150" width = "250">
 
 &nbsp;
 
@@ -63,7 +63,7 @@ ICML2022
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/isgib.png" align = "left" height= "150" width = "250">
 
 &nbsp;
 
@@ -81,7 +81,7 @@ TKDE2023
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/transformer.png" align = "left" height= "150" width = "250">
 
 &nbsp;
 
@@ -99,7 +99,7 @@ TNNLS2023
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/sgdiff.png" align = "left" height= "150" width = "250">
 
 &nbsp;
 
@@ -117,7 +117,7 @@ Arxiv2022
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/survey.png" align = "left" height= "150" width = "250">
 
 &nbsp;
 
@@ -135,7 +135,7 @@ Arxiv2022
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/vqgraph.png" align = "left" height= "150" width = "250">
 
 &nbsp;
 
