@@ -20,7 +20,7 @@ Before that, He received the Bachelor and Master degrees from Honors College in 
 If you are interested, please feel free to email me.
 
 # <font color=red> What's New </font>
-* I publish [a book about diffusion models](https://item.m.jd.com/product/14075554.html).
+* I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
 * One paper is accepted by **TNNLS 2023**.
 * One paper is accepted by **TKDE 2023**.
 * Two paper are accepted by **ICML 2022**.
