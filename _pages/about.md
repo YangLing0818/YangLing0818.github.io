@@ -12,23 +12,21 @@ Ling Yang is a second-year PhD student at Peking University in Beijing, advised 
 
 
 # Publications
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/dpgn.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/dpgn.png" align = "center" width=50% height=50%>
 
 
 <font size=4.5>Dpgn: Distribution propagation graph network for few-shot learning</font>
 
  
 
-Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu
+Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
 
-CVPR2020 
+CVPR2020
 
-<br>
- 
 <br>
 
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/oepg.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/oepg.png" align = "center" width=50% height=50%>
 
 
 <font size=4.5>Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
@@ -42,14 +40,12 @@ Ling Yang, Shenda Hong
 ICML2022 
 
 <br>
- 
-<br>
 
  
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/btsf.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/btsf.png" align = "center" width=50% height=50%>
 
  
 
@@ -64,13 +60,12 @@ Ling Yang, Shenda Hong
 ICML2022 
  
 
- <br>
  
 <br>
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/isgib.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/isgib.png" align = "center" width=50% height=50%>
 
  
 
@@ -84,7 +79,6 @@ Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wen
 
 TKDE2023 
 
- <br>
  
 <br>
 
@@ -92,7 +86,7 @@ TKDE2023
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/transformer.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/transformer.png" align = "center" width=50% height=50%>
 
  
 
@@ -106,14 +100,12 @@ Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
 
 TNNLS2023
  
-
- <br>
  
 <br>
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/sgdiff.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/sgdiff.png" align = "center" width=50% height=50%>
 
  
 
@@ -128,13 +120,12 @@ Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cu
 Arxiv2022
  
 
-<br>
  
 <br> 
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/survey.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/survey.png" align = "center" width=50% height=50%>
 
  
 
@@ -149,13 +140,13 @@ Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia
 Arxiv2022
  
 
-<br>
+
  
 <br> 
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/vqgraph.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/vqgraph.png" align = "center" width=50% height=50%>
 
  
 
@@ -169,7 +160,7 @@ Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, B
 
 Arxiv2023
  
-<br>
+
  
 <br>
  
