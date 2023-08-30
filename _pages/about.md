@@ -12,16 +12,13 @@ Ling Yang is a second-year PhD student at Peking University in Beijing, advised 
 
 
 # Publications
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "200" width = "350">
+<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "350">
 
-&nbsp;
 
-<font size=5>Dpgn: Distribution propagation graph network for few-shot learning</font>
+<font size=6>Dpgn: Distribution propagation graph network for few-shot learning</font>
 
 
 Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu
-
-
 
 CVPR2020 
 &nbsp;
