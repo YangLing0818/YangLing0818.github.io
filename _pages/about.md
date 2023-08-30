@@ -25,7 +25,7 @@ If you are interested, please feel free to email me.
 
 Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
 
-<img src=https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/dpgn.png width=60% />
+<img src=/images/dpgn.png width=60% />
 
 **[ICML 2022]** Omni-granular ego-semantic propagation for self-supervised graph representation learning 
 
