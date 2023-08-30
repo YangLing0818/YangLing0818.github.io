@@ -21,6 +21,13 @@ If you are interested, please feel free to email me.
 
 # Publications
 
+Dpgn: Distribution propagation graph network for few-shot learning
+</br>
+Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
+</br>
+CVPR2020
+</br>
+![Editing a markdown file for a talk](/images/dpgn.png)
 
 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/dpgn.png" align = "center" width="300" height="300">
