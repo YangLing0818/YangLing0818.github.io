@@ -12,10 +12,10 @@ Ling Yang is a second-year PhD student at Peking University in Beijing, advised 
 
 
 # Publications
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "350">
+<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
 
 
-<font size=6>Dpgn: Distribution propagation graph network for few-shot learning</font>
+<font size=4>Dpgn: Distribution propagation graph network for few-shot learning</font>
 
 
 Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu
@@ -27,11 +27,11 @@ CVPR2020
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "200" width = "350">
+<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
 
 &nbsp;
 
-<font size=5>Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
+<font size=4>Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
 
 
 Ling Yang, Shenda Hong
@@ -45,11 +45,11 @@ ICML2022
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "200" width = "350">
+<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
 
 &nbsp;
 
-<font size=5>Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
+<font size=4>Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
 
 
 Ling Yang, Shenda Hong
@@ -63,11 +63,11 @@ ICML2022
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "200" width = "350">
+<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
 
 &nbsp;
 
-<font size=5>Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
+<font size=4>Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
 
 
 Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wentao Zhang, Bin Cui
@@ -81,11 +81,11 @@ TKDE2023
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "200" width = "350">
+<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
 
 &nbsp;
 
-<font size=5>Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
+<font size=4>Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
 
 
 Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
@@ -99,11 +99,11 @@ TNNLS2023
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "200" width = "350">
+<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
 
 &nbsp;
 
-<font size=5>Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
+<font size=4>Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
 
 
 Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
@@ -117,11 +117,11 @@ Arxiv2022
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "200" width = "350">
+<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
 
 &nbsp;
 
-<font size=5>Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
+<font size=4>Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
 
 
 Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
@@ -135,11 +135,11 @@ Arxiv2022
 
 &nbsp;
 
-<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "200" width = "350">
+<img src = "https://i.loli.net/2018/04/24/5adf182dd449f.jpeg" align = "left" height= "150" width = "250">
 
 &nbsp;
 
-<font size=5>VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
+<font size=4>VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
 
 
 Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
