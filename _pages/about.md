@@ -17,6 +17,7 @@ Ling Yang is a second-year PhD student at Peking University in Beijing, advised 
 
 <font size=4>Dpgn: Distribution propagation graph network for few-shot learning</font>
 
+&nbsp;
 
 Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu
 
@@ -29,10 +30,12 @@ CVPR2020
 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/oepg.png" align = "left" height= "150" width = "250">
 
+
 &nbsp;
 
 <font size=4>Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
 
+&nbsp;
 
 Ling Yang, Shenda Hong
 
@@ -51,6 +54,7 @@ ICML2022
 
 <font size=4>Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
 
+&nbsp;
 
 Ling Yang, Shenda Hong
 
@@ -69,6 +73,7 @@ ICML2022
 
 <font size=4>Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
 
+&nbsp;
 
 Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wentao Zhang, Bin Cui
 
@@ -87,6 +92,7 @@ TKDE2023
 
 <font size=4>Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
 
+&nbsp;
 
 Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
 
@@ -105,6 +111,7 @@ TNNLS2023
 
 <font size=4>Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
 
+&nbsp;
 
 Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
 
@@ -123,6 +130,7 @@ Arxiv2022
 
 <font size=4>Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
 
+&nbsp;
 
 Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
 
@@ -141,6 +149,7 @@ Arxiv2022
 
 <font size=4>VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
 
+&nbsp;
 
 Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
