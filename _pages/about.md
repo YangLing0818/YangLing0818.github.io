@@ -23,7 +23,7 @@ If you are interested, please feel free to email me.
 
 
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/dpgn.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/dpgn.png" align = "center" width="300" height="300">
 
 
 <font >Dpgn: Distribution propagation graph network for few-shot learning</font>
@@ -37,7 +37,7 @@ CVPR2020
 
 
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/oepg.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/oepg.png" align = "center" width="300" height="300">
 
 
 
@@ -57,7 +57,7 @@ ICML2022
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/btsf.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/btsf.png" align = "center" width="300" height="300">
 
  
 
@@ -77,7 +77,7 @@ ICML2022
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/isgib.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/isgib.png" align = "center" width="300" height="300">
 
  
 
@@ -98,7 +98,7 @@ TKDE2023
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/transformer.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/transformer.png" align = "center" width="300" height="300">
 
 
 
@@ -117,7 +117,7 @@ TNNLS2023
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/sgdiff.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/sgdiff.png" align = "center" width="300" height="300">
 
  
 
@@ -136,7 +136,7 @@ Arxiv2022
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/survey.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/survey.png" align = "center" width="300" height="300">
 
 
 
@@ -157,7 +157,7 @@ Arxiv2022
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/vqgraph.png" align = "center" width=50% height=50%>
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/vqgraph.png" align = "center" width="300" height="300">
 
  
 
