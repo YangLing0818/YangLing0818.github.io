@@ -28,7 +28,7 @@ CVPR2020
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/oepg.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/oepg.png" align = "left" height= "150" width = "250">
 
 
  
@@ -48,7 +48,7 @@ ICML2022
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/btsf.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/btsf.png" align = "left" height= "150" width = "250">
 
  
 
@@ -67,7 +67,7 @@ ICML2022
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/isgib.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/isgib.png" align = "left" height= "150" width = "250">
 
  
 
@@ -86,7 +86,7 @@ TKDE2023
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/transformer.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/transformer.png" align = "left" height= "150" width = "250">
 
  
 
@@ -105,7 +105,7 @@ TNNLS2023
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/sgdiff.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/sgdiff.png" align = "left" height= "150" width = "250">
 
  
 
@@ -124,7 +124,7 @@ Arxiv2022
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/survey.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/survey.png" align = "left" height= "150" width = "250">
 
  
 
@@ -143,7 +143,7 @@ Arxiv2022
 
  
 
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/vqgraph.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/vqgraph.png" align = "left" height= "150" width = "250">
 
  
 
