@@ -7,7 +7,7 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ling Yang"
+title                    : "Ling Yang's Page"
 title_separator          : "-"
 name                     : &name "Ling Yang"
 description              : &description "personal description"
@@ -111,7 +111,7 @@ author:
   twitter          : "LingYang_PKU"
   vine             :
   weibo            :
-  xing             :
+  xing             : 
   youtube          :
   wikipedia        :
 
@@ -177,9 +177,9 @@ collections:
   # teaching:
   #   output: true
   #   permalink: /:collection/:path/
-  # publications:
-  #   output: true
-  #   permalink: /:collection/:path/
+  publications:
+    output: true
+    permalink: /:collection/:path/
   portfolio:
     output: true
     permalink: /:collection/:path/
