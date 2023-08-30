@@ -19,6 +19,12 @@ Before that, He received the Bachelor and Master degrees from Honors College in 
 
 If you are interested, please feel free to email me.
 
+# News
+* One paper is accepted by **TNNLS 2023**.
+* One paper is accepted by **TKDE 2023**.
+* Two paper are accepted by **ICML 2022**.
+* One paper is accepted by **CVPR 2020**.
+
 # Publications
 
 **[CVPR 2020]** Dpgn: Distribution propagation graph network for few-shot learning 
