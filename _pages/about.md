@@ -28,7 +28,7 @@ If you are interested, please feel free to email me.
 # Publications
 <font size=5> [CVPR 2020] Dpgn: Distribution propagation graph network for few-shot learning </font>
 
-Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
+Author List: Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
 
 
 <font size=5> [ICML 2022] Omni-granular ego-semantic propagation for self-supervised graph representation learning </font>
@@ -36,35 +36,35 @@ Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu
 Ling Yang, Shenda Hong
 
 
-**[ICML 2022]** Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion
+<font size=5> [ICML 2022] Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion </font>
 
-**[Author List]** Ling Yang, Shenda Hong
-
-
-**[TKDE 2023]** Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization
-
-**[Author List]** Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wentao Zhang, Bin Cui
+Author List: Ling Yang, Shenda Hong
 
 
-**[TNNLS 2023]** Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer
+<font size=5> [TKDE 2023] Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization </font>
 
-**[Author List]** Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
-
-
-
-**[Arxiv 2022]** Diffusion Models: A Comprehensive Survey of Methods and Applications
-
-**[Author List]** Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
+Author List: Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wentao Zhang, Bin Cui
 
 
-**[Arxiv 2022]** Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training
+<font size=5> [TNNLS 2023] Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer </font>
 
-**[Author List]** Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
+Author List: Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
 
 
-**[Arxiv 2023]** VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs
 
-**[Author List]** Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
+<font size=5> [Arxiv 2022] Diffusion Models: A Comprehensive Survey of Methods and Applications </font>
+
+Author List: Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
+
+
+<font size=5> [Arxiv 2022] Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training </font>
+
+Author List: Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
+
+
+<font size=5> [Arxiv 2023] VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs </font>
+
+Author List: Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
 
 
