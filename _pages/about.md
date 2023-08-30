@@ -15,7 +15,7 @@ Ling Yang is a second-year PhD student at Peking University in Beijing, advised 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/dpgn.png" align = "left" height= "150" width = "250">
 
 
-<font size=5>Dpgn: Distribution propagation graph network for few-shot learning</font>
+<font size=4.5>Dpgn: Distribution propagation graph network for few-shot learning</font>
 
  
 
@@ -33,7 +33,7 @@ CVPR2020
 
  
 
-<font size=5>Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
+<font size=4.5>Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
 
  
 
@@ -52,7 +52,7 @@ ICML2022
 
  
 
-<font size=5>Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
+<font size=4.5>Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
 
  
 
@@ -71,7 +71,7 @@ ICML2022
 
  
 
-<font size=5>Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
+<font size=4.5>Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
 
  
 
@@ -90,7 +90,7 @@ TKDE2023
 
  
 
-<font size=5>Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
+<font size=4.5>Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
 
  
 
@@ -109,7 +109,7 @@ TNNLS2023
 
  
 
-<font size=5>Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
+<font size=4.5>Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
 
  
 
@@ -128,7 +128,7 @@ Arxiv2022
 
  
 
-<font size=5>Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
+<font size=4.5>Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
 
  
 
@@ -147,7 +147,7 @@ Arxiv2022
 
  
 
-<font size=5>VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
+<font size=4.5>VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
 
  
 
