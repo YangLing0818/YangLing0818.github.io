@@ -21,43 +21,43 @@ If you are interested, please feel free to email me.
 
 # Publications
 
-**[CVPR2020]** Dpgn: Distribution propagation graph network for few-shot learning 
+**[CVPR 2020]** Dpgn: Distribution propagation graph network for few-shot learning 
 
 Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
 ![Editing a markdown file for a talk](/images/dpgn.png)
 
-**[ICML2022]** Omni-granular ego-semantic propagation for self-supervised graph representation learning 
+**[ICML 2022]** Omni-granular ego-semantic propagation for self-supervised graph representation learning 
 
 Ling Yang, Shenda Hong
 ![Editing a markdown file for a talk](/images/oepg.png)
 
-**[ICML2022]** Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion
+**[ICML 2022]** Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion
 
 Ling Yang, Shenda Hong
 ![Editing a markdown file for a talk](/images/btsf.png)
 
-**[TKDE2023]** Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization
+**[TKDE 2023]** Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization
 
 Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wentao Zhang, Bin Cui
 ![Editing a markdown file for a talk](/images/isgib.png)
 
-**[TNNLS2023]** Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer
+**[TNNLS 2023]** Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer
 
 Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
 ![Editing a markdown file for a talk](/images/transformer.png)
 
 
-**[Arxiv2022]** Diffusion Models: A Comprehensive Survey of Methods and Applications
+**[Arxiv 2022]** Diffusion Models: A Comprehensive Survey of Methods and Applications
 
 Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
 ![Editing a markdown file for a talk](/images/survey.png)
 
-**[Arxiv2022]** Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training
+**[Arxiv 2022]** Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training
 
 Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
 ![Editing a markdown file for a talk](/images/sgdiff.png)
 
-**[Arxiv2023]** VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs
+**[Arxiv 2023]** VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs
 
 Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 ![Editing a markdown file for a talk](/images/vqgraph.png)
