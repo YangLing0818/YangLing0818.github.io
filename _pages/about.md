@@ -12,7 +12,7 @@ Ling Yang is a second-year PhD student at Peking University in Beijing, advised 
 
 
 # Publications
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/dpgn.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/dpgn.png" align = "left" height= "150" width = "250">
 
 
 <font size=4.5>Dpgn: Distribution propagation graph network for few-shot learning</font>
@@ -22,16 +22,14 @@ Ling Yang is a second-year PhD student at Peking University in Beijing, advised 
 Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu
 
 CVPR2020 
- 
 
+<br>
  
+<br>
 
- 
 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/oepg.png" align = "left" height= "150" width = "250">
 
-
- 
 
 <font size=4.5>Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
 
@@ -42,7 +40,10 @@ Ling Yang, Shenda Hong
 
 
 ICML2022 
+
+<br>
  
+<br>
 
  
 
@@ -63,7 +64,9 @@ Ling Yang, Shenda Hong
 ICML2022 
  
 
+ <br>
  
+<br>
 
  
 
@@ -80,7 +83,10 @@ Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wen
 
 
 TKDE2023 
+
+ <br>
  
+<br>
 
  
 
@@ -101,7 +107,9 @@ Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
 TNNLS2023
  
 
+ <br>
  
+<br>
 
  
 
@@ -120,7 +128,9 @@ Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cu
 Arxiv2022
  
 
+<br>
  
+<br> 
 
  
 
@@ -139,7 +149,9 @@ Ling Yang, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia
 Arxiv2022
  
 
+<br>
  
+<br> 
 
  
 
@@ -157,7 +169,9 @@ Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, B
 
 Arxiv2023
  
-
+<br>
+ 
+<br>
  
 
  
