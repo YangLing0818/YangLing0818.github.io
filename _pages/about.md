@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "About me"
+title: "Biography"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,14 +8,26 @@ redirect_from:
   - /about.html
 ---
 
-Ling Yang is a second-year PhD student at Peking University in Beijing, advised by Bin Cui and Luxia Zhang. Before that, He received the Bachelor and Master degrees from Honors College in Northwestern Polytechnical University in 2018 and 2021, advised by [Yuchao Dai](https://scholar.google.com/citations?user=fddAbqsAAAAJ&hl=zh-CN) and [Mingyi He](https://scholar.google.com/citations?user=gLnLpAsAAAAJ&hl=en). He worked with [Yang Song](https://yang-song.net/), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN),  [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). His research interests are Generative Models, Multimodal Learning, Self-supervised Learning, and AI for Science. He now serves as a reviewer for international conferences and journals including TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI. Our lab is recruiting self-motivated interns who have a strong passion for Generative Models/Diffusion Models. If you are interested, please send email with your CV.
+Ling Yang is a Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/) and [Luxia Zhang](https://scholar.google.com/citations?user=qvRlo5wAAAAJ&hl=en). His research interests are Generative Models, Multimodal Learning, and AI for Science. He currently works with [Yang Song](https://yang-song.net/), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN),  [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN).  He now serves as a program committee member or reviewer for international conferences and journals including TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI.
 
+Before that, He received the Bachelor and Master degrees from Honors College in Northwestern Polytechnical University in 2018 and 2021, advised by [Yuchao Dai](https://scholar.google.com/citations?user=fddAbqsAAAAJ&hl=zh-CN) and [Mingyi He](https://scholar.google.com/citations?user=gLnLpAsAAAAJ&hl=en).  
+
+# Research Interests
+* Generative Models/Diffusion Models
+* Multimodal Learning
+* Graph Machine Learning
+
+If you are interested, please feel free to email me.
 
 # Publications
+
+&nbsp;
+
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/dpgn.png" align = "center" width=50% height=50%>
 
+&nbsp;
 
-<font size=4.5>Dpgn: Distribution propagation graph network for few-shot learning</font>
+<font >Dpgn: Distribution propagation graph network for few-shot learning</font>
 
  
 
@@ -23,13 +35,14 @@ Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu
 
 CVPR2020
 
-<br>
+&nbsp;
 
 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/oepg.png" align = "center" width=50% height=50%>
 
+&nbsp;
 
-<font size=4.5>Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
+<font >Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
 
  
 
@@ -39,7 +52,7 @@ Ling Yang, Shenda Hong
 
 ICML2022 
 
-<br>
+&nbsp;
 
  
 
@@ -47,9 +60,9 @@ ICML2022
 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/btsf.png" align = "center" width=50% height=50%>
 
- 
+ &nbsp;
 
-<font size=4.5>Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
+<font >Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
 
  
 
@@ -61,15 +74,15 @@ ICML2022
  
 
  
-<br>
+&nbsp;
 
  
 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/isgib.png" align = "center" width=50% height=50%>
 
- 
+ &nbsp;
 
-<font size=4.5>Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
+<font >Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
 
  
 
@@ -80,7 +93,7 @@ Ling Yang, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wen
 TKDE2023 
 
  
-<br>
+&nbsp;
 
  
 
@@ -88,9 +101,9 @@ TKDE2023
 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/transformer.png" align = "center" width=50% height=50%>
 
- 
+&nbsp;
 
-<font size=4.5>Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
+<font >Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
 
  
 
@@ -101,15 +114,15 @@ Wenrui Zhang*, Ling Yang*, Shijia Geng, Shenda Hong
 TNNLS2023
  
  
-<br>
+&nbsp;
 
  
 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/sgdiff.png" align = "center" width=50% height=50%>
 
- 
+&nbsp; 
 
-<font size=4.5>Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
+<font >Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
 
  
 
@@ -120,16 +133,15 @@ Ling Yang, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cu
 Arxiv2022
  
 
- 
-<br> 
+&nbsp;
 
  
 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/survey.png" align = "center" width=50% height=50%>
 
- 
+&nbsp;
 
-<font size=4.5>Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
+<font >Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
 
  
 
@@ -142,17 +154,16 @@ Arxiv2022
 
 
  
-<br> 
+&nbsp;
 
  
 
 <img src = "https://github.com/YangLing0818/YangLing0818.github.io/raw/master/images/vqgraph.png" align = "center" width=50% height=50%>
 
- 
+ &nbsp;
 
-<font size=4.5>VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
+<font >VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
 
- 
 
 Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
@@ -161,8 +172,7 @@ Ling Yang, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, B
 Arxiv2023
  
 
- 
-<br>
+&nbsp;
  
 
  
