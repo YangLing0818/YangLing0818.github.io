@@ -12,10 +12,10 @@ Ling Yang is a second-year PhD student at Peking University in Beijing, advised 
 
 
 # Publications
-<img src = "https://github.com/YangLing0818/YangLing0818.github.io/blob/master/images/dpgn.png" align = "left" height= "150" width = "250">
+<img src = "https://github.com/YangLing0818/YangLing0818.github.io/tree/master/images/dpgn.png" align = "left" height= "150" width = "250">
 
 
-<font size=4>Dpgn: Distribution propagation graph network for few-shot learning</font>
+<font size=5>Dpgn: Distribution propagation graph network for few-shot learning</font>
 
 &nbsp;
 
@@ -33,7 +33,7 @@ CVPR2020
 
 &nbsp;
 
-<font size=4>Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
+<font size=5>Omni-granular ego-semantic propagation for self-supervised graph representation learning</font>
 
 &nbsp;
 
@@ -52,7 +52,7 @@ ICML2022
 
 &nbsp;
 
-<font size=4>Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
+<font size=5>Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion</font>
 
 &nbsp;
 
@@ -71,7 +71,7 @@ ICML2022
 
 &nbsp;
 
-<font size=4>Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
+<font size=5>Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization</font>
 
 &nbsp;
 
@@ -90,7 +90,7 @@ TKDE2023
 
 &nbsp;
 
-<font size=4>Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
+<font size=5>Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer</font>
 
 &nbsp;
 
@@ -109,7 +109,7 @@ TNNLS2023
 
 &nbsp;
 
-<font size=4>Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
+<font size=5>Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training</font>
 
 &nbsp;
 
@@ -128,7 +128,7 @@ Arxiv2022
 
 &nbsp;
 
-<font size=4>Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
+<font size=5>Diffusion Models: A Comprehensive Survey of Methods and Applications</font>
 
 &nbsp;
 
@@ -147,7 +147,7 @@ Arxiv2022
 
 &nbsp;
 
-<font size=4>VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
+<font size=5>VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs</font>
 
 &nbsp;
 
