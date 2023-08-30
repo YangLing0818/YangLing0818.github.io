@@ -10,7 +10,7 @@ redirect_from:
 
 Ling Yang is a Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/) and [Luxia Zhang](https://scholar.google.com/citations?user=qvRlo5wAAAAJ&hl=en). His research interests are Generative Models, Multimodal Learning, and AI for Science. He currently works with [Yang Song](https://yang-song.net/), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN),  [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN).  He now serves as a program committee member or reviewer for international conferences and journals including TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI.
 
-Before that, He received the Bachelor and Master degrees from Honors College in Northwestern Polytechnical University in 2018 and 2021, advised by [Yuchao Dai](https://scholar.google.com/citations?user=fddAbqsAAAAJ&hl=zh-CN) and [Mingyi He](https://scholar.google.com/citations?user=gLnLpAsAAAAJ&hl=en).  
+Before that, He received the Bachelor and Master degrees from Honors College in Northwestern Polytechnical University, advised by [Yuchao Dai](https://scholar.google.com/citations?user=fddAbqsAAAAJ&hl=zh-CN) and [Mingyi He](https://scholar.google.com/citations?user=gLnLpAsAAAAJ&hl=en).  
 
 # Research Interests
 * Generative Models/Diffusion Models
