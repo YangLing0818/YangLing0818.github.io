@@ -32,6 +32,9 @@ If you are interested, please feel free to email me.
 
 *Author List*: **Ling Yang**, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
 
+**[Arxiv 2022]** [Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training](https://arxiv.org/abs/2211.11138)
+
+*Author List*: **Ling Yang**, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
 
 **[ICML 2022]** [Omni-granular ego-semantic propagation for self-supervised graph representation learning](https://proceedings.mlr.press/v162/yang22d.html)
 
@@ -56,10 +59,6 @@ If you are interested, please feel free to email me.
 
 *Author List*: Wenrui Zhang\*, **Ling Yang**\*, Shijia Geng, Shenda Hong
 
-
-**[Arxiv 2022]** [Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training](https://arxiv.org/abs/2211.11138)
-
-*Author List*: **Ling Yang**, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
 
 
 **[Arxiv 2023]** [VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs](https://arxiv.org/abs/2308.02117)
