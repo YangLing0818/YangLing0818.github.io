@@ -17,7 +17,7 @@ Ling Yang is a Ph.D. student at Peking University, advised by [Bin Cui](https://
 * Multimodal Learning
 * Graph Machine Learning
 
-If you are interested, please feel free to email me.
+If you are interested, please feel free to email me. Alternatively, my WeChat is jifengjianhao_yl. 
 
 # <font color=red> What's New </font>
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
