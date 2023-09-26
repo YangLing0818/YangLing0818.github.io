@@ -20,7 +20,7 @@ Ling Yang is a Ph.D. student at Peking University, advised by [Bin Cui](https://
 If you are interested, please feel free to email me. Alternatively, my WeChat is jifengjianhao_yl. 
 
 # <font color=red> What's New </font>
-* Our survey paper about Diffusion Models has been accepted by the journal **ACM Computing Surveys 2023** .
+* Our survey about Diffusion Models is accepted by **ACM Computing Surveys 2023** .
 * One paper about text-to-image diffusion is accepted by **NeurIPS 2023**.
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
 * One paper is accepted by **TNNLS 2023**.
