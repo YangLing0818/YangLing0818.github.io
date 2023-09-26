@@ -30,7 +30,7 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 
 # Publications
 
-**[Arxiv 2022]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
+**[ACM Computing Surveys 2023]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
 
 *Author List*: **Ling Yang**, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
 
