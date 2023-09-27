@@ -25,7 +25,7 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
 * One paper is accepted by **TNNLS 2023**.
 * One paper is accepted by **TKDE 2023**.
-* Two paper are accepted by **ICML 2022**.
+* Two papers are accepted by **ICML 2022**.
 * One paper is accepted by **CVPR 2020**.
 
 # Publications
