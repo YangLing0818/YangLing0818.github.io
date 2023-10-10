@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Ling Yang is currently a third-year Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/) and [Luxia Zhang](https://scholar.google.com/citations?user=qvRlo5wAAAAJ&hl=en). His research interests are Generative Models/Diffusion Models, Multimodal Learning, and AI for Science. He worked with [Yang Song](https://yang-song.net/), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN),  [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en) and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). He now serves as a program committee member or reviewer for international conferences and journals including TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI.
+Ling Yang is currently a third-year Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/) and [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN). His research interests are Generative Models/Diffusion Models, Multimodal Learning, and AI for Science. He worked with [Yang Song](https://yang-song.net/), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN),  [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en) and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). He now serves as a program committee member or reviewer for international conferences and journals including TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI.
 
  
 
@@ -71,6 +71,13 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 
 *Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
+# Awards
+
+* National Scholarship for Ph.D student, 2022.
+* Exceptional Award for Academic Innovation for Ph.D student, 2022.
+* First-class Academic Scholarship, 2020.
+* First-class Academic Scholarship, 2019.
+* First-class Academic Scholarship, 2018.
 
 
  
