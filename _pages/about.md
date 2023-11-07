@@ -34,7 +34,7 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 
 *Author List*: **Ling Yang**, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
 
-**[NeurIPS 2023]** [Improving Diffusion-Based Image Synthesis with Context Prediction](https://scholar.google.com.hk/citations?view_op=list_works&hl=zh-CN&hl=zh-CN&user=sIKujqAAAAAJ)
+**[NeurIPS 2023]** [Improving Diffusion-Based Image Synthesis with Context Prediction](https://openreview.net/forum?id=wRhLd65bDt)
 
 *Author List*: **Ling Yang**, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, Wentao Zhang, Bin Cui
 
