@@ -33,7 +33,7 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 
 **[AAAI 2024]** [Binding-Adaptive Diffusion Models for Structure-Based Drug Design](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl)
 
-*Author List*: Zhilin Huang\*, **Ling Yang**\*, Zaixi Zhang, Xiangxin Zhou, Yu Bao, Xiawu Zheng, Xiawu Zheng, Yu Wang, Wenming Yang
+*Author List*: Zhilin Huang\*, **Ling Yang**\*, Zaixi Zhang, Xiangxin Zhou, Yu Bao, Xiawu Zheng, Yuwei Yang, Yu Wang, Wenming Yang
 
 **[ACM Computing Surveys 2023]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
 
