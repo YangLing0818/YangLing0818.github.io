@@ -77,8 +77,8 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 *Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
 # Awards
-
-* National Scholarship for Ph.D student, 2022.
+* [Baidu Scholarship Nominee](http://scholarship.baidu.com/) (**20 people in the world**), 2023
+* National Scholarship for Ph.D student (**Top 1% in PKU**), 2022.
 * Exceptional Award for Academic Innovation for Ph.D student, 2022.
 * First-class Academic Scholarship, 2020.
 * First-class Academic Scholarship, 2019.
