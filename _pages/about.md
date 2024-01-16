@@ -13,14 +13,14 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
  
 
 # Research Interests
-* Generative Models/Diffusion Models
-* Multimodal Learning
-* Graph Machine Learning
+* Generative Models/Diffusion Models (NeurIPS 2023, ACM Computing Surveys 2023, ICLR 2024)
+* Representation Learning (CVPR 2020, ICML 2022, KDE 2023, TNNLS 2023)
+* AI for Science (AAAI 2024, ICLR 2024)
 
 If you are interested, please feel free to email me. Alternatively, my WeChat is jifengjianhao_yl. 
 
 # <font color=red> What's New </font>
-* **Three papers** (first author) about Diffusion Models, GNN, AI for Science is accepted by **ICLR 2024**.
+* **Three papers** about Diffusion Models, GNN, AI for Science is accepted by **ICLR 2024**.
 * Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
 * Our survey about Diffusion Models is accepted by **ACM Computing Surveys 2023**.
 * One paper about text-to-image diffusion is accepted by **NeurIPS 2023**.
