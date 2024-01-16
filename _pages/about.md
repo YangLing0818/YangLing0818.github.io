@@ -31,11 +31,18 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 * One paper is accepted by **CVPR 2020**.
 
 # Publications
-**[ICLR 2024]** [VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs](https://openreview.net/forum?id=h6Tz85BqRI)
 
 **[ICLR 2024]** [Cross-Modal Contextualized Diffusion Models for Text-Guided Visual Generation and Editing](https://openreview.net/forum?id=nFMS6wF2xq)
 
+*Author List*: **Ling Yang**, Zhilong Zhang, Zhaochen Yu, Jingwei Liu, Minkai Xu, Stefano Ermon, Bin Cui
+
 **[ICLR 2024]** [Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models](https://openreview.net/forum?id=qH9nrMNTIW)
+
+*Author List*: Zhilin Huang\*, **Ling Yang**\*, Xiangxin Zhou, Zhilong Zhang, Wentao Zhang, Xiawu Zheng, Jie Chen, Yu Wang, Bin Cui, Wenming Yang
+
+**[ICLR 2024]** [VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs](https://openreview.net/forum?id=h6Tz85BqRI)
+
+*Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
 **[AAAI 2024]** [Binding-Adaptive Diffusion Models for Structure-Based Drug Design](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl)
 
@@ -78,12 +85,10 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 
 
 
-**[Arxiv 2023]** [VQGraph: Graph Vector-Quantization for Bridging GNNs and MLPs](https://arxiv.org/abs/2308.02117)
 
-*Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
 # Awards
-* [Baidu Scholarship Nominee](http://scholarship.baidu.com/) (**20 people in the world**), 2023
+* [Baidu Scholarship Nominee](http://scholarship.baidu.com/) (**20 People in the World**), 2023
 * National Scholarship for Ph.D student (**Top 1% in PKU**), 2022.
 * Exceptional Award for Academic Innovation for Ph.D student (**Top 1% in PKU**), 2022.
 * First-class Academic Scholarship, 2018, 2019, 2020.
