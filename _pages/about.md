@@ -20,6 +20,7 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 If you are interested, please feel free to email me. Alternatively, my WeChat is jifengjianhao_yl. 
 
 # <font color=red> What's New </font>
+* **Three papers** (first author) about Diffusion Models, GNN, AI for Science is accepted by **ICLR 2024**.
 * Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
 * Our survey about Diffusion Models is accepted by **ACM Computing Surveys 2023**.
 * One paper about text-to-image diffusion is accepted by **NeurIPS 2023**.
@@ -30,6 +31,11 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 * One paper is accepted by **CVPR 2020**.
 
 # Publications
+**[ICLR 2024]** [VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs](https://openreview.net/forum?id=h6Tz85BqRI)
+
+**[ICLR 2024]** [Cross-Modal Contextualized Diffusion Models for Text-Guided Visual Generation and Editing](https://openreview.net/forum?id=nFMS6wF2xq)
+
+**[ICLR 2024]** [Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models](https://openreview.net/forum?id=qH9nrMNTIW)
 
 **[AAAI 2024]** [Binding-Adaptive Diffusion Models for Structure-Based Drug Design](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl)
 
