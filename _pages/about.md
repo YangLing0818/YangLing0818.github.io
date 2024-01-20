@@ -13,7 +13,7 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
  
 
 # Research Interests
-* Generative Models/Diffusion Models (NeurIPS 2023, ACM Computing Surveys 2023, ICLR 2024)
+* Diffusion Models (NeurIPS 2023, ACM Computing Surveys 2023, ICLR 2024)
 * Representation Learning (CVPR 2020, ICML 2022, KDE 2023, TNNLS 2023)
 * AI for Science (AAAI 2024, ICLR 2024)
 
