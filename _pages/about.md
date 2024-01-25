@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-Ling Yang is currently a third-year Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/), [Luxia Zhang](https://scholar.google.com/citations?user=qvRlo5wAAAAJ&hl=en) and [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN). His research interests are Generative Models/Diffusion Models, Multimodal Learning, and AI for Science. He worked with [Yang Song](https://yang-song.net/), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en) and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). He now serves as a program committee member or reviewer for international conferences and journals including TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI.
+Ling Yang is currently a third-year Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/), [Luxia Zhang](https://scholar.google.com/citations?user=qvRlo5wAAAAJ&hl=en) and [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN). His research interests are Diffusion Models, Multimodal Learning, and AI for Science. He worked with [Yang Song](https://yang-song.net/), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en) and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). He now serves as a program committee member or reviewer for international conferences and journals including TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI.
 
  
 
@@ -20,7 +20,7 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 If you are interested, please feel free to email me. Alternatively, my WeChat is jifengjianhao_yl. 
 
 # <font color=red> What's New </font>
-* Release our SOTA LLM-controlled text-to-image diffusion model, [**RPG-DiffusionMaster**](https://arxiv.org/abs/2401.11708) with [code](https://github.com/YangLing0818/RPG-DiffusionMaster).
+* Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://arxiv.org/abs/2401.11708).
 * **Three papers** about Diffusion Models, GNN, AI for Science are accepted by **ICLR 2024**.
 * Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
 * Our survey about Diffusion Models is accepted by **ACM Computing Surveys 2023**.
