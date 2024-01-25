@@ -32,6 +32,9 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 * One paper is accepted by **CVPR 2020**.
 
 # Publications
+**[SOTA Diffusion]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://arxiv.org/abs/2401.11708)
+
+*Author List*: **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui
 
 **[ICLR 2024]** [Cross-Modal Contextualized Diffusion Models for Text-Guided Visual Generation and Editing](https://openreview.net/forum?id=nFMS6wF2xq)
 
