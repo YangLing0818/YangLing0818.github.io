@@ -48,7 +48,7 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 
 *Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
-**[AAAI 2024]** [Binding-Adaptive Diffusion Models for Structure-Based Drug Design](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl)
+**[AAAI 2024]** [Binding-Adaptive Diffusion Models for Structure-Based Drug Design](https://github.com/YangLing0818/BindDM)
 
 *Author List*: Zhilin Huang\*, **Ling Yang**\*, Zaixi Zhang, Xiangxin Zhou, Yu Bao, Xiawu Zheng, Yuwei Yang, Yu Wang, Wenming Yang
 
