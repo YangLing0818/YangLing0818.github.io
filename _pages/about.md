@@ -24,7 +24,7 @@ If you are interested, please feel free to email me. Alternatively, my WeChat is
 * Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://arxiv.org/abs/2401.11708).
 * **Three papers** about Diffusion Models, GNN, AI for Science are accepted by **ICLR 2024**.
 * Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
-* Our survey about Diffusion Models is accepted by **ACM Computing Surveys 2023**.
+* Our [survey about Diffusion Models](https://arxiv.org/abs/2209.00796) is accepted by **ACM Computing Surveys 2023**.
 * One paper about text-to-image diffusion is accepted by **NeurIPS 2023**.
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
 * One paper is accepted by **TNNLS 2023**.
