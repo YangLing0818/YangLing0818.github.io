@@ -17,7 +17,7 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 * Representation Learning (CVPR 2020, ICML 2022, KDE 2023, TNNLS 2023)
 * AI for Science (AAAI 2024, ICLR 2024)
 
-If you are interested, please feel free to email me. Alternatively, my WeChat is jifengjianhao_yl. 
+<font color="red"> I am actively looking for full-time positions and postdoc positions. </font> Feel free to email me. Alternatively, my WeChat is jifengjianhao_yl. 
 
 # <font color=red> What's New </font>
 * One paper about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
