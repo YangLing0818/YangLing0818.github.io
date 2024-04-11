@@ -20,6 +20,7 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 <font color=red> I am actively looking for full-time positions and postdoc positions. </font> Feel free to email me. Alternatively, my WeChat is jifengjianhao_yl. 
 
 # <font color=red> What's New </font>
+* One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
 * One paper about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
 * Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://arxiv.org/abs/2401.11708).
 * **Three papers** about Diffusion Models, GNN, AI for Science are accepted by **ICLR 2024**.
@@ -57,6 +58,10 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 **[AAAI 2024]** [Binding-Adaptive Diffusion Models for Structure-Based Drug Design](https://github.com/YangLing0818/BindDM)
 
 *Author List*: Zhilin Huang\*, **Ling Yang**\*, Zaixi Zhang, Xiangxin Zhou, Yu Bao, Xiawu Zheng, Yuwei Yang, Yu Wang, Wenming Yang
+
+**[TKDE 2024]** [Graphusion: Latent Diffusion for Graph Generation](https://openreview.net/forum?id=AykEgQNPJEK)
+
+*Author List*: **Ling Yang**, Zhilin Huang, Zhilong Zhang, Zhongyi Liu, Shenda Hong, Wentao Zhang, Wenming Yang, Bin Cui, Luxia Zhang
 
 **[ACM Computing Surveys 2023]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
 
