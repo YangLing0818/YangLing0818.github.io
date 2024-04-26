@@ -55,14 +55,6 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 
 *Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
-**[AAAI 2024]** [Binding-Adaptive Diffusion Models for Structure-Based Drug Design](https://github.com/YangLing0818/BindDM)
-
-*Author List*: Zhilin Huang\*, **Ling Yang**\*, Zaixi Zhang, Xiangxin Zhou, Yu Bao, Xiawu Zheng, Yuwei Yang, Yu Wang, Wenming Yang
-
-**[TKDE 2024]** [Graphusion: Latent Diffusion for Graph Generation](https://openreview.net/forum?id=AykEgQNPJEK)
-
-*Author List*: **Ling Yang**, Zhilin Huang, Zhilong Zhang, Zhongyi Liu, Shenda Hong, Wentao Zhang, Wenming Yang, Bin Cui, Luxia Zhang
-
 **[ACM Computing Surveys 2023]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
 
 *Author List*: **Ling Yang**, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
@@ -71,14 +63,21 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 
 *Author List*: **Ling Yang**, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, Wentao Zhang, Bin Cui
 
-**[Arxiv 2022]** [Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training](https://arxiv.org/abs/2211.11138)
+**[AAAI 2024]** [Binding-Adaptive Diffusion Models for Structure-Based Drug Design](https://github.com/YangLing0818/BindDM)
 
-*Author List*: **Ling Yang**, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
+*Author List*: Zhilin Huang\*, **Ling Yang**\*, Zaixi Zhang, Xiangxin Zhou, Yu Bao, Xiawu Zheng, Yuwei Yang, Yu Wang, Wenming Yang
+
+**[TKDE 2024]** [Graphusion: Latent Diffusion for Graph Generation](https://ieeexplore.ieee.org/document/10508504)
+
+*Author List*: **Ling Yang**, Zhilin Huang, Zhilong Zhang, Zhongyi Liu, Shenda Hong, Wentao Zhang, Wenming Yang, Bin Cui, Luxia Zhang
 
 **[ICML 2022]** [Omni-granular ego-semantic propagation for self-supervised graph representation learning](https://proceedings.mlr.press/v162/yang22d.html)
 
 *Author List*: **Ling Yang**, Shenda Hong
 
+**[Arxiv 2022]** [Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training](https://arxiv.org/abs/2211.11138)
+
+*Author List*: **Ling Yang**, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
 
 **[ICML 2022]** [Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion](https://proceedings.mlr.press/v162/yang22e.html)
 
