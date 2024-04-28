@@ -8,16 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Ling Yang is currently a third-year Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/), [Luxia Zhang](https://scholar.google.com/citations?user=qvRlo5wAAAAJ&hl=en) and [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN). His research interests are Diffusion Models, Multimodal Learning, and AI for Science. He worked with [Yang Song](https://yang-song.net/), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en) and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). He now serves as a program committee member or reviewer for international conferences and journals including TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI.
+Ling Yang is currently a third-year Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/), [Luxia Zhang](https://scholar.google.com/citations?user=qvRlo5wAAAAJ&hl=en) and [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN). His research interests are Diffusion Models, Multimodal Learning, and AI for Science. He worked with [Yang Song](https://yang-song.net/), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en) and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). He now serves as a program committee member or reviewer for international conferences and journals including TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI. Feel free to email me for potential collaborations or discussions. Alternatively, my WeChat ID: jifengjianhao_yl.
 
- 
+<font color=red> I am actively looking for postdoc positions and full-time positions. </font>  
 
 # Research Interests
 * Diffusion Models (NeurIPS 2023, ACM Computing Surveys 2023, ICLR 2024, CVPR 2024)
 * Representation Learning (CVPR 2020, ICML 2022, KDE 2023, TNNLS 2023)
 * AI for Science (AAAI 2024, ICLR 2024)
-
-<font color=red> I am actively looking for full-time positions and postdoc positions. </font> Feel free to email me. Alternatively, my WeChat is jifengjianhao_yl. 
 
 # <font color=red> What's New </font>
 * One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
