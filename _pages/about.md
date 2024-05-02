@@ -13,11 +13,12 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 <font color=red> I am actively looking for postdoc positions and full-time positions. </font>  
 
 # Research Interests
-* Diffusion Models (NeurIPS 2023, ACM Computing Surveys 2023, ICLR 2024, CVPR 2024)
+* Diffusion Models (NeurIPS 2023, ACM Computing Surveys 2023, ICLR 2024, CVPR 2024, ICML 2024)
 * Representation Learning (CVPR 2020, ICML 2022, KDE 2023, TNNLS 2023)
-* AI for Science (AAAI 2024, ICLR 2024)
+* AI for Science (AAAI 2024, ICLR 2024, ICML 2024)
 
 # <font color=red> What's New </font>
+* **Two papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
 * One paper about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
 * Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://arxiv.org/abs/2401.11708).
@@ -33,7 +34,7 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 
 # Publications
 
-**[SOTA Diffusion]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://arxiv.org/abs/2401.11708)
+**[SOTA Diffusion in ICML 2024]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://arxiv.org/abs/2401.11708)
 
 *Author List*: **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui
 
