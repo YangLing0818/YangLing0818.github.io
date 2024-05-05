@@ -29,7 +29,7 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
 * One paper is accepted by **TNNLS 2023**.
 * One paper is accepted by **TKDE 2023**.
-* **Two papers** are accepted by **ICML 2022**.
+* **Two papers** are accepted as **ICML 2022 Spotlight**.
 * One paper is accepted by **CVPR 2020**.
 
 # Publications
@@ -37,6 +37,10 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 **[SOTA Diffusion in ICML 2024]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://arxiv.org/abs/2401.11708)
 
 *Author List*: **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui
+
+**[ICML 2024]** [Interaction-based Retrieval-augmented Diffusion Models for Protein-specific 3D Molecule Generation](https://openreview.net/forum?id=FWsGuAFn3n)
+
+*Author List*: Zhilin Huang\*, **Ling Yang**\*, Xiangxin Zhou, Chujun Qin, Yijie Yu, Xiawu Zheng, Zikun Zhou, Wentao Zhang, Yu Wang, Wenming Yang
 
 **[CVPR 2024]** [Structure-Guided Adversarial Training of Diffusion Models](https://arxiv.org/abs/2402.17563)
 
@@ -70,15 +74,11 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 
 *Author List*: **Ling Yang**, Zhilin Huang, Zhilong Zhang, Zhongyi Liu, Shenda Hong, Wentao Zhang, Wenming Yang, Bin Cui, Luxia Zhang
 
-**[ICML 2022]** [Omni-granular ego-semantic propagation for self-supervised graph representation learning](https://proceedings.mlr.press/v162/yang22d.html)
+**[ICML 2022 Spotlight]** [Omni-granular ego-semantic propagation for self-supervised graph representation learning](https://proceedings.mlr.press/v162/yang22d.html)
 
 *Author List*: **Ling Yang**, Shenda Hong
 
-**[Arxiv 2022]** [Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training](https://arxiv.org/abs/2211.11138)
-
-*Author List*: **Ling Yang**, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
-
-**[ICML 2022]** [Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion](https://proceedings.mlr.press/v162/yang22e.html)
+**[ICML 2022 Spotlight]** [Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion](https://proceedings.mlr.press/v162/yang22e.html)
 
 *Author List*: **Ling Yang**, Shenda Hong
 
@@ -96,11 +96,14 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 
 *Author List*: Wenrui Zhang\*, **Ling Yang**\*, Shijia Geng, Shenda Hong
 
+**[Arxiv 2022]** [Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training](https://arxiv.org/abs/2211.11138)
 
+*Author List*: **Ling Yang**, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
 
 
 
 # Awards
+* Selected for the distinguished student forum of [VALSE 2024](https://valser.org/2024/#/program) (**8 People in China**).
 * [Baidu Scholarship Nominee](http://scholarship.baidu.com/) (**20 People in the World**), 2023
 * National Scholarship for Ph.D student (**Top 1% in PKU**), 2022.
 * Exceptional Award for Academic Innovation for Ph.D student (**Top 1% in PKU**), 2022.
