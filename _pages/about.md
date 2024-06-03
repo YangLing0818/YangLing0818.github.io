@@ -18,6 +18,7 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 * AI for Science (AAAI 2024, ICLR 2024, ICML 2024)
 
 # <font color=red> What's New </font>
+* Our [**RPG-DiffusionMaster**](https://arxiv.org/abs/2401.11708) is adopted by the author of [ControlNet](https://github.com/lllyasviel/ControlNet) to build his new application [Omost](https://github.com/lllyasviel/Omost). 
 * **Two papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
 * One paper about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
