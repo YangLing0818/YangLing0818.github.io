@@ -33,7 +33,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 * Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://arxiv.org/abs/2401.11708).
 * **Three papers** about Diffusion Models, GNN, AI for Science are accepted by **ICLR 2024**.
 * Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
-* Our [survey about Diffusion Models](https://arxiv.org/abs/2209.00796) is accepted by **ACM Computing Surveys 2023**.
+* Our [survey about Diffusion Models](https://arxiv.org/abs/2209.00796) is accepted by ACM Computing Surveys 2023, **collaborating with OpenAI**.
 * One paper about text-to-image diffusion is accepted by **NeurIPS 2023**.
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
 * One paper is accepted by **TNNLS 2023**.
@@ -51,7 +51,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 *Author List*: **Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui
 
-**[Collaborating woth KLing]** [VideoTetris: Towards Compositional Text-to-Video Generation](https://arxiv.org/abs/2406.04277)
+**[Collaborating with KLing]** [VideoTetris: Towards Compositional Text-to-Video Generation](https://arxiv.org/abs/2406.04277)
 
 *Author List*: Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui
 
@@ -59,7 +59,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 *Author List*: **Ling Yang**, Zhilong Zhang, Zhaochen Yu, Jingwei Liu, Minkai Xu, Stefano Ermon, Bin Cui
 
-**[ACM Computing Surveys 2023]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
+**[First Diffusion Survey with OpenAI]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
 
 *Author List*: **Ling Yang**, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
 
