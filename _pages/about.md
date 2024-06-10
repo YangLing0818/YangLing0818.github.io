@@ -13,14 +13,15 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs including [RPG-DiffusionMaster](https://arxiv.org/abs/2401.11708), [VideoTetris](https://arxiv.org/abs/2406.04277) and [Buffer of Thoughts](https://arxiv.org/abs/2406.04271), and published [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html). Feel free to email me for potential collaborations or discussions. Alternatively, my WeChat ID: jifengjianhao_yl.
 
 <font color=red> I am actively looking for postdoc positions and full-time positions. </font>  
-</br>
 
-# Research Summary
-<table class="center">
-    <tr>
-        <td width=80% style="border: none"><img src="../images/story.png" style="width:80%"></td>
-    </tr>
-</table>
+
+
+<p align="center">
+<img src="../images/story.png" width="1000px"/>  
+<br>
+<br>
+<em>Research Summary</em>
+</p>
 
 
 # <font color=red> What's New </font>
