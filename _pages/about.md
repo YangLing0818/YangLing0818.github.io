@@ -41,31 +41,23 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 * **Two papers** are accepted as **ICML 2022 Spotlight**.
 * One paper is accepted by **CVPR 2020**.
 
-# Publications
+# Selected Publications [[Full List](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
 
-**[SOTA Diffusion in ICML 2024]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://arxiv.org/abs/2401.11708)
+**[SOTA T2I Diffusion]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://arxiv.org/abs/2401.11708)
 
 *Author List*: **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui
 
-**[ICML 2024]** [Interaction-based Retrieval-augmented Diffusion Models for Protein-specific 3D Molecule Generation](https://openreview.net/forum?id=FWsGuAFn3n)
+**[SOTA Prompting Method]** [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271)
 
-*Author List*: Zhilin Huang\*, **Ling Yang**\*, Xiangxin Zhou, Chujun Qin, Yijie Yu, Xiawu Zheng, Zikun Zhou, Wentao Zhang, Yu Wang, Wenming Yang
+*Author List*: **Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui
 
-**[CVPR 2024]** [Structure-Guided Adversarial Training of Diffusion Models](https://arxiv.org/abs/2402.17563)
+**[Collaborating woth KLing]** [VideoTetris: Towards Compositional Text-to-Video Generation](https://arxiv.org/abs/2406.04277)
 
-*Author List*: **Ling Yang**, Haotian Qian, Zhilong Zhang, Jingwei Liu, Bin Cui
+*Author List*: Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui
 
 **[ICLR 2024]** [Cross-Modal Contextualized Diffusion Models for Text-Guided Visual Generation and Editing](https://openreview.net/forum?id=nFMS6wF2xq)
 
 *Author List*: **Ling Yang**, Zhilong Zhang, Zhaochen Yu, Jingwei Liu, Minkai Xu, Stefano Ermon, Bin Cui
-
-**[ICLR 2024]** [Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models](https://openreview.net/forum?id=qH9nrMNTIW)
-
-*Author List*: Zhilin Huang\*, **Ling Yang**\*, Xiangxin Zhou, Zhilong Zhang, Wentao Zhang, Xiawu Zheng, Jie Chen, Yu Wang, Bin Cui, Wenming Yang
-
-**[ICLR 2024]** [VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs](https://openreview.net/forum?id=h6Tz85BqRI)
-
-*Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
 **[ACM Computing Surveys 2023]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
 
@@ -75,39 +67,21 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 *Author List*: **Ling Yang**, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, Wentao Zhang, Bin Cui
 
-**[AAAI 2024]** [Binding-Adaptive Diffusion Models for Structure-Based Drug Design](https://github.com/YangLing0818/BindDM)
+**[ICLR 2024]** [Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models](https://openreview.net/forum?id=qH9nrMNTIW)
 
-*Author List*: Zhilin Huang\*, **Ling Yang**\*, Zaixi Zhang, Xiangxin Zhou, Yu Bao, Xiawu Zheng, Yuwei Yang, Yu Wang, Wenming Yang
+*Author List*: Zhilin Huang\*, **Ling Yang**\*, Xiangxin Zhou, Zhilong Zhang, Wentao Zhang, Xiawu Zheng, Jie Chen, Yu Wang, Bin Cui, Wenming Yang
 
-**[TKDE 2024]** [Graphusion: Latent Diffusion for Graph Generation](https://ieeexplore.ieee.org/document/10508504)
+**[ICML 2024]** [Interaction-based Retrieval-augmented Diffusion Models for Protein-specific 3D Molecule Generation](https://openreview.net/forum?id=FWsGuAFn3n)
 
-*Author List*: **Ling Yang**, Zhilin Huang, Zhilong Zhang, Zhongyi Liu, Shenda Hong, Wentao Zhang, Wenming Yang, Bin Cui, Luxia Zhang
+*Author List*: Zhilin Huang\*, **Ling Yang**\*, Xiangxin Zhou, Chujun Qin, Yijie Yu, Xiawu Zheng, Zikun Zhou, Wentao Zhang, Yu Wang, Wenming Yang
 
-**[ICML 2022 Spotlight]** [Omni-granular ego-semantic propagation for self-supervised graph representation learning](https://proceedings.mlr.press/v162/yang22d.html)
+**[ICLR 2024]** [VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs](https://openreview.net/forum?id=h6Tz85BqRI)
 
-*Author List*: **Ling Yang**, Shenda Hong
-
-**[ICML 2022 Spotlight]** [Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion](https://proceedings.mlr.press/v162/yang22e.html)
-
-*Author List*: **Ling Yang**, Shenda Hong
+*Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
 
 **[CVPR 2020]** [Dpgn: Distribution propagation graph network for few-shot learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html)
 
 *Author List*: **Ling Yang**, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
-
-
-**[TKDE 2023]** [Individual and Structural Graph Information Bottlenecks for Out-of-Distribution Generalization](https://ieeexplore.ieee.org/abstract/document/10168296/)
-
-*Author List*: **Ling Yang**, Jiayi Zheng, Heyuan Wang, Zhongyi Liu, Zhilin Huang, Shenda Hong, Wentao Zhang, Bin Cui
-
-
-**[TNNLS 2023]** [Self-Supervised Time Series Representation Learning via Cross Reconstruction Transformer](https://arxiv.org/abs/2205.09928)
-
-*Author List*: Wenrui Zhang\*, **Ling Yang**\*, Shijia Geng, Shenda Hong
-
-**[Arxiv 2022]** [Diffusion-Based Scene Graph to Image Generation with Masked Contrastive Pre-Training](https://arxiv.org/abs/2211.11138)
-
-*Author List*: **Ling Yang**, Zhilin Huang, Yang Song, Shenda Hong, Guohao Li, Wentao Zhang, Bin Cui, Bernard Ghanem, Ming-Hsuan Yang
 
 
 
