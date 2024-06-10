@@ -13,11 +13,15 @@ Ling Yang is currently a third-year Ph.D. student at Peking University, advised 
 I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs including [RPG-DiffusionMaster](https://arxiv.org/abs/2401.11708), [VideoTetris](https://arxiv.org/abs/2406.04277) and [Buffer of Thoughts](https://arxiv.org/abs/2406.04271), and published [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html). Feel free to email me for potential collaborations or discussions. Alternatively, my WeChat ID: jifengjianhao_yl.
 
 <font color=red> I am actively looking for postdoc positions and full-time positions. </font>  
+</br>
 
-# Research Interests
-* Diffusion Models (NeurIPS 2023, ACM Computing Surveys 2023, ICLR 2024, CVPR 2024, ICML 2024)
-* Representation Learning (CVPR 2020, ICML 2022, KDE 2023, TNNLS 2023)
-* AI for Science (AAAI 2024, ICLR 2024, ICML 2024)
+# Research Summary
+<table class="center">
+    <tr>
+        <td width=80% style="border: none"><img src="../images/story.png" style="width:80%"></td>
+    </tr>
+</table>
+
 
 # <font color=red> What's New </font>
 * I propose a new LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/abs/2406.04271), which enables Llama3-8B to surpass 70B model.
