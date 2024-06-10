@@ -41,7 +41,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 * **Two papers** are accepted as **ICML 2022 Spotlight**.
 * One paper is accepted by **CVPR 2020**.
 
-# Selected Publications [<font size="2">[Full List](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)</font>]
+# Selected Publications [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
 
 **[SOTA T2I Diffusion]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://arxiv.org/abs/2401.11708)
 
