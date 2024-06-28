@@ -67,6 +67,10 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 *Author List*: **Ling Yang**, Jingwei Liu, Shenda Hong, Zhilong Zhang, Zhilin Huang, Zheming Cai, Wentao Zhang, Bin Cui
 
+**[CVPR 2024]** [Structure-Guided Adversarial Training of Diffusion Models](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
+
+*Author List*: **Ling Yang**,  Haotian Qian, Zhilong Zhang, Jingwei Liu, Bin Cui
+
 **[ICLR 2024]** [Protein-Ligand Interaction Prior for Binding-aware 3D Molecule Diffusion Models](https://openreview.net/forum?id=qH9nrMNTIW)
 
 *Author List*: Zhilin Huang\*, **Ling Yang**\*, Xiangxin Zhou, Zhilong Zhang, Wentao Zhang, Xiawu Zheng, Jie Chen, Yu Wang, Bin Cui, Wenming Yang
