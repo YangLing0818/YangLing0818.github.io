@@ -17,20 +17,28 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 # Research Summary
 
-<p align="center">
-<img src="../images/story.png" width="1000px"/>  
-<em></em>
-</p>
+### Generative Modeling
+* Diffusion Model
+  * Fundamental Algorithm: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
+  * Multimodal Content Generation: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [ConpreDiff](https://openreview.net/forum?id=wRhLd65bDt), [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [IPDreamer](https://arxiv.org/abs/2310.05375)
+  * AI for Science: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162)
+* Large Language Model
+  * Reasoning: [Buffer of Thought (BoT)](https://arxiv.org/abs/2406.04271)
+
+### Representation Learning
+* Graph Neural Network: [DPGN](https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html), [VQGraph](https://openreview.net/forum?id=h6Tz85BqRI), [OEPG](https://proceedings.mlr.press/v162/yang22d.html)
+* Time Series: [BTSF](https://proceedings.mlr.press/v162/yang22e.html), [Cross Reconstruction Transformer](https://ieeexplore.ieee.org/document/10190201)
+
 
 
 # <font color=red> What's New </font>
 * I propose a new LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/abs/2406.04271), which enables Llama3-8B to surpass 70B model.
 * I lead the project [VideoTetris](https://arxiv.org/abs/2406.04277) about compositional text-to-video generation.
-* Our [**RPG-DiffusionMaster**](https://arxiv.org/abs/2401.11708) is adopted by the author of [ControlNet](https://github.com/lllyasviel/ControlNet) to build his new application [Omost](https://github.com/lllyasviel/Omost). 
+* Our [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ) is adopted by the author of [ControlNet](https://github.com/lllyasviel/ControlNet) to build his new application [Omost](https://github.com/lllyasviel/Omost). 
 * **Two papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
 * One paper about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
-* Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://arxiv.org/abs/2401.11708).
+* Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ).
 * **Three papers** about Diffusion Models, GNN, AI for Science are accepted by **ICLR 2024**.
 * Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
 * Our [survey about Diffusion Models](https://arxiv.org/abs/2209.00796) is accepted by ACM Computing Surveys 2023, **collaborating with OpenAI**.
@@ -43,7 +51,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 # Selected Publications [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
 
-**[SOTA T2I Diffusion]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://arxiv.org/abs/2401.11708)
+**[SOTA T2I Diffusion]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://openreview.net/forum?id=DgLFkAPwuZ)
 
 *Author List*: **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui
 
