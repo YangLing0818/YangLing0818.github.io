@@ -62,7 +62,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 **[Efficient Generative Modeling]** [Consistency Flow Matching: Defining Straight Flows with Velocity Consistency](https://arxiv.org/abs/2407.02398)
 
-**Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui
+*Author List*: **Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui
 
 **[Compositional T2V]** [VideoTetris: Towards Compositional Text-to-Video Generation](https://arxiv.org/abs/2406.04277)
 
