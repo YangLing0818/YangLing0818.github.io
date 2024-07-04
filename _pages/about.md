@@ -19,7 +19,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 ### Generative Modeling
 * Diffusion Model
-  * Fundamental Algorithm: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
+  * Fundamental Algorithm: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
   * Multimodal Content Generation: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [ConpreDiff](https://openreview.net/forum?id=wRhLd65bDt), [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [IPDreamer](https://arxiv.org/abs/2310.05375)
   * AI for Science: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162)
 * Large Language Model
@@ -32,7 +32,8 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 
 # <font color=red> What's New </font>
-* I propose a new LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/abs/2406.04271), which enables Llama3-8B to surpass 70B model.
+* I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), converging 4.4x faster than Consistency Model and 1.7x faster than Rectified Flow while achieving better FID.
+* I propose a new LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/abs/2406.04271), enabling Llama3-8B to surpass 70B model.
 * I lead the project [VideoTetris](https://arxiv.org/abs/2406.04277) about compositional text-to-video generation.
 * Our [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ) is adopted by the author of [ControlNet](https://github.com/lllyasviel/ControlNet) to build his new application [Omost](https://github.com/lllyasviel/Omost). 
 * **Two papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
@@ -55,9 +56,13 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 *Author List*: **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui
 
-**[SOTA Prompting Method]** [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271)
+**[SOTA LLM Reasoning Framework]** [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271)
 
 *Author List*: **Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui
+
+**[Efficient Generative Modeling]** [Consistency Flow Matching: Defining Straight Flows with Velocity Consistency](https://arxiv.org/abs/2407.02398)
+
+**Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui
 
 **[Compositional T2V]** [VideoTetris: Towards Compositional Text-to-Video Generation](https://arxiv.org/abs/2406.04277)
 
