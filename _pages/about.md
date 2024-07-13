@@ -33,17 +33,17 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 
 # <font color=red> What's New </font>
-* I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), converging 4.4x faster than Consistency Model and 1.7x faster than Rectified Flow while achieving better FID.
-* I propose a new LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/abs/2406.04271), enabling Llama3-8B to surpass 70B model.
+* I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), converging **4.4x faster** than Consistency Model and **1.7x faster** than Rectified Flow while achieving better FID.
+* I propose a new LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/abs/2406.04271)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm)](https://github.com/YangLing0818/buffer-of-thought-llm), enabling **Llama3-8B to surpass 70B model**.
 * I lead the project [VideoTetris](https://arxiv.org/abs/2406.04277) about compositional text-to-video generation.
 * Our [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ) is adopted by the author of [ControlNet](https://github.com/lllyasviel/ControlNet) to build his new application [Omost](https://github.com/lllyasviel/Omost). 
 * **Two papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
 * One paper about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
-* Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ).
+* Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster)](https://github.com/YangLing0818/RPG-DiffusionMaster).
 * **Three papers** about Diffusion Models, GNN, AI for Science are accepted by **ICLR 2024**.
 * Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
-* Our [survey about Diffusion Models](https://arxiv.org/abs/2209.00796) is accepted by ACM Computing Surveys 2023, **collaborating with OpenAI**.
+* Our [survey about Diffusion Models](https://arxiv.org/abs/2209.00796)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) is accepted by ACM Computing Surveys 2023, **collaborating with OpenAI**.
 * One paper about text-to-image diffusion is accepted by **NeurIPS 2023**.
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
 * One paper is accepted by **TNNLS 2023**.
