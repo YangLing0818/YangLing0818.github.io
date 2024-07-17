@@ -33,9 +33,10 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 
 # <font color=red> What's New </font>
+* One paper about diffusion-based video frame interpolation is accepted by **ACM Multimedia 2024**.
 * I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), converging **4.4x faster** than Consistency Model and **1.7x faster** than Rectified Flow while achieving better FID.
 * I propose a new LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/abs/2406.04271)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm)](https://github.com/YangLing0818/buffer-of-thought-llm), enabling **Llama3-8B to surpass 70B model**.
-* I lead the project [VideoTetris](https://arxiv.org/abs/2406.04277) about compositional text-to-video generation.
+* I release the project [VideoTetris](https://arxiv.org/abs/2406.04277) about compositional text-to-video generation.
 * Our [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ) is adopted by the author of [ControlNet](https://github.com/lllyasviel/ControlNet) to build his new application [Omost](https://github.com/lllyasviel/Omost). 
 * **Two papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
