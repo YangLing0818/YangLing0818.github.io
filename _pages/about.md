@@ -106,7 +106,6 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 # Awards
 * Selected for the distinguished student forum of [VALSE 2024](https://valser.org/2024/#/program) (**8 People in China**).
-* [Baidu Scholarship Nominee](http://scholarship.baidu.com/) (**20 People in the World**), 2023
 * National Scholarship for Ph.D student (**Top 1% in PKU**), 2022.
 * Exceptional Award for Academic Innovation for Ph.D student (**Top 1% in PKU**), 2022.
 * First-class Academic Scholarship, 2018, 2019, 2020.
