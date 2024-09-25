@@ -33,6 +33,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 
 # <font color=red> What's New </font>
+* **Five papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**.
 * One paper about diffusion-based video frame interpolation is accepted by **ACM Multimedia 2024**.
 * I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), converging **4.4x faster** than Consistency Model and **1.7x faster** than Rectified Flow while achieving better FID.
 * I propose a new LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/abs/2406.04271)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm)](https://github.com/YangLing0818/buffer-of-thought-llm), enabling **Llama3-8B to surpass 70B model**.
