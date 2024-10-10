@@ -20,7 +20,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 ### Generative Modeling
 * Diffusion Model
   * Theory and Framework: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
-  * Multimodal Content Generation (image/video/3D): [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [ConpreDiff](https://openreview.net/forum?id=wRhLd65bDt), [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [IPDreamer](https://arxiv.org/abs/2310.05375)
+  * Multimodal Content Generation (image/video/3D): [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [IterComp](https://arxiv.org/abs/2410.07171), [ConpreDiff](https://openreview.net/forum?id=wRhLd65bDt), [VideoTetris](https://arxiv.org/abs/2406.04277), [Trans4D](https://arxiv.org/abs/2410.07155), [IPDreamer](https://arxiv.org/abs/2310.05375)
   * AI for Science: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162)
 * Large Language Model
   * Reasoning: [Buffer of Thought (BoT)](https://arxiv.org/abs/2406.04271)
