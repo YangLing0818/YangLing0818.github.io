@@ -19,12 +19,12 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 ### Generative Modeling
 * Diffusion Model
-  * Theory and Framework: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
-  * Multimodal Content Generation (image/video/3D): [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [IterComp](https://arxiv.org/abs/2410.07171), [ConpreDiff](https://openreview.net/forum?id=wRhLd65bDt), [VideoTetris](https://arxiv.org/abs/2406.04277), [Trans4D](https://arxiv.org/abs/2410.07155), [IPDreamer](https://arxiv.org/abs/2310.05375)
+  * Theory and Framework: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster)], [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching)], [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
+  * Multimodal Content Generation (image/video/3D): [RPG](https://openreview.net/forum?id=DgLFkAPwuZ)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster)], [IterComp](https://arxiv.org/abs/2410.07171), [ConpreDiff](https://openreview.net/forum?id=wRhLd65bDt), [VideoTetris](https://arxiv.org/abs/2406.04277), [Trans4D](https://arxiv.org/abs/2410.07155)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris)], [IPDreamer](https://arxiv.org/abs/2310.05375)
   * AI for Science: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162)
 * Large Language Model
-  * Reasoning: [Buffer of Thought (BoT)](https://arxiv.org/abs/2406.04271)
-  * Data-centric Application: [EditWorld](https://arxiv.org/abs/2405.14785)
+  * Reasoning: [Buffer of Thought (BoT)](https://arxiv.org/abs/2406.04271)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm)](https://github.com/YangLing0818/buffer-of-thought-llm)
+  * Data-centric Application: [EditWorld](https://arxiv.org/abs/2405.14785)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/EditWorld)]
 
 ### Representation Learning
 * Graph-structured Data: [DPGN](https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html), [VQGraph](https://openreview.net/forum?id=h6Tz85BqRI), [OEPG](https://proceedings.mlr.press/v162/yang22d.html)
