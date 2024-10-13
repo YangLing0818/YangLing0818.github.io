@@ -53,29 +53,23 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 # Selected Publications [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
 
-**[MLLM-controlled Diffusion]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://openreview.net/forum?id=DgLFkAPwuZ)
-
-*Author List*: **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui
+**[MLLM-Controlled Diffusion]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://openreview.net/forum?id=DgLFkAPwuZ). ***Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui. **ICML 2024**.*
 
 ![alt text](image.png)
 
-**[SOTA LLM Reasoning Framework]** [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271)
+**[RAG-based LLM Reasoning]** [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271). ***Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui. **NeurIPS 2024 spotlight***.
 
-*Author List*: **Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui
+![img src="image.png" width="100"/>](./image-1.png)
 
-![alt text](image-1.png)
+<!-- **[Efficient Generative Modeling]** [Consistency Flow Matching: Defining Straight Flows with Velocity Consistency](https://arxiv.org/abs/2407.02398)
 
-**[Efficient Generative Modeling]** [Consistency Flow Matching: Defining Straight Flows with Velocity Consistency](https://arxiv.org/abs/2407.02398)
+*Author List*: **Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui -->
 
-*Author List*: **Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui
+**[Complex Text-to-Video]** [VideoTetris: Towards Compositional Text-to-Video Generation](https://arxiv.org/abs/2406.04277). *Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui. **NeurIPS 2024**.*
 
-**[Compositional T2V]** [VideoTetris: Towards Compositional Text-to-Video Generation](https://arxiv.org/abs/2406.04277)
+![alt text](image-2.png)
 
-*Author List*: Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui
-
-
-
-**[First Diffusion Survey with OpenAI]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
+<!-- **[First Diffusion Survey with OpenAI]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
 
 *Author List*: **Ling Yang**, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Yingxia Shao, Wentao Zhang, Bin Cui, Ming-Hsuan Yang
 
@@ -87,16 +81,15 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 **[ICML 2024]** [Interaction-based Retrieval-augmented Diffusion Models for Protein-specific 3D Molecule Generation](https://openreview.net/forum?id=eejhD9FCP3)
 
-*Author List*: Zhilin Huang\*, **Ling Yang**\*, Xiangxin Zhou, Chujun Qin, Yijie Yu, Xiawu Zheng, Zikun Zhou, Wentao Zhang, Yu Wang, Wenming Yang
+*Author List*: Zhilin Huang\*, **Ling Yang**\*, Xiangxin Zhou, Chujun Qin, Yijie Yu, Xiawu Zheng, Zikun Zhou, Wentao Zhang, Yu Wang, Wenming Yang -->
 
-**[ICLR 2024]** [VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs](https://openreview.net/forum?id=h6Tz85BqRI)
+<!-- **[ICLR 2024]** [VQGraph: Rethinking Graph Representation Space for Bridging GNNs and MLPs](https://openreview.net/forum?id=h6Tz85BqRI)
 
-*Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec
+*Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec -->
 
-**[CVPR 2020]** [Dpgn: Distribution propagation graph network for few-shot learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html)
+**[CVPR 2020]** [Dpgn: Distribution propagation graph network for few-shot learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html). ***Ling Yang**, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu. **CVPR 2020**.* 
 
-*Author List*: **Ling Yang**, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu 
-
+![alt text](image-3.png)
 
 
 # Awards
