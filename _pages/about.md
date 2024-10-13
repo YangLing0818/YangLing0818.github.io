@@ -10,7 +10,7 @@ redirect_from:
 
 Ling Yang is currently a final-year Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/) and [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN). My research interests are Generative Modeling (Diffusion Models, LLMs) and AI for Science. I previously worked with [Yang Song](https://yang-song.net/), [Guohao Li](https://scholar.google.com/citations?user=J9K-D0sAAAAJ&hl=en), [Mengdi Wang](https://scholar.google.com/citations?user=33yNvIgAAAAJ&hl=en), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en) and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). I serve as a program committee member or reviewer for international conferences and journals including SIGGRAPH, TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI. 
 
-I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs including [RPG-DiffusionMaster](https://arxiv.org/abs/2401.11708), [VideoTetris](https://arxiv.org/abs/2406.04277) and [Buffer of Thoughts](https://arxiv.org/abs/2406.04271), and published [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html). Feel free to email me for potential collaborations or discussions. Alternatively, my WeChat ID: jifengjianhao_yl.
+I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs including [RPG-DiffusionMaster](https://arxiv.org/abs/2401.11708), [VideoTetris](https://arxiv.org/abs/2406.04277) and [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271), and published [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html). Feel free to email me for potential collaborations or discussions. Alternatively, my WeChat ID: jifengjianhao_yl.
 
 <font color=red> I am actively looking for postdoc positions (E-Mail: yangling0818@163.com). </font>  
 <br>
@@ -24,7 +24,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
   * Diffusion Theory and Framework: [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Rectified Diffusion](https://arxiv.org/abs/2410.07303), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
   * AI for Science: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162)
 * Large Language Models
-  * Reasoning: [Buffer of Thought (BoT)](https://arxiv.org/abs/2406.04271), [SuperCorrect]()
+  * Reasoning: [Buffer of Thought (BoT)](https://arxiv.org/pdf/2406.04271), [SuperCorrect]()
   * Agent: [Multi-Agent Collaborative Data Selection](https://arxiv.org/abs/2410.08102)
   * Data-centric Application: [EditWorld](https://arxiv.org/abs/2405.14785)
 ### Representation Learning
@@ -37,7 +37,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 * **Five papers** about Diffusion Models and LLMs (Buffer of Thought, **Spotlight**) are accepted by **NeurIPS 2024**.
 * One paper about diffusion-based video frame interpolation is accepted by **ACM Multimedia 2024**.
 * I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), converging **4.4x faster** than Consistency Model and **1.7x faster** than Rectified Flow while achieving better FID.
-* I propose a new LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/abs/2406.04271).
+* I propose a new LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271).
 * I release the project [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris) about compositional text-to-video generation.
 * **Two papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
@@ -65,7 +65,7 @@ ICML 2024
 * **Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models** 
 Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
 NeurIPS 2024 spotlight  
-[paper](https://arxiv.org/abs/2406.04271) | [repo](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
+[paper](https://arxiv.org/pdf/2406.04271) | [repo](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
 
 ![alt text](image-5.png)
 
