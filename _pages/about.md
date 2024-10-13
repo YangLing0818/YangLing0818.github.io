@@ -57,7 +57,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 ![alt text](image.png)
 
-**[RAG-based LLM Reasoning]** [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271). ***Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui. **NeurIPS 2024 spotlight***.
+**[RAG-based LLM Reasoning]** [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271). ***Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui. **NeurIPS 2024 spotlight**.*
 
 ![alt text](image-5.png)
 
