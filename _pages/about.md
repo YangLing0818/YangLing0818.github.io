@@ -59,7 +59,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 **[RAG-based LLM Reasoning]** [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271). ***Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui. **NeurIPS 2024 spotlight***.
 
-![img src="image.png" width="100"/>](./image-1.png)
+![alt text](image-5.png)
 
 <!-- **[Efficient Generative Modeling]** [Consistency Flow Matching: Defining Straight Flows with Velocity Consistency](https://arxiv.org/abs/2407.02398)
 
@@ -67,7 +67,7 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 **[Complex Text-to-Video]** [VideoTetris: Towards Compositional Text-to-Video Generation](https://arxiv.org/abs/2406.04277). *Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui. **NeurIPS 2024**.*
 
-![alt text](image-2.png)
+![alt text](image-6.png)
 
 <!-- **[First Diffusion Survey with OpenAI]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
 
