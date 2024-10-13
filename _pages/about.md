@@ -55,11 +55,17 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 # Selected Publications [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
 
-**[MLLM-Controlled Diffusion]** [Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs](https://openreview.net/forum?id=DgLFkAPwuZ). ***Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui. **ICML 2024**.*
+* **Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs**.  
+Ling Yang, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui  
+ICML 2024  
+[paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [repo](https://github.com/YangLing0818/RPG-DiffusionMaster) | [tweet](https://x.com/_akhaliq/status/1749633221514461489)
 
 ![alt text](image.png)
 
-**[RAG-based LLM Reasoning]** [Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models](https://arxiv.org/abs/2406.04271). ***Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui. **NeurIPS 2024 spotlight**.*
+* **Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models** 
+Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
+NeurIPS 2024 spotlight  
+[paper](https://arxiv.org/abs/2406.04271) | [repo](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
 
 ![alt text](image-5.png)
 
@@ -67,7 +73,10 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 *Author List*: **Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui -->
 
-**[Complex Text-to-Video]** [VideoTetris: Towards Compositional Text-to-Video Generation](https://arxiv.org/abs/2406.04277). *Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui. **NeurIPS 2024**.*
+* **VideoTetris: Towards Compositional Text-to-Video Generation**  
+Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui  
+NeurIPS 2024  
+[paper](https://arxiv.org/abs/2406.04277) | [repo](https://github.com/YangLing0818/VideoTetris) | [tweet](https://x.com/_akhaliq/status/1798897351534489608)
 
 ![alt text](image-6.png)
 
@@ -89,7 +98,10 @@ I am in charge of a reasearch team and have led a series of works on Diffusion M
 
 *Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec -->
 
-**[CVPR 2020]** [Dpgn: Distribution propagation graph network for few-shot learning](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html). ***Ling Yang**, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu. **CVPR 2020**.* 
+* **Dpgn: Distribution propagation graph network for few-shot learning**  
+Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu  
+CVPR 2020  
+[paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html) | [repo](https://github.com/megvii-research/DPGN) 
 
 ![alt text](image-3.png)
 
