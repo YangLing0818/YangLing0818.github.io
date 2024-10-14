@@ -38,6 +38,8 @@ Ling Yang is currently a final-year Ph.D. student at Peking University, advised 
 
 
 # <font color=red> What's New </font>
+* I propose [SupperCorrect](https://github.com/YangLing0818/SuperCorrect-llm), achieving new SOTA performance among all 7B models.
+* I propose [IterComp](https://arxiv.org/abs/2410.07171), [SemanticSDS](https://arxiv.org/abs/2410.09009) and [Trans4D](https://arxiv.org/abs/2410.07155) to enhance compositional generation in text-to-image/3D/4D scenarios, respectively.
 * **Five papers** about Diffusion Models and LLMs (Buffer of Thought, **Spotlight**) are accepted by **NeurIPS 2024**.
 * One paper about diffusion-based video frame interpolation is accepted by **ACM Multimedia 2024**.
 * I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), converging **4.4x faster** than Consistency Model and **1.7x faster** than Rectified Flow while achieving better FID.
