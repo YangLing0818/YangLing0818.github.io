@@ -80,7 +80,7 @@ NeurIPS 2024 spotlight
 *Author List*: **Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui -->
 
 * **IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation**  
-Xinchen Zhang*, **Ling Yang***, Guohao Li, Yaqi Cai, Jiake Xie, Yong Tang, Yujiu Yang, Mengdi Wang, Bin Cui  
+Xinchen Zhang\*, **Ling Yang**\*, Guohao Li, Yaqi Cai, Jiake Xie, Yong Tang, Yujiu Yang, Mengdi Wang, Bin Cui  
 Arxiv Preprint  
 [paper](https://arxiv.org/abs/2410.07171) | [repo](https://github.com/YangLing0818/IterComp) | [tweet](https://x.com/_akhaliq/status/1844272544687509910)
 
