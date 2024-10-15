@@ -59,7 +59,7 @@ Ling Yang is currently a final-year Ph.D. student at Peking University, advised 
 * **Two papers** are accepted as **ICML 2022 Spotlight**.
 * One paper is accepted by **CVPR 2020**.
 
-# Selected Publications [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
+# Selected Papers [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
 
 * **Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs**.  
 Ling Yang, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui  
@@ -78,6 +78,13 @@ NeurIPS 2024 spotlight
 <!-- **[Efficient Generative Modeling]** [Consistency Flow Matching: Defining Straight Flows with Velocity Consistency](https://arxiv.org/abs/2407.02398)
 
 *Author List*: **Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui -->
+
+* **IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation**  
+Xinchen Zhang*, **Ling Yang***, Guohao Li, Yaqi Cai, Jiake Xie, Yong Tang, Yujiu Yang, Mengdi Wang, Bin Cui  
+Arxiv Preprint  
+[paper](https://arxiv.org/abs/2410.07171) | [repo](https://github.com/YangLing0818/IterComp) | [tweet](https://x.com/_akhaliq/status/1844272544687509910)
+
+![alt text](image-2.png)
 
 * **VideoTetris: Towards Compositional Text-to-Video Generation**  
 Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui  
