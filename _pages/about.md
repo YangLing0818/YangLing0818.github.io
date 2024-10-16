@@ -62,14 +62,14 @@ Ling Yang is currently a final-year Ph.D. student at Peking University, advised 
 # Selected Papers [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
 
 * **Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs**.  
-Ling Yang, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui  
+**Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui  
 ICML 2024  
 [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [repo](https://github.com/YangLing0818/RPG-DiffusionMaster) | [tweet](https://x.com/_akhaliq/status/1749633221514461489)
 
 ![alt text](image.png)
 
-* **Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models** 
-Ling Yang, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
+* **Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models**  
+**Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
 NeurIPS 2024 spotlight  
 [paper](https://arxiv.org/pdf/2406.04271) | [repo](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
 
@@ -86,6 +86,11 @@ Arxiv Preprint
 
 ![alt text](image-2.png)
 
+* **Consistency Flow Matching: Defining Straight Flows with Velocity Consistency**  
+  **Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui  
+  Arxiv Preprint  
+  [paper](https://arxiv.org/abs/2407.02398) | [repo](https://github.com/YangLing0818/consistency_flow_matching) | [tweet](https://x.com/LingYang_PKU/status/1808509588414800224)
+![alt text](image-7.png)
 * **VideoTetris: Towards Compositional Text-to-Video Generation**  
 Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui  
 NeurIPS 2024  
@@ -112,7 +117,7 @@ NeurIPS 2024
 *Author List*: **Ling Yang**, Ye Tian, Minkai Xu, Zhongyi Liu, Shenda Hong, Wei Qu, Wentao Zhang, Bin Cui, Muhan Zhang, Jure Leskovec -->
 
 * **Dpgn: Distribution propagation graph network for few-shot learning**  
-Ling Yang, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu  
+**Ling Yang**, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu  
 CVPR 2020  
 [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html) | [repo](https://github.com/megvii-research/DPGN) 
 
