@@ -120,7 +120,11 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
 
 
 # Awards
+* Selected for AI Elite Forum of [WAIC 2024](https://business.cctv.com/special/2024WAIC/index.shtml)
 * Selected for the distinguished student forum of [VALSE 2024](https://valser.org/2024/#/program) (**8 People in China**).
+* Selected for [Annual Outstanding Author of Electronics Industry Press](https://www.phei.com.cn/).
+* Selected for two consecutive years in the TechBeat Influencers List ([2023 list](https://mp.weixin.qq.com/s/k-HKTjijLP2uVrf7YEfXbA) and [2024 list](https://mp.weixin.qq.com/s/4KT0fAdx1hok0cEU5XcNIQ)).
+* [Baidu Scholarship Nominee](http://scholarship.baidu.com/) (20 people in the world), 2023
 * National Scholarship for Ph.D student (**Top 1% in PKU**), 2022.
 * Exceptional Award for Academic Innovation for Ph.D student (**Top 1% in PKU**), 2022.
 * First-class Academic Scholarship, 2018, 2019, 2020.
