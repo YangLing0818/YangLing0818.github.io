@@ -131,4 +131,5 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
 
 
 <a href="https://clustrmaps.com/site/1c3n3"  title="ClustrMaps"><img src="//www.clustrmaps.com/map_v2.png?d=FiS2xt_QkmMdwTwjXby8DIRX68-V52TTP4RIMV8iblM&cl=ffffff" height="100px" width="400px" /></a>
- 
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=FiS2xt_QkmMdwTwjXby8DIRX68-V52TTP4RIMV8iblM"></script>
