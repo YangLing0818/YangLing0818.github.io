@@ -131,5 +131,3 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
 
 
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=FiS2xt_QkmMdwTwjXby8DIRX68-V52TTP4RIMV8iblM&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
-
-<script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=0e1633&w=a&t=tt&d=FiS2xt_QkmMdwTwjXby8DIRX68-V52TTP4RIMV8iblM&co=0b4975&cmo=3acc3a&cmn=ff5353&ct=cdd4d9'></script>
