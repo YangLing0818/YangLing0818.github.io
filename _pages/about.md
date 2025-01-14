@@ -13,10 +13,7 @@ redirect_from:
 Ling Yang is currently a final-year Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/) and [Luxia Zhang](). I am also a Senior Research Assistant at Princeton University, fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/). My research interests are Generative AI (Diffusion Models, LLMs) and AI for Science. I previously worked with [Yang Song](https://yang-song.net/), [Guohao Li](https://scholar.google.com/citations?user=J9K-D0sAAAAJ&hl=en), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). I serve as a program committee member or reviewer for international conferences and journals including SIGGRAPH, TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI. Feel free to contact me for potential collaborations or discussions.   
 [Email](mailto:yangling0818@163.com) | [WeChat](./image-1.png) | [Github](https://github.com/YangLing0818) | [Google Scholar](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en) | [Twitter](https://x.com/LingYang_PKU) 
 
-<!-- I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs including [RPG-DiffusionMaster](https://arxiv.org/abs/2401.11708), [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271) and [VideoTetris](https://arxiv.org/abs/2406.04277), and published [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html). 
-
-<font color=red> I am actively looking for postdoc positions. </font>  
-<br> -->
+We have opening positions for PhDs, Masters and Research Interns (not limited to PKU and Princeton University, work online). Also, I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs. Interested persons please contact me directly!
 
 
 # Research Summary
