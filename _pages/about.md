@@ -17,7 +17,7 @@ We have opening positions for PhDs, Masters and Research Interns (not limited to
 
 
 # Research Summary
-My goal is to build powerful AI models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I am currently focused on developing transferable techniques to improve generative models, including their training methodologies, architecture design, alignment, and inference efficiency. I am also interested in generative modeling as a tool for scientific discovery. I invented many foundational concepts and techniques in diffusion models and llms.
+My goal is to build powerful AI models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their training methodologies, architecture design, alignment, inference efficiency and applications. I am also interested in generative modeling as a tool for scientific discovery. 
 
 **Generative Model Foundations**  
   * Diffusion Theory and Framework: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [IterComp](https://arxiv.org/abs/2410.07171), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Rectified Diffusion](https://arxiv.org/abs/2410.07303), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
