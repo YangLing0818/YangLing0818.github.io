@@ -13,7 +13,7 @@ redirect_from:
 Ling Yang is currently a final-year Ph.D. student at Peking University, advised by [Bin Cui](https://cuibinpku.github.io/) and [Luxia Zhang](). I am also a Senior Research Assistant at Princeton University, fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/). My research interests are Generative AI (Diffusion Models, LLMs) and AI for Science. I previously worked with [Yang Song](https://yang-song.net/), [Guohao Li](https://scholar.google.com/citations?user=J9K-D0sAAAAJ&hl=en), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). I serve as a program committee member or reviewer for international conferences and journals including SIGGRAPH, TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI. Feel free to contact me for potential collaborations or discussions.   
 [Email](mailto:yangling0818@163.com) | [WeChat](./image-1.png) | [Github](https://github.com/YangLing0818) | [Google Scholar](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en) | [Twitter](https://x.com/LingYang_PKU) 
 
-We have opening positions for PhDs, Masters and Research Interns (not limited to PKU and Princeton University, work online). Also, I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs. Interested persons please contact me directly!
+We have opening positions for PhDs, Masters and Research Interns (not limited to PKU and Princeton University, work online). Also, I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs, including [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster), [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm), [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp). Interested persons please contact me directly!
 
 
 # Research Summary
@@ -26,23 +26,19 @@ My goal is to build powerful AI models capable of understanding, generating and 
     
   
 **Generative Applications**
-  * Multimodal Generation: [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [SemanticSDS](https://arxiv.org/abs/2410.09009), [Trans4D](https://arxiv.org/abs/2410.07155), [IPDreamer](https://arxiv.org/abs/2310.05375)  
+  * Multimodal Generation (Image/3D/4D): [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [SemanticSDS](https://arxiv.org/abs/2410.09009), [Trans4D](https://arxiv.org/abs/2410.07155), [IPDreamer](https://arxiv.org/abs/2310.05375)  
   * AI for Science: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162)  
-
-**Representation Learning** 
-* Graph-structured Data: [DPGN](https://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html), [VQGraph](https://openreview.net/forum?id=h6Tz85BqRI), [OEPG](https://proceedings.mlr.press/v162/yang22d.html)
-* Suquential Data: [BTSF](https://proceedings.mlr.press/v162/yang22e.html), [Cross Reconstruction Transformer](https://ieeexplore.ieee.org/document/10190201)
 
 
 
 # <font color=red> What's New </font>
-* I propose [SupperCorrect](https://github.com/YangLing0818/SuperCorrect-llm), achieving new SOTA performance among all 7B models.
+* I propose [SupperCorrect](https://arxiv.org/abs/2410.09008)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/SuperCorrect-llm), achieving new SOTA performance among all 7B models.
 * I propose [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp), leveraging iterative RLHF to achieve fast and realistic T2I generation.
 * I propose [SemanticSDS](https://arxiv.org/abs/2410.09009) and [Trans4D](https://arxiv.org/abs/2410.07155) to enhance compositional generation in text-to-/3D/4D scenarios.
-* **Five papers** about Diffusion Models and LLMs (Buffer of Thought, **Spotlight**) are accepted by **NeurIPS 2024**.
+* **Five papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**.
 * One paper about diffusion-based video frame interpolation is accepted by **ACM Multimedia 2024**.
 * I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), converging **4.4x faster** than Consistency Model and **1.7x faster** than Rectified Flow while achieving better FID.
-* I propose a new RAG-based LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm), outperforming [Tree of Thought](https://arxiv.org/abs/2305.10601).
+* I propose a new RAG-based LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm) (**NeurIPS 2024 Spotlight**).
 * I release the project [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris) of first compositional text-to-video generation.
 * **Two papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
