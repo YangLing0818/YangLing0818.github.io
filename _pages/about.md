@@ -32,26 +32,27 @@ My goal is to build powerful AI models capable of understanding, generating and 
 
 
 # <font color=red> What's New </font>
+* **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**.
 * I propose [SupperCorrect](https://arxiv.org/abs/2410.09008)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/SuperCorrect-llm), achieving new SOTA performance among all 7B models.
 * I propose [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp), leveraging iterative RLHF to achieve fast and realistic T2I generation.
 * I propose [SemanticSDS](https://arxiv.org/abs/2410.09009) and [Trans4D](https://arxiv.org/abs/2410.07155) to enhance compositional generation in text-to-/3D/4D scenarios.
-* **Five papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**.
+* **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**.
 * One paper about diffusion-based video frame interpolation is accepted by **ACM Multimedia 2024**.
 * I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), converging **4.4x faster** than Consistency Model and **1.7x faster** than Rectified Flow while achieving better FID.
 * I propose a new RAG-based LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm) (**NeurIPS 2024 Spotlight**).
 * I release the project [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris) of first compositional text-to-video generation.
-* **Two papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
+* **2 papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
 * One paper about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
 * Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster).
-* **Three papers** about Diffusion Models, GNN, AI for Science are accepted by **ICLR 2024**.
+* **3 papers** about Diffusion Models, GNN, AI for Science are accepted by **ICLR 2024**.
 * Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
 * Our [survey about Diffusion Models](https://arxiv.org/abs/2209.00796)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) is accepted by ACM Computing Surveys 2023, **collaborating with OpenAI**.
 * One paper about text-to-image diffusion is accepted by **NeurIPS 2023**.
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
 * One paper is accepted by **TNNLS 2023**.
 * One paper is accepted by **TKDE 2023**.
-* **Two papers** are accepted as **ICML 2022 Spotlight**.
+* **2 papers** are accepted as **ICML 2022 Spotlight**.
 * One paper is accepted by **CVPR 2020**.
 
 # Selected Papers [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
