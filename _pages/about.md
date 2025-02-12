@@ -32,7 +32,7 @@ My goal is to build powerful AI models capable of understanding, generating and 
 
 
 # <font color=red> What's New </font>
-* I release [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), beating OpenAI o1-preview and DeepSeek-V3 with hierarchical reinforcement learning.
+* I release [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), **beating OpenAI o1-preview and DeepSeek-V3** with hierarchical reinforcement learning on 8GPUs.
 * **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**.
 * I propose [SupperCorrect](https://arxiv.org/abs/2410.09008)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/SuperCorrect-llm), achieving new SOTA performance among all 7B models.
 * I propose [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp), leveraging iterative RLHF to achieve fast and realistic T2I generation.
@@ -58,17 +58,25 @@ My goal is to build powerful AI models capable of understanding, generating and 
 
 # Selected Papers [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
 
+* **Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models**  
+**Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
+NeurIPS 2024 spotlight  [paper](https://arxiv.org/pdf/2406.04271) | [repo](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
+
+![alt text](image-5.png)
+
+* **ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates**  
+**Ling Yang**, Zhaochen Yu, Bin Cui, Mengdi Wang  
+[paper](https://arxiv.org/abs/2502.06772) | [repo](https://github.com/Gen-Verse/ReasonFlux) | [tweet](https://x.com/_akhaliq/status/1889187356651012599)
+
+![alt text](image-8.png)
+
 * **Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs**.  
 **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui  
 ICML 2024  [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [repo](https://github.com/YangLing0818/RPG-DiffusionMaster) | [tweet](https://x.com/_akhaliq/status/1749633221514461489)
 
 ![alt text](image.png)
 
-* **Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models**  
-**Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
-NeurIPS 2024 spotlight  [paper](https://arxiv.org/pdf/2406.04271) | [repo](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
 
-![alt text](image-5.png)
 
 <!-- **[Efficient Generative Modeling]** [Consistency Flow Matching: Defining Straight Flows with Velocity Consistency](https://arxiv.org/abs/2407.02398)
 
