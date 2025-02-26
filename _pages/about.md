@@ -122,6 +122,20 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
 
 ![alt text](image-3.png)
 
+# Advising Experience
+[Zhaochen Yu](https://zhaochenyu0201.github.io/) (Master student at National University of Singapore)
+
+[Xinchen Zhang](https://cominclip.github.io/) (Master student at Tsinghua University)
+
+[Ye Tian](https://tyfeld.github.io/) (incoming Ph.D. student at PKU).
+
+[Bohan Zeng](https://scholar.google.com/citations?user=MHo_d3YAAAAJ&hl=en) (incoming Ph.D. student at PKU).
+
+[Zhilin Huang](https://scholar.google.com/citations?user=qiff_5AAAAAJ&hl=zh-CN) (Ph.D. student at Tsinghua University).
+
+[Zhilong Zhang](https://scholar.google.com/citations?user=irQZ_qgAAAAJ&hl=en) (incoming Ph.D. student at Tsinghua University)
+
+[Yinjie Wang](https://scholar.google.com/citations?user=UBY1E1sAAAAJ&hl=en) (Ph.D. student at The University of Chicago).
 
 # Awards
 * Selected to present a talk at the [KAUST Rising Stars in AI Symposium](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025#:~:text=Following%20the%20resounding%20success%20of,for%20April%207-10th%202025.) (**24 people in the world**), 2025
