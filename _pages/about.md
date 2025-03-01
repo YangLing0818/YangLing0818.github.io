@@ -35,11 +35,9 @@ My goal is to build powerful AI models capable of understanding, generating and 
 # <font color=red> What's New </font>
 * I release [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), **beating OpenAI o1-preview and DeepSeek-V3** with hierarchical reinforcement learning on 8GPUs.
 * **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**.
-* I propose [SupperCorrect](https://openreview.net/forum?id=PyjZO7oSw2)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/SuperCorrect-llm), achieving new SOTA performance among all 7B models.
+* I propose [SupperCorrect](https://openreview.net/forum?id=PyjZO7oSw2)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/SuperCorrect-llm), achieving new SOTA LLM reasoning performance among all 7B models.
 * I propose [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp), leveraging iterative RLHF to achieve fast and realistic T2I generation.
-* I propose [SemanticSDS](https://arxiv.org/abs/2410.09009) and [Trans4D](https://arxiv.org/abs/2410.07155) to enhance compositional generation in text-to-/3D/4D scenarios.
 * **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**.
-* One paper about diffusion-based video frame interpolation is accepted by **ACM Multimedia 2024**.
 * I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), converging **4.4x faster** than Consistency Model and **1.7x faster** than Rectified Flow while achieving better FID.
 * I propose a new RAG-based LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm) (**NeurIPS 2024 Spotlight**).
 * I release the project [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris) of first compositional text-to-video generation.
@@ -143,7 +141,7 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
 * Selected for AI Elite Forum of [WAIC](https://business.cctv.com/special/2024WAIC/index.shtml) (**20 people in the world**), 2024.
 * Selected for the distinguished student forum of [VALSE](https://valser.org/2024/#/program) (**8 People in China**), 2024.
 * Selected for [Annual Outstanding Author of Electronics Industry Press](https://www.phei.com.cn/), 2023.
-* Selected for two consecutive years in the TechBeat Influencers List ([2023 list](https://mp.weixin.qq.com/s/k-HKTjijLP2uVrf7YEfXbA) and [2024 list](https://mp.weixin.qq.com/s/4KT0fAdx1hok0cEU5XcNIQ), **20 people in the world**).
+* Selected for two consecutive years in the TechBeat Influencers List ([2023 list](https://mp.weixin.qq.com/s/k-HKTjijLP2uVrf7YEfXbA) and [2024 list](https://mp.weixin.qq.com/s/4KT0fAdx1hok0cEU5XcNIQ), **20 people in China**).
 * [Baidu Scholarship Nominee](http://scholarship.baidu.com/) (**20 people in the world**), 2023.
 * National Scholarship for Ph.D student (**Top 1% in PKU**), 2022.
 * Exceptional Award for Academic Innovation for Ph.D student (**Top 1% in PKU**), 2022.
