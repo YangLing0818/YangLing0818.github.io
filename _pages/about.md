@@ -27,7 +27,7 @@ My goal is to build powerful AI models capable of understanding, generating and 
     
   
 **Generative Applications**
-  * Multimodal Generation (Image/3D/4D): [IterComp](https://arxiv.org/abs/2410.07171), [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [SemanticSDS](https://arxiv.org/abs/2410.09009), [Trans4D](https://arxiv.org/abs/2410.07155), [IPDreamer](https://arxiv.org/abs/2310.05375), [WideRange4D](https://arxiv.org/abs/2503.13435) 
+  * Multimodal Generation (Image/3D/4D): [IterComp](https://arxiv.org/abs/2410.07171), [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [SemanticSDS](https://arxiv.org/abs/2410.09009), [Trans4D](https://arxiv.org/abs/2410.07155), [WideRange4D](https://arxiv.org/abs/2503.13435) 
   * AI for Science: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162)  
 
 
