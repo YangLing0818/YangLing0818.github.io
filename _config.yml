@@ -119,7 +119,7 @@ author:
 # Reading Files
 include:
   - .htaccess
-  - _page
+  - _pages
   - files
 exclude:
   - "*.sublime-project"
