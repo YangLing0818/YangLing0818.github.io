@@ -8,16 +8,17 @@ redirect_from:
   - /about.html
 ---
 
+[Email](mailto:yangling0818@163.com) | [WeChat](./image-1.png) | [Github](https://github.com/YangLing0818) | [Google Scholar](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en)
 
-
-Ling Yang is currently a final-year Ph.D. student at Peking University, advised by Prof. [Bin Cui](https://cuibinpku.github.io/) and Prof. [Luxia Zhang](https://www.nihds.pku.edu.cn/en/info/1027/1002.htm). I am also an incoming postdoctoral research fellow at Princeton University, fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/). My research interests are developing advanced algorithms and frameworks about LLMs and diffusion models. I previously worked with [Yang Song](https://yang-song.net/), [Guohao Li](https://scholar.google.com/citations?user=J9K-D0sAAAAJ&hl=en), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). I serve as a program committee member or reviewer for international conferences and journals including SIGGRAPH, TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI. Feel free to contact me for potential collaborations or discussions.   
-[Email](mailto:yangling0818@163.com) | [WeChat](./image-1.png) | [Github](https://github.com/YangLing0818) | [Google Scholar](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en) | [Twitter](https://x.com/LingYang_PKU) 
+Ling Yang is currently a final-year Ph.D. student at Peking University, advised by Prof. [Bin Cui](https://cuibinpku.github.io/) and Prof. [Luxia Zhang](https://www.nihds.pku.edu.cn/en/info/1027/1002.htm). I will join Princeton University, fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/). My research interests are developing advanced algorithms and frameworks about LLMs and diffusion models. I previously worked with [Yang Song](https://yang-song.net/), [Guohao Li](https://scholar.google.com/citations?user=J9K-D0sAAAAJ&hl=en), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). Feel free to contact me for potential collaborations or discussions.
 
 We have opening positions for PhDs, Masters and Research Interns (not limited to PKU and Princeton University, work online). Also, I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs, including [RPG-DiffusionMaster](https://openreview.net/forum?id=DgLFkAPwuZ)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster), [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm), [SupperCorrect](https://openreview.net/forum?id=PyjZO7oSw2)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/SuperCorrect-llm), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp). Interested persons please contact me directly!
 
+I serve as an Area Chair (AC) at NeurIPS, and a program committee member or reviewer at SIGGRAPH, TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI.   
+
 
 # Research Summary
-My goal is to build powerful AI models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their training methodologies, architecture design, alignment, inference efficiency and applications.
+My goal is to build powerful generative models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their training methodologies, architecture design, alignment, inference efficiency and applications.
 
 **Generative Model Foundations**  
   * Diffusion Theory and Framework: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://arxiv.org/abs/2410.07303), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
@@ -27,12 +28,13 @@ My goal is to build powerful AI models capable of understanding, generating and 
     
   
 **Generative Applications**
-  * Multimodal Generation (Image/3D/4D): [IterComp](https://arxiv.org/abs/2410.07171), [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [SemanticSDS](https://arxiv.org/abs/2410.09009), [Trans4D](https://arxiv.org/abs/2410.07155), [WideRange4D](https://arxiv.org/abs/2503.13435) 
-  * AI for Science: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162)  
+  * Multimodal Generation (Image/3D/4D): [IterComp](https://arxiv.org/abs/2410.07171), [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [Trans4D](https://arxiv.org/abs/2410.07155), [WideRange4D](https://arxiv.org/abs/2503.13435) 
+  * Scientific Applications: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162)  
 
 
 
 # <font color=red> What's New </font>
+* I am invited as an AC at NeurIPS conference.
 * I release [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), **beating OpenAI o1-preview and DeepSeek-V3** with hierarchical reinforcement learning on 8GPUs.
 * **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**.
 * I propose [SupperCorrect](https://openreview.net/forum?id=PyjZO7oSw2)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/SuperCorrect-llm), achieving new SOTA LLM reasoning performance among all 7B models.
@@ -67,7 +69,8 @@ NeurIPS 2024 spotlight  [paper](https://arxiv.org/pdf/2406.04271) | [repo](https
 **Ling Yang**, Zhaochen Yu, Bin Cui, Mengdi Wang  
 [paper](https://arxiv.org/abs/2502.06772) | [repo](https://github.com/Gen-Verse/ReasonFlux) | [tweet](https://x.com/_akhaliq/status/1889187356651012599)
 
-![alt text](image-8.png)
+<img width="734" alt="image" src="https://github.com/user-attachments/assets/14ce72ad-d082-4df1-9ae1-832dd5921241" />
+
 
 * **Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs**.  
 **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui  
@@ -137,7 +140,8 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
 [Yinjie Wang](https://scholar.google.com/citations?user=UBY1E1sAAAAJ&hl=en) (Ph.D. student at The University of Chicago).
 
 # Awards
-* Selected to present a talk at the [KAUST Rising Stars in AI Symposium](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025#:~:text=Following%20the%20resounding%20success%20of,for%20April%207-10th%202025.) (**24 people in the world**), 2025
+* Selected as an **Outstanding Graduate of Peking University**, 2025.
+* Selected to present a talk at the [KAUST Rising Stars in AI Symposium](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025#:~:text=Following%20the%20resounding%20success%20of,for%20April%207-10th%202025.) (**24 people in the world**), 2025.
 * Selected for AI Elite Forum of [WAIC](https://business.cctv.com/special/2024WAIC/index.shtml) (**20 people in the world**), 2024.
 * Selected for the distinguished student forum of [VALSE](https://valser.org/2024/#/program) (**8 People in China**), 2024.
 * Selected for [Annual Outstanding Author of Electronics Industry Press](https://www.phei.com.cn/), 2023.
