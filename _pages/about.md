@@ -48,14 +48,15 @@ My goal is to build powerful generative models capable of understanding, generat
 * One paper about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
 * Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster).
 * **3 papers** about Diffusion Models, GNN, AI for Science are accepted by **ICLR 2024**.
-<!--* Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
+
+<!-- * Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
 * Our [survey about Diffusion Models](https://arxiv.org/abs/2209.00796)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) is accepted by ACM Computing Surveys 2023, **collaborating with OpenAI**.
 * One paper about text-to-image diffusion is accepted by **NeurIPS 2023**.
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
 * One paper is accepted by **TNNLS 2023**.
 * One paper is accepted by **TKDE 2023**.
 * **2 papers** are accepted as **ICML 2022 Spotlight**.
-* One paper is accepted by **CVPR 2020**.-->
+* One paper is accepted by **CVPR 2020**. -->
 
 # Selected Papers [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
 
