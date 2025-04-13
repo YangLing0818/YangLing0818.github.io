@@ -87,7 +87,7 @@ author:
   employer         :
   googlescholar    : "https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en"
   email            : yangling0818@163.com
-  researchgate     : "https://www.researchgate.net/profile/Ling-Yang-72"
+  researchgate     : # "https://www.researchgate.net/profile/Ling-Yang-72"
   uri              :
   bitbucket        :
   codepen          :
@@ -108,7 +108,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "LingYang_PKU"
+  twitter          : # "LingYang_PKU"
   vine             :
   weibo            :
   xing             : 
