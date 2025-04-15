@@ -12,10 +12,11 @@ redirect_from:
 I will join Princeton University, fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/).  I completed my Ph.D. at Peking University. I previously worked with [Yang Song](https://yang-song.net/), [Guohao Li](https://scholar.google.com/citations?user=J9K-D0sAAAAJ&hl=en), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). Feel free to contact me for potential collaborations or discussions.
 
 We have opening positions for PhDs, Masters and Research Interns (not limited to PKU and Princeton University, work online). Also, I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs, including [RPG-DiffusionMaster](https://openreview.net/forum?id=DgLFkAPwuZ)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster),  [Diffusion-Survey](https://arxiv.org/abs/2209.00796)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy), [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm), [SupperCorrect](https://openreview.net/forum?id=PyjZO7oSw2)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/SuperCorrect-llm), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp). Interested persons please contact me directly!
+
 [Email](mailto:yangling0818@163.com) | [WeChat](./image-1.png) | [Github](https://github.com/YangLing0818) | [Google Scholar](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en)
 
 
-Services
+Academic Services
 ---
 Area Chair: NeurIPS
 
