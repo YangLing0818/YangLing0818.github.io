@@ -140,9 +140,21 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
 
 # Academic Services
 
-Area Chair: NeurIPS
+* Area Chair:
+  * NeurIPS 2025
 
-Program Committee or Reviewer: SIGGRAPH, TPAMI, ICML, ICLR, NeurIPS, CVPR, KDD, AAAI   
+* Program Committee or Reviewer:
+  * ICML 2025, ICLR 2025, CVPR 2025, ICCV 2025, AAAI 2025
+  * SIGGRAPH 2024, ICML 2024, ICLR 2024, NeurIPS 2024, CVPR 2024, AAAI 2024
+  * ICML 2023, ICLR 2023, NeurIPS 2023, CVPR 2023, AAAI 2023
+  * ICML 2022, ICLR 2022, NeurIPS 2022
+ 
+* Journal Reviewer
+  * IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+  * IEEE Transactions on Knowledge and Data Engineering (TKDE)
+  * IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
+  * IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+  * Pattern Recognition (PR)
 
 # Awards
 * Completed my Ph.D. as an **Outstanding Graduate of Peking University**, 2025.
