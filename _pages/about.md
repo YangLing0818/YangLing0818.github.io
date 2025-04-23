@@ -157,7 +157,7 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
   * Pattern Recognition (PR)
 
 # Awards
-* Selected to present a talk at the [KAUST Rising Stars in AI Symposium](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025#:~:text=Following%20the%20resounding%20success%20of,for%20April%207-10th%202025.) (**24 people in the world**), 2025.
+* Selected as the [KAUST Rising Stars in AI Symposium](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025#:~:text=Following%20the%20resounding%20success%20of,for%20April%207-10th%202025.) (**24 people in the world**), 2025.
 * Selected for AI Elite Forum of [WAIC](https://business.cctv.com/special/2024WAIC/index.shtml) (**20 people in the world**), 2024.
 * Selected for the distinguished student forum of [VALSE](https://valser.org/2024/#/program) (**8 People in China**), 2024.
 * Selected for [Annual Outstanding Author of Electronics Industry Press](https://www.phei.com.cn/), 2023.
