@@ -8,8 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-
-I am a Ph.D. student at Peking University, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/) and Prof. [Luxia Zhang](). I am fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/) in Princeton University.  I have also been fortunate to work with [Yang Song](https://yang-song.net/), [Guohao Li](https://scholar.google.com/citations?user=J9K-D0sAAAAJ&hl=en), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). Feel free to contact me for potential collaborations or discussions.
+I am a Postdoctoral Fellow at the [Princeton AI Lab (AI2)](https://invent.ai.princeton.edu/), fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/). My research focuses on advanced generative models including methodologies and applications. Prior to this, I completed my Ph.D. at Peking University, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/) and Prof. [Luxia Zhang](). I have also been fortunate to work with [Yang Song](https://yang-song.net/), [Guohao Li](https://scholar.google.com/citations?user=J9K-D0sAAAAJ&hl=en), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN). Feel free to contact me for potential collaborations or discussions.
 [Email](mailto:yangling0818@163.com) | [WeChat](./image-1.png) | [Github](https://github.com/YangLing0818) | [Google Scholar](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en)
 
 We have opening positions for PhDs, Masters and Research Interns (not limited to PKU and Princeton University, work online). Also, I am in charge of a reasearch team and have led a series of works on Diffusion Models and LLMs, including [RPG-DiffusionMaster](https://openreview.net/forum?id=DgLFkAPwuZ)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster),  [Diffusion-Survey](https://arxiv.org/abs/2209.00796)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy), [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm), [SupperCorrect](https://openreview.net/forum?id=PyjZO7oSw2)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/SuperCorrect-llm), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp). Interested persons please contact me directly!
@@ -62,21 +61,35 @@ My goal is to build powerful generative models capable of understanding, generat
 **Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
 NeurIPS 2024 spotlight  [paper](https://arxiv.org/pdf/2406.04271) | [repo](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
 
-![alt text](image-5.png)
+
 
 * **ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates**  
 **Ling Yang**, Zhaochen Yu, Bin Cui, Mengdi Wang  
 [paper](https://arxiv.org/abs/2502.06772) | [repo](https://github.com/Gen-Verse/ReasonFlux) | [tweet](https://x.com/_akhaliq/status/1889187356651012599)
 
-<img width="734" alt="image" src="https://github.com/user-attachments/assets/14ce72ad-d082-4df1-9ae1-832dd5921241" />
+
 
 
 * **Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs**.  
 **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui  
 ICML 2024  [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [repo](https://github.com/YangLing0818/RPG-DiffusionMaster) | [tweet](https://x.com/_akhaliq/status/1749633221514461489)
 
-![alt text](image.png)
 
+* **SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction**.  
+**Ling Yang**, Zhaochen Yu, Tianjun Zhang, Minkai Xu, Joseph E. Gonzalez, Bin CUI, Shuicheng YAN  
+ICLR 2025 [paper](https://openreview.net/forum?id=PyjZO7oSw2) | [repo](https://github.com/YangLing0818/SuperCorrect-llm)
+
+* **Cross-Modal Contextualized Diffusion Models for Text-Guided Visual Generation and Editing**  
+**Ling Yang**, Zhilong Zhang, Zhaochen Yu, Jingwei Liu, Minkai Xu, Stefano Ermon, Bin CUI  
+ICLR 2025 [paper](https://openreview.net/forum?id=nFMS6wF2xq)
+
+* **Structure-Guided Adversarial Training of Diffusion Models**  
+**Ling Yang**, Haotian Qian, Zhilong Zhang, Jingwei Liu, Bin CUI  
+CVPR 2024 [paper](https://openaccess.thecvf.com/content/CVPR2024/papers/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.pdf)
+
+* **Diffusion Models: A Comprehensive Survey of Methods and Applications**  
+**Ling Yang**, Zhilong Zhang, Yang Song, Shenda Hong, Runsheng Xu, Yue Zhao, Wentao Zhang, Bin CUI, Ming-Hsuan Yang  
+ACM Computing Surveys 2023 [paper](https://arxiv.org/abs/2209.00796)
 
 
 <!-- **[Efficient Generative Modeling]** [Consistency Flow Matching: Defining Straight Flows with Velocity Consistency](https://arxiv.org/abs/2407.02398)
@@ -85,19 +98,21 @@ ICML 2024  [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [repo](https://
 
 * **IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation**  
 Xinchen Zhang\*, **Ling Yang**\*, Guohao Li, Yaqi Cai, Jiake Xie, Yong Tang, Yujiu Yang, Mengdi Wang, Bin Cui  
-[paper](https://arxiv.org/abs/2410.07171) | [repo](https://github.com/YangLing0818/IterComp) | [tweet](https://x.com/_akhaliq/status/1844272544687509910)
+ICLR 2025 [paper](https://arxiv.org/abs/2410.07171) | [repo](https://github.com/YangLing0818/IterComp) | [tweet](https://x.com/_akhaliq/status/1844272544687509910)
 
-![alt text](image-2.png)
+* **Rectified Diffusion: Straightness Is Not Your Need in Rectified Flow**  
+Fu-Yun Wang, **Ling Yang**, Zhaoyang Huang, Mengdi Wang, Hongsheng Li  
+ICLR 2025 [paper](https://openreview.net/forum?id=nEDToD1R8M)
 
 * **Consistency Flow Matching: Defining Straight Flows with Velocity Consistency**  
   **Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui  
   [paper](https://arxiv.org/abs/2407.02398) | [repo](https://github.com/YangLing0818/consistency_flow_matching) | [tweet](https://x.com/LingYang_PKU/status/1808509588414800224)
-![alt text](image-7.png)
+
 * **VideoTetris: Towards Compositional Text-to-Video Generation**  
 Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui  
 NeurIPS 2024  [paper](https://arxiv.org/abs/2406.04277) | [repo](https://github.com/YangLing0818/VideoTetris) | [tweet](https://x.com/_akhaliq/status/1798897351534489608)
 
-![alt text](image-6.png)
+
 
 <!-- **[First Diffusion Survey with OpenAI]** [Diffusion Models: A Comprehensive Survey of Methods and Applications](https://arxiv.org/abs/2209.00796)
 
@@ -121,7 +136,7 @@ NeurIPS 2024  [paper](https://arxiv.org/abs/2406.04277) | [repo](https://github.
 **Ling Yang**, Liangliang Li, Zilun Zhang, Xinyu Zhou, Erjin Zhou, Yu Liu  
 CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html) | [repo](https://github.com/megvii-research/DPGN) 
 
-![alt text](image-3.png)
+
 
 # Advising Experience
 [Zhaochen Yu](https://zhaochenyu0201.github.io/) (Master student at National University of Singapore)
