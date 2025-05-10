@@ -32,28 +32,22 @@ My goal is to build powerful generative models capable of understanding, generat
 
 # <font color=red> What's New </font>
 * I am invited as an Area Chair at NeurIPS 2025.
-* I release [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), **beating OpenAI o1-preview and DeepSeek-V3** with hierarchical reinforcement learning on 8GPUs.
 * **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**.
-* I propose [SupperCorrect](https://openreview.net/forum?id=PyjZO7oSw2)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/SuperCorrect-llm), achieving new SOTA LLM reasoning performance among all 7B models.
-* I propose [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp), leveraging iterative RLHF to achieve fast and realistic T2I generation.
-* **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**.
-* I propose [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), converging **4.4x faster** than Consistency Model and **1.7x faster** than Rectified Flow while achieving better FID.
-* I propose a new RAG-based LLM reasoning framework, [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm) (**NeurIPS 2024 Spotlight**).
-* I release the project [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris) of first compositional text-to-video generation.
+* **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**, including one Spotlight paper.
 * **2 papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
-* One paper about general/molecular graph diffusion is accepted by **TKDE 2024**.
-* One paper about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
-* Release our SOTA LLM-controlled diffusion model, [**RPG-DiffusionMaster**](https://openreview.net/forum?id=DgLFkAPwuZ)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster).
+* **1 paper** about general/molecular graph diffusion is accepted by **TKDE 2024**.
+* **1 paper** about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
 * **3 papers** about Diffusion Models, GNN, AI for Science are accepted by **ICLR 2024**.
-
-<!-- * Our paper about protein-aware 3D molecular diffusion models is accepted by **AAAI 2024**.
-* Our [survey about Diffusion Models](https://arxiv.org/abs/2209.00796)[![GitHub stars](https://img.shields.io/github/stars/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy)](https://github.com/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy) is accepted by ACM Computing Surveys 2023, **collaborating with OpenAI**.
-* One paper about text-to-image diffusion is accepted by **NeurIPS 2023**.
+* **1 paper** about molecular diffusion models is accepted by **AAAI 2024**.
+* **1 paper** about diffusion model survey collaborating with OpenAI is accepted by **ACM Computing Surveys**.
+* **1 paper** about diffusion models is accepted by **NeurIPS 2023**.
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
-* One paper is accepted by **TNNLS 2023**.
-* One paper is accepted by **TKDE 2023**.
+* **1 paper** is accepted by **TNNLS 2023**.
+* **1 paper** is accepted by **TKDE 2023**.
 * **2 papers** are accepted as **ICML 2022 Spotlight**.
-* One paper is accepted by **CVPR 2020**. -->
+* **1 paper** is accepted by **CVPR 2020**.
+
+<!-- * I release [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), **beating OpenAI o1-preview and DeepSeek-V3** with hierarchical reinforcement learning on 8GPUs. -->
 
 # Selected Papers [[<font size="5">Full List</font>](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)]
 
