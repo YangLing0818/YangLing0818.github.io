@@ -33,7 +33,7 @@ My goal is to build powerful generative models capable of understanding, generat
 
 # <font color=red> What's New </font>
 * **1 paper** about LLMs is accepted by **ACL 2025**.
-* I am invited as an **Area Chair** at NeurIPS 2025.
+* I was invited as an **Area Chair** at NeurIPS 2025.
 * **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**.
 * **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**, including one Spotlight paper.
 * **2 papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
