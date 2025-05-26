@@ -151,8 +151,6 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
 
 [Ye Tian](https://tyfeld.github.io/) (incoming Ph.D. student at PKU).
 
-[Bohan Zeng](https://scholar.google.com/citations?user=MHo_d3YAAAAJ&hl=en) (incoming Ph.D. student at PKU).
-
 [Zhilin Huang](https://scholar.google.com/citations?user=qiff_5AAAAAJ&hl=zh-CN) (Ph.D. student at Tsinghua University).
 
 [Zhilong Zhang](https://scholar.google.com/citations?user=irQZ_qgAAAAJ&hl=en) (incoming Ph.D. student at Tsinghua University)
