@@ -18,6 +18,9 @@ We have opening positions for PhDs, Masters and Research Interns (Princeton Univ
 # Research Summary
 My goal is to build powerful generative models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their training methodologies, architecture design, alignment, inference efficiency and applications.
 
+<img width="908" alt="image" src="https://github.com/user-attachments/assets/ffaeab2a-4050-44e8-a88d-0feee8ca4216" />
+
+
 **Generative Model Foundations**  
   * Diffusion Theory and Framework: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://arxiv.org/abs/2410.07303), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
   * LLM/MLLM Reasoning: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [HermesFlow](https://arxiv.org/abs/2502.12148)
