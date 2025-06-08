@@ -23,7 +23,7 @@ My goal is to build powerful generative models capable of understanding, generat
 
 **Generative Model Foundations**  
   * Diffusion Theory and Framework: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://arxiv.org/abs/2410.07303), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
-  * LLM/MLLM Reasoning: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [HermesFlow](https://arxiv.org/abs/2502.12148)
+  * LLM/MLLM Framework: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [HermesFlow](https://arxiv.org/abs/2502.12148), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE) 
   * Agent Framework: [ScoreFlow](https://github.com/Gen-Verse/ScoreFlow), [Multi-Actor Collaborative Data Selection](https://arxiv.org/abs/2410.08102)
   * Published Book: [“Diffusion Model: Theory, Application, and Code Practice of Generative AI Models”](https://item.m.jd.com/product/14075554.html)
     
