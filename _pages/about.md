@@ -18,7 +18,7 @@ We have opening positions for PhDs, Masters and Research Interns (Princeton Univ
 # Research Summary
 My goal is to build powerful generative models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their training methodologies, architecture design, alignment, inference efficiency and applications.
 
-<img width="908" alt="image" src="https://github.com/user-attachments/assets/ffaeab2a-4050-44e8-a88d-0feee8ca4216" />
+<img width="879" alt="image" src="https://github.com/user-attachments/assets/930dd8f2-c1e4-4b6e-a94e-a91147be49a7" />
 
 
 **Generative Model Foundations**  
