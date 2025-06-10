@@ -18,7 +18,7 @@ We have opening positions for PhDs, Masters and Research Interns (Princeton Univ
 # Research Summary
 My goal is to build powerful generative models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their training methodologies, architecture design, alignment, inference efficiency and applications.
 
-<img width="879" alt="image" src="https://github.com/user-attachments/assets/930dd8f2-c1e4-4b6e-a94e-a91147be49a7" />
+<img width="978" alt="image" src="https://github.com/user-attachments/assets/9b3c7976-aec5-4af6-8350-f7ef63fd1ae4" />
 
 
 **Generative Model Foundations**  
@@ -172,6 +172,7 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
   * ICML 2022, ICLR 2022, NeurIPS 2022
  
 * Journal Reviewer
+  * ACM Computing Surveys (CSUR)
   * IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
   * IEEE Transactions on Knowledge and Data Engineering (TKDE)
   * IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
