@@ -40,8 +40,9 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
+* **2 papers** about agent and diffusion are accepted by **ICCV 2025**.
 * **1 paper** about LLMs is accepted by **ACL 2025**.
-* I was invited as an **Area Chair** at NeurIPS 2025.
+* I was invited as an **Area Chair** at **NeurIPS 2025**.
 * **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**.
 * **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**, including one Spotlight paper.
 * **2 papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
@@ -79,6 +80,10 @@ ICML 2024  [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [code](https://
 * **ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates**  
 **Ling Yang**, Zhaochen Yu, Bin Cui, Mengdi Wang  
 [paper](https://arxiv.org/abs/2502.06772) | [code](https://github.com/Gen-Verse/ReasonFlux) | [tweet](https://x.com/_akhaliq/status/1889187356651012599)
+
+* **ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought Reasoning in LLMs**  
+Jiaru Zou, **Ling Yang**\*, Jingwen Gu, Jiahao Qiu, Ke Shen, Jingrui He, Mengdi Wang  
+[paper](https://arxiv.org/abs/2506.18896) | [code](https://github.com/Gen-Verse/ReasonFlux) | [tweet](https://x.com/_akhaliq/status/1937345023005048925)
 
 * **SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction**.  
 **Ling Yang**, Zhaochen Yu, Tianjun Zhang, Minkai Xu, Joseph E. Gonzalez, Bin CUI, Shuicheng YAN  
