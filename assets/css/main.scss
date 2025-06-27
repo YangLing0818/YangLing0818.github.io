@@ -10,199 +10,33 @@
  *
 */
 
----
-# Only the main Sass file needs front matter (the dashes are enough)
----
+@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "variables";
+@import "mixins";
+@import "vendor/susy/susy";
 
-@charset "utf-8";
+@import "reset";
+@import "base";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
-@import "minimal-mistakes";
+@import "utilities";
+@import "animations";
+@import "tables";
+@import "buttons";
+@import "notices";
+@import "masthead";
+@import "navigation";
+@import "footer";
+@import "syntax";
 
-/* 自定义美化样式 */
+@import "forms";
 
-/* 全局字体和布局优化 */
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.7;
-}
+@import "page";
+@import "archive";
+@import "sidebar";
 
-/* 页面内容两端对齐和美化 */
-.page__content {
-  p {
-    text-align: justify;
-    text-justify: inter-word;
-    margin-bottom: 1.2em;
-    color: #333;
-  }
-  
-  /* 标题样式优化 */
-  h1, h2, h3 {
-    color: #2c3e50;
-    font-weight: 600;
-    margin-top: 2em;
-    margin-bottom: 1em;
-  }
-  
-  h1 {
-    border-bottom: 3px solid #3498db;
-    padding-bottom: 0.5em;
-  }
-  
-  h2 {
-    border-left: 4px solid #e74c3c;
-    padding-left: 1em;
-  }
-}
+@import "vendor/font-awesome/fontawesome";
+@import "vendor/font-awesome/solid";
+@import "vendor/font-awesome/brands";
+@import "vendor/magnific-popup/magnific-popup";
+@import "print";
 
-/* 导航栏美化 */
-.masthead {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-  
-  .site-title {
-    color: white !important;
-    font-weight: 700;
-  }
-  
-  .greedy-nav a {
-    color: rgba(255,255,255,0.9) !important;
-    transition: color 0.3s ease;
-    
-    &:hover {
-      color: white !important;
-    }
-  }
-}
-
-/* 个人信息卡片美化 */
-.author__avatar {
-  img {
-    border-radius: 50%;
-    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
-    transition: transform 0.3s ease;
-    
-    &:hover {
-      transform: scale(1.05);
-    }
-  }
-}
-
-.author__content {
-  .author__name {
-    color: #2c3e50;
-    font-size: 1.5em;
-    font-weight: 700;
-  }
-  
-  .author__bio {
-    color: #7f8c8d;
-    font-style: italic;
-    margin-top: 0.5em;
-  }
-}
-
-/* 社交链接美化 */
-.author__urls {
-  li a {
-    background: linear-gradient(45deg, #3498db, #2ecc71);
-    color: white !important;
-    border-radius: 25px;
-    padding: 8px 16px;
-    margin: 4px 0;
-    display: inline-block;
-    transition: all 0.3s ease;
-    text-decoration: none;
-    
-    &:hover {
-      transform: translateY(-2px);
-      box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
-    }
-  }
-}
-
-/* 内容区域美化 */
-.page {
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
-  padding: 2em;
-  margin: 2em 0;
-}
-
-/* 列表项美化 */
-.archive__item {
-  border-bottom: 1px solid #ecf0f1;
-  padding: 1.5em 0;
-  transition: background-color 0.3s ease;
-  
-  &:hover {
-    background-color: #f8f9fa;
-    border-radius: 8px;
-  }
-  
-  .archive__item-title {
-    color: #2c3e50;
-    font-weight: 600;
-    
-    a {
-      color: inherit;
-      text-decoration: none;
-      
-      &:hover {
-        color: #3498db;
-      }
-    }
-  }
-}
-
-/* 响应式优化 */
-@media (max-width: 768px) {
-  .page {
-    margin: 1em 0;
-    padding: 1.5em;
-  }
-  
-  .page__content {
-    font-size: 0.95em;
-  }
-}
-
-/* 按钮和链接美化 */
-.btn {
-  background: linear-gradient(45deg, #3498db, #2ecc71);
-  border: none;
-  border-radius: 25px;
-  color: white;
-  padding: 10px 20px;
-  font-weight: 600;
-  transition: all 0.3s ease;
-  
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 15px rgba(52, 152, 219, 0.4);
-  }
-}
-
-/* 代码块美化 */
-pre, code {
-  background: #2c3e50;
-  color: #ecf0f1;
-  border-radius: 8px;
-}
-
-pre {
-  padding: 1.5em;
-  overflow-x: auto;
-  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-}
-
-/* 引用块美化 */
-blockquote {
-  border-left: 4px solid #3498db;
-  background: #f8f9fa;
-  padding: 1em 1.5em;
-  margin: 1.5em 0;
-  border-radius: 0 8px 8px 0;
-  font-style: italic;
-}
