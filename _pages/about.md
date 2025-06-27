@@ -8,6 +8,14 @@ redirect_from:
   - /about.html
 ---
 
+<style>
+.page__content p {
+  text-align: justify !important;
+  text-justify: inter-word;
+  line-height: 1.7;
+}
+</style>
+
 I am currently a Postdoc Researcher at Princeton University, fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/). My research focuses on advanced generative models, including both methodological development and real-world applications. I received my Ph.D. degree from Peking University, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/) and Prof. [Luxia Zhang](https://www.nihds.pku.edu.cn/en/info/1027/1002.htm). I was also fortunate to collaborate with [Yang Song](https://yang-song.net/), [Guohao Li](https://scholar.google.com/citations?user=J9K-D0sAAAAJ&hl=en), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN) from OpenAI, Stanford, Princeton, Berkeley, NUS and other premier institutions. I am opening to academic and industrial research opportunities. Please feel free to reach out for potential collaborations or discussions.   
 [Email](mailto:yangling0818@163.com) | [WeChat](./image-1.png) | [Github](https://github.com/YangLing0818) | [Google Scholar](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en) | [Twitter](https://x.com/LingYang_PU)
 
