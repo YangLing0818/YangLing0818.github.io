@@ -12,7 +12,7 @@ redirect_from:
 .page__content p {
   text-align: justify !important;
   text-justify: inter-word;
-  line-height: 1.3;
+  line-height: 1.5;
 }
 </style>
 
