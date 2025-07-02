@@ -31,14 +31,14 @@ My goal is to build powerful generative models capable of understanding, generat
 
 
 **Generative Model Foundations**  
-  * Diffusion Theory and Framework: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://arxiv.org/abs/2410.07303), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
-  * LLM/MLLM Framework: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [HermesFlow](https://arxiv.org/abs/2502.12148), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux) 
-  * Agent Framework: [ScoreFlow](https://github.com/Gen-Verse/ScoreFlow), [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102), [Alita](https://arxiv.org/abs/2505.20286), [AgentDistill](https://arxiv.org/abs/2506.14728)
+  * Diffusion Model Foundations: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://arxiv.org/abs/2410.07303), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
+  * Language Model Innovations: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [HermesFlow](https://arxiv.org/abs/2502.12148), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux) 
+  * Intelligent Agent Systems: [Alita](https://arxiv.org/abs/2505.20286), [AgentDistill](https://arxiv.org/abs/2506.14728), [ScoreFlow](https://github.com/Gen-Verse/ScoreFlow), [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102)
     
   
 **Generative Applications**
-  * Multimodal Generation (Image/3D/4D): [IterComp](https://arxiv.org/abs/2410.07171), [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [Trans4D](https://arxiv.org/abs/2410.07155), [WideRange4D](https://arxiv.org/abs/2503.13435) 
-  * Scientific Applications: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162), [RL for Scientific Reasoning](https://arxiv.org/abs/2505.19501)  
+  * Multimodal Content Generation (spanning image, 3D, and 4D synthesis): [IterComp](https://arxiv.org/abs/2410.07171), [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [Trans4D](https://arxiv.org/abs/2410.07155), [WideRange4D](https://arxiv.org/abs/2503.13435) 
+  * AI for Scientific Discovery: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162), [RL for Scientific Reasoning](https://arxiv.org/abs/2505.19501)  
 
 **Book Publication**
 
