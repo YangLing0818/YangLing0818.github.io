@@ -16,7 +16,7 @@ redirect_from:
 }
 </style>
 
-I am currently a Postdoc Researcher at Princeton University, fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/). My research focuses on advanced generative models, including both methodological development and real-world applications. I received my Ph.D. degree from Peking University, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/) and Prof. [Luxia Zhang](https://www.nihds.pku.edu.cn/en/info/1027/1002.htm). I was also fortunate to collaborate with [Yang Song](https://yang-song.net/), [Guohao Li](https://scholar.google.com/citations?user=J9K-D0sAAAAJ&hl=en), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN) from OpenAI, Stanford, Princeton, Berkeley, NUS and other premier institutions. I am opening to academic and industrial research opportunities. Please feel free to reach out for potential collaborations or discussions.   
+I am currently a Postdoc Researcher at Princeton University, fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/). My research focuses on advanced generative models, including both methodological development and real-world applications. I received my Ph.D. degree from Peking University, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/) and Prof. [Luxia Zhang](https://www.nihds.pku.edu.cn/en/info/1027/1002.htm). I was also fortunate to collaborate with [Yang Song](https://yang-song.net/), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN) from OpenAI, Stanford, Princeton, Berkeley, NUS and other premier institutions. I am opening to academic and industrial research opportunities. Please feel free to reach out for potential collaborations or discussions.   
 [Email](mailto:yangling0818@163.com) | [WeChat](./image-1.png) | [Personal Github](https://github.com/YangLing0818) | [Group Github](https://github.com/Gen-Verse) | [Google Scholar](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en) | [Twitter](https://x.com/LingYang_PU) | [HuggingFace](https://huggingface.co/Gen-Verse)  
 
 We have opening positions for PhDs, Masters and Research Interns (Princeton University and Peking University, available in-person and remote). Also, I am in charge of [a reasearch team](https://github.com/Gen-Verse) and have led a series of works on Diffusion Models and LLMs, including [RPG-DiffusionMaster](https://openreview.net/forum?id=DgLFkAPwuZ)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster), [MMaDA](https://arxiv.org/abs/2505.15809)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/MMaDA), [Diffusion-Survey](https://arxiv.org/abs/2209.00796)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy), [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp). Interested persons please contact me directly!
@@ -37,7 +37,7 @@ My goal is to build powerful generative models capable of understanding, generat
     
   
 **Generative Applications**
-  * Multimodal Content Generation (spanning image, 3D, and 4D synthesis): [IterComp](https://arxiv.org/abs/2410.07171), [VideoTetris](https://arxiv.org/abs/2406.04277), [EditWorld](https://arxiv.org/abs/2405.14785), [Trans4D](https://arxiv.org/abs/2410.07155), [WideRange4D](https://arxiv.org/abs/2503.13435) 
+  * Multimodal Content Generation (spanning image, 3D, and 4D synthesis): [IterComp](https://arxiv.org/abs/2410.07171), [VideoTetris](https://arxiv.org/abs/2406.04277), [ScoreLiDAR](https://github.com/happyw1nd/ScoreLiDAR), [EditWorld](https://arxiv.org/abs/2405.14785), [Trans4D](https://arxiv.org/abs/2410.07155), [WideRange4D](https://arxiv.org/abs/2503.13435) 
   * AI for Scientific Discovery: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162), [RL for Scientific Reasoning](https://arxiv.org/abs/2505.19501)  
 
 **Book Publication**
@@ -48,11 +48,11 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
-* **2 papers** about agent and diffusion are accepted by **ICCV 2025**.
+* **2 papers** about agent and diffusion are accepted by **ICCV 2025**, including one [Oral Paper](https://github.com/happyw1nd/ScoreLiDAR).
 * **1 paper** about LLMs is accepted by **ACL 2025**.
 * I was invited as an **Area Chair** at **NeurIPS 2025**.
 * **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**.
-* **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**, including one Spotlight paper.
+* **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**, including one [Spotlight paper](https://github.com/YangLing0818/buffer-of-thought-llm).
 * **2 papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * **1 paper** about general/molecular graph diffusion is accepted by **TKDE 2024**.
 * **1 paper** about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
@@ -77,13 +77,18 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 **Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
 NeurIPS 2024 spotlight  [paper](https://arxiv.org/pdf/2406.04271) | [code](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
 
-* **Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs**.  
+* **Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs**  
 **Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui  
 ICML 2024  [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [code](https://github.com/YangLing0818/RPG-DiffusionMaster) | [tweet](https://x.com/_akhaliq/status/1749633221514461489)
 
 * **MMaDA: Multimodal Large Diffusion Language Models**  
 **Ling Yang**, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang  
 [paper](https://arxiv.org/abs/2505.15809) | [code](https://github.com/Gen-Verse/MMaDA) | [tweet](https://x.com/_akhaliq/status/1925384556279898139)
+
+* **Distilling Diffusion Models to Efficient 3D LiDAR Scene Completion**  
+Shengyuan Zhang, An Zhao, **Ling Yang**, Zejian Li, Chenye Meng, Haoran Xu, Tianrun Chen, AnYang Wei, Perry Pengyun GU, Lingyun Sun  
+ICCV 2025 oral [paper](https://arxiv.org/abs/2412.03515) | [code](https://github.com/happyw1nd/ScoreLiDAR) 
+
 
 * **ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates**  
 **Ling Yang**, Zhaochen Yu, Bin Cui, Mengdi Wang  
