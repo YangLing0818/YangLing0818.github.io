@@ -48,7 +48,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
-* I was nominated for the [2025 WAIC Yunfan Award](https://www.thegaiaa.org/en/awards_mrzx#mrzx).
+* I was nominated for the [2025 WAIC Yunfan Award](https://www.thegaiaa.org/en/awards_mrzx).
 * I was invited to participate in a roundtable forum at WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en).
 * **2 papers** about agent and diffusion are accepted by **ICCV 2025**, including one [Oral Paper](https://github.com/happyw1nd/ScoreLiDAR).
 * **1 paper** about LLMs is accepted by **ACL 2025**.
