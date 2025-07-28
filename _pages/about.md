@@ -48,10 +48,13 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
+* I was nominated for the [2025 WAIC Yunfan Award](https://www.thegaiaa.org/en/awards_mrzx#mrzx).
+* I was invited to participate in a roundtable forum at WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en).
 * **2 papers** about agent and diffusion are accepted by **ICCV 2025**, including one [Oral Paper](https://github.com/happyw1nd/ScoreLiDAR).
 * **1 paper** about LLMs is accepted by **ACL 2025**.
 * I was invited as an **Area Chair** at **NeurIPS 2025**.
 * **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**.
+* I was invited to give a talk at Princeton AI Lab, hosted by Prof. [Mengdi Wang](https://ece.princeton.edu/people/mengdi-wang).
 * **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**, including one [Spotlight paper](https://github.com/YangLing0818/buffer-of-thought-llm).
 * **2 papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * **1 paper** about general/molecular graph diffusion is accepted by **TKDE 2024**.
@@ -213,7 +216,8 @@ ICML 2022 spotlight [paper](https://proceedings.mlr.press/v162/yang22e.html)
 
 # Honors & Awards
 ### Academic Recognition
-- **Outstanding Graduate**, Peking University Ph.D.
+- **2025 WAIC Yunfan Award**, 2025
+- **Outstanding Graduate**, Peking University Ph.D., 2025
 - **KAUST Rising Stars in AI Symposium** (24 selected worldwide), 2025
 - **WAIC AI Elite Forum** (20 selected worldwide), 2024
 - **VALSE Distinguished Student Forum** (8 selected in China), 2024
