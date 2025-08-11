@@ -19,7 +19,9 @@ redirect_from:
 I am currently a Postdoc Researcher at Princeton University, fortunately working with Prof. [Mengdi Wang](https://mwang.princeton.edu/). My research focuses on advanced generative models, including both methodological development and real-world applications. I received my Ph.D. degree from Peking University, supervised by Prof. [Bin Cui](https://cuibinpku.github.io/) and Prof. [Luxia Zhang](https://www.nihds.pku.edu.cn/en/info/1027/1002.htm). I was also fortunate to collaborate with [Yang Song](https://yang-song.net/), [Shuicheng Yan](https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN), [Ming-Hsuan Yang](https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN), [Bernard Ghanem](https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN), [Stefano Ermon](https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en), and [Jure Leskovec](https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN) from OpenAI, Stanford, Princeton, Berkeley, NUS and other premier institutions. I am opening to academic and industrial research opportunities. Please feel free to reach out for potential collaborations or discussions.   
 [Email](mailto:yangling0818@163.com) | [WeChat](./image-1.png) | [Personal Github](https://github.com/YangLing0818) | [Group Github](https://github.com/Gen-Verse) | [Google Scholar](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en) | [Twitter](https://x.com/LingYang_PU) | [HuggingFace](https://huggingface.co/Gen-Verse)  
 
-We have opening positions for PhDs, Masters and Research Interns (Princeton University and Peking University, available in-person and remote). Also, I am in charge of [a reasearch team](https://github.com/Gen-Verse) and have led a series of works on Diffusion Models and LLMs, including [RPG-DiffusionMaster](https://openreview.net/forum?id=DgLFkAPwuZ)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster), [MMaDA](https://arxiv.org/abs/2505.15809)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/MMaDA), [Diffusion-Survey](https://arxiv.org/abs/2209.00796)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy), [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm), [ReasonFlux/PRM/Coder](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux),  [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M)![GitHub stars](https://img.shields.io/github/stars/G-U-N/Rectified-Diffusion). Interested persons please contact me directly!
+We have opening positions for PhDs, Masters and Research Interns (Princeton University and Peking University, available in-person and remote). Also, I am in charge of [a reasearch team](https://github.com/Gen-Verse) and have led a series of works on Diffusion Models and LLMs, including [RPG-DiffusionMaster](https://openreview.net/forum?id=DgLFkAPwuZ)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/RPG-DiffusionMaster), [MMaDA](https://arxiv.org/abs/2505.15809)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/MMaDA), [Diffusion-Survey](https://arxiv.org/abs/2209.00796)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/Diffusion-Models-Papers-Survey-Taxonomy), [Buffer of Thoughts](https://arxiv.org/pdf/2406.04271)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/buffer-of-thought-llm), [ReasonFlux/PRM/Coder](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux),  [VideoTetris](https://arxiv.org/abs/2406.04277)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/VideoTetris), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/consistency_flow_matching), [IterComp](https://arxiv.org/abs/2410.07171)![GitHub stars](https://img.shields.io/github/stars/YangLing0818/IterComp), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M)![GitHub stars](https://img.shields.io/github/stars/G-U-N/Rectified-Diffusion). 
+
+My research has been sponsored by leading companies including ByteDance, Ant Group, and Xiaomi. I welcome opportunities for collaboration and partnership discussions with additional enterprises and organizations.
 
 
 
@@ -32,7 +34,8 @@ My goal is to build powerful generative models capable of understanding, generat
 
 **Generative Model Foundations**  
   * Diffusion Model Foundations: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
-  * Language Model Innovations: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [HermesFlow](https://arxiv.org/abs/2502.12148), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux) 
+  * Language Model Innovations: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [HermesFlow](https://arxiv.org/abs/2502.12148), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux)
+  * Large-Scale Reinforcement Learning: [MMaDA](https://github.com/Gen-Verse/MMaDA), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux)
   * Intelligent Agent Systems: [Alita](https://arxiv.org/abs/2505.20286), [AgentDistill](https://arxiv.org/abs/2506.14728), [ScoreFlow](https://github.com/Gen-Verse/ScoreFlow), [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102)
     
   
@@ -49,7 +52,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 # <font color=red> What's New </font>
 * **2 papers** about diffusion are accepted by **ACM MM 2025**, including [Inversion-DPO](https://arxiv.org/abs/2507.11554) and [EditWorld](https://arxiv.org/abs/2405.14785).
-* I was nominated for the [2025 WAIC Yunfan Award](https://www.thegaiaa.org/en/awards_mrzx).
+* I was selected as a finalist for the [2025 WAIC Yunfan Award](https://www.thegaiaa.org/en/awards_mrzx).
 * I was invited to participate in a roundtable forum at WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en).
 * **2 papers** about agent and diffusion are accepted by **ICCV 2025**, including one [Oral Paper](https://github.com/happyw1nd/ScoreLiDAR).
 * **1 paper** about LLMs is accepted by **ACL 2025**, including [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102).
@@ -194,7 +197,7 @@ ICML 2022 spotlight [paper](https://proceedings.mlr.press/v162/yang22e.html)
 
 [Yinjie Wang](https://scholar.google.com/citations?user=UBY1E1sAAAAJ&hl=en) (Ph.D. student at The University of Chicago)
 
-
+[Jiaru Zou](https://scholar.google.com/citations?user=GzLTey4AAAAJ&hl=en) (Master student at University of Illinois Urbana-Champaign)
 
 # Academic Services
 
@@ -217,7 +220,7 @@ ICML 2022 spotlight [paper](https://proceedings.mlr.press/v162/yang22e.html)
 
 # Honors & Awards
 ### Academic Recognition
-- **2025 WAIC Yunfan Award**, 2025
+- **2025 WAIC Yunfan Award Finalist**, 2025
 - **Outstanding Graduate**, Peking University Ph.D., 2025
 - **KAUST Rising Stars in AI Symposium** (24 selected worldwide), 2025
 - **WAIC AI Elite Forum** (20 selected worldwide), 2024
