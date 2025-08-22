@@ -51,7 +51,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
-* **3 papers** about LLMs and Agents are accepted by EMNLP 2025.
+* **3 papers** about LLMs and Agents are accepted by **EMNLP 2025**.
 * **2 papers** about diffusion are accepted by **ACM MM 2025**, including [Inversion-DPO](https://arxiv.org/abs/2507.11554) and [EditWorld](https://arxiv.org/abs/2405.14785).
 * I was selected as a finalist for the [2025 WAIC Yunfan Award](https://www.thegaiaa.org/en/awards_mrzx).
 * I was invited to participate in a roundtable forum at WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en).
