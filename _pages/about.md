@@ -36,7 +36,7 @@ My goal is to build powerful generative models capable of understanding, generat
   * Diffusion Model Foundations: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
   * Language Model Innovations: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [HermesFlow](https://arxiv.org/abs/2502.12148), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux)
   * Large-Scale Reinforcement Learning: [MMaDA](https://github.com/Gen-Verse/MMaDA), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux)
-  * Intelligent Agent Systems: [Alita](https://arxiv.org/abs/2505.20286), [AgentDistill](https://arxiv.org/abs/2506.14728), [ScoreFlow](https://github.com/Gen-Verse/ScoreFlow), [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102)
+  * Intelligent Agent Systems: [Alita](https://arxiv.org/abs/2505.20286), [AgentDistill](https://arxiv.org/abs/2506.14728), [ScoreFlow](https://github.com/Gen-Verse/ScoreFlow), [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102), [Preacher](https://arxiv.org/abs/2508.09632)
     
   
 **Generative Applications**
@@ -185,7 +185,7 @@ ICML 2022 spotlight [paper](https://proceedings.mlr.press/v162/yang22e.html)
 
 
 
-# Teaching & Mentoring
+# Mentoring History
 [Zhaochen Yu](https://zhaochenyu0201.github.io/) (Incoming Ph.D. student at National University of Singapore)
 
 [Xinchen Zhang](https://cominclip.github.io/) (Master student at Tsinghua University)
@@ -196,7 +196,7 @@ ICML 2022 spotlight [paper](https://proceedings.mlr.press/v162/yang22e.html)
 
 [Zhilong Zhang](https://scholar.google.com/citations?user=irQZ_qgAAAAJ&hl=en) (Ph.D. student at Tsinghua University)
 
-[Yinjie Wang](https://scholar.google.com/citations?user=UBY1E1sAAAAJ&hl=en) (Ph.D. student at The University of Chicago)
+[Yinjie Wang](https://scholar.google.com/citations?user=GvufmnwAAAAJ&hl=en) (Ph.D. student at The University of Chicago)
 
 [Jiaru Zou](https://scholar.google.com/citations?user=GzLTey4AAAAJ&hl=en) (Master student at University of Illinois Urbana-Champaign)
 
@@ -205,7 +205,7 @@ ICML 2022 spotlight [paper](https://proceedings.mlr.press/v162/yang22e.html)
 # Academic Services
 
 * Area Chair:
-  * NeurIPS 2025
+  * NeurIPS 2025, ICLR 2026
 
 * Program Committee or Reviewer:
   * ICML 2025, ICLR 2025, CVPR 2025, ICCV 2025, AAAI 2025
