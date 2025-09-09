@@ -33,9 +33,9 @@ My goal is to build powerful generative models capable of understanding, generat
 
 
 **Generative Model Foundations**  
-  * Diffusion Model Foundations: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
-  * Language Model Innovations: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [HermesFlow](https://arxiv.org/abs/2502.12148), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux)
-  * Large-Scale Reinforcement Learning: [MMaDA](https://github.com/Gen-Verse/MMaDA), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux)
+  * Diffusion Model Foundations: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [TraDo](https://arxiv.org/abs/2509.06949), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
+  * Language Model Innovations: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [HermesFlow](https://arxiv.org/abs/2502.12148), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [TraDo](https://arxiv.org/abs/2509.06949)
+  * Large-Scale Reinforcement Learning: [dLLM-RL](https://github.com/Gen-Verse/dLLM-RL), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux)
   * Intelligent Agent Systems: [Alita](https://arxiv.org/abs/2505.20286), [AgentDistill](https://arxiv.org/abs/2506.14728), [ScoreFlow](https://github.com/Gen-Verse/ScoreFlow), [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102), [Preacher](https://arxiv.org/abs/2508.09632)
     
   
@@ -55,7 +55,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 * **2 papers** about diffusion are accepted by **ACM MM 2025**, including [Inversion-DPO](https://arxiv.org/abs/2507.11554) and [EditWorld](https://arxiv.org/abs/2405.14785).
 * I was selected as a finalist for the [2025 WAIC Yunfan Award](https://www.thegaiaa.org/en/awards_mrzx).
 * I was invited to participate in a roundtable forum at WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en).
-* **2 papers** about agent and diffusion are accepted by **ICCV 2025**, including one [Oral Paper](https://github.com/happyw1nd/ScoreLiDAR).
+* **2 papers** about agent and diffusion are accepted by **ICCV 2025**, including one [ScoreLiDAR (Oral Paper)](https://github.com/happyw1nd/ScoreLiDAR) and [Paper2Video Agent](https://arxiv.org/abs/2508.09632).
 * **1 paper** about LLMs is accepted by **ACL 2025**, including [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102).
 * I was invited as an **Area Chair** at **NeurIPS 2025**.
 * **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**, including [SuperCorrect](https://arxiv.org/abs/2410.09008), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [IterComp](https://openreview.net/forum?id=4w99NAikOE) and [IPDreamer](https://openreview.net/forum?id=3PguviI7Uf).
@@ -92,6 +92,10 @@ ICML 2024  [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [code](https://
 * **MMaDA: Multimodal Large Diffusion Language Models**  
 **Ling Yang**, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang  
 [paper](https://arxiv.org/abs/2505.15809) | [code](https://github.com/Gen-Verse/MMaDA) | [tweet](https://x.com/_akhaliq/status/1925384556279898139)
+
+* **Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models**  
+Yinjie Wang, **Ling Yang**\*, Bowen Li, Ye Tian, Ke Shen, Mengdi Wang  
+[paper](https://arxiv.org/abs/2509.06949) | [code](https://github.com/Gen-Verse/dLLM-RL)
 
 * **Distilling Diffusion Models to Efficient 3D LiDAR Scene Completion**  
 Shengyuan Zhang, An Zhao, **Ling Yang**, Zejian Li, Chenye Meng, Haoran Xu, Tianrun Chen, AnYang Wei, Perry Pengyun GU, Lingyun Sun  
