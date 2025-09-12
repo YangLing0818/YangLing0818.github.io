@@ -28,7 +28,7 @@ My research has been sponsored by leading companies including ByteDance, Ant Gro
 # Research Summary
 My goal is to build powerful generative models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their training methodologies, architecture design, alignment, inference efficiency and applications.
 
-<img width="920" height="398" alt="image" src="https://github.com/user-attachments/assets/18ebd9c7-1c9b-491d-a512-0eb82f30c6de" />
+<img width="856" height="357" alt="image" src="https://github.com/user-attachments/assets/b15cc2b3-c6a8-41a7-a943-30b3171ac5a4" />
 
 
 **Generative Model Foundations**  
