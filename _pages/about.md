@@ -28,8 +28,7 @@ My research has been sponsored by leading companies including ByteDance, Ant Gro
 # Research Summary
 My goal is to build powerful generative models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their training methodologies, architecture design, alignment, inference efficiency and applications.
 
-<img width="1045" alt="image" src="https://github.com/user-attachments/assets/d7103088-42e0-43c4-9425-de01bff9f5b1" />
-
+<img width="1112" height="448" alt="image" src="https://github.com/user-attachments/assets/86e1208d-c502-4665-8fc7-58d9f9906d6d" />
 
 
 **Generative Model Foundations**  
@@ -95,7 +94,7 @@ ICML 2024  [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [code](https://
 
 * **Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models**  
 Yinjie Wang, **Ling Yang**\*, Bowen Li, Ye Tian, Ke Shen, Mengdi Wang  
-[paper](https://arxiv.org/abs/2509.06949) | [code](https://github.com/Gen-Verse/dLLM-RL)
+[paper](https://arxiv.org/abs/2509.06949) | [code](https://github.com/Gen-Verse/dLLM-RL) | [tweet](https://x.com/_akhaliq/status/1965422743194927429)
 
 * **Distilling Diffusion Models to Efficient 3D LiDAR Scene Completion**  
 Shengyuan Zhang, An Zhao, **Ling Yang**, Zejian Li, Chenye Meng, Haoran Xu, Tianrun Chen, AnYang Wei, Perry Pengyun GU, Lingyun Sun  
