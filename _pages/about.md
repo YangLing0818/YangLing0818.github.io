@@ -50,6 +50,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
+* **5 papers** about LLMs and Multimodal LLMs are accepted by **NeurIPS 2025**, including [MMaDA](https://github.com/Gen-Verse/MMaDA), [CURE & ReasonFlux-Coder](https://github.com/Gen-Verse/ReasonFlux)**(Spotlight Paper)**, [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [Transformer-Copilot](https://arxiv.org/abs/2505.16270)**(Spotlight Paper)** and [HermesFlow](https://arxiv.org/abs/2502.12148).
 * **3 papers** about LLMs and Agents are accepted by **EMNLP 2025**, including [EmoAgent](https://arxiv.org/abs/2504.09689)**(Oral Paper)** and [TreeBoN](https://arxiv.org/abs/2410.16033).
 * **2 papers** about diffusion are accepted by **ACM MM 2025**, including [Inversion-DPO](https://arxiv.org/abs/2507.11554) and [EditWorld](https://arxiv.org/abs/2405.14785).
 * I was selected as a finalist for the [2025 WAIC Yunfan Award](https://www.thegaiaa.org/en/awards_mrzx).
