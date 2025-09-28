@@ -34,6 +34,65 @@ My goal is to build powerful generative models capable of understanding, generat
 <img width="850" height="1074" alt="image" src="https://github.com/user-attachments/assets/c0d212c0-452a-4e5a-a278-dbfdfa2fb264" />
 
 
+<div align="center" style="font-family: 'Courier New', Consolas, monospace; font-size: 13px; line-height: 1.5;">
+<pre>
+                    +------------------------------------------------------------------------+
+                    |      A Unified Framework for Context-Aware Generative Intelligence     |
+                    |       Core Vision: "From Generative Foundations to Intelligent Agents" |
+                    +------------------------------------------------------------------------+
+                                                        |
+                                                        V
+                        +------------------------------------------------------------+
+                        |           Research Pillars: Two Axes of Innovation         |
+                        |      (1) Theoretical Foundations ↔ Applied Intelligence    |
+                        |      (2) Generalization Across Modalities & Scales         |
+                        +------------------------------------------------------------+
+                                                        |
+                                                        V
+            +------------------------------------------------------------------------------------------+
+            |                              Central Research Ecosystem                                  |
+            |        Bridging Theory, Modality, and Autonomy in Generative Systems                     |
+            +------------------------------------------------------------------------------------------+
+                                    ^                                       ^
+                                    |                                       |
+                                    |                                       |
+                                    V                                       V
+                +-------------------------------+             +-------------------------------+
+                | GENERATIVE MODEL FOUNDATIONS  |<----------->|  GENERATIVE APPLICATIONS      |
+                | Building the Next Generation  |             | Solving Real-World Challenges |
+                | of AI Models                  |             | with Generative Power         |
+                +-------------------------------+             +-------------------------------+
+                    |           |           |                         |                  |
+                    V           V           V                         V                  V
+    +----------------+ +----------------+ +----------------+ +----------------+ +----------------+
+    | Diffusion      | | Language       | | Reinforcement  | | Multimodal     | | Scientific     |
+    | Foundations    | | Innovations    | | Learning       | | Synthesis      | | Discovery      |
+    +----------------+ +----------------+ +----------------+ +----------------+ +----------------+
+            |                   |                 |                      |                 |
+            V                   V                 V                      V                 V
+    ● RPG                 ● Buffer of Thought   ● dLLM-RL            ● IterComp         ● IPDiff
+    ● MMaDA               ● MMaDA               ● MMaDA              ● VideoTetris      ● IRDiff
+    ● ContextDiff         ● SuperCorrect        ● ReasonFlux-Coder   ● ScoreLiDAR       ● BindDM
+    ● ConsistencyFM       ● HermesFlow          ● ReasonFlux-PRM     ● IPDreamer        ● RL for Science
+    ● ConPreDiff          ● ReasonFlux                               ● EditWorld
+    ● SADM                ● TraDo                                    ● Trans4D
+    ● Rectified Diffusion                                            ● WideRange4D
+    
+                                                        |
+                                                        V
+                                +-----------------------------------------+
+                                | INTELLIGENT AGENT SYSTEMS               |
+                                | Autonomous, Collaborative,              |
+                                | Emotionally-Aware Agents                |
+                                +-----------------------------------------+
+                                                        |
+                                                        V
+                                ● Alita                          ● Preacher
+                                ● AgentDistill                   ● EmoAgent
+                                ● ScoreFlow                      ● Multi-Actor Collaboration
+  </pre>
+</div>
+
 **Generative Model Foundations**  
   * Diffusion Model Foundations: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [dLLM-RL](https://arxiv.org/abs/2509.06949), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
   * Language Model Innovations: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [HermesFlow](https://arxiv.org/abs/2502.12148), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [TraDo](https://arxiv.org/abs/2509.06949)
