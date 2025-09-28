@@ -27,9 +27,64 @@ My research has been sponsored by leading companies including ByteDance, Ant Gro
 
 # Research Summary
 My goal is to build powerful generative models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their training methodologies, architecture design, alignment, inference efficiency and applications.
-
+<!--
 <img width="856" height="357" alt="image" src="https://github.com/user-attachments/assets/b15cc2b3-c6a8-41a7-a943-30b3171ac5a4" />
+-->
 
+                    +------------------------------------------------------------------------+
+                    |      A Unified Framework for Context-Aware Generative Intelligence     |
+                    |       Core Vision: "From Generative Foundations to Intelligent Agents" |
+                    +------------------------------------------------------------------------+
+                                                        |
+                                                        V
+                        +------------------------------------------------------------+
+                        |           Research Pillars: Two Axes of Innovation         |
+                        |      (1) Theoretical Foundations ↔ Applied Intelligence    |
+                        |      (2) Generalization Across Modalities & Scales         |
+                        +------------------------------------------------------------+
+                                                        |
+                                                        V
+            +------------------------------------------------------------------------------------------+
+            |                              Central Research Ecosystem                                  |
+            |        Bridging Theory, Modality, and Autonomy in Generative Systems                     |
+            +------------------------------------------------------------------------------------------+
+                                    ^                                       ^
+                                    |                                       |
+                                    |                                       |
+                                    V                                       V
+                +-------------------------------+             +-------------------------------+
+                | GENERATIVE MODEL FOUNDATIONS  |<----------->|  GENERATIVE APPLICATIONS      |
+                | Building the Next Generation  |             | Solving Real-World Challenges |
+                | of AI Models                  |             | with Generative Power         |
+                +-------------------------------+             +-------------------------------+
+                    |           |           |                         |                  |
+                    V           V           V                         V                  V
+    +----------------+ +----------------+ +----------------+ +----------------+ +----------------+
+    | Diffusion      | | Language       | | Reinforcement  | | Multimodal     | | Scientific     |
+    | Foundations    | | Innovations    | | Learning       | | Synthesis      | | Discovery      |
+    +----------------+ +----------------+ +----------------+ +----------------+ +----------------+
+            |                   |                 |                      |                 |
+            V                   V                 V                      V                 V
+    ● RPG                 ● Buffer of Thought   ● dLLM-RL            ● IterComp         ● IPDiff
+    ● MMaDA               ● MMaDA               ● MMaDA              ● VideoTetris      ● IRDiff
+    ● ContextDiff         ● SuperCorrect        ● ReasonFlux-Coder   ● ScoreLiDAR       ● BindDM
+    ● ConsistencyFM       ● HermesFlow          ● ReasonFlux-PRM     ● IPDreamer        ● RL for Science
+    ● ConPreDiff          ● ReasonFlux                               ● EditWorld
+    ● SADM                ● TraDo                                    ● Trans4D
+    ● Rectified Diffusion                                            ● WideRange4D
+    
+                                                        |
+                                                        V
+                                +-----------------------------------------+
+                                | INTELLIGENT AGENT SYSTEMS               |
+                                | Autonomous, Collaborative,              |
+                                | Emotionally-Aware Agents                |
+                                +-----------------------------------------+
+                                                        |
+                                                        V
+                                ● Alita                          ● Preacher
+                                ● AgentDistill                   ● EmoAgent
+                                ● ScoreFlow                      ● Multi-Actor Collaboration
 
 **Generative Model Foundations**  
   * Diffusion Model Foundations: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [dLLM-RL](https://arxiv.org/abs/2509.06949), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
