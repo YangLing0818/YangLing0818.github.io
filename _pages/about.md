@@ -26,18 +26,19 @@ My research has been sponsored by leading companies including ByteDance, Ant Gro
 
 
 # Research Summary
-My goal is to build powerful generative models capable of understanding, generating and reasoning with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their training methodologies, architecture design, alignment, inference efficiency and applications.
+My goal is to build powerful generative models capable of **understanding, generating and reasoning** with high-dimensional data across diverse modalities. I currently focus on developing advanced generative models, including their *training methodologies, architecture design, alignment, inference efficiency and applications*.
 <!--
 <img width="856" height="357" alt="image" src="https://github.com/user-attachments/assets/b15cc2b3-c6a8-41a7-a943-30b3171ac5a4" />
 -->
 
-<img width="850" height="1074" alt="image" src="https://github.com/user-attachments/assets/c0d212c0-452a-4e5a-a278-dbfdfa2fb264" />
+
+<img width="850" height="1074" alt="image" src="https://github.com/user-attachments/assets/e0626275-9b3c-47da-b3f2-8b3607d03de2" />
 
 
 **Generative Model Foundations**  
   * Diffusion Model Foundations: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [dLLM-RL](https://arxiv.org/abs/2509.06949), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html)
-  * Language Model Innovations: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [SuperCorrect](https://arxiv.org/abs/2410.09008), [HermesFlow](https://arxiv.org/abs/2502.12148), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [TraDo](https://arxiv.org/abs/2509.06949)
-  * Large-Scale Reinforcement Learning: [dLLM-RL](https://github.com/Gen-Verse/dLLM-RL), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux)
+  * Language Model Innovations: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [TraDo](https://arxiv.org/abs/2509.06949), [SuperCorrect](https://arxiv.org/abs/2410.09008)
+  * Large-Scale Reinforcement Learning: [dLLM-RL](https://github.com/Gen-Verse/dLLM-RL), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [HermesFlow](https://arxiv.org/abs/2502.12148)
   * Intelligent Agent Systems: [Alita](https://arxiv.org/abs/2505.20286), [AgentDistill](https://arxiv.org/abs/2506.14728), [ScoreFlow](https://github.com/Gen-Verse/ScoreFlow), [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102), [Preacher](https://arxiv.org/abs/2508.09632), [EmoAgent](https://arxiv.org/abs/2504.09689)
     
   
