@@ -80,49 +80,59 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 <!-- * I release [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), **beating OpenAI o1-preview and DeepSeek-V3** with hierarchical reinforcement learning on 8GPUs. -->
 
-# Selected Publications
+# Selected Publications 
 
-*For a complete list, see my [Google Scholar profile](https://scholar.google.com.pk/citations?user=sIKujqAAAAAJ&hl=en)*
+*\*Co-first author, <sup>+</sup>Corresponding author*
+
+*For a complete list, see my [Google Scholar profile](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en)*
 
 ### Recent Highlighted Work
 * **Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models**  
-**Ling Yang**, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
-NeurIPS 2024 spotlight  [paper](https://arxiv.org/pdf/2406.04271) | [code](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
+**Ling Yang**<sup>+</sup>, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
+NeurIPS 2024 **(<font color=red>Spotlight Top 2.2%</font>)**  [paper](https://arxiv.org/pdf/2406.04271) | [code](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
 
 * **Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs**  
-**Ling Yang**, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui  
+**Ling Yang**<sup>+</sup>, Zhaochen Yu, Chenlin Meng, Minkai Xu, Stefano Ermon, Bin Cui  
 ICML 2024  [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [code](https://github.com/YangLing0818/RPG-DiffusionMaster) | [tweet](https://x.com/_akhaliq/status/1749633221514461489)
 
 * **MMaDA: Multimodal Large Diffusion Language Models**  
-**Ling Yang**, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang  
-[paper](https://arxiv.org/abs/2505.15809) | [code](https://github.com/Gen-Verse/MMaDA) | [tweet](https://x.com/_akhaliq/status/1925384556279898139)
+**Ling Yang**<sup>+</sup>, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang  
+NeurIPS 2024 [paper](https://arxiv.org/abs/2505.15809) | [code](https://github.com/Gen-Verse/MMaDA) | [tweet](https://x.com/_akhaliq/status/1925384556279898139)
 
 * **Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models**  
-Yinjie Wang, **Ling Yang**\*, Bowen Li, Ye Tian, Ke Shen, Mengdi Wang  
+Yinjie Wang, **Ling Yang**\*<sup>+</sup>, Bowen Li, Ye Tian, Ke Shen, Mengdi Wang  
 [paper](https://arxiv.org/abs/2509.06949) | [code](https://github.com/Gen-Verse/dLLM-RL) | [tweet](https://x.com/_akhaliq/status/1965422743194927429)
 
 * **Distilling Diffusion Models to Efficient 3D LiDAR Scene Completion**  
 Shengyuan Zhang, An Zhao, **Ling Yang**, Zejian Li, Chenye Meng, Haoran Xu, Tianrun Chen, AnYang Wei, Perry Pengyun GU, Lingyun Sun  
-ICCV 2025 oral [paper](https://arxiv.org/abs/2412.03515) | [code](https://github.com/happyw1nd/ScoreLiDAR) 
+ICCV 2025 **(<font color=red>Oral Top 1%</font>)**  [paper](https://arxiv.org/abs/2412.03515) | [code](https://github.com/happyw1nd/ScoreLiDAR) 
 
 
 * **ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates**  
-**Ling Yang**, Zhaochen Yu, Bin Cui, Mengdi Wang  
+**Ling Yang**<sup>+</sup>, Zhaochen Yu, Bin Cui, Mengdi Wang  
 [paper](https://arxiv.org/abs/2502.06772) | [code](https://github.com/Gen-Verse/ReasonFlux) | [tweet](https://x.com/_akhaliq/status/1889187356651012599)
 
+* **Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning (ReasonFlux-Coder)**  
+Yinjie Wang, **Ling Yang**\*<sup>+</sup>, Ye Tian, Ke Shen, Mengdi Wang  
+NeurIPS 2025 **(<font color=red>Spotlight Top 2.2%</font>)**  [paper](https://arxiv.org/abs/2506.03136) | [code](https://github.com/Gen-Verse/CURE) | [tweet](https://x.com/_akhaliq/status/1930281721926234437)
+
 * **ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought Reasoning in LLMs**  
-Jiaru Zou, **Ling Yang**\*, Jingwen Gu, Jiahao Qiu, Ke Shen, Jingrui He, Mengdi Wang  
-[paper](https://arxiv.org/abs/2506.18896) | [code](https://github.com/Gen-Verse/ReasonFlux) | [tweet](https://x.com/_akhaliq/status/1937345023005048925)
+Jiaru Zou, **Ling Yang**\*<sup>+</sup>, Jingwen Gu, Jiahao Qiu, Ke Shen, Jingrui He, Mengdi Wang  
+NeurIPS 2025 [paper](https://arxiv.org/abs/2506.18896) | [code](https://github.com/Gen-Verse/ReasonFlux) | [tweet](https://x.com/_akhaliq/status/1937345023005048925)
 
 * **SuperCorrect: Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction**.  
-**Ling Yang**, Zhaochen Yu, Tianjun Zhang, Minkai Xu, Joseph E. Gonzalez, Bin CUI, Shuicheng YAN  
+**Ling Yang**<sup>+</sup>, Zhaochen Yu, Tianjun Zhang, Minkai Xu, Joseph E. Gonzalez, Bin CUI, Shuicheng YAN  
 ICLR 2025 [paper](https://openreview.net/forum?id=PyjZO7oSw2) | [code](https://github.com/YangLing0818/SuperCorrect-llm)
 
-* **Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning**  
-Yinjie Wang, **Ling Yang**\*, Ye Tian, Ke Shen, Mengdi Wang  
-[paper](https://arxiv.org/abs/2506.03136) | [code](https://github.com/Gen-Verse/CURE) | [tweet](https://x.com/_akhaliq/status/1930281721926234437)
 
-### Core Contributions to Diffusion Models
+* **Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning**  
+Jiaru Zou, Yikun Ban, Zihao Li, Yunzhe Qi, Ruizhong Qiu, **Ling Yang**<sup>+</sup>, Jingrui He  
+NeurIPS 2025 **(<font color=red>Spotlight Top 2.2%</font>)**  [paper](https://arxiv.org/abs/2505.16270)
+
+### Core Contributions to Generative Foundations and Applications
+* **HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation**  
+Ling Yang<sup>+</sup>, Xinchen Zhang, Ye Tian, Chenming Shang, Minghao Xu, Wentao Zhang, Bin Cui  
+NeurIPS 2025 [paper](https://arxiv.org/abs/2502.12148) | [code](https://github.com/Gen-Verse/HermesFlow)
 
 * **IterComp: Iterative Composition-Aware Feedback Learning from Model Gallery for Text-to-Image Generation**  
 Xinchen Zhang\*, **Ling Yang**\*, Guohao Li, Yaqi Cai, Jiake Xie, Yong Tang, Yujiu Yang, Mengdi Wang, Bin Cui  
@@ -133,7 +143,7 @@ Fu-Yun Wang, **Ling Yang**, Zhaoyang Huang, Mengdi Wang, Hongsheng Li
 ICLR 2025 [paper](https://openreview.net/forum?id=nEDToD1R8M) | [code](https://github.com/G-U-N/Rectified-Diffusion)
 
 * **Consistency Flow Matching: Defining Straight Flows with Velocity Consistency**  
-  **Ling Yang**, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui  
+  **Ling Yang**<sup>+</sup>, Zixiang Zhang, Zhilong Zhang, Xingchao Liu, Minkai Xu, Wentao Zhang, Chenlin Meng, Stefano Ermon, Bin Cui  
   [paper](https://arxiv.org/abs/2407.02398) | [code](https://github.com/YangLing0818/consistency_flow_matching) | [tweet](https://x.com/LingYang_PKU/status/1808509588414800224)
 
 * **Cross-Modal Contextualized Diffusion Models for Text-Guided Visual Generation and Editing**  
@@ -154,7 +164,7 @@ ACM Computing Surveys 2023 [paper](https://arxiv.org/abs/2209.00796) | [code](ht
 
 
 * **VideoTetris: Towards Compositional Text-to-Video Generation**  
-Ye Tian\*, **Ling Yang**\*, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui  
+Ye Tian\*, **Ling Yang**\*<sup>+</sup>, Haotian Yang, Yuan Gao, Yufan Deng, Jingmin Chen, Xintao Wang, Zhaochen Yu, Xin Tao, Pengfei Wan, Di Zhang, Bin Cui  
 NeurIPS 2024  [paper](https://arxiv.org/abs/2406.04277) | [code](https://github.com/YangLing0818/VideoTetris) | [tweet](https://x.com/_akhaliq/status/1798897351534489608)
 
 
@@ -188,8 +198,8 @@ ICLR 2024 [paper](https://openreview.net/forum?id=h6Tz85BqRI) | [code](https://g
 CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN_Distribution_Propagation_Graph_Network_for_Few-Shot_Learning_CVPR_2020_paper.html) | [code](https://github.com/megvii-research/DPGN)
 
 * **Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion**  
-**Ling Yang**, Shenda Hong  
-ICML 2022 spotlight [paper](https://proceedings.mlr.press/v162/yang22e.html)
+**Ling Yang**<sup>+</sup>, Shenda Hong  
+ICML 2022 **(<font color=red>Spotlight Top 2.2%</font>)** [paper](https://proceedings.mlr.press/v162/yang22e.html)
 
 
 
