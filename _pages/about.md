@@ -97,7 +97,7 @@ ICML 2024  [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [code](https://
 
 * **MMaDA: Multimodal Large Diffusion Language Models**  
 **Ling Yang**<sup>+</sup>, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang  
-NeurIPS 2024 [paper](https://arxiv.org/abs/2505.15809) | [code](https://github.com/Gen-Verse/MMaDA) | [tweet](https://x.com/_akhaliq/status/1925384556279898139)
+NeurIPS 2025 [paper](https://arxiv.org/abs/2505.15809) | [code](https://github.com/Gen-Verse/MMaDA) | [tweet](https://x.com/_akhaliq/status/1925384556279898139)
 
 * **Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models**  
 Yinjie Wang, **Ling Yang**\*<sup>+</sup>, Bowen Li, Ye Tian, Ke Shen, Mengdi Wang  
@@ -127,7 +127,7 @@ ICLR 2025 [paper](https://openreview.net/forum?id=PyjZO7oSw2) | [code](https://g
 
 * **Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning**  
 Jiaru Zou, Yikun Ban, Zihao Li, Yunzhe Qi, Ruizhong Qiu, **Ling Yang**<sup>+</sup>, Jingrui He  
-NeurIPS 2025 **(<font color=red>Spotlight Top 2.2%</font>)**  [paper](https://arxiv.org/abs/2505.16270)
+NeurIPS 2025 **(<font color=red>Spotlight Top 2.2%</font>)**  [paper](https://arxiv.org/abs/2505.16270) | [code](https://github.com/jiaruzouu/TransformerCopilot)
 
 ### Core Contributions to Generative Foundations and Applications
 * **HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation**  
@@ -200,6 +200,10 @@ CVPR 2020  [paper](http://openaccess.thecvf.com/content_CVPR_2020/html/Yang_DPGN
 * **Unsupervised time-series representation learning with iterative bilinear temporal-spectral fusion**  
 **Ling Yang**<sup>+</sup>, Shenda Hong  
 ICML 2022 **(<font color=red>Spotlight Top 2.2%</font>)** [paper](https://proceedings.mlr.press/v162/yang22e.html)
+
+* **EmoAgent: Assessing and Safeguarding Human-AI Interaction for Mental Health Safety**  
+Jiahao Qiu, Yinghui He, Xinzhe Juan, Yimin Wang, Yuhan Liu, Zixin Yao, Yue Wu, Xun Jiang, Ling Yang, Mengdi Wang  
+EMNLP 2025 **(<font color=red>Oral Top 1%</font>)** [paper](https://arxiv.org/abs/2504.09689) | [code](https://github.com/1akaman/EmoAgent)
 
 
 
