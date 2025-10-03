@@ -54,17 +54,17 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
-* **5 papers** about LLMs and Multimodal LLMs are accepted by **NeurIPS 2025**, including [MMaDA](https://github.com/Gen-Verse/MMaDA), [CURE & ReasonFlux-Coder](https://github.com/Gen-Verse/ReasonFlux)**(Spotlight Paper)**, [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [Transformer-Copilot](https://arxiv.org/abs/2505.16270)**(Spotlight Paper)** and [HermesFlow](https://arxiv.org/abs/2502.12148).
-* **3 papers** about LLMs and Agents are accepted by **EMNLP 2025**, including [EmoAgent](https://arxiv.org/abs/2504.09689)**(Oral Paper)** and [TreeBoN](https://arxiv.org/abs/2410.16033).
+* **5 papers** about LLMs and Multimodal LLMs are accepted by **NeurIPS 2025**, including [MMaDA](https://github.com/Gen-Verse/MMaDA), [CURE & ReasonFlux-Coder](https://github.com/Gen-Verse/ReasonFlux) **(<font color=red>Spotlight Paper, Top 2.2%</font>)**, [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [Transformer-Copilot](https://arxiv.org/abs/2505.16270) **(<font color=red>Spotlight Paper, Top 2.2%</font>)** and [HermesFlow](https://arxiv.org/abs/2502.12148). 
+* **3 papers** about LLMs and Agents are accepted by **EMNLP 2025**, including [EmoAgent](https://arxiv.org/abs/2504.09689) **(<font color=red>Oral Paper, Top 1%</font>)** and [TreeBoN](https://arxiv.org/abs/2410.16033).
 * **2 papers** about diffusion are accepted by **ACM MM 2025**, including [Inversion-DPO](https://arxiv.org/abs/2507.11554) and [EditWorld](https://arxiv.org/abs/2405.14785).
 * I was selected as a finalist for the [2025 WAIC Yunfan Award](https://www.thegaiaa.org/en/awards_mrzx).
 * I was invited to participate in a roundtable forum at WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en).
-* **2 papers** about agent and diffusion are accepted by **ICCV 2025**, including one [ScoreLiDAR](https://github.com/happyw1nd/ScoreLiDAR)**(Oral Paper)** and [Paper2Video Agent](https://arxiv.org/abs/2508.09632).
+* **2 papers** about agent and diffusion are accepted by **ICCV 2025**, including one [ScoreLiDAR](https://github.com/happyw1nd/ScoreLiDAR)**(Oral Paper)** **(<font color=red>Oral Paper, Top 1%</font>)** and [Paper2Video Agent](https://arxiv.org/abs/2508.09632).
 * **1 paper** about LLMs is accepted by **ACL 2025**, including [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102).
 * I was invited as an **Area Chair** at **NeurIPS 2025**.
 * **6 papers** about LLMs and Diffusion Models are accepted by **ICLR 2025**, including [SuperCorrect](https://arxiv.org/abs/2410.09008), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [IterComp](https://openreview.net/forum?id=4w99NAikOE) and [IPDreamer](https://openreview.net/forum?id=3PguviI7Uf).
 * I was invited to give a talk at Princeton AI Lab, hosted by Prof. [Mengdi Wang](https://ece.princeton.edu/people/mengdi-wang).
-* **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**, including [Buffer of Thoughts](https://github.com/YangLing0818/buffer-of-thought-llm)**(Spotlight Paper)**.
+* **5 papers** about Diffusion Models and LLMs are accepted by **NeurIPS 2024**, including [Buffer of Thoughts](https://github.com/YangLing0818/buffer-of-thought-llm) **(<font color=red>Spotlight Paper, Top 2.2%</font>)**.
 * **2 papers** about Diffusion Models and AI for Science are accepted by **ICML 2024**.
 * **1 paper** about general/molecular graph diffusion is accepted by **TKDE 2024**.
 * **1 paper** about improved training algorithm of Diffusion Transformers (DiT), DDPMs and Score SDEs is accepted by **CVPR 2024**.
@@ -75,7 +75,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 * I publish [a book about Diffusion Models](https://item.m.jd.com/product/14075554.html).
 * **1 paper** is accepted by **TNNLS 2023**.
 * **1 paper** is accepted by **TKDE 2023**.
-* **2 papers** are accepted as **ICML 2022 Spotlight**.
+* **2 papers** are accepted as **ICML 2022** **(<font color=red>Spotlight Paper, Top 2.2%</font>)**.
 * **1 paper** is accepted by **CVPR 2020**.
 
 <!-- * I release [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux)![GitHub stars](https://img.shields.io/github/stars/Gen-Verse/ReasonFlux), **beating OpenAI o1-preview and DeepSeek-V3** with hierarchical reinforcement learning on 8GPUs. -->
