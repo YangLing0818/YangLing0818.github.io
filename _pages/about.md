@@ -206,7 +206,7 @@ Jiahao Qiu, Yinghui He, Xinzhe Juan, Yimin Wang, Yuhan Liu, Zixin Yao, Yue Wu, X
 EMNLP 2025 **(<font color=red>Oral Top 1%</font>)** [paper](https://arxiv.org/abs/2504.09689) | [code](https://github.com/1akaman/EmoAgent)
 
 
-
+<!--
 # Mentoring History
 [Zhaochen Yu](https://zhaochenyu0201.github.io/) (Incoming Ph.D. student at National University of Singapore)
 
@@ -223,6 +223,7 @@ EMNLP 2025 **(<font color=red>Oral Top 1%</font>)** [paper](https://arxiv.org/ab
 [Jiaru Zou](https://scholar.google.com/citations?user=GzLTey4AAAAJ&hl=en) (Master student at University of Illinois Urbana-Champaign)
 
 [Jiacheng Guo](https://scholar.google.com/citations?user=-gNBIsYAAAAJ&hl=en) (Ph.D. student at Princeton University)
+-->
 
 # Academic Services
 
