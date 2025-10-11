@@ -54,6 +54,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
+* Invited to give a talk at ICCV 2025 Workshop on [MMRAgI](https://agent-intelligence.github.io/agent-intelligence/).
 * **5 papers** about LLMs and Multimodal LLMs are accepted by **NeurIPS 2025**, including [MMaDA](https://github.com/Gen-Verse/MMaDA), [CURE & ReasonFlux-Coder](https://github.com/Gen-Verse/ReasonFlux) **(<font color=red>Spotlight Paper, Top 3%</font>)**, [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [Transformer-Copilot](https://arxiv.org/abs/2505.16270) **(<font color=red>Spotlight Paper, Top 3%</font>)** and [HermesFlow](https://arxiv.org/abs/2502.12148). 
 * **3 papers** about LLMs and Agents are accepted by **EMNLP 2025**, including [EmoAgent](https://arxiv.org/abs/2504.09689) **(<font color=red>Oral Paper, Top 1%</font>)** and [TreeBoN](https://arxiv.org/abs/2410.16033).
 * **2 papers** about diffusion are accepted by **ACM MM 2025**, including [Inversion-DPO](https://arxiv.org/abs/2507.11554) and [EditWorld](https://arxiv.org/abs/2405.14785).
@@ -243,6 +244,13 @@ EMNLP 2025 **(<font color=red>Oral Top 1%</font>)** [paper](https://arxiv.org/ab
   * IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
   * IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
   * Pattern Recognition (PR)
+
+# Invited Talks
+- Invited to give a talk at ICCV 2025 Workshop on [MMRAgI](https://agent-intelligence.github.io/agent-intelligence/), 2025.
+- Invited to give a talk at [Institute of Automation of the Chinese Academy of Sciences](http://english.ia.cas.cn/), 2025.
+- Invited to give a talk at a roundtable forum at WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en), 2025.
+- Invited to give a talk at a roundtable forum at [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), 2025.
+- Invited to give a talk at [Princeton AI Lab](https://ai.princeton.edu/ai-lab), hosted by Prof. [Mengdi Wang](https://ece.princeton.edu/people/mengdi-wang), 2024.
 
 # Honors & Awards
 ### Academic Recognition
