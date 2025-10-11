@@ -248,8 +248,8 @@ EMNLP 2025 **(<font color=red>Oral Top 1%</font>)** [paper](https://arxiv.org/ab
 # Invited Talks
 - Invited to give a talk at ICCV 2025 Workshop on [MMRAgI](https://agent-intelligence.github.io/agent-intelligence/), 2025.
 - Invited to give a talk at [Institute of Automation of the Chinese Academy of Sciences](http://english.ia.cas.cn/), 2025.
-- Invited to give a talk at a roundtable forum at WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en), 2025.
-- Invited to give a talk at a roundtable forum at [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), 2025.
+- Invited to give a talk at a roundtable forum in WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en), 2025.
+- Invited to give a talk at [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), 2025.
 - Invited to give a talk at [Princeton AI Lab](https://ai.princeton.edu/ai-lab), hosted by Prof. [Mengdi Wang](https://ece.princeton.edu/people/mengdi-wang), 2024.
 
 # Honors & Awards
