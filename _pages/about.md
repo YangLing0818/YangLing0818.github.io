@@ -53,6 +53,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
+* We won **<font color=red>best paper award</font>** in [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
 * Invited to give a talk at [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
 * **5 papers** about LLMs and Multimodal LLMs are accepted by **NeurIPS 2025**, including [MMaDA](https://github.com/Gen-Verse/MMaDA), [CURE & ReasonFlux-Coder](https://github.com/Gen-Verse/ReasonFlux) **(<font color=red>Spotlight Paper, Top 3%</font>)**, [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [Transformer-Copilot](https://arxiv.org/abs/2505.16270) **(<font color=red>Spotlight Paper, Top 3%</font>)** and [HermesFlow](https://arxiv.org/abs/2502.12148). 
 * **3 papers** about LLMs and Agents are accepted by **EMNLP 2025**, including [EmoAgent](https://arxiv.org/abs/2504.09689) **(<font color=red>Oral Paper, Top 1%</font>)** and [TreeBoN](https://arxiv.org/abs/2410.16033).
