@@ -40,7 +40,7 @@ My goal is to build powerful generative models or AI systems capable of **unders
     
   
 **Generative Applications**
-  * Multimodal Content Generation (spanning image, 3D, and 4D synthesis): [IterComp](https://openreview.net/forum?id=4w99NAikOE), [VideoTetris](https://arxiv.org/abs/2406.04277), [ScoreLiDAR](https://github.com/happyw1nd/ScoreLiDAR), [IPDreamer](https://openreview.net/forum?id=3PguviI7Uf), [EditWorld](https://arxiv.org/abs/2405.14785), [Trans4D](https://arxiv.org/abs/2410.07155), [WideRange4D](https://arxiv.org/abs/2503.13435), [OmniVerifier](https://arxiv.org/abs/2510.13804), [MMaDA-Parallel](https://github.com/tyfeld/MMaDA-Parallel), [UltraViCo](https://arxiv.org/abs/2511.20123)
+  * Multimodal Content Generation (spanning image, 3D, and 4D synthesis): [IterComp](https://openreview.net/forum?id=4w99NAikOE), [VideoTetris](https://arxiv.org/abs/2406.04277), [ScoreLiDAR](https://github.com/happyw1nd/ScoreLiDAR), [IPDreamer](https://openreview.net/forum?id=3PguviI7Uf), [EditWorld](https://arxiv.org/abs/2405.14785), [Trans4D](https://arxiv.org/abs/2410.07155), [WideRange4D](https://arxiv.org/abs/2503.13435), [OmniVerifier](https://arxiv.org/abs/2510.13804), [MMaDA-Parallel](https://github.com/tyfeld/MMaDA-Parallel), [UltraViCo](https://github.com/thu-ml/DiT-Extrapolation)
   * AI for Scientific Discovery: [IPDiff](https://openreview.net/forum?id=qH9nrMNTIW), [IRDiff](https://openreview.net/forum?id=eejhD9FCP3), [BindDM](https://ojs.aaai.org/index.php/AAAI/article/view/29162), [RL for Scientific Reasoning](https://arxiv.org/abs/2505.19501)  
 
 **Book Publication**
@@ -51,6 +51,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
+* We release a series of works, such as [MMaDA-Parallel](https://github.com/tyfeld/MMaDA-Parallel), [LatentMAS](https://arxiv.org/abs/2511.20639) and [UltraViCo](https://github.com/thu-ml/DiT-Extrapolation).
 * We won **<font color=red>Best Paper Award</font>** in [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
 * Invited to give a talk at [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
 * **5 papers** about LLMs and Multimodal LLMs are accepted by **NeurIPS 2025**, including [MMaDA](https://github.com/Gen-Verse/MMaDA), [CURE & ReasonFlux-Coder](https://github.com/Gen-Verse/ReasonFlux) **(<font color=red>Spotlight Paper, Top 3%</font>)**, [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [Transformer-Copilot](https://arxiv.org/abs/2505.16270) **(<font color=red>Spotlight Paper, Top 3%</font>)** and [HermesFlow](https://arxiv.org/abs/2502.12148). 
