@@ -30,7 +30,9 @@ My goal is to build powerful generative models or AI systems capable of **unders
 <!--
 <img width="856" height="357" alt="image" src="https://github.com/user-attachments/assets/b15cc2b3-c6a8-41a7-a943-30b3171ac5a4" />
 -->
-<img width="850" height="1074" alt="image" src="https://github.com/user-attachments/assets/e96336c7-506d-4521-b4dd-32ccf2eb4bb4" />
+
+<img width="850" height="1074" alt="image" src="https://github.com/user-attachments/assets/db32d04f-4ac7-4fd9-b100-da9c999e3e2b" />
+
 
 **Generative Model Foundations**  
   * Diffusion Model Foundations: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [dLLM-RL](https://arxiv.org/abs/2509.06949), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html), [MMaDA-Parallel](https://github.com/tyfeld/MMaDA-Parallel)
