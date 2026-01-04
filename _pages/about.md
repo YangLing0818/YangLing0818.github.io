@@ -38,7 +38,7 @@ My goal is to build powerful generative models or AI systems capable of **unders
   * Diffusion Model Foundations: [RPG](https://openreview.net/forum?id=DgLFkAPwuZ), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ContextDiff](https://openreview.net/forum?id=nFMS6wF2xq), [dLLM-RL](https://arxiv.org/abs/2509.06949), [Consistency Flow Matching](https://arxiv.org/abs/2407.02398), [Diffusion-Sharpening](https://arxiv.org/abs/2502.12146), [Rectified Diffusion](https://openreview.net/forum?id=nEDToD1R8M), [ConPreDiff](https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html), [SADM](https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html), [MMaDA-Parallel](https://github.com/tyfeld/MMaDA-Parallel)
   * Language Model Innovations: [Buffer of Thought](https://arxiv.org/pdf/2406.04271), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ReasonFlux](https://github.com/Gen-Verse/ReasonFlux), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [TraDo](https://arxiv.org/abs/2509.06949), [SuperCorrect](https://arxiv.org/abs/2410.09008), [LatentMAS](https://arxiv.org/abs/2511.20639), [AutoTool](https://arxiv.org/abs/2512.13278)
   * Large-Scale Reinforcement Learning: [dLLM-RL](https://github.com/Gen-Verse/dLLM-RL), [MMaDA](https://github.com/Gen-Verse/MMaDA), [ReasonFlux-Coder](https://github.com/Gen-Verse/CURE), [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [HermesFlow](https://arxiv.org/abs/2502.12148), [Demystifying Agent RL](https://arxiv.org/abs/2510.11701)
-  * Intelligent Agent Systems: [Alita](https://arxiv.org/abs/2505.20286), [AgentDistill](https://arxiv.org/abs/2506.14728), [ScoreFlow](https://github.com/Gen-Verse/ScoreFlow), [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102), [Preacher](https://arxiv.org/abs/2508.09632), [EmoAgent](https://arxiv.org/abs/2504.09689), [DemyAgent](https://arxiv.org/abs/2510.11701), [LatentMAS](https://arxiv.org/abs/2511.20639)
+  * Intelligent Agent Systems: [Alita](https://arxiv.org/abs/2505.20286), [AgentDistill](https://arxiv.org/abs/2506.14728), [ScoreFlow](https://github.com/Gen-Verse/ScoreFlow), [Multi-Actor Collaboration](https://arxiv.org/abs/2410.08102), [Preacher](https://arxiv.org/abs/2508.09632), [EmoAgent](https://arxiv.org/abs/2504.09689), [DemyAgent](https://arxiv.org/abs/2510.11701), [LatentMAS](https://arxiv.org/abs/2511.20639), [GenEnv](https://github.com/Gen-Verse/GenEnv)
     
   
 **Generative Applications**
@@ -53,7 +53,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
-* We release a series of works, such as [MMaDA-Parallel](https://github.com/tyfeld/MMaDA-Parallel), [LatentMAS](https://arxiv.org/abs/2511.20639) and [UltraViCo](https://github.com/thu-ml/DiT-Extrapolation).
+* We release a series of works, such as [MMaDA-Parallel](https://github.com/tyfeld/MMaDA-Parallel), [LatentMAS](https://arxiv.org/abs/2511.20639), [GenEnv](https://github.com/Gen-Verse/GenEnv) and [UltraViCo](https://github.com/thu-ml/DiT-Extrapolation).
 * Our [AutoTool](https://arxiv.org/abs/2512.13278) won **<font color=red>Best Paper Award</font>** in [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
 * Invited to give a talk at [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
 * **5 papers** about LLMs and Multimodal LLMs are accepted by **NeurIPS 2025**, including [MMaDA](https://github.com/Gen-Verse/MMaDA), [CURE & ReasonFlux-Coder](https://github.com/Gen-Verse/ReasonFlux) **(<font color=red>Spotlight Paper, Top 3%</font>)**, [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [Transformer-Copilot](https://arxiv.org/abs/2505.16270) **(<font color=red>Spotlight Paper, Top 3%</font>)** and [HermesFlow](https://arxiv.org/abs/2502.12148). 
@@ -89,6 +89,10 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 *For a complete list, see my [Google Scholar profile](https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en)*
 
 ### Recent Highlighted Work
+* **Latent Collaboration in Multi-Agent Systems**  
+Jiaru Zou, Xiyuan Yang, Ruizhong Qiu, Gaotang Li, Katherine Tieu, Pan Lu, Ke Shen, Hanghang Tong, Yejin Choi, Jingrui He, James Zou, Mengdi Wang, **Ling Yang**<sup>+</sup>  
+[paper](https://arxiv.org/abs/2511.20639) | [code](https://github.com/Gen-Verse/LatentMAS) | [tweet](https://x.com/stanfordnlp/status/1996354695913492889?s=20) 
+
 * **Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models**  
 **Ling Yang**<sup>+</sup>, Zhaochen Yu, Tianjun Zhang, Shiyi Cao, Minkai Xu, Wentao Zhang, Joseph E Gonzalez, Bin Cui  
 NeurIPS 2024 **(<font color=red>Spotlight Top 3%</font>)**  [paper](https://arxiv.org/pdf/2406.04271) | [code](https://github.com/YangLing0818/buffer-of-thought-llm) | [tweet](https://x.com/omarsar0/status/1799113545696567416)
@@ -101,17 +105,9 @@ ICML 2024  [paper](https://openreview.net/forum?id=DgLFkAPwuZ) | [code](https://
 **Ling Yang**<sup>+</sup>, Ye Tian, Bowen Li, Xinchen Zhang, Ke Shen, Yunhai Tong, Mengdi Wang  
 NeurIPS 2025 [paper](https://arxiv.org/abs/2505.15809) | [code](https://github.com/Gen-Verse/MMaDA) | [tweet](https://x.com/_akhaliq/status/1925384556279898139)
 
-* **Latent Collaboration in Multi-Agent Systems**  
-Jiaru Zou, Xiyuan Yang, Ruizhong Qiu, Gaotang Li, Katherine Tieu, Pan Lu, Ke Shen, Hanghang Tong, Yejin Choi, Jingrui He, James Zou, Mengdi Wang, **Ling Yang**<sup>+</sup>  
-[paper](https://arxiv.org/abs/2511.20639) | [code](https://github.com/Gen-Verse/LatentMAS) | [tweet](https://x.com/stanfordnlp/status/1996354695913492889?s=20) 
-
 * **Revolutionizing Reinforcement Learning Framework for Diffusion Large Language Models**  
 Yinjie Wang, **Ling Yang**\*<sup>+</sup>, Bowen Li, Ye Tian, Ke Shen, Mengdi Wang  
 [paper](https://arxiv.org/abs/2509.06949) | [code](https://github.com/Gen-Verse/dLLM-RL) | [tweet](https://x.com/_akhaliq/status/1965422743194927429)
-
-* **Distilling Diffusion Models to Efficient 3D LiDAR Scene Completion**  
-Shengyuan Zhang, An Zhao, **Ling Yang**, Zejian Li, Chenye Meng, Haoran Xu, Tianrun Chen, AnYang Wei, Perry Pengyun GU, Lingyun Sun  
-ICCV 2025 **(<font color=red>Oral Top 1%</font>)**  [paper](https://arxiv.org/abs/2412.03515) | [code](https://github.com/happyw1nd/ScoreLiDAR) 
 
 
 * **ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates**  
@@ -134,6 +130,10 @@ ICLR 2025 [paper](https://openreview.net/forum?id=PyjZO7oSw2) | [code](https://g
 * **Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning**  
 Jiaru Zou, Yikun Ban, Zihao Li, Yunzhe Qi, Ruizhong Qiu, **Ling Yang**<sup>+</sup>, Jingrui He  
 NeurIPS 2025 **(<font color=red>Spotlight Top 3%</font>)**  [paper](https://arxiv.org/abs/2505.16270) | [code](https://github.com/jiaruzouu/TransformerCopilot)
+
+* **Distilling Diffusion Models to Efficient 3D LiDAR Scene Completion**  
+Shengyuan Zhang, An Zhao, **Ling Yang**, Zejian Li, Chenye Meng, Haoran Xu, Tianrun Chen, AnYang Wei, Perry Pengyun GU, Lingyun Sun  
+ICCV 2025 **(<font color=red>Oral Top 1%</font>)**  [paper](https://arxiv.org/abs/2412.03515) | [code](https://github.com/happyw1nd/ScoreLiDAR) 
 
 ### Core Contributions to Generative Foundations and Applications
 * **HermesFlow: Seamlessly Closing the Gap in Multimodal Understanding and Generation**  
@@ -258,35 +258,15 @@ EMNLP 2025 **(<font color=red>Oral Top 1%</font>)** [paper](https://arxiv.org/ab
 - Invited to give a talk at [Princeton AI Lab](https://ai.princeton.edu/ai-lab), hosted by Prof. [Mengdi Wang](https://ece.princeton.edu/people/mengdi-wang), 2024.
 
 # Honors & Awards
-### Academic Recognition
 - **2025 WAIC Yunfan Award Finalist**, 2025
 - **Outstanding Graduate**, Peking University Ph.D., 2025
 - **KAUST Rising Stars in AI Symposium** (24 selected worldwide), 2025
-- **WAIC AI Elite Forum** (20 selected worldwide), 2024
 - **VALSE Distinguished Student Forum** (8 selected in China), 2024
-- **Baidu Scholarship Nominee** (20 selected worldwide), 2023
-
-### University Honors
+- **Outstanding Author**, Electronics Industry Press, 2023
 - **National Scholarship** for Ph.D. students (Top 1% at PKU), 2022
 - **Exceptional Award for Academic Innovation** (Top 1% at PKU), 2022
-- **First-class Academic Scholarship**, 2018-2020
 
-### Industry Recognition
-- **TechBeat Influencers List** (20 selected in China), 2023 & 2024
-- **Outstanding Author**, Electronics Industry Press, 2023
 
-<!--
-* Completed my Ph.D. degree as an **Outstanding Graduate** in Peking University.
-* Selected as the [KAUST Rising Stars in AI Symposium](https://www.kaust.edu.sa/en/news/rising-stars-in-ai-symposium-2025#:~:text=Following%20the%20resounding%20success%20of,for%20April%207-10th%202025.) (**24 people in the world**), 2025.
-* Selected for AI Elite Forum of [WAIC](https://business.cctv.com/special/2024WAIC/index.shtml) (**20 people in the world**), 2024.
-* Selected for the distinguished student forum of [VALSE](https://valser.org/2024/#/program) (**8 People in China**), 2024.
-* Selected for [Annual Outstanding Author of Electronics Industry Press](https://www.phei.com.cn/), 2023.
-* Selected for two consecutive years in the TechBeat Influencers List ([2023 list](https://mp.weixin.qq.com/s/k-HKTjijLP2uVrf7YEfXbA) and [2024 list](https://mp.weixin.qq.com/s/4KT0fAdx1hok0cEU5XcNIQ), **20 people in China**).
-* [Baidu Scholarship Nominee](http://scholarship.baidu.com/) (**20 people in the world**), 2023.
-* National Scholarship for Ph.D student (**Top 1% in PKU**), 2022.
-* Exceptional Award for Academic Innovation for Ph.D student (**Top 1% in PKU**), 2022.
-* First-class Academic Scholarship, 2018, 2019, 2020.
--->
 
 <!--
 <script type='text/javascript' id='clustrmaps' src='//cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=tt&d=FiS2xt_QkmMdwTwjXby8DIRX68-V52TTP4RIMV8iblM&co=2d78ad&cmo=3acc3a&cmn=ff5353&ct=ffffff'></script>
