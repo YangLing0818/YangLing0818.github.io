@@ -233,62 +233,38 @@ EMNLP 2025 **(<font color=red>Oral Top 1%</font>)** [paper](https://arxiv.org/ab
 
 # Academic Services
 
-<table style="width: 100%;">
-<tr>
-<td style="vertical-align: top; padding: 12px; width: 50%;">
-<h4>⭐ Area Chair</h4>
-<ul>
-<li>NeurIPS, ICLR 2026</li>
-</ul>
-</td>
-<td style="vertical-align: top; padding: 12px; width: 50%;">
-<h4>📝 Journal Reviewer</h4>
-<ul>
-<li>ACM Computing Surveys (CSUR)</li>
-<li>IEEE TPAMI, TKDE, TCSVT, TNNLS</li>
-<li>Pattern Recognition (PR)</li>
-</ul>
-</td>
-</tr>
-</table>
+* Area Chair:
+  * NeurIPS, ICLR
 
-**Program Committee or Reviewer:**
-- ICML 2025, ICLR 2025, CVPR 2025, ICCV 2025, AAAI 2025
-- SIGGRAPH 2024, ICML 2024, ICLR 2024, NeurIPS 2024, CVPR 2024, AAAI 2024
-- ICML 2023, ICLR 2023, NeurIPS 2023, CVPR 2023, AAAI 2023
-- ICML 2022, ICLR 2022, NeurIPS 2022
-
+* Program Committee or Reviewer:
+  * ICML 2025, ICLR 2025, CVPR 2025, ICCV 2025, AAAI 2025
+  * SIGGRAPH 2024, ICML 2024, ICLR 2024, NeurIPS 2024, CVPR 2024, AAAI 2024
+  * ICML 2023, ICLR 2023, NeurIPS 2023, CVPR 2023, AAAI 2023
+  * ICML 2022, ICLR 2022, NeurIPS 2022
+ 
+* Journal Reviewer
+  * ACM Computing Surveys (CSUR)
+  * IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI)
+  * IEEE Transactions on Knowledge and Data Engineering (TKDE)
+  * IEEE Transactions on Circuits and Systems for Video Technology (TCSVT)
+  * IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
+  * Pattern Recognition (PR)
 
 # Invited Talks
-
-| Year | Event |
-|------|-------|
-| 2025 | ICCV 2025 Workshop on [MMRAgI](https://agent-intelligence.github.io/agent-intelligence/) |
-| 2025 | [Institute of Automation of the Chinese Academy of Sciences](http://english.ia.cas.cn/) |
-| 2025 | Roundtable forum in WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en) |
-| 2025 | [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/) |
-| 2024 | [Princeton AI Lab](https://ai.princeton.edu/ai-lab), hosted by Prof. [Mengdi Wang](https://ece.princeton.edu/people/mengdi-wang) |
-
+- Invited to give a talk at ICCV 2025 Workshop on [MMRAgI](https://agent-intelligence.github.io/agent-intelligence/), 2025.
+- Invited to give a talk at [Institute of Automation of the Chinese Academy of Sciences](http://english.ia.cas.cn/), 2025.
+- Invited to give a talk at a roundtable forum in WAIC 2025, hosted by Prof. [Dahua Lin](https://scholar.google.com/citations?user=GMzzRRUAAAAJ&hl=en), 2025.
+- Invited to give a talk at [Shanghai Artificial Intelligence Laboratory](https://www.shlab.org.cn/), 2025.
+- Invited to give a talk at [Princeton AI Lab](https://ai.princeton.edu/ai-lab), hosted by Prof. [Mengdi Wang](https://ece.princeton.edu/people/mengdi-wang), 2024.
 
 # Honors & Awards
-
-<div style="display: flex; flex-wrap: wrap; gap: 12px;">
-
-<span style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; padding: 8px 16px; border-radius: 20px; font-size: 0.9em;">🏆 WAIC Yunfan Award Finalist (10 worldwide)</span>
-
-<span style="background: linear-gradient(135deg, #f093fb, #f5576c); color: white; padding: 8px 16px; border-radius: 20px; font-size: 0.9em;">🎓 Outstanding Graduate, PKU Ph.D. 2025</span>
-
-<span style="background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; padding: 8px 16px; border-radius: 20px; font-size: 0.9em;">🌟 KAUST Rising Stars in AI (24 worldwide)</span>
-
-<span style="background: linear-gradient(135deg, #43e97b, #38f9d7); color: white; padding: 8px 16px; border-radius: 20px; font-size: 0.9em;">💬 VALSE Distinguished Student Forum (8 in China)</span>
-
-<span style="background: linear-gradient(135deg, #fa709a, #fee140); color: white; padding: 8px 16px; border-radius: 20px; font-size: 0.9em;">📖 Outstanding Author, Electronics Industry Press 2023</span>
-
-<span style="background: linear-gradient(135deg, #a18cd1, #fbc2eb); color: white; padding: 8px 16px; border-radius: 20px; font-size: 0.9em;">🏅 National Scholarship (Top 1% PKU) 2022</span>
-
-<span style="background: linear-gradient(135deg, #ffecd2, #fcb69f); color: #333; padding: 8px 16px; border-radius: 20px; font-size: 0.9em;">⭐ Exceptional Award for Academic Innovation (Top 1% PKU) 2022</span>
-
-</div>
+- **2025 WAIC Yunfan Award Finalist** (10 selected worldwide), 2025
+- **Outstanding Graduate**, Peking University Ph.D., 2025
+- **KAUST Rising Stars in AI Symposium** (24 selected worldwide), 2025
+- **VALSE Distinguished Student Forum** (8 selected in China), 2024
+- **Outstanding Author**, Electronics Industry Press, 2023
+- **National Scholarship** for Ph.D. students (Top 1% at PKU), 2022
+- **Exceptional Award for Academic Innovation** (Top 1% at PKU), 2022
 
 
 
