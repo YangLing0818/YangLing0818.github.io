@@ -53,7 +53,8 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
-* We release a series of works, such as [MMaDA-Parallel](https://github.com/tyfeld/MMaDA-Parallel), [LatentMAS](https://arxiv.org/abs/2511.20639), [GenEnv](https://github.com/Gen-Verse/GenEnv) and [UltraViCo](https://github.com/thu-ml/DiT-Extrapolation).
+* **4 papers** about LLMs and Diffusion Language Models are accepted by **ICLR 2026**, including [TraceRL & TraDo](https://arxiv.org/abs/2509.06949), [OmniVerifier](https://arxiv.org/abs/2510.13804), [MMaDA-Parallel](https://arxiv.org/abs/2511.09611) and [UltraViCo](https://github.com/thu-ml/DiT-Extrapolation).
+* We release a series of works about efficient agent reasoning and agentic training, such as [LatentMAS](https://arxiv.org/abs/2511.20639) and [GenEnv](https://github.com/Gen-Verse/GenEnv).
 * Our [AutoTool](https://arxiv.org/abs/2512.13278) won **<font color=red>Best Paper Award</font>** in [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
 * Invited to give a talk at [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
 * **5 papers** about LLMs and Multimodal LLMs are accepted by **NeurIPS 2025**, including [MMaDA](https://github.com/Gen-Verse/MMaDA), [CURE & ReasonFlux-Coder](https://github.com/Gen-Verse/ReasonFlux) **(<font color=red>Spotlight Paper, Top 3%</font>)**, [ReasonFlux-PRM](https://github.com/Gen-Verse/ReasonFlux), [Transformer-Copilot](https://arxiv.org/abs/2505.16270) **(<font color=red>Spotlight Paper, Top 3%</font>)** and [HermesFlow](https://arxiv.org/abs/2502.12148). 
