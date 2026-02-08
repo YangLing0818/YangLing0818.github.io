@@ -136,7 +136,7 @@ ICLR 2025 [paper](https://openreview.net/forum?id=PyjZO7oSw2) | [code](https://g
 Jiaru Zou, Yikun Ban, Zihao Li, Yunzhe Qi, Ruizhong Qiu, **Ling Yang**<sup>+</sup>, Jingrui He  
 NeurIPS 2025 **(<font color=red>Spotlight Top 3%</font>)**  [paper](https://arxiv.org/abs/2505.16270) | [code](https://github.com/jiaruzouu/TransformerCopilot)
 
-* **Generative Universal Verifier as Multimodal Meta-Reasoner**
+* **Generative Universal Verifier as Multimodal Meta-Reasoner**  
 Xinchen Zhang, Xiaoying Zhang, Youbin Wu, Yanbin Cao, Renrui Zhang, Ruihang Chu, **Ling Yang**, Yujiu Yang  
 ICLR 2026 **(<font color=red>Oral Top 1%</font>)**  [paper](https://arxiv.org/abs/2510.13804) | [code](https://github.com/Cominclip/OmniVerifier) 
 
