@@ -53,7 +53,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
-* **4 papers** about LLMs and Diffusion Language Models are accepted by **ICLR 2026**, including [TraceRL & TraDo](https://arxiv.org/abs/2509.06949), [OmniVerifier](https://arxiv.org/abs/2510.13804), [MMaDA-Parallel](https://arxiv.org/abs/2511.09611) and [UltraViCo](https://github.com/thu-ml/DiT-Extrapolation).
+* **4 papers** about LLMs and Diffusion Language Models are accepted by **ICLR 2026**, including [TraceRL & TraDo](https://arxiv.org/abs/2509.06949), [OmniVerifier](https://arxiv.org/abs/2510.13804) **(<font color=red>Oral Paper, Top 1%</font>)**, [MMaDA-Parallel](https://arxiv.org/abs/2511.09611) and [UltraViCo](https://github.com/thu-ml/DiT-Extrapolation).
 * We release a series of works about efficient agent reasoning and agentic training, such as [LatentMAS](https://arxiv.org/abs/2511.20639), [RLAnything](https://arxiv.org/abs/2602.02488), and [GenEnv](https://github.com/Gen-Verse/GenEnv).
 * Our [AutoTool](https://arxiv.org/abs/2512.13278) won **<font color=red>Best Paper Award</font>** in [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
 * Invited to give a talk at [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
@@ -135,6 +135,10 @@ ICLR 2025 [paper](https://openreview.net/forum?id=PyjZO7oSw2) | [code](https://g
 * **Transformer Copilot: Learning from The Mistake Log in LLM Fine-tuning**  
 Jiaru Zou, Yikun Ban, Zihao Li, Yunzhe Qi, Ruizhong Qiu, **Ling Yang**<sup>+</sup>, Jingrui He  
 NeurIPS 2025 **(<font color=red>Spotlight Top 3%</font>)**  [paper](https://arxiv.org/abs/2505.16270) | [code](https://github.com/jiaruzouu/TransformerCopilot)
+
+* **Generative Universal Verifier as Multimodal Meta-Reasoner**
+Xinchen Zhang, Xiaoying Zhang, Youbin Wu, Yanbin Cao, Renrui Zhang, Ruihang Chu, **Ling Yang**, Yujiu Yang。
+ICLR 2026 **(<font color=red>Oral Top 1%</font>)**  [paper](https://arxiv.org/abs/2510.13804) | [code](https://github.com/Cominclip/OmniVerifier) 
 
 * **Distilling Diffusion Models to Efficient 3D LiDAR Scene Completion**  
 Shengyuan Zhang, An Zhao, **Ling Yang**, Zejian Li, Chenye Meng, Haoran Xu, Tianrun Chen, AnYang Wei, Perry Pengyun GU, Lingyun Sun  
