@@ -137,7 +137,7 @@ Jiaru Zou, Yikun Ban, Zihao Li, Yunzhe Qi, Ruizhong Qiu, **Ling Yang**<sup>+</su
 NeurIPS 2025 **(<font color=red>Spotlight Top 3%</font>)**  [paper](https://arxiv.org/abs/2505.16270) | [code](https://github.com/jiaruzouu/TransformerCopilot)
 
 * **Generative Universal Verifier as Multimodal Meta-Reasoner**
-Xinchen Zhang, Xiaoying Zhang, Youbin Wu, Yanbin Cao, Renrui Zhang, Ruihang Chu, **Ling Yang**, Yujiu Yang。
+Xinchen Zhang, Xiaoying Zhang, Youbin Wu, Yanbin Cao, Renrui Zhang, Ruihang Chu, **Ling Yang**, Yujiu Yang  
 ICLR 2026 **(<font color=red>Oral Top 1%</font>)**  [paper](https://arxiv.org/abs/2510.13804) | [code](https://github.com/Cominclip/OmniVerifier) 
 
 * **Distilling Diffusion Models to Efficient 3D LiDAR Scene Completion**  
