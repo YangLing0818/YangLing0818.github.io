@@ -26,7 +26,7 @@ I currently focus on developing advanced generative models, including their *tra
 
 
 # Research Summary
-My goal is to build powerful generative models or AI systems capable of **understanding, generating, reasoning, interacting and optimizing** across diverse modalities and scenarios. 
+My goal is to build general-purpose AI systems capable of **reasoning, simulating, interacting and optimizing** across diverse modalities and scenarios. 
 <!--
 <img width="856" height="357" alt="image" src="https://github.com/user-attachments/assets/b15cc2b3-c6a8-41a7-a943-30b3171ac5a4" />
 -->
@@ -53,6 +53,7 @@ Published by Electronics Industry Press (电子工业出版社), 2023
 
 
 # <font color=red> What's New </font>
+* **2 papers** about multimodal reinforcement learning are accepted by **CVPR 2026**.
 * **4 papers** about LLMs and Diffusion Language Models are accepted by **ICLR 2026**, including [TraceRL & TraDo](https://arxiv.org/abs/2509.06949), [OmniVerifier](https://arxiv.org/abs/2510.13804) **(<font color=red>Oral Paper, Top 1%</font>)**, [MMaDA-Parallel](https://arxiv.org/abs/2511.09611) and [UltraViCo](https://github.com/thu-ml/DiT-Extrapolation).
 * We release a series of works about efficient agent reasoning and agentic training, such as [LatentMAS](https://arxiv.org/abs/2511.20639), [RLAnything](https://arxiv.org/abs/2602.02488), and [GenEnv](https://github.com/Gen-Verse/GenEnv).
 * Our [AutoTool](https://arxiv.org/abs/2512.13278) won **<font color=red>Best Paper Award</font>** in [ICCV 2025 Workshop on Multi-Modal Reasoning for Agentic Intelligence](https://agent-intelligence.github.io/agent-intelligence/).
