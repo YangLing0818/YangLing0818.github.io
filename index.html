@@ -71,6 +71,11 @@ section { max-width:var(--max-w); margin:0 auto; padding:0 32px 52px; }
 .recruit-inner .recruit-links a:hover { transform:translateY(-1px); box-shadow:0 4px 12px rgba(0,0,0,.2); }
 .recruit-inner .recruit-links a.outline { background:transparent; color:#fff; border:1px solid rgba(255,255,255,.3); }
 .recruit-inner .recruit-links a.outline:hover { border-color:#fff; background:rgba(255,255,255,.08); }
+.recruit-roles { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 0; position:relative; }
+.recruit-role { padding:5px 13px; border-radius:20px; font-size:13px; font-weight:600; border:1px solid rgba(255,255,255,.25); color:#fff; display:flex; align-items:center; gap:6px; }
+.recruit-role .role-label { opacity:.65; font-size:11px; font-weight:400; }
+.recruit-unis { display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 0; position:relative; }
+.recruit-uni { padding:4px 12px; border-radius:6px; font-size:12.5px; font-weight:600; background:rgba(255,255,255,.1); color:rgba(255,255,255,.9); }
 
 .research-goal { font-size:16.5px; color:var(--text-secondary); margin-bottom:28px; line-height:1.8; }
 .research-goal strong { color:var(--text); }
@@ -100,7 +105,7 @@ section { max-width:var(--max-w); margin:0 auto; padding:0 32px 52px; }
 .venue-spotlight { background:#dbeafe; color:#1e40af; }
 .venue-best { background:#fce7f3; color:#9d174d; }
 .hidden-news { display:none; }
-.hidden-news.show { display:block; }
+.hidden-news.show { display:flex; }
 .show-more-btn { display:inline-flex; align-items:center; gap:4px; margin-top:12px; font-size:14.5px; font-weight:500; color:var(--accent); cursor:pointer; border:none; background:none; font-family:var(--sans); transition:color .2s; }
 .show-more-btn:hover { color:var(--accent-warm); }
 
@@ -218,17 +223,29 @@ footer .foot-links a:hover { color:var(--text); }
 
 <div class="recruit-inner">
   <h3>Open Positions</h3>
-  <p>We are looking for collaborators for research in <strong>LLM/MLLM Post-Training, Diffusion LLMs, World Modeling, and Agent Training</strong>. We take collaboration seriously — please make sure the following apply before reaching out:</p>
+  <p>We are looking for collaborators for research in <strong>LLM/MLLM Post-Training, Diffusion LLMs, World Modeling, and Agent Training</strong>. Positions are available across multiple levels and institutions:</p>
+  <div class="recruit-roles">
+    <div class="recruit-role">Intern <span class="role-label">Research</span></div>
+    <div class="recruit-role">Master's <span class="role-label">Student</span></div>
+    <div class="recruit-role">PhD <span class="role-label">Student</span></div>
+    <div class="recruit-role">Postdoc <span class="role-label">Researcher</span></div>
+  </div>
+  <div class="recruit-unis">
+    <span class="recruit-uni">🎓 Peking University</span>
+    <span class="recruit-uni">🎓 Princeton University</span>
+    <span class="recruit-uni">🎓 Stanford University</span>
+  </div>
+  <p style="margin-top:18px; position:relative;">We take collaboration seriously — please make sure the following apply before reaching out:</p>
   <ul class="recruit-reqs">
-    <li><span class="req-num">01</span><span><strong>Self-motivated</strong> — you drive your own research agenda and don't need to be pushed to make progress.</span></li>
+    <li><span class="req-num">01</span><span><strong>Self-motivated</strong> — you drive your own execution and don't need to be pushed to make progress.</span></li>
     <li><span class="req-num">02</span><span><strong>Full commitment of 3+ months</strong> — you can dedicate yourself entirely to the project without major competing obligations.</span></li>
-    <li><span class="req-num">03</span><span><strong>Independent research capability</strong> — you can identify problems, design experiments, and iterate on ideas with minimal hand-holding.</span></li>
+    <li><span class="req-num">03</span><span><strong>Fast execution</strong> — we define the research direction; you move quickly, iterate efficiently, and deliver results.</span></li>
   </ul>
   <p style="margin-top:16px; position:relative;">In return, we offer:</p>
   <ul class="recruit-reqs">
     <li><span class="req-num">✦</span><span><strong>Frontier research perspective</strong> — direct exposure to the latest ideas and ongoing work at the cutting edge of generative AI.</span></li>
     <li><span class="req-num">✦</span><span><strong>Substantial compute resources</strong> — access to the compute you need to run large-scale experiments without bottlenecks.</span></li>
-    <li><span class="req-num">✦</span><span><strong>Strong connections</strong> — a broad network spanning top academic labs and leading industry partners including Google DeepMind, ByteDance, Apple, Microsoft, and Meta.</span></li>
+    <li><span class="req-num">✦</span><span><strong>Strong connections</strong> — academic network spanning Stanford, Princeton, MIT, PKU, Tsinghua and other top institutions, plus industry partners including Google DeepMind, ByteDance, Apple, Microsoft, and Meta.</span></li>
   </ul>
   <div class="recruit-links">
     <a href="mailto:yangling0818@163.com">Contact via Email</a>
@@ -241,7 +258,9 @@ footer .foot-links a:hover { color:var(--text); }
 
 <section id="research">
   <div class="section-header"><h2>Research Summary</h2><div class="line"></div></div>
-  <p class="research-goal">My goal is to build <strong>a unified system for Physics-Aware Generative Intelligence</strong> — bridging theory, modality, and physics across two axes of innovation: <strong>Theoretical Foundations ↔ Applied Intelligence</strong>, and <strong>Generalization Across Modalities &amp; Scenarios</strong>. The research ecosystem spans two complementary pillars. <strong>Generative Model Foundations</strong> targets building the next generation of AI models, covering diffusion model innovations, language model reasoning, and large-scale reinforcement learning. <strong>Generative Applications</strong> targets solving real-world challenges with generative power, spanning multimodal synthesis (image, 3D, 4D) and AI for scientific discovery. Cutting across both axes, <strong>Intelligent Agent Systems</strong> pursues autonomous, collaborative, and emotionally-aware agents that operationalize these foundations in open-ended environments.</p>
+  <p class="research-goal">My overarching goal is to build <strong>a unified system for Physics-Aware Generative Intelligence</strong> — advancing AI from passive pattern recognition toward active reasoning, simulation, and discovery in the physical world.</p>
+  <p class="research-goal" style="margin-top:10px;">This vision is organized around <strong>two complementary pillars</strong>. The first, <strong>Generative Model Foundations</strong>, pursues the core algorithmic and architectural advances that power the next generation of AI — spanning language model reasoning, large-scale reinforcement learning, intelligent agent systems, and diffusion model innovations. The second, <strong>Generative Applications</strong>, deploys these foundations to tackle real-world challenges: generating coherent multimodal content across image, 3D, and 4D domains, and accelerating scientific discovery through AI-driven hypothesis generation and evaluation.</p>
+  <p class="research-goal" style="margin-top:10px;">The two pillars are united by a shared philosophy: <em>theoretical depth should translate directly into empirical impact</em>, and generalization across modalities and scenarios is the ultimate test of any AI system's intelligence.</p>
 
   <div class="sub-section-title">Generative Model Foundations</div>
   <div class="pillars">
@@ -385,5 +404,18 @@ footer .foot-links a:hover { color:var(--text); }
   </div>
 </footer>
 
-<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
-function toggleNews(){var e=document.query
+<script>
+function toggleNews(){
+  var items = document.querySelectorAll('.hidden-news');
+  var btn = document.querySelector('.show-more-btn');
+  var isHidden = items[0].style.display === '' || items[0].style.display === 'none' || !items[0].classList.contains('show');
+  items.forEach(function(el){ el.classList.toggle('show'); });
+  btn.innerHTML = isHidden ? 'Show less &uarr;' : 'Show more &darr;';
+}
+document.getElementById('navbar').querySelector('.mobile-toggle') && document.addEventListener('click', function(e){
+  var nav = document.getElementById('navbar');
+  if(!nav.contains(e.target)) nav.classList.remove('open');
+});
+</script>
+</body>
+</html>
