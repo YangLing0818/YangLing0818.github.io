@@ -62,24 +62,24 @@ section { max-width:var(--max-w); margin:0 auto; padding:0 32px 52px; }
 .section-header .line { flex:1; height:1px; background:var(--border); }
 .section-header a { font-size:14.5px; white-space:nowrap; }
 
-.recruit-inner { padding:28px 32px; border-radius:var(--radius); background:linear-gradient(135deg,#1e3a5f 0%,#1a1a2e 100%); color:#fff; position:relative; overflow:hidden; width:100%; box-sizing:border-box; }
-.recruit-inner::before { content:''; position:absolute; top:-50%; right:-20%; width:300px; height:300px; background:radial-gradient(circle,rgba(99,102,241,.15) 0%,transparent 70%); border-radius:50%; }
+.recruit-inner { padding:28px 32px; border-radius:var(--radius); background:var(--bg-card); border:1px solid var(--border); color:var(--text); position:relative; overflow:hidden; width:100%; box-sizing:border-box; }
+.recruit-inner::before { display:none; }
 .recruit-inner h3 { font-family:var(--serif); font-size:22px; font-weight:400; margin-bottom:8px; position:relative; }
-.recruit-inner p { font-size:15px; opacity:.85; line-height:1.7; position:relative; }
+.recruit-inner p { font-size:15px; color:var(--text-secondary); line-height:1.7; position:relative; }
 .recruit-reqs { list-style:none; margin:14px 0 0; display:flex; flex-direction:column; gap:8px; position:relative; }
-.recruit-reqs li { display:flex; align-items:baseline; gap:10px; font-size:14.5px; opacity:.9; line-height:1.55; }
-.recruit-reqs li .req-num { font-family:var(--mono); font-size:11px; font-weight:700; background:rgba(255,255,255,.15); border-radius:4px; padding:1px 6px; flex-shrink:0; letter-spacing:.04em; }
-.recruit-reqs li strong { color:#fff; font-weight:600; }
+.recruit-reqs li { display:flex; align-items:baseline; gap:10px; font-size:14.5px; color:var(--text-secondary); line-height:1.55; }
+.recruit-reqs li .req-num { font-family:var(--mono); font-size:11px; font-weight:700; background:var(--border-light); color:var(--text-muted); border-radius:4px; padding:1px 6px; flex-shrink:0; letter-spacing:.04em; }
+.recruit-reqs li strong { color:var(--text); font-weight:600; }
 .recruit-inner .recruit-links { margin-top:20px; display:flex; gap:8px; position:relative; flex-wrap:wrap; }
-.recruit-inner .recruit-links a { padding:9px 22px; border-radius:20px; font-size:14px; font-weight:600; background:#fff; color:#1a1a2e; transition:all .2s; }
-.recruit-inner .recruit-links a:hover { transform:translateY(-1px); box-shadow:0 4px 12px rgba(0,0,0,.2); }
-.recruit-inner .recruit-links a.outline { background:transparent; color:#fff; border:1px solid rgba(255,255,255,.3); }
-.recruit-inner .recruit-links a.outline:hover { border-color:#fff; background:rgba(255,255,255,.08); }
+.recruit-inner .recruit-links a { padding:8px 20px; border-radius:20px; font-size:14px; font-weight:600; background:var(--text); color:#fff; transition:all .2s; }
+.recruit-inner .recruit-links a:hover { opacity:.85; transform:translateY(-1px); }
+.recruit-inner .recruit-links a.outline { background:transparent; color:var(--text); border:1px solid var(--border); }
+.recruit-inner .recruit-links a.outline:hover { border-color:var(--text); background:var(--border-light); }
 .recruit-roles { display:flex; flex-wrap:wrap; gap:8px; margin:14px 0 0; position:relative; }
-.recruit-role { padding:5px 13px; border-radius:20px; font-size:13px; font-weight:600; border:1px solid rgba(255,255,255,.25); color:#fff; display:flex; align-items:center; gap:6px; }
-.recruit-role .role-label { opacity:.65; font-size:11px; font-weight:400; }
+.recruit-role { padding:5px 13px; border-radius:20px; font-size:13px; font-weight:600; border:1px solid var(--border); color:var(--text-secondary); display:flex; align-items:center; gap:6px; background:var(--bg); }
+.recruit-role .role-label { opacity:.6; font-size:11px; font-weight:400; }
 .recruit-unis { display:flex; flex-wrap:wrap; gap:6px; margin:10px 0 0; position:relative; }
-.recruit-uni { padding:4px 12px; border-radius:6px; font-size:12.5px; font-weight:600; background:rgba(255,255,255,.1); color:rgba(255,255,255,.9); }
+.recruit-uni { padding:4px 12px; border-radius:6px; font-size:12.5px; font-weight:600; background:var(--border-light); color:var(--text-secondary); }
 
 .research-goal { font-size:16.5px; color:var(--text-secondary); margin-bottom:28px; line-height:1.8; text-align:justify; }
 .research-goal strong { color:var(--text); }
