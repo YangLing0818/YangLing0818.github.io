@@ -1,0 +1,533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Towards Self-Evolving AI — Ling Yang, Princeton University</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf9f7; --bg-card: #ffffff; --text: #1a1a1a; --text-secondary: #555;
+  --text-muted: #888; --accent: #2563eb; --accent-warm: #c2410c;
+  --border: #e8e5e0; --border-light: #f0ede8; --tag-bg: #f0ede8;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.04); --shadow-md: 0 4px 20px rgba(0,0,0,0.06);
+  --radius: 12px; --radius-sm: 8px;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+  --max-w: 1080px;
+  --tag-cure: #059669; --tag-cure-bg: #d1fae5;
+  --tag-rla: #7c3aed; --tag-rla-bg: #ede9fe;
+  --tag-ocrl: #ea580c; --tag-ocrl-bg: #ffedd5;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:var(--sans); background:var(--bg); color:var(--text); line-height:1.7; font-size:17px; -webkit-font-smoothing:antialiased; }
+::selection { background:#2563eb22; }
+a { color:var(--accent); text-decoration:none; transition:color .2s; }
+a:hover { color:var(--accent-warm); }
+
+/* --- Nav (same as homepage) --- */
+nav { position:sticky; top:0; z-index:100; background:rgba(250,249,247,.85); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); border-bottom:1px solid var(--border-light); }
+nav .inner { max-width:var(--max-w); margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:14px 32px; }
+nav .logo { font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-.02em; }
+nav .links { display:flex; gap:24px; flex-wrap:wrap; }
+nav .links a { font-size:14.5px; font-weight:500; color:var(--text-secondary); letter-spacing:.01em; position:relative; transition:color .2s; }
+nav .links a:hover { color:var(--text); }
+nav .links a.active { color:var(--text); }
+nav .links a.active::after { content:''; position:absolute; bottom:-4px; left:0; right:0; height:1.5px; background:var(--text); border-radius:1px; }
+nav .mobile-toggle { display:none; background:none; border:none; font-size:22px; cursor:pointer; }
+nav .princeton-badge { display:flex; align-items:center; gap:8px; text-decoration:none; border-bottom:none !important; }
+nav .princeton-badge img { height:90px; width:auto; opacity:.9; }
+nav .princeton-badge:hover img { opacity:1; }
+
+/* --- Blog Hero --- */
+.blog-hero { max-width:780px; margin:0 auto; padding:64px 32px 0; }
+.blog-back { font-size:14px; color:var(--text-muted); display:inline-flex; align-items:center; gap:4px; margin-bottom:28px; transition:color .2s; }
+.blog-back:hover { color:var(--accent); }
+.blog-date { font-family:var(--mono); font-size:13px; color:var(--text-muted); letter-spacing:.5px; text-transform:uppercase; margin-bottom:16px; }
+.blog-hero h1 { font-family:var(--serif); font-size:clamp(2rem, 4.5vw, 2.8rem); font-weight:400; line-height:1.18; letter-spacing:-.02em; margin-bottom:18px; }
+.blog-hero h1 em { font-style:italic; color:var(--accent); }
+.blog-subtitle { font-size:17.5px; color:var(--text-secondary); line-height:1.7; margin-bottom:20px; }
+.blog-authors { font-size:15px; color:var(--text-secondary); margin-bottom:6px; }
+.blog-authors a { border-bottom:1px solid #2563eb33; }
+.blog-authors a:hover { border-bottom-color:var(--accent); }
+.blog-affil { font-size:13.5px; color:var(--text-muted); margin-bottom:24px; }
+.blog-tags { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }
+.tag { font-family:var(--mono); font-size:12.5px; padding:5px 14px; border-radius:100px; font-weight:500; display:inline-flex; align-items:center; gap:5px; transition:transform .15s; }
+.tag:hover { transform:translateY(-1px); }
+.tag-cure { background:var(--tag-cure-bg); color:var(--tag-cure); }
+.tag-rla { background:var(--tag-rla-bg); color:var(--tag-rla); }
+.tag-ocrl { background:var(--tag-ocrl-bg); color:var(--tag-ocrl); }
+.blog-divider { width:48px; height:1.5px; background:var(--border); margin:40px auto; }
+
+/* --- Article Body --- */
+article { max-width:720px; margin:0 auto; padding:0 32px 80px; }
+article h2 { font-family:var(--serif); font-size:1.75rem; font-weight:400; margin:52px 0 16px; line-height:1.25; letter-spacing:-.01em; }
+article h3 { font-size:1.05rem; font-weight:600; margin:32px 0 10px; letter-spacing:-.01em; }
+article p { margin-bottom:16px; text-align:justify; }
+article a { border-bottom:1px solid transparent; transition:border-color .2s; }
+article a:hover { border-color:var(--accent); }
+article strong { font-weight:600; }
+article ul, article ol { margin:0 0 16px 20px; }
+article li { margin-bottom:6px; }
+
+/* --- Callout Card --- */
+.callout { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px 28px; margin:28px 0; position:relative; overflow:hidden; transition:box-shadow .3s; }
+.callout:hover { box-shadow:var(--shadow-md); }
+.callout::before { content:''; position:absolute; left:0; top:0; bottom:0; width:4px; }
+.callout-cure::before { background:var(--tag-cure); }
+.callout-rla::before { background:var(--tag-rla); }
+.callout-ocrl::before { background:var(--tag-ocrl); }
+.callout-label { font-family:var(--mono); font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-bottom:6px; }
+.callout-cure .callout-label { color:var(--tag-cure); }
+.callout-rla .callout-label { color:var(--tag-rla); }
+.callout-ocrl .callout-label { color:var(--tag-ocrl); }
+.callout-title { font-family:var(--serif); font-size:1.25rem; margin-bottom:8px; line-height:1.3; }
+.callout p { font-size:14.5px; color:var(--text-secondary); margin-bottom:10px; line-height:1.6; text-align:left; }
+.callout-links { display:flex; gap:5px; flex-wrap:wrap; }
+.callout-links a { font-family:var(--mono); font-size:12.5px; padding:3px 10px; border-radius:5px; background:var(--tag-bg); color:var(--text-secondary); border:1px solid transparent; transition:all .2s; }
+.callout-links a:hover { background:var(--bg); border-color:var(--border); color:var(--accent); }
+
+/* --- Stats --- */
+.stats-row { display:grid; grid-template-columns:repeat(auto-fit, minmax(170px,1fr)); gap:12px; margin:24px 0; }
+.stat-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-sm); padding:18px; text-align:center; transition:all .2s; }
+.stat-card:hover { box-shadow:var(--shadow-sm); }
+.stat-num { font-family:var(--serif); font-size:1.85rem; font-weight:400; line-height:1.1; }
+.stat-num.green { color:var(--tag-cure); }
+.stat-num.purple { color:var(--tag-rla); }
+.stat-num.orange { color:var(--tag-ocrl); }
+.stat-label { font-size:13px; color:var(--text-muted); margin-top:4px; }
+
+/* --- Timeline --- */
+.timeline { position:relative; margin:36px 0; padding-left:30px; }
+.timeline::before { content:''; position:absolute; left:7px; top:8px; bottom:8px; width:2px; background:linear-gradient(to bottom, var(--tag-cure), var(--tag-rla), var(--tag-ocrl)); border-radius:2px; }
+.tl-item { position:relative; margin-bottom:24px; }
+.tl-item::before { content:''; position:absolute; left:-26px; top:8px; width:10px; height:10px; border-radius:50%; border:2px solid; background:var(--bg); }
+.tl-cure::before { border-color:var(--tag-cure); }
+.tl-rla::before { border-color:var(--tag-rla); }
+.tl-ocrl::before { border-color:var(--tag-ocrl); }
+.tl-time { font-family:var(--mono); font-size:12px; color:var(--text-muted); margin-bottom:2px; }
+.tl-title { font-weight:600; font-size:15.5px; margin-bottom:3px; }
+.tl-desc { font-size:14.5px; color:var(--text-secondary); line-height:1.6; }
+
+/* --- Blockquote --- */
+blockquote { border-left:3px solid var(--accent); padding:4px 0 4px 20px; margin:24px 0; color:var(--text-secondary); font-style:italic; }
+
+/* --- Code --- */
+code { font-family:var(--mono); font-size:.88em; background:var(--border-light); padding:2px 6px; border-radius:4px; }
+pre { background:var(--border-light); padding:16px 20px; border-radius:var(--radius-sm); font-size:13px; font-family:var(--mono); overflow-x:auto; line-height:1.6; color:#444; margin:20px 0; }
+
+/* --- Detail Box --- */
+.detail-box { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:22px 26px; margin:24px 0; }
+.detail-box h4 { font-size:15px; font-weight:600; margin-bottom:8px; display:flex; align-items:center; gap:8px; }
+.detail-box h4::before { content:''; width:3px; height:14px; border-radius:2px; }
+.detail-box.cure h4::before { background:var(--tag-cure); }
+.detail-box.rla h4::before { background:var(--tag-rla); }
+.detail-box.ocrl h4::before { background:var(--tag-ocrl); }
+.detail-box p, .detail-box ul { font-size:15px; color:var(--text-secondary); line-height:1.7; }
+.detail-box ul { margin-left:18px; }
+
+/* --- Footer (same as homepage) --- */
+footer { max-width:var(--max-w); margin:0 auto; padding:28px 32px; border-top:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; }
+footer p { font-size:13.5px; color:var(--text-muted); }
+footer .foot-links { display:flex; gap:16px; flex-wrap:wrap; }
+footer .foot-links a { font-size:13.5px; color:var(--text-muted); }
+footer .foot-links a:hover { color:var(--text); }
+
+@media (max-width:768px) {
+  .blog-hero { padding:40px 20px 0; }
+  .blog-hero h1 { font-size:1.7rem; }
+  article { padding:0 20px 60px; }
+  article h2 { font-size:1.4rem; }
+  .stats-row { grid-template-columns:1fr 1fr; }
+  nav .links { display:none; }
+  nav .mobile-toggle { display:block; }
+  nav.open .links { display:flex; flex-direction:column; position:absolute; top:100%; left:0; right:0; background:var(--bg); padding:16px 32px; border-bottom:1px solid var(--border); gap:12px; }
+}
+@keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
+</style>
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="inner">
+    <a href="index.html" class="logo">Ling Yang</a>
+    <button class="mobile-toggle" onclick="document.getElementById('navbar').classList.toggle('open')">&#9776;</button>
+    <div class="links">
+      <a href="index.html">About</a>
+      <a href="index.html#research">Research</a>
+      <a href="index.html#news">News</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="#" class="active">Blog</a>
+    </div>
+    <a href="https://www.princeton.edu" class="princeton-badge" target="_blank">
+      <img src="https://yangling0818.github.io/images/prince.png" alt="Princeton University">
+    </a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="blog-hero">
+  <a href="index.html" class="blog-back">&larr; Back to Homepage</a>
+  <div class="blog-date">February 2026 &middot; Research Blog</div>
+  <h1>Towards Self-Evolving AI: From Code to Agents to <em>You</em></h1>
+  <p class="blog-subtitle">Three tightly connected projects — CURE, RLAnything, and OpenClaw-RL — that systematically unfreeze every component of the RL pipeline: first the reward, then the reward model and environment, and finally the data itself. The result is AI systems that evolve on their own.</p>
+  <p class="blog-authors"><a href="https://yangling0818.github.io">Ling Yang</a></p>
+  <p class="blog-affil">Gen-Verse &middot; Princeton AI Lab &middot; Princeton University</p>
+  <div class="blog-tags">
+    <a class="tag tag-cure" href="https://arxiv.org/abs/2506.03136">🧬 CURE · NeurIPS '25 Spotlight</a>
+    <a class="tag tag-rla" href="https://arxiv.org/abs/2602.02488">🔄 RLAnything</a>
+    <a class="tag tag-ocrl" href="https://github.com/Gen-Verse/OpenClaw-RL">🦞 OpenClaw-RL</a>
+  </div>
+  <div class="blog-divider"></div>
+</header>
+
+<!-- ============ ARTICLE ============ -->
+<article>
+
+<p>
+Over the past year, our team has followed a single research thread to its logical conclusion — and the result is three tightly connected projects that, together, define a complete arc for self-evolving AI systems.
+</p>
+<p>
+The thread starts with a simple observation: <strong>reinforcement learning works best when every component in the system can improve.</strong> In practice, most RL pipelines freeze the reward, freeze the environment, and freeze the data distribution — training only the policy. We asked: what happens when you systematically unfreeze each of these?
+</p>
+<p>
+<strong>CURE</strong> unfreezes the reward. Instead of relying on ground-truth test cases, a coder and a unit tester co-evolve through RL, learning to supervise each other. <strong>RLAnything</strong> then unfreezes the reward model <em>and</em> the environment — jointly optimizing all three components in a closed loop that works across GUI agents, text-game agents, and coding LLMs. <strong>OpenClaw-RL</strong> takes the final step: it unfreezes the data itself, turning a user's everyday conversations into training signals so your personal AI agent improves simply because you use it.
+</p>
+<p>
+Each project inherits the lessons from the one before it. CURE's pairwise reward design informed RLAnything's reward model co-optimization; RLAnything's async training infrastructure became the backbone of OpenClaw-RL's four-loop architecture. This blog walks through the three projects in sequence, with enough technical detail that you can understand — and reproduce — the key ideas.
+</p>
+
+<!-- ===== TIMELINE ===== -->
+<h2>The Journey So Far</h2>
+<div class="timeline">
+  <div class="tl-item tl-cure">
+    <div class="tl-time">Jun 2025 · NeurIPS 2025 Spotlight</div>
+    <div class="tl-title">Step 1: CURE — Unfreeze the Reward</div>
+    <div class="tl-desc">A coder and a unit tester co-evolve through RL with no ground-truth code. The pairwise reward matrix replaces static test cases with a self-improving supervision signal.</div>
+  </div>
+  <div class="tl-item tl-rla">
+    <div class="tl-time">Feb 2026 · Preprint</div>
+    <div class="tl-title">Step 2: RLAnything — Unfreeze the Entire System</div>
+    <div class="tl-desc">Building on CURE's co-evolution insight, we jointly optimize environment, policy, and reward model in a closed loop — proving theoretically and empirically that dynamic systems outperform static ones.</div>
+  </div>
+  <div class="tl-item tl-ocrl">
+    <div class="tl-time">Feb 2026 · Open Source</div>
+    <div class="tl-title">Step 3: OpenClaw-RL — Unfreeze the Data</div>
+    <div class="tl-desc">Inheriting RLAnything's async training infrastructure, we turn everyday conversations into training signals. Your personal AI agent gets better simply because you use it.</div>
+  </div>
+</div>
+
+
+<!-- ========================================= -->
+<!-- ===== CURE ===== -->
+<!-- ========================================= -->
+<h2>CURE: When Coders and Testers Co-Evolve</h2>
+
+<div class="callout callout-cure">
+  <div class="callout-label">NeurIPS 2025 Spotlight · Top 3%</div>
+  <div class="callout-title">Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning</div>
+  <p>Yinjie Wang, Ling Yang, Ye Tian, Ke Shen, Mengdi Wang</p>
+  <div class="callout-links">
+    <a href="https://arxiv.org/abs/2506.03136">Paper</a>
+    <a href="https://github.com/Gen-Verse/CURE">Code</a>
+    <a href="https://huggingface.co/collections/Gen-Verse/reasonflux-coder-6833109ed9300c62deb32c6b">Models</a>
+    <a href="https://x.com/_akhaliq/status/1930281721926234437">Tweet</a>
+  </div>
+</div>
+
+<h3>Motivation</h3>
+<p>
+Mathematical reasoning in LLMs has been successfully incentivized via RL with verifiable rewards. In code generation, the standard recipe relies on ground-truth test cases: run the model's code against known tests, get a binary pass/fail reward. But ground-truth tests are expensive to curate and hard to scale. Meanwhile, <strong>unit test generation</strong> itself is a critical capability — accurate unit tests are essential for enabling self-checking and self-correction during inference, test-time scaling, and agentic coding pipelines.
+</p>
+<p>
+This raises a natural question: <em>can a coder and a unit tester teach each other through RL, without any ground-truth code as supervision?</em>
+</p>
+
+<h3>Technical Approach: Pairwise Reward Matrix</h3>
+<p>
+CURE introduces a <strong>self-play framework</strong> where a single LLM acts as both a code generator and a unit test generator. The key insight is that during RL training, the coder naturally produces both correct and incorrect solutions. The incorrect ones are <em>gold</em> for the unit tester — they reveal exactly the failure modes that good tests should catch.
+</p>
+
+<div class="detail-box cure">
+  <h4>Core Algorithm: Reward Design via Interaction Outcomes</h4>
+  <p>Given a coding task, the model generates <em>N</em> code solutions and <em>M</em> unit tests. CURE constructs a <strong>pairwise reward matrix</strong> R ∈ {0,1}<sup>N×M</sup> where R<sub>ij</sub> = 1 if code <em>i</em> passes test <em>j</em>. From this matrix:</p>
+  <ul>
+    <li><strong>Coder reward:</strong> Derived from how many tests a solution passes — high-pass solutions are likely correct.</li>
+    <li><strong>Unit tester reward:</strong> Derived through a theoretical analysis of <em>reward precision</em>. We prove individual-level rewards for each test by analyzing its ability to distinguish correct from incorrect code, without ever seeing ground-truth.</li>
+    <li><strong>Mutual supervision:</strong> The coder's mistakes create diverse failure modes; the tester learns to catch them. Better tests then provide more accurate rewards for the coder's next iteration.</li>
+  </ul>
+</div>
+
+<h3>Theoretical Foundation: Reward Precision</h3>
+<p>
+We formulate the final objective and introduce the concept of <strong>reward precision</strong> — the probability that a unit test correctly identifies whether a given code solution is correct. Through our theoretical analysis (Section 3.1–3.2 of the paper), we derive individual-level rewards for each generated unit test. This is non-trivial: a test that passes all solutions (including buggy ones) is useless, as is a test that fails everything. The optimal tests are those that <em>discriminate</em> — passing correct code while failing incorrect code.
+</p>
+<p>
+For long chain-of-thought models, we further introduce a <strong>response-length-guided reward transformation</strong> (Section 3.4). Long-CoT models tend to produce verbose unit tests; the transformation encourages the model to maintain high test quality while reducing unnecessary reasoning overhead, achieving <strong>64.8% inference efficiency</strong> without sacrificing accuracy.
+</p>
+
+<h3>Results</h3>
+<div class="stats-row">
+  <div class="stat-card"><div class="stat-num green">+5.3%</div><div class="stat-label">Code generation accuracy<br>(over Qwen2.5-Instruct)</div></div>
+  <div class="stat-card"><div class="stat-num green">+9.0%</div><div class="stat-label">Best-of-N accuracy</div></div>
+  <div class="stat-card"><div class="stat-num green">+8.1%</div><div class="stat-label">Agentic coding tasks</div></div>
+  <div class="stat-card"><div class="stat-num green">+25.1%</div><div class="stat-label">Agentic unit test gen</div></div>
+</div>
+
+<p>
+The resulting <strong>ReasonFlux-Coder</strong> models (7B & 14B) outperform similarly sized Qwen-Coder, DeepSeek-Coder, and Seed-Coder across five benchmarks. Our long-CoT model ReasonFlux-Coder-4B consistently outperforms Qwen3-4B. Perhaps most excitingly, the co-evolved model can serve as an effective <strong>reward model for RL training of base models</strong> — pointing toward fully self-supervised code optimization where the trained model bootstraps reward signals for the next generation.
+</p>
+
+
+<!-- ========================================= -->
+<!-- ===== RLAnything ===== -->
+<!-- ========================================= -->
+<h2>RLAnything: Forging the Complete RL System</h2>
+
+<div class="callout callout-rla">
+  <div class="callout-label">Preprint · Feb 2026</div>
+  <div class="callout-title">RLAnything: Forge Environment, Policy, and Reward Model in Completely Dynamic RL System</div>
+  <p>Yinjie Wang, Tianbao Xie, Ke Shen, Mengdi Wang, Ling Yang</p>
+  <div class="callout-links">
+    <a href="https://arxiv.org/abs/2602.02488">Paper</a>
+    <a href="https://github.com/Gen-Verse/Open-AgentRL">Code</a>
+    <a href="https://huggingface.co/Gen-Verse/RLAnything-OS-8B">Policy Models</a>
+    <a href="https://yinjjiew.github.io/projects/rlanything/">Blog</a>
+  </div>
+</div>
+
+<h3>Four Problems That Hold Back Agentic RL</h3>
+<p>
+CURE showed that co-evolving two roles within a single model can work remarkably well. But it operated in a relatively clean domain — code has verifiable outputs. Agentic tasks in the wild face four critical problems:
+</p>
+
+<div class="detail-box rla">
+  <h4>Problems Addressed</h4>
+  <ul>
+    <li><strong>Sparse Rewards:</strong> Current RLVR relies on binary outcome rewards (success/fail). For agentic tasks with 30–50 step trajectories, this sparse signal is nearly useless — the agent has no idea <em>which</em> step went wrong.</li>
+    <li><strong>Static Reward Models:</strong> Existing reward models are frozen during RL training. They can't adapt to the evolving policy, leading to outdated and unreliable supervision.</li>
+    <li><strong>Fixed Environments:</strong> Tasks are either too hard (0% success → no learning signal) or too easy (100% success → no challenge). Manual curriculum design doesn't scale.</li>
+    <li><strong>Human Annotation Bottleneck:</strong> GUI agents need hand-crafted evaluation scripts for every task — fundamentally unscalable.</li>
+  </ul>
+</div>
+
+<h3>Technical Approach: Closed-Loop Dynamic Optimization</h3>
+<p>
+RLAnything jointly <strong>forges</strong> three components through closed-loop optimization:
+</p>
+
+<h3>Component 1: Integrated Feedback for the Policy</h3>
+<p>
+The policy receives combined signals from both <strong>verifiable outcome rewards</strong> and <strong>step-wise process rewards</strong> from the reward model. This addresses the sparse-reward problem directly — instead of a single binary signal at the end of a 50-step trajectory, each intermediate step receives meaningful supervision. Our experiments show this integrated feedback consistently outperforms outcome-only training across all benchmarks.
+</p>
+
+<h3>Component 2: Self-Improving Reward Model</h3>
+<p>
+The reward model is jointly optimized with the policy via <strong>consistency feedback</strong> — combining outcome supervision with self-consistency signals. As the policy improves, the reward model adapts to the evolving distribution of trajectories. This avoids the staleness problem that plagues frozen reward models in conventional RLHF pipelines. The reward model's step-wise evaluations feed back into policy training, creating a virtuous cycle.
+</p>
+
+<h3>Component 3: Theory-Motivated Environment Adaptation</h3>
+<p>
+We prove theoretically that <strong>balancing task difficulty benefits both policy and reward model optimization</strong>. When tasks are too easy or too hard, the importance sampling weights become extremely unbalanced, hurting both the policy gradient estimation and the reward model training. Our framework automatically adapts environment task difficulty using critic feedback from both the policy model and the reward model, keeping tasks in the optimal learning zone.
+</p>
+
+<div class="detail-box rla">
+  <h4>Theoretical Insight: Why Task Difficulty Matters for Reward Models</h4>
+  <p>
+    Beyond the well-known benefit for policy training, we show that reward model training also suffers under extreme task distributions. When the policy succeeds 100% of the time, the reward model sees only positive examples and cannot learn to discriminate quality. When success is 0%, it sees no useful signal at all. Our theoretical result motivates <strong>automatic environment adaptation</strong> that benefits the entire system — environment tasks leverage critic feedback from both the policy and the reward model to drive targeted task adjustment, enabling active learning from experience.
+  </p>
+</div>
+
+<h3>Results</h3>
+<div class="stats-row">
+  <div class="stat-card"><div class="stat-num purple">+9.1%</div><div class="stat-label">OSWorld<br>(GUI agents, Qwen3-VL-8B)</div></div>
+  <div class="stat-card"><div class="stat-num purple">+18.7%</div><div class="stat-label">AlfWorld<br>(text-game, Qwen2.5-7B)</div></div>
+  <div class="stat-card"><div class="stat-num purple">+11.9%</div><div class="stat-label">LiveBench<br>(LLM tasks, Qwen2.5-7B)</div></div>
+</div>
+
+<p>
+Each added dynamic component consistently improves the overall system across computer-use agents, text-based LLM agents, and coding LLMs. A key finding: <strong>optimized reward-model signals outperform outcome signals that rely on human labels.</strong> This means we can train GUI agents <em>without</em> manual evaluation scripts for every task — a huge step toward truly self-evolving agents that learn from experience without human annotation bottlenecks.
+</p>
+<p>
+We release both the policy models (RLAnything-7B/8B) and reward models (RLAnything-Reward-8B/14B) as open-source checkpoints for the community.
+</p>
+
+
+<!-- ========================================= -->
+<!-- ===== OpenClaw-RL ===== -->
+<!-- ========================================= -->
+<h2>OpenClaw-RL: Your Agent Gets Better as You Use It</h2>
+
+<div class="callout callout-ocrl">
+  <div class="callout-label">Open Source · Feb 2026</div>
+  <div class="callout-title">OpenClaw-RL: Empowering OpenClaw with RL — Train a personalized agent simply by talking to it</div>
+  <p>Yinjie Wang, Mengdi Wang, Ling Yang</p>
+  <div class="callout-links">
+    <a href="https://github.com/Gen-Verse/OpenClaw-RL">Code</a>
+    <a href="https://openclaw.ai">OpenClaw</a>
+    <a href="https://yinjjiew.github.io/projects/openclawrl">Blog</a>
+  </div>
+</div>
+
+<p>
+CURE optimizes coding. RLAnything optimizes general agents. But what about optimizing an AI that serves <em>you</em> — one that learns your preferences, your communication style, your workflow, from nothing more than the conversations you already have?
+</p>
+<p>
+<strong>OpenClaw-RL</strong> brings our RL research to where it matters most: the personal AI assistant. Built on top of <a href="https://openclaw.ai">OpenClaw</a> and the <a href="https://github.com/THUDM/slime">Slime</a> RL framework, it turns everyday conversations into training signals through a fully asynchronous architecture. You chat normally; in the background, the system collects trajectories, evaluates them with a process reward model, and updates the policy — all without interrupting your experience.
+</p>
+
+<h3>Architecture: Four Asynchronous Loops</h3>
+<p>
+Most RL-for-LLM systems assume centralized, batch-mode training with pre-collected datasets. OpenClaw-RL takes a fundamentally different approach — it decouples the system into four independent async processes:
+</p>
+
+<div class="detail-box ocrl">
+  <h4>Fully Async 4-Component Architecture</h4>
+  <ul>
+    <li><strong>Agent Serving:</strong> Your self-hosted model is wrapped in OpenClaw as an OpenAI-compatible API, serving real-time requests.</li>
+    <li><strong>Rollout Collection:</strong> API messages are automatically classified into <em>main-line</em> (trainable) vs. <em>side</em> (non-trainable) turns. The next user message serves as a natural "next-state" signal.</li>
+    <li><strong>PRM Judging:</strong> A process reward model evaluates each assistant turn asynchronously with majority voting for robust scoring.</li>
+    <li><strong>Policy Training:</strong> Ready samples are submitted to the trainer as they become available. Weight updates happen gracefully — submission pauses during model updates, then resumes.</li>
+  </ul>
+  <p>None of these components block one another. The model serves your requests while training runs in the background.</p>
+</div>
+
+<h3>Two Learning Paradigms</h3>
+<p>
+OpenClaw-RL offers two complementary optimization methods, each suited to different types of user feedback:
+</p>
+
+<h3>Binary RL (GRPO)</h3>
+<p>
+A process reward model scores each assistant turn as good (+1), bad (−1), or neutral (0) based on the subsequent user reaction. The scalar rewards drive <strong>GRPO advantage estimation</strong> with PPO-style clipped surrogate loss. This works best when you provide implicit feedback — thumbs up/down, corrections, or simply whether you continue a line of conversation.
+</p>
+
+<div class="detail-box ocrl">
+  <h4>Engineering Details: Binary RL</h4>
+  <ul>
+    <li><strong>Session-aware training:</strong> Multi-turn conversations are tracked per-session with proper turn ordering.</li>
+    <li><strong>At-least-one guarantee:</strong> Every session contributes at least one effective training sample, ensuring no conversation is wasted.</li>
+    <li><strong>Majority voting:</strong> PRM evaluation uses multiple votes for robust scoring, filtering out noisy individual assessments.</li>
+  </ul>
+</div>
+
+<h3>On-Policy Distillation (OPD)</h3>
+<p>
+When your feedback contains rich textual information ("you should have checked the file first", "don't use that library"), the system extracts <strong>hindsight hints</strong> from the next-state feedback. These hints augment the original prompt to create an "enhanced teacher" whose token-level log-probability gap with the student becomes a <strong>directional advantage signal</strong> — far richer than any scalar reward.
+</p>
+
+<div class="detail-box ocrl">
+  <h4>Engineering Details: On-Policy Distillation</h4>
+  <ul>
+    <li><strong>Hint quality filtering:</strong> Among <em>m</em> majority votes, only the longest, most informative hint is selected. Trivial hints (e.g., "looks good") are discarded.</li>
+    <li><strong>Teacher log-prob optimization:</strong> Only response-suffix log-probabilities are computed to reduce peak GPU memory during the teacher forward pass.</li>
+    <li><strong>Token-level directional signal:</strong> The log-prob gap between enhanced teacher and current student provides gradient direction at every token position — orders of magnitude richer than a single scalar per turn.</li>
+  </ul>
+</div>
+
+<h3>Self-Hosted & Private by Design</h3>
+<p>
+The entire stack — model, PRM, training — runs on <strong>your own infrastructure</strong>. Conversation data never leaves your system. No external API keys required. Default configuration uses 8 GPUs (4 for the training actor, 2 for rollout, 2 for PRM), but this is fully configurable. All conversations and PRM evaluations are logged to JSONL for analysis and debugging.
+</p>
+
+<h3>Quick Start</h3>
+<p>
+OpenClaw-RL ships as a drop-in enhancement for OpenClaw. You start the RL server (choose Binary RL or OPD), configure OpenClaw to route to your server's OpenAI-compatible endpoint, and start chatting. The system handles the rest:
+</p>
+
+<pre>
+# Binary RL mode
+cd slime && bash ../openclaw-rl/run_qwen3_4b_openclaw_rl.sh
+
+# On-Policy Distillation mode
+cd slime && bash ../openclaw-opd/run_qwen3_4b_openclaw_opd.sh
+</pre>
+
+<blockquote>
+Your agent gets better the more you use it. That's the promise — and with OpenClaw-RL, it's now a reality you can run on your own GPUs.
+</blockquote>
+
+
+<!-- ========================================= -->
+<!-- ===== BIGGER PICTURE ===== -->
+<!-- ========================================= -->
+<h2>The Bigger Picture: Stop Treating RL Components as Fixed</h2>
+
+<p>
+Stepping back, these three projects share a common philosophy: <strong>stop treating parts of the RL system as fixed.</strong>
+</p>
+<p>
+In <strong>CURE</strong>, we unfroze the reward signal — instead of relying on ground-truth test cases, the unit tester co-evolves with the coder, learning from the coder's own mistakes to provide increasingly precise reward signals. The theoretical analysis of reward precision gives principled individual-level rewards without human annotation.
+</p>
+<p>
+In <strong>RLAnything</strong>, we unfroze the reward model <em>and</em> the environment alongside the policy. The reward model adapts to the evolving policy via consistency feedback; the environment adapts to the evolving capabilities of both via critic feedback. Our theoretical results show why task difficulty balance matters not just for the policy but for the reward model's training dynamics as well.
+</p>
+<p>
+In <strong>OpenClaw-RL</strong>, we unfroze the data pipeline itself — making the user's natural behavior the source of learning signal. The fully asynchronous architecture means that the feedback loop between user behavior and model improvement is continuous and non-blocking, with two complementary paradigms (scalar rewards via GRPO, directional token-level signals via OPD) covering the full spectrum of user interaction patterns.
+</p>
+<p>
+Each step removed an assumption that was holding RL back from real-world impact. And each step made the system more autonomous, more adaptive, and more aligned with what users actually need.
+</p>
+
+<h2>Looking Ahead</h2>
+<p>
+Our roadmap has two tracks. <strong>Track 1</strong> deepens personal agent optimization: broader model family support, best-recipe discovery via large-scale experiments, and extending learning beyond the policy to skills and long-term memory. <strong>Track 2</strong> scales up agentic RL infrastructure for general agents, starting with computer-use scenarios.
+</p>
+<p>
+The goal is a future where AI systems don't just follow instructions — they evolve with you. All code, models, and training recipes are open-sourced. We hope these tools are useful to the community — and we're excited to see what you build with them.
+</p>
+
+<!-- ===== CITATION ===== -->
+<div style="margin-top:48px; padding-top:28px; border-top:1px solid var(--border);">
+<h3 style="margin-top:0;">Citation</h3>
+<p style="font-size:14px; color:var(--text-muted); margin-bottom:12px;">If you find our work useful, please consider citing:</p>
+<pre style="margin-left:0; margin-right:0; width:100%; box-sizing:border-box; white-space:pre-wrap; word-break:break-all;">@article{wang2025cure,
+  title={Co-Evolving LLM Coder and Unit Tester via
+         Reinforcement Learning},
+  author={Wang, Yinjie and Yang, Ling and Tian, Ye
+          and Shen, Ke and Wang, Mengdi},
+  journal={arXiv preprint arXiv:2506.03136},
+  year={2025}
+}
+
+@article{wang2026rlanything,
+  title={RLAnything: Forge Environment, Policy, and
+         Reward Model in Completely Dynamic RL System},
+  author={Wang, Yinjie and Xie, Tianbao and Shen, Ke
+          and Wang, Mengdi and Yang, Ling},
+  journal={arXiv preprint arXiv:2602.02488},
+  year={2026}
+}
+
+@misc{openclawrl,
+  author={Wang, Yinjie and Wang, Mengdi and Yang, Ling},
+  title={OpenClaw-RL},
+  year={2026},
+  url={https://github.com/Gen-Verse/OpenClaw-RL}
+}</pre>
+</div>
+
+</article>
+
+<footer>
+  <p>&copy; 2026 Ling Yang &middot; Princeton University</p>
+  <div class="foot-links">
+    <a href="mailto:yangling0818@163.com">Email</a>
+    <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">Google Scholar</a>
+    <a href="https://github.com/Gen-Verse">GitHub</a>
+    <a href="https://x.com/LingYang_PU">Twitter/X</a>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('click', function(e){
+  var nav = document.getElementById('navbar');
+  if(!nav.contains(e.target)) nav.classList.remove('open');
+});
+</script>
+</body>
+</html>

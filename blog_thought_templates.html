@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Scaling LLM Reasoning via Thought Templates — Ling Yang, Princeton University</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf9f7; --bg-card: #ffffff; --text: #1a1a1a; --text-secondary: #555;
+  --text-muted: #888; --accent: #2563eb; --accent-warm: #c2410c;
+  --border: #e8e5e0; --border-light: #f0ede8; --tag-bg: #f0ede8;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.04); --shadow-md: 0 4px 20px rgba(0,0,0,0.06);
+  --radius: 12px; --radius-sm: 8px;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+  --max-w: 1080px;
+  --tag-bot: #059669; --tag-bot-bg: #d1fae5;
+  --tag-sc: #d97706; --tag-sc-bg: #fef3c7;
+  --tag-rf: #7c3aed; --tag-rf-bg: #ede9fe;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:var(--sans); background:var(--bg); color:var(--text); line-height:1.7; font-size:17px; -webkit-font-smoothing:antialiased; }
+::selection { background:#2563eb22; }
+a { color:var(--accent); text-decoration:none; transition:color .2s; }
+a:hover { color:var(--accent-warm); }
+
+nav { position:sticky; top:0; z-index:100; background:rgba(250,249,247,.85); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); border-bottom:1px solid var(--border-light); }
+nav .inner { max-width:var(--max-w); margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:14px 32px; }
+nav .logo { font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-.02em; }
+nav .links { display:flex; gap:24px; flex-wrap:wrap; }
+nav .links a { font-size:14.5px; font-weight:500; color:var(--text-secondary); letter-spacing:.01em; position:relative; transition:color .2s; }
+nav .links a:hover { color:var(--text); }
+nav .links a.active { color:var(--text); }
+nav .links a.active::after { content:''; position:absolute; bottom:-4px; left:0; right:0; height:1.5px; background:var(--text); border-radius:1px; }
+nav .mobile-toggle { display:none; background:none; border:none; font-size:22px; cursor:pointer; }
+nav .princeton-badge { display:flex; align-items:center; gap:8px; text-decoration:none; border-bottom:none !important; }
+nav .princeton-badge img { height:90px; width:auto; opacity:.9; }
+nav .princeton-badge:hover img { opacity:1; }
+
+.blog-hero { max-width:780px; margin:0 auto; padding:64px 32px 0; }
+.blog-back { font-size:14px; color:var(--text-muted); display:inline-flex; align-items:center; gap:4px; margin-bottom:28px; transition:color .2s; }
+.blog-back:hover { color:var(--accent); }
+.blog-date { font-family:var(--mono); font-size:13px; color:var(--text-muted); letter-spacing:.5px; text-transform:uppercase; margin-bottom:16px; }
+.blog-hero h1 { font-family:var(--serif); font-size:clamp(2rem, 4.5vw, 2.8rem); font-weight:400; line-height:1.18; letter-spacing:-.02em; margin-bottom:18px; }
+.blog-hero h1 em { font-style:italic; color:var(--accent); }
+.blog-subtitle { font-size:17.5px; color:var(--text-secondary); line-height:1.7; margin-bottom:20px; }
+.blog-authors { font-size:15px; color:var(--text-secondary); margin-bottom:6px; }
+.blog-authors a { border-bottom:1px solid #2563eb33; }
+.blog-authors a:hover { border-bottom-color:var(--accent); }
+.blog-affil { font-size:13.5px; color:var(--text-muted); margin-bottom:24px; }
+.blog-tags { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }
+.tag { font-family:var(--mono); font-size:12.5px; padding:5px 14px; border-radius:100px; font-weight:500; display:inline-flex; align-items:center; gap:5px; transition:transform .15s; }
+.tag:hover { transform:translateY(-1px); }
+.tag-bot { background:var(--tag-bot-bg); color:var(--tag-bot); }
+.tag-sc { background:var(--tag-sc-bg); color:var(--tag-sc); }
+.tag-rf { background:var(--tag-rf-bg); color:var(--tag-rf); }
+.blog-divider { width:48px; height:1.5px; background:var(--border); margin:40px auto; }
+
+article { max-width:720px; margin:0 auto; padding:0 32px 80px; }
+article h2 { font-family:var(--serif); font-size:1.75rem; font-weight:400; margin:52px 0 16px; line-height:1.25; letter-spacing:-.01em; }
+article h3 { font-size:1.05rem; font-weight:600; margin:32px 0 10px; letter-spacing:-.01em; }
+article p { margin-bottom:16px; text-align:justify; }
+article a { border-bottom:1px solid transparent; transition:border-color .2s; }
+article a:hover { border-color:var(--accent); }
+article strong { font-weight:600; }
+article ul, article ol { margin:0 0 16px 20px; }
+article li { margin-bottom:6px; }
+
+.callout { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px 28px; margin:28px 0; position:relative; overflow:hidden; transition:box-shadow .3s; }
+.callout:hover { box-shadow:var(--shadow-md); }
+.callout::before { content:''; position:absolute; left:0; top:0; bottom:0; width:4px; }
+.callout-bot::before { background:var(--tag-bot); }
+.callout-sc::before { background:var(--tag-sc); }
+.callout-rf::before { background:var(--tag-rf); }
+.callout-label { font-family:var(--mono); font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-bottom:6px; }
+.callout-bot .callout-label { color:var(--tag-bot); }
+.callout-sc .callout-label { color:var(--tag-sc); }
+.callout-rf .callout-label { color:var(--tag-rf); }
+.callout-title { font-family:var(--serif); font-size:1.25rem; margin-bottom:8px; line-height:1.3; }
+.callout p { font-size:14.5px; color:var(--text-secondary); margin-bottom:10px; line-height:1.6; text-align:left; }
+.callout-links { display:flex; gap:5px; flex-wrap:wrap; }
+.callout-links a { font-family:var(--mono); font-size:12.5px; padding:3px 10px; border-radius:5px; background:var(--tag-bg); color:var(--text-secondary); border:1px solid transparent; transition:all .2s; }
+.callout-links a:hover { background:var(--bg); border-color:var(--border); color:var(--accent); }
+
+.stats-row { display:grid; grid-template-columns:repeat(auto-fit, minmax(170px,1fr)); gap:12px; margin:24px 0; }
+.stat-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-sm); padding:18px; text-align:center; transition:all .2s; }
+.stat-card:hover { box-shadow:var(--shadow-sm); }
+.stat-num { font-family:var(--serif); font-size:1.85rem; font-weight:400; line-height:1.1; }
+.stat-num.green { color:var(--tag-bot); }
+.stat-num.amber { color:var(--tag-sc); }
+.stat-num.purple { color:var(--tag-rf); }
+.stat-label { font-size:13px; color:var(--text-muted); margin-top:4px; }
+
+.timeline { position:relative; margin:36px 0; padding-left:30px; }
+.timeline::before { content:''; position:absolute; left:7px; top:8px; bottom:8px; width:2px; background:linear-gradient(to bottom, var(--tag-bot), var(--tag-sc), var(--tag-rf)); border-radius:2px; }
+.tl-item { position:relative; margin-bottom:24px; }
+.tl-item::before { content:''; position:absolute; left:-26px; top:8px; width:10px; height:10px; border-radius:50%; border:2px solid; background:var(--bg); }
+.tl-bot::before { border-color:var(--tag-bot); }
+.tl-sc::before { border-color:var(--tag-sc); }
+.tl-rf::before { border-color:var(--tag-rf); }
+.tl-time { font-family:var(--mono); font-size:12px; color:var(--text-muted); margin-bottom:2px; }
+.tl-title { font-weight:600; font-size:15.5px; margin-bottom:3px; }
+.tl-desc { font-size:14.5px; color:var(--text-secondary); line-height:1.6; }
+
+blockquote { border-left:3px solid var(--accent); padding:4px 0 4px 20px; margin:24px 0; color:var(--text-secondary); font-style:italic; }
+code { font-family:var(--mono); font-size:.88em; background:var(--border-light); padding:2px 6px; border-radius:4px; }
+pre { background:var(--border-light); padding:16px 20px; border-radius:var(--radius-sm); font-size:13px; font-family:var(--mono); overflow-x:auto; line-height:1.6; color:#444; margin:20px 0; }
+
+.detail-box { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:22px 26px; margin:24px 0; }
+.detail-box h4 { font-size:15px; font-weight:600; margin-bottom:8px; display:flex; align-items:center; gap:8px; }
+.detail-box h4::before { content:''; width:3px; height:14px; border-radius:2px; }
+.detail-box.bot h4::before { background:var(--tag-bot); }
+.detail-box.sc h4::before { background:var(--tag-sc); }
+.detail-box.rf h4::before { background:var(--tag-rf); }
+.detail-box p, .detail-box ul { font-size:15px; color:var(--text-secondary); line-height:1.7; }
+.detail-box ul { margin-left:18px; }
+
+footer { max-width:var(--max-w); margin:0 auto; padding:28px 32px; border-top:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; }
+footer p { font-size:13.5px; color:var(--text-muted); }
+footer .foot-links { display:flex; gap:16px; flex-wrap:wrap; }
+footer .foot-links a { font-size:13.5px; color:var(--text-muted); }
+footer .foot-links a:hover { color:var(--text); }
+
+@media (max-width:768px) {
+  .blog-hero { padding:40px 20px 0; }
+  .blog-hero h1 { font-size:1.7rem; }
+  article { padding:0 20px 60px; }
+  article h2 { font-size:1.4rem; }
+  .stats-row { grid-template-columns:1fr 1fr; }
+  nav .links { display:none; }
+  nav .mobile-toggle { display:block; }
+  nav.open .links { display:flex; flex-direction:column; position:absolute; top:100%; left:0; right:0; background:var(--bg); padding:16px 32px; border-bottom:1px solid var(--border); gap:12px; }
+}
+</style>
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="inner">
+    <a href="index.html" class="logo">Ling Yang</a>
+    <button class="mobile-toggle" onclick="document.getElementById('navbar').classList.toggle('open')">&#9776;</button>
+    <div class="links">
+      <a href="index.html">About</a>
+      <a href="index.html#research">Research</a>
+      <a href="index.html#news">News</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="#" class="active">Blog</a>
+    </div>
+    <a href="https://www.princeton.edu" class="princeton-badge" target="_blank">
+      <img src="https://yangling0818.github.io/images/prince.png" alt="Princeton University">
+    </a>
+  </div>
+</nav>
+
+<div class="blog-hero">
+  <a href="index.html" class="blog-back">&larr; Back to Home</a>
+  <div class="blog-date">2024 – 2025</div>
+  <h1>Scaling LLM Reasoning via <em>Thought Templates</em></h1>
+  <p class="blog-subtitle">Three tightly connected projects — Buffer of Thoughts, SuperCorrect, and ReasonFlux — that evolve a single idea from prompting-time retrieval to training-time distillation to RL-optimized hierarchical reasoning, culminating in a 32B model that surpasses o1-preview on MATH and AIME.</p>
+  <p class="blog-authors"><a href="https://yangling0818.github.io">Ling Yang</a></p>
+  <p class="blog-affil">Gen-Verse &middot; Princeton AI Lab &middot; Princeton University</p>
+  <div class="blog-tags">
+    <span class="tag tag-bot">Buffer of Thoughts</span>
+    <span class="tag tag-sc">SuperCorrect</span>
+    <span class="tag tag-rf">ReasonFlux</span>
+  </div>
+</div>
+
+<div class="blog-divider"></div>
+
+<article>
+
+<p>
+The idea behind this research line is deceptively simple: <strong>humans don't solve hard problems from scratch every time — they recall high-level strategies, adapt them to the specific problem, and refine their approach when things go wrong.</strong> Can we teach LLMs to do the same?
+</p>
+<p>
+We started exploring this question in mid-2024 with Buffer of Thoughts, a prompting framework that stores and retrieves reusable "thought templates." The results were striking — an 8B model equipped with BoT could rival a 70B model — but the templates lived outside the model, as a retrieval system at inference time. This naturally led to two follow-up questions: (1) can we bake these templates into the model's weights through training? and (2) can we use RL to learn optimal sequences of templates for complex, multi-step problems?
+</p>
+<p>
+<strong>SuperCorrect</strong> answers the first question. It distills hierarchical thought templates from a large teacher model into a smaller student model via SFT, and uses a novel cross-model collaborative DPO to teach the student to self-correct using the teacher's error-correction traces. <strong>ReasonFlux</strong> answers the second. It builds a structured library of ~500 thought templates and trains the model via hierarchical RL to plan optimal template trajectories — sequences of high-level strategies that decompose complex problems into manageable sub-problems.
+</p>
+<p>
+Each project inherits and extends the core concept from the one before it. BoT's thought templates became SuperCorrect's hierarchical templates; SuperCorrect's template-guided reasoning became ReasonFlux's template trajectory optimization. This blog traces that evolution in detail.
+</p>
+
+<!-- Timeline -->
+<div class="timeline">
+  <div class="tl-item tl-bot">
+    <div class="tl-time">Jun 2024 · NeurIPS 2024 Spotlight</div>
+    <div class="tl-title">Step 1: Buffer of Thoughts — Templates as a Retrieval System</div>
+    <div class="tl-desc">Introduces "thought templates" — high-level reasoning strategies distilled from solved problems and stored in a meta-buffer for retrieval. Achieves +51% on Checkmate-in-One at 12% the cost of Tree of Thoughts.</div>
+  </div>
+  <div class="tl-item tl-sc">
+    <div class="tl-time">Oct 2024 · ICLR 2025</div>
+    <div class="tl-title">Step 2: SuperCorrect — Templates Distilled into Weights</div>
+    <div class="tl-desc">Building on BoT's template concept, distills hierarchical thought templates from a teacher into a student via SFT, then adds cross-model collaborative DPO for self-correction. SuperCorrect-7B surpasses DeepSeekMath-7B by 7.8% on MATH.</div>
+  </div>
+  <div class="tl-item tl-rf">
+    <div class="tl-time">Feb 2025 · NeurIPS 2025 Spotlight</div>
+    <div class="tl-title">Step 3: ReasonFlux — RL over Template Trajectories</div>
+    <div class="tl-desc">Culmination of the line: hierarchical RL optimizes sequences of thought templates rather than raw token chains. ReasonFlux-32B trained on 8 GPUs surpasses o1-preview by 6.7% on MATH and solves 56.7% of AIME problems.</div>
+  </div>
+</div>
+
+
+<!-- ========== Buffer of Thoughts ========== -->
+<h2>Buffer of Thoughts: Learning to Reuse Reasoning Strategies</h2>
+
+<div class="callout callout-bot">
+  <div class="callout-label">Buffer of Thoughts</div>
+  <div class="callout-title">Thought-Augmented Reasoning with Large Language Models</div>
+  <p>A thought-augmented reasoning framework that stores distilled high-level thought templates in a meta-buffer, retrieves them for new problems, and dynamically updates the buffer as more tasks are solved. NeurIPS 2024 Spotlight.</p>
+  <div class="callout-links">
+    <a href="https://arxiv.org/abs/2406.04271" target="_blank">Paper</a>
+    <a href="https://github.com/YangLing0818/buffer-of-thought-llm" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<h3>The Problem: Reasoning from Scratch Every Time</h3>
+<p>
+Existing LLM reasoning methods fall into two camps. Single-query methods (like Chain-of-Thought) require manually designed exemplars for each task type and lack generalization. Multi-query methods (like Tree of Thoughts or Graph of Thoughts) explore multiple reasoning paths but are computationally expensive due to recursive expansion. Both approaches share a deeper limitation: they build reasoning structures from scratch for every problem, without leveraging the common patterns across similar problems.
+</p>
+
+<div class="detail-box bot">
+<h4>Meta-Buffer and Thought Templates</h4>
+<p>
+BoT's core innovation is the <strong>meta-buffer</strong> — a lightweight library of "thought templates" distilled from previously solved problems. Each thought template captures a high-level reasoning strategy (e.g., "formulate as a constraint satisfaction problem," "reduce to a graph traversal," "apply backward induction") that generalizes across similar problem types. Templates are not specific solutions but abstract reasoning patterns that can be instantiated with problem-specific details.
+</p>
+<p>
+Template distillation uses carefully designed in-context examples of two types: <strong>in-task examples</strong> (templates from the same problem domain) and <strong>cross-task examples</strong> (templates from one domain used to solve problems in another, e.g., a code-related template applied to a math problem). Cross-task distillation is critical for generalization — it ensures templates capture truly abstract reasoning patterns rather than domain-specific tricks.
+</p>
+</div>
+
+<div class="detail-box bot">
+<h4>Problem Distiller + Instantiation</h4>
+<p>
+Before reasoning begins, a <strong>problem distiller</strong> extracts key information, variables, and constraints from the input using a meta-prompt. This separates the extraction and comprehension stages from the reasoning stage, reducing the cognitive load on the LLM during actual problem-solving.
+</p>
+<p>
+Given the distilled problem representation, BoT retrieves the most relevant thought template from the meta-buffer and <strong>adaptively instantiates</strong> it — filling in the abstract template with concrete, problem-specific reasoning steps. This instantiation process generates the final reasoning chain with a single LLM query, achieving the accuracy benefits of multi-query methods at single-query cost.
+</p>
+</div>
+
+<div class="detail-box bot">
+<h4>Buffer Manager: Dynamic Self-Improvement</h4>
+<p>
+The meta-buffer is not static. A <strong>buffer manager</strong> continuously refines it: when a new problem is solved, the manager decides whether the solution contains a genuinely new reasoning pattern worth distilling into a template, or whether an existing template should be updated. To avoid redundancy while preserving new insights, the manager computes similarity scores between candidate templates and existing ones, only adding templates that are sufficiently novel.
+</p>
+</div>
+
+<div class="stats-row">
+  <div class="stat-card"><div class="stat-num green">+51%</div><div class="stat-label">on Checkmate-in-One</div></div>
+  <div class="stat-card"><div class="stat-num green">12%</div><div class="stat-label">cost vs ToT/GoT</div></div>
+  <div class="stat-card"><div class="stat-num green">8B → 70B</div><div class="stat-label">Llama3-8B+BoT ≈ 70B</div></div>
+</div>
+
+<p>
+BoT demonstrates significant improvements across 10 reasoning-intensive tasks: +11% on Game of 24, +20% on Geometric Shapes, +51% on Checkmate-in-One, all while requiring only 12% of the cost of multi-query methods on average. Most strikingly, Llama3-8B equipped with BoT shows the potential to match or surpass the Llama3-70B model — demonstrating that the right reasoning scaffolding can close a 10× parameter gap.
+</p>
+
+
+<!-- ========== SuperCorrect ========== -->
+<h2>SuperCorrect: Baking Templates into Weights</h2>
+
+<div class="callout callout-sc">
+  <div class="callout-label">SuperCorrect</div>
+  <div class="callout-title">Advancing Small LLM Reasoning with Thought Template Distillation and Self-Correction</div>
+  <p>A two-stage framework that distills hierarchical thought templates from a teacher model and uses cross-model collaborative DPO to teach smaller models to self-correct. Published at ICLR 2025.</p>
+  <div class="callout-links">
+    <a href="https://arxiv.org/abs/2410.09008" target="_blank">Paper</a>
+    <a href="https://github.com/YangLing0818/SuperCorrect-llm" target="_blank">GitHub</a>
+  </div>
+</div>
+
+<h3>From Retrieval to Distillation</h3>
+<p>
+BoT showed that thought templates dramatically improve reasoning, but the templates lived in an external buffer — they needed to be retrieved at inference time, and the model itself didn't internalize the reasoning patterns. SuperCorrect asks: what if we distill these templates directly into the model's weights?
+</p>
+
+<div class="detail-box sc">
+<h4>Stage 1: Hierarchical Thought SFT</h4>
+<p>
+SuperCorrect deepens BoT's template concept by introducing <strong>hierarchical thought templates</strong> with two levels of abstraction. For each problem, a large teacher model (e.g., GPT-4) generates: (1) a <strong>high-level thought</strong> — a generalized solution strategy applicable to similar problems (analogous to BoT's thought templates), and (2) a <strong>detailed solution</strong> — a step-by-step explanation of the critical reasoning steps with fine-grained intermediate justifications.
+</p>
+<p>
+Compared to standard CoT or BoT-style templates, these hierarchical templates offer deeper reasoning insights because the high-level strategy provides direction while the detailed steps provide the precision needed for error detection and correction. The student model is fine-tuned on these hierarchical template-solution pairs via SFT, learning to produce both the strategic overview and the detailed execution for new problems.
+</p>
+</div>
+
+<div class="detail-box sc">
+<h4>Stage 2: Cross-Model Collaborative DPO</h4>
+<p>
+A well-known limitation of LLM self-correction is that models struggle to identify their own errors — they are biased by their own reasoning context. SuperCorrect solves this with <strong>cross-model collaborative DPO</strong>, which pairs two types of correction traces:
+</p>
+<ul>
+<li><strong>Self-correction traces:</strong> The student model's own (often failed) attempt to locate and fix errors in its reasoning.</li>
+<li><strong>Cross-model correction traces:</strong> The teacher model's correction of the student's errors, identifying the exact thought step where reasoning went wrong and providing the corrected reasoning path.</li>
+</ul>
+<p>
+These paired traces form the preference data for DPO training: the teacher's cross-model corrections are treated as "chosen" responses, and the student's self-corrections as "rejected" responses. This teaches the student to adopt the teacher's error-correction strategies — effectively breaking the bottleneck of the student's own reasoning capacity by injecting the teacher's skills and knowledge through preference learning.
+</p>
+</div>
+
+<div class="stats-row">
+  <div class="stat-card"><div class="stat-num amber">+7.8%</div><div class="stat-label">vs DeepSeekMath-7B (MATH)</div></div>
+  <div class="stat-card"><div class="stat-num amber">+15.1%</div><div class="stat-label">vs Qwen2.5-Math-7B (GSM8K)</div></div>
+  <div class="stat-card"><div class="stat-num amber">70.2%</div><div class="stat-label">MATH accuracy (7B SOTA)</div></div>
+</div>
+
+<p>
+SuperCorrect-7B achieves 70.2% on MATH and 89.5% on GSM8K, establishing new SOTA among all 7B models at the time of publication. Three model variants are released: SuperCorrect-Qwen-7B, SuperCorrect-DeepSeek-7B, and SuperCorrect-Llama-7B, along with the training datasets for both stages.
+</p>
+
+
+<!-- ========== ReasonFlux ========== -->
+<h2>ReasonFlux: Hierarchical RL over Template Trajectories</h2>
+
+<div class="callout callout-rf">
+  <div class="callout-label">ReasonFlux</div>
+  <div class="callout-title">Hierarchical LLM Reasoning via Scaling Thought Templates</div>
+  <p>A hierarchical reasoning framework that trains a model via RL to plan optimal sequences of thought templates, with an inference-time scaling system that adaptively expands template trajectories. Trained on 8 GPUs; surpasses o1-preview. NeurIPS 2025 Spotlight.</p>
+  <div class="callout-links">
+    <a href="https://arxiv.org/abs/2502.06772" target="_blank">Paper</a>
+    <a href="https://github.com/Gen-Verse/ReasonFlux/tree/main/ReasonFlux" target="_blank">GitHub</a>
+    <a href="https://huggingface.co/Gen-Verse/ReasonFlux-F1" target="_blank">Models</a>
+  </div>
+</div>
+
+<h3>From Single Templates to Template Trajectories</h3>
+<p>
+BoT retrieves one template per problem; SuperCorrect distills a two-level template per problem. But truly complex reasoning — competition-level math, multi-step proofs, olympiad problems — often requires composing multiple strategies in sequence: first formulate the problem algebraically, then identify a symmetry, then apply an inequality bound, then verify edge cases. ReasonFlux makes this explicit by optimizing over <strong>template trajectories</strong>: ordered sequences of thought templates, where each template guides one phase of the overall solution.
+</p>
+
+<div class="detail-box rf">
+<h4>Structured Template Library</h4>
+<p>
+ReasonFlux constructs a library of approximately <strong>500 high-level thought templates</strong>, each representing a reusable reasoning strategy (e.g., "apply Cauchy-Schwarz inequality," "reduce to modular arithmetic," "use pigeonhole principle on the complement"). Templates are structured for efficient retrieval with metadata about applicable problem types, prerequisite conditions, and expected outcomes. Unlike BoT's dynamically growing buffer, this library is curated and fixed, making it more stable for RL training.
+</p>
+</div>
+
+<div class="detail-box rf">
+<h4>Hierarchical Reinforcement Learning</h4>
+<p>
+The key innovation is performing RL not on raw token-level CoT trajectories (which can be thousands of tokens long) but on the <strong>high-level template trajectory</strong>. For a given problem, the model proposes a sequence of templates — a "plan" — and then instantiates each template to produce detailed reasoning steps. RL optimizes over the template sequence using preference pairs: multiple candidate trajectories are sampled, evaluated against the ground-truth answer, and the model learns to prefer trajectories that lead to correct solutions.
+</p>
+<p>
+This hierarchical approach has two major advantages. First, it dramatically reduces the search space: instead of exploring the combinatorial space of all possible token sequences, RL operates over a much smaller space of template orderings. Second, the resulting reasoning is more <strong>explainable</strong> — each step in the solution is labeled with its high-level strategy, making the reasoning structure transparent and interpretable.
+</p>
+</div>
+
+<div class="detail-box rf">
+<h4>Inference-Time Template Scaling</h4>
+<p>
+ReasonFlux introduces a novel inference scaling system that dynamically adjusts the number and complexity of templates at test time. For simpler problems, one or two templates suffice; for competition-level problems, the system may allocate many templates with deeper instantiation at each step. This adaptive scaling achieves a better <strong>exploration-exploitation trade-off</strong>: the model explores broadly when uncertain (sampling diverse template combinations) and exploits confidently when a clear strategy emerges (committing to a specific template trajectory and refining execution).
+</p>
+<p>
+Concretely, the system retrieves candidate templates for each sub-problem, scores them using the RL-trained policy, and either commits to the top-scoring template or explores alternatives based on a confidence threshold. This produces template trajectories that are more explainable than the raw long-CoT outputs of models like DeepSeek-R1, because each reasoning phase has an explicit strategic label.
+</p>
+</div>
+
+<div class="stats-row">
+  <div class="stat-card"><div class="stat-num purple">91.2%</div><div class="stat-label">MATH (+6.7% vs o1-preview)</div></div>
+  <div class="stat-card"><div class="stat-num purple">56.7%</div><div class="stat-label">AIME (+27% vs o1-preview)</div></div>
+  <div class="stat-card"><div class="stat-num purple">8 GPUs</div><div class="stat-label">total training compute</div></div>
+</div>
+
+<p>
+ReasonFlux-32B achieves 91.2% on MATH (surpassing o1-preview by 6.7%) and solves an average of 56.7% of AIME problems (surpassing o1-preview by 27% and DeepSeek-V3 by 45%). These results are achieved training with only 8 GPUs, demonstrating the efficiency gains from operating in template space rather than raw token space. The model family has since expanded to include ReasonFlux-F1-7B/14B/32B (SFT distillations of ReasonFlux-Zero trajectories), ReasonFlux-Coder, and ReasonFlux-PRM (trajectory-aware process reward models).
+</p>
+
+
+<!-- ========== Unified Philosophy ========== -->
+<h2>The Common Thread</h2>
+
+<blockquote>The best reasoning systems don't just think harder — they think more strategically, by reusing and composing high-level problem-solving patterns rather than generating every reasoning step from scratch.</blockquote>
+
+<p>
+Across these three projects, one idea evolves through three levels of integration. BoT introduces thought templates as an external retrieval system at inference time — powerful but separate from the model. SuperCorrect integrates templates into the model's weights through distillation, and adds the ability to self-correct using teacher-derived error traces. ReasonFlux makes templates first-class objects in the training loop itself, using RL to learn which sequences of templates lead to correct solutions on the hardest problems.
+</p>
+<p>
+Each step brings templates closer to the core of the model's reasoning process: from external retrieval (BoT) to weight-level internalization (SuperCorrect) to RL-optimized planning (ReasonFlux). And each step produces stronger results: BoT closes a 10× parameter gap; SuperCorrect sets 7B SOTA; ReasonFlux surpasses o1-preview on competition math with 8 GPUs. The lesson is clear: teaching models <em>how</em> to reason — not just giving them more tokens to reason with — is a remarkably efficient path to stronger AI.
+</p>
+
+
+<!-- ========== Citation ========== -->
+<div style="margin-top:48px; padding-top:28px; border-top:1px solid var(--border);">
+<h3 style="margin-top:0;">Citation</h3>
+<p style="font-size:14px; color:var(--text-muted); margin-bottom:12px;">If you find our work useful, please consider citing:</p>
+<pre style="margin-left:0; margin-right:0; width:100%; box-sizing:border-box; white-space:pre-wrap; word-break:break-all;">@article{yang2024bot,
+  title={Buffer of Thoughts: Thought-Augmented
+         Reasoning with Large Language Models},
+  author={Yang, Ling and Yu, Zhaochen and Zhang,
+          Tianjun and Cao, Shiyi and Xu, Minkai
+          and Zhang, Wentao and Gonzalez, Joseph E.
+          and Cui, Bin},
+  journal={NeurIPS 2024 Spotlight},
+  year={2024}
+}
+
+@article{yang2024supercorrect,
+  title={SuperCorrect: Supervising and Correcting
+         Language Models with Error-Driven Insights},
+  author={Yang, Ling and Yu, Zhaochen and Zhang,
+          Tianjun and Xu, Minkai and Gonzalez,
+          Joseph E. and Cui, Bin and Yan, Shuicheng},
+  journal={ICLR 2025},
+  year={2024}
+}
+
+@article{yang2025reasonflux,
+  title={ReasonFlux: Hierarchical LLM Reasoning
+         via Scaling Thought Templates},
+  author={Yang, Ling and Yu, Zhaochen and Cui, Bin
+          and Wang, Mengdi},
+  journal={arXiv preprint arXiv:2502.06772},
+  year={2025}
+}</pre>
+</div>
+
+</article>
+
+<footer>
+  <p>&copy; 2025 Ling Yang &middot; Princeton University</p>
+  <div class="foot-links">
+    <a href="mailto:yangling0818@163.com">Email</a>
+    <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">Google Scholar</a>
+    <a href="https://github.com/Gen-Verse">GitHub</a>
+    <a href="https://x.com/LingYang_PU">Twitter/X</a>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('click', function(e){
+  var nav = document.getElementById('navbar');
+  if(!nav.contains(e.target)) nav.classList.remove('open');
+});
+</script>
+</body>
+</html>
