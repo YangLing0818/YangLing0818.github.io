@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog — Ling Yang</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf9f7; --bg-card: #ffffff; --text: #1a1a1a; --text-secondary: #555;
+  --text-muted: #888; --accent: #2563eb; --accent-warm: #c2410c;
+  --border: #e8e5e0; --border-light: #f0ede8; --tag-bg: #f0ede8;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.04); --shadow-md: 0 4px 20px rgba(0,0,0,0.06);
+  --radius: 12px; --radius-sm: 8px;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+  --max-w: 1080px;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:var(--sans); background:var(--bg); color:var(--text); line-height:1.7; font-size:17px; -webkit-font-smoothing:antialiased; }
+::selection { background:#2563eb22; }
+a { color:var(--accent); text-decoration:none; transition:color .2s; }
+a:hover { color:var(--accent-warm); }
+
+nav { position:sticky; top:0; z-index:100; background:rgba(250,249,247,.85); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); border-bottom:1px solid var(--border-light); }
+nav .inner { max-width:var(--max-w); margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:14px 32px; }
+nav .logo { font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-.02em; }
+nav .links { display:flex; gap:24px; flex-wrap:wrap; }
+nav .links a { font-size:14.5px; font-weight:500; color:var(--text-secondary); letter-spacing:.01em; position:relative; transition:color .2s; }
+nav .links a:hover, nav .links a.active { color:var(--text); }
+nav .links a.active::after { content:''; position:absolute; bottom:-4px; left:0; right:0; height:1.5px; background:var(--text); border-radius:1px; }
+nav .mobile-toggle { display:none; background:none; border:none; font-size:22px; cursor:pointer; }
+nav .princeton-badge { display:flex; align-items:center; gap:8px; text-decoration:none; border-bottom:none !important; }
+nav .princeton-badge img { height:90px; width:auto; opacity:.9; }
+nav .princeton-badge:hover img { opacity:1; }
+
+.page-header { max-width:var(--max-w); margin:0 auto; padding:60px 32px 20px; }
+.page-header h1 { font-family:var(--serif); font-size:42px; font-weight:400; letter-spacing:-.03em; line-height:1.2; margin-bottom:10px; }
+.page-header p { font-size:17px; color:var(--text-secondary); line-height:1.7; }
+
+.blog-list { max-width:var(--max-w); margin:0 auto; padding:20px 32px 60px; display:flex; flex-direction:column; gap:20px; }
+
+.blog-card { display:grid; grid-template-columns:1fr; padding:32px; background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); transition:all .3s; text-decoration:none; color:inherit; }
+.blog-card:hover { box-shadow:var(--shadow-md); border-color:#d0d0d0; transform:translateY(-2px); color:inherit; }
+.blog-card .blog-tag { display:inline-block; font-family:var(--mono); font-size:12px; font-weight:600; padding:3px 10px; border-radius:5px; letter-spacing:.03em; margin-bottom:14px; width:fit-content; }
+.blog-card .blog-tag.llm { background:#ede9fe; color:#5b21b6; }
+.blog-card .blog-tag.evolving { background:#d1fae5; color:#065f46; }
+.blog-card .blog-tag.diffusion { background:#dbeafe; color:#1e40af; }
+.blog-card h2 { font-family:var(--serif); font-size:26px; font-weight:400; letter-spacing:-.02em; line-height:1.3; margin-bottom:10px; color:var(--text); }
+.blog-card p { font-size:15.5px; color:var(--text-secondary); line-height:1.7; margin-bottom:16px; }
+.blog-card .blog-projects { display:flex; flex-wrap:wrap; gap:6px; }
+.blog-card .blog-projects span { font-family:var(--mono); font-size:12.5px; padding:4px 12px; border-radius:6px; background:var(--tag-bg); color:var(--text-secondary); border:1px solid transparent; transition:all .2s; }
+.blog-card:hover .blog-projects span { border-color:var(--border); }
+.blog-card .read-more { display:inline-flex; align-items:center; gap:4px; font-size:14.5px; font-weight:600; color:var(--accent); margin-top:8px; }
+.blog-card .read-more::after { content:'→'; transition:transform .2s; }
+.blog-card:hover .read-more::after { transform:translateX(4px); }
+
+footer { max-width:var(--max-w); margin:0 auto; padding:28px 32px; border-top:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; }
+footer p { font-size:13.5px; color:var(--text-muted); }
+footer .foot-links { display:flex; gap:16px; flex-wrap:wrap; }
+footer .foot-links a { font-size:13.5px; color:var(--text-muted); }
+footer .foot-links a:hover { color:var(--text); }
+
+@media (max-width:768px) {
+  .page-header { padding:36px 20px 16px; }
+  .page-header h1 { font-size:32px; }
+  .blog-list { padding:16px 20px 48px; }
+  .blog-card { padding:24px; }
+  .blog-card h2 { font-size:22px; }
+  nav .links { display:none; }
+  nav .mobile-toggle { display:block; }
+  nav.open .links { display:flex; flex-direction:column; position:absolute; top:100%; left:0; right:0; background:var(--bg); padding:16px 32px; border-bottom:1px solid var(--border); gap:12px; }
+}
+</style>
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="inner">
+    <a href="index.html" class="logo">Ling Yang</a>
+    <button class="mobile-toggle" onclick="document.getElementById('navbar').classList.toggle('open')">&#9776;</button>
+    <div class="links">
+      <a href="index.html">About</a>
+      <a href="index.html#research">Research</a>
+      <a href="index.html#news">News</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="index.html#talks">Talks</a>
+      <a href="index.html#honors">Honors</a>
+      <a href="index.html#services">Services</a>
+      <a href="blog.html" class="active">Blog</a>
+    </div>
+    <a href="https://www.princeton.edu" class="princeton-badge" target="_blank">
+      <img src="https://yangling0818.github.io/images/prince.png" alt="Princeton University">
+    </a>
+  </div>
+</nav>
+
+<div class="page-header">
+  <h1>Blog</h1>
+  <p>Research insights and technical deep-dives from the <a href="https://github.com/Gen-Verse">Gen-Verse</a> team at Princeton.</p>
+</div>
+
+<div class="blog-list">
+
+  <a href="blog_thought_templates.html" class="blog-card">
+    <span class="blog-tag llm">LLM Reasoning</span>
+    <h2>LLM Reasoning via Thought Templates</h2>
+    <p>Exploring how thought-augmented reasoning and template distillation can unlock stronger problem-solving capabilities in large language models — from Buffer of Thoughts to ReasonFlux.</p>
+    <div class="blog-projects">
+      <span>BoT</span>
+      <span>SuperCorrect</span>
+      <span>ReasonFlux</span>
+    </div>
+    <span class="read-more">Read post</span>
+  </a>
+
+  <a href="blog_self_evolving_ai.html" class="blog-card">
+    <span class="blog-tag evolving">Self-Evolving AI</span>
+    <h2>Self-Evolving AI</h2>
+    <p>Building AI systems that co-evolve environments, policies, and reward models — from code generation with reinforcement learning to personalized agent fine-tuning through natural conversation.</p>
+    <div class="blog-projects">
+      <span>CURE</span>
+      <span>RLAnything</span>
+      <span>OpenClaw-RL</span>
+    </div>
+    <span class="read-more">Read post</span>
+  </a>
+
+  <a href="blog_diffusion_llm.html" class="blog-card">
+    <span class="blog-tag diffusion">Diffusion Language Models</span>
+    <h2>Diffusion Language Models</h2>
+    <p>Advancing the frontier of diffusion-based language modeling — from reinforcement learning frameworks for discrete diffusion to multimodal generation and efficient parallel decoding.</p>
+    <div class="blog-projects">
+      <span>TraceRL</span>
+      <span>MMaDA</span>
+      <span>MMaDA-Parallel</span>
+    </div>
+    <span class="read-more">Read post</span>
+  </a>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 Ling Yang &middot; Princeton University</p>
+  <div class="foot-links">
+    <a href="mailto:yangling0818@163.com">Email</a>
+    <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">Google Scholar</a>
+    <a href="https://github.com/Gen-Verse">GitHub</a>
+    <a href="https://x.com/LingYang_PU">Twitter/X</a>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('click', function(e){
+  var nav = document.getElementById('navbar');
+  if(!nav.contains(e.target)) nav.classList.remove('open');
+});
+</script>
+</body>
+</html>
