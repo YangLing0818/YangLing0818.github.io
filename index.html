@@ -96,7 +96,6 @@ section { max-width:var(--max-w); margin:0 auto; padding:0 32px 52px; }
 .book-card h3 { font-size:16px; font-weight:600; margin-bottom:4px; }
 .book-card p { font-size:14.5px; color:var(--text-secondary); line-height:1.65; }
 
-.news-list { display:flex; flex-direction:column; }
 .news-list { display:flex; flex-direction:column; gap:2px; }
 .news-item { display:flex; align-items:baseline; gap:14px; padding:9px 12px; border-radius:var(--radius-sm); transition:background .15s; }
 .news-item:hover { background:var(--border-light); }
@@ -195,6 +194,7 @@ footer .foot-links a:hover { color:var(--text); }
       <a href="#talks">Talks</a>
       <a href="#honors">Honors</a>
       <a href="#services">Services</a>
+      <a href="blog_self_evolving_ai.html">Blog</a>
     </div>
     <a href="https://www.princeton.edu" class="princeton-badge" target="_blank">
       <img src="https://yangling0818.github.io/images/prince.png" alt="Princeton University">
@@ -222,7 +222,7 @@ footer .foot-links a:hover { color:var(--text); }
     <p class="subtitle">Postdoctoral Scholar &middot; <strong>Princeton University</strong></p>
     <p class="bio">I am currently a Postdoctoral Scholar in the <a href="https://ece.princeton.edu/">Department of ECE at Princeton University</a>, co-affiliated with <a href="https://ai.princeton.edu/ai-lab">Princeton AI Lab</a>, fortunately working with Prof. <a href="https://mwang.princeton.edu/">Mengdi Wang</a>. Prior to this, I served as a Senior Research Assistant at Princeton University from January to July 2025. I received my Ph.D. degree from Peking University in July 2025, jointly supervised by Prof. <a href="https://cuibinpku.github.io/">Bin Cui</a> and Prof. <a href="https://www.nihds.pku.edu.cn/en/info/1027/1002.htm">Luxia Zhang</a>. During my doctoral studies, I was selected for the <a href="https://seed.bytedance.com/en/topseed?view_from=homepage_tab">ByteDance Top Seed Talent Program</a>.</p>
     <p class="bio">I was also fortunate to collaborate with <a href="https://yang-song.net/">Yang Song</a>, <a href="https://scholar.google.com.hk/citations?user=DNuiPHwAAAAJ&hl=zh-CN">Shuicheng Yan</a>, <a href="https://scholar.google.com/citations?user=p9-ohHsAAAAJ&hl=zh-CN">Ming-Hsuan Yang</a>, <a href="https://scholar.google.com/citations?user=rVsGTeEAAAAJ&hl=zh-CN">Bernard Ghanem</a>, <a href="https://scholar.google.com/citations?user=2efgcS0AAAAJ&hl=zh-CN">Jiajun Wu</a>, <a href="https://scholar.google.com/citations?user=ogXTOZ4AAAAJ&hl=en">Stefano Ermon</a>, <a href="https://scholar.google.com/citations?user=Q_kKkIUAAAAJ&hl=zh-CN">Jure Leskovec</a>, <a href="https://scholar.google.com/citations?user=vhP-tlcAAAAJ&hl=zh-CN">Yejin Choi</a>, and <a href="https://scholar.google.com.hk/citations?user=23ZXZvEAAAAJ&hl=zh-CN">James Zou</a>.</p>
-    <p class="bio">My research builds toward <strong>Super Generative Intelligence</strong> — see <a href="#research">Research Summary</a> for a full overview of ongoing work across generative model foundations (large language models, reinforcement learning, and diffusion models), multimodal applications, and intelligent agent systems. I lead the <a href="https://github.com/Gen-Verse">Gen-Verse</a> team at Princeton. Our open-source projects have accumulated 10,000+ GitHub Stars and 200,000+ HuggingFace Downloads.</p>
+    <p class="bio">My research builds toward <strong>Super Generative Intelligence</strong> — see <a href="#research">Research Summary</a> for a full overview of ongoing work across generative model foundations (large language models, reinforcement learning, and diffusion models), multimodal applications, and intelligent agent systems. I lead the <a href="https://github.com/Gen-Verse">Gen-Verse</a> team at Princeton. Our open-source projects have accumulated 10,000+ GitHub Stars and 200,000+ HuggingFace Downloads. Read our latest blogs: <a href="blog_scaling_reasoning.html"><strong>Thought Templates</strong></a> (BoT, SuperCorrect, ReasonFlux), <a href="blog_self_evolving_ai.html"><strong>Self-Evolving AI</strong></a> (CURE, RLAnything, OpenClaw-RL), and <a href="blog_diffusion_llm.html"><strong>Diffusion Language Models</strong></a> (TraceRL, MMaDA, MMaDA-Parallel).</p>
   </div>
 </header>
 
@@ -268,8 +268,8 @@ footer .foot-links a:hover { color:var(--text); }
   <div class="sub-section-title">Generative Model Foundations</div>
   <div class="pillars">
     <div class="pillar"><h3><span class="dot" style="background:#ec4899"></span>Language Model Innovations</h3><p class="paper-links"><a href="https://arxiv.org/pdf/2406.04271">Buffer of Thought</a>, <a href="https://github.com/Gen-Verse/MMaDA">MMaDA</a>, <a href="https://github.com/Gen-Verse/ReasonFlux">ReasonFlux</a>, <a href="https://github.com/Gen-Verse/CURE">ReasonFlux-Coder</a>, <a href="https://github.com/Gen-Verse/ReasonFlux">ReasonFlux-PRM</a>, <a href="https://arxiv.org/abs/2410.08102">Multi-Actor Collaboration</a>, <a href="https://arxiv.org/abs/2509.06949">TraDo</a>, <a href="https://arxiv.org/abs/2410.09008">SuperCorrect</a>, <a href="https://arxiv.org/abs/2511.20639">LatentMAS</a>, <a href="https://arxiv.org/abs/2602.02488">RLAnything</a></p></div>
-    <div class="pillar"><h3><span class="dot" style="background:#10b981"></span>Large-Scale Reinforcement Learning</h3><p class="paper-links"><a href="https://github.com/Gen-Verse/dLLM-RL">dLLM-RL</a>, <a href="https://github.com/Gen-Verse/MMaDA">MMaDA</a>, <a href="https://github.com/Gen-Verse/CURE">ReasonFlux-Coder</a>, <a href="https://github.com/Gen-Verse/ReasonFlux">ReasonFlux-PRM</a>, <a href="https://arxiv.org/abs/2502.12148">HermesFlow</a>, <a href="https://arxiv.org/abs/2510.11701">Open-AgentRL</a>, <a href="https://arxiv.org/abs/2602.02488">RLAnything</a></p></div>
-    <div class="pillar"><h3><span class="dot" style="background:#f59e0b"></span>Intelligent Agent Systems</h3><p class="paper-links"><a href="https://arxiv.org/abs/2505.20286">Alita</a>, <a href="https://arxiv.org/abs/2506.14728">AgentDistill</a>, <a href="https://github.com/Gen-Verse/ScoreFlow">ScoreFlow</a>, <a href="https://arxiv.org/abs/2508.09632">Preacher</a>, <a href="https://arxiv.org/abs/2504.09689">EmoAgent</a>, <a href="https://arxiv.org/abs/2510.11701">DemyAgent</a>, <a href="https://arxiv.org/abs/2511.20639">LatentMAS</a>, <a href="https://github.com/Gen-Verse/GenEnv">GenEnv</a>, <a href="https://arxiv.org/abs/2602.02488">RLAnything</a></p></div>
+    <div class="pillar"><h3><span class="dot" style="background:#10b981"></span>Large-Scale Reinforcement Learning</h3><p class="paper-links"><a href="https://github.com/Gen-Verse/dLLM-RL">dLLM-RL</a>, <a href="https://github.com/Gen-Verse/MMaDA">MMaDA</a>, <a href="https://github.com/Gen-Verse/CURE">ReasonFlux-Coder</a>, <a href="https://github.com/Gen-Verse/ReasonFlux">ReasonFlux-PRM</a>, <a href="https://arxiv.org/abs/2502.12148">HermesFlow</a>, <a href="https://arxiv.org/abs/2510.11701">Open-AgentRL</a>, <a href="https://arxiv.org/abs/2602.02488">RLAnything</a>, <a href="https://github.com/Gen-Verse/OpenClaw-RL">OpenClaw-RL</a></p></div>
+    <div class="pillar"><h3><span class="dot" style="background:#f59e0b"></span>Intelligent Agent Systems</h3><p class="paper-links"><a href="https://arxiv.org/abs/2505.20286">Alita</a>, <a href="https://arxiv.org/abs/2506.14728">AgentDistill</a>, <a href="https://github.com/Gen-Verse/ScoreFlow">ScoreFlow</a>, <a href="https://arxiv.org/abs/2508.09632">Preacher</a>, <a href="https://arxiv.org/abs/2504.09689">EmoAgent</a>, <a href="https://arxiv.org/abs/2510.11701">DemyAgent</a>, <a href="https://arxiv.org/abs/2511.20639">LatentMAS</a>, <a href="https://github.com/Gen-Verse/GenEnv">GenEnv</a>, <a href="https://arxiv.org/abs/2602.02488">RLAnything</a>, <a href="https://github.com/Gen-Verse/OpenClaw-RL">OpenClaw-RL</a></p></div>
     <div class="pillar"><h3><span class="dot" style="background:#6366f1"></span>Diffusion Model Foundations</h3><p class="paper-links"><a href="https://openreview.net/forum?id=DgLFkAPwuZ">RPG</a>, <a href="https://github.com/Gen-Verse/MMaDA">MMaDA</a>, <a href="https://openreview.net/forum?id=nFMS6wF2xq">ContextDiff</a>, <a href="https://arxiv.org/abs/2509.06949">dLLM-RL</a>, <a href="https://arxiv.org/abs/2407.02398">Consistency Flow Matching</a>, <a href="https://arxiv.org/abs/2502.12146">Diffusion-Sharpening</a>, <a href="https://openreview.net/forum?id=nEDToD1R8M">Rectified Diffusion</a>, <a href="https://proceedings.neurips.cc/paper_files/paper/2023/hash/7664a7e946a84ac5e97649a967717cf2-Abstract-Conference.html">ConPreDiff</a>, <a href="https://openaccess.thecvf.com/content/CVPR2024/html/Yang_Structure-Guided_Adversarial_Training_of_Diffusion_Models_CVPR_2024_paper.html">SADM</a>, <a href="https://github.com/tyfeld/MMaDA-Parallel">MMaDA-Parallel</a></p></div>
   </div>
 
@@ -288,6 +288,7 @@ footer .foot-links a:hover { color:var(--text); }
 <section id="news">
   <div class="section-header"><h2>What's New</h2><div class="line"></div></div>
   <div class="news-list">
+
     <div class="news-item"><div class="content"><strong>2 papers</strong> about multimodal reinforcement learning are accepted by <span class="venue venue-conf">CVPR 2026</span>.</div></div>
     <div class="news-item"><div class="content"><strong>4 papers</strong> about LLMs and Diffusion Language Models are accepted by <span class="venue venue-conf">ICLR 2026</span>, including <a href="https://arxiv.org/abs/2509.06949">TraceRL &amp; TraDo</a>, <a href="https://arxiv.org/abs/2510.13804">OmniVerifier</a> <span class="venue venue-oral">Oral, Top 1%</span>, <a href="https://arxiv.org/abs/2511.09611">MMaDA-Parallel</a> and <a href="https://github.com/thu-ml/DiT-Extrapolation">UltraViCo</a>.</div></div>
     <div class="news-item"><div class="content">We release a series of works about efficient agent reasoning and agentic training: <a href="https://arxiv.org/abs/2511.20639">LatentMAS</a>, <a href="https://arxiv.org/abs/2602.02488">RLAnything</a>, and <a href="https://github.com/Gen-Verse/GenEnv">GenEnv</a>.</div></div>
@@ -399,7 +400,7 @@ footer .foot-links a:hover { color:var(--text); }
 <footer>
   <p>&copy; 2026 Ling Yang &middot; Princeton University</p>
   <div class="foot-links">
-    <a href="/cdn-cgi/l/email-protection#7d041c131a1114131a4d454c453d4c4b4e531e1210">Email</a>
+    <a href="mailto:yangling0818@163.com">Email</a>
     <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">Google Scholar</a>
     <a href="https://github.com/Gen-Verse">GitHub</a>
     <a href="https://x.com/LingYang_PU">Twitter/X</a>
