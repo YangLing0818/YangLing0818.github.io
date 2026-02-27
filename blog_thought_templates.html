@@ -42,7 +42,7 @@ nav .princeton-badge { display:flex; align-items:center; gap:8px; text-decoratio
 nav .princeton-badge img { height:90px; width:auto; opacity:.9; }
 nav .princeton-badge:hover img { opacity:1; }
 
-.blog-hero { max-width:780px; margin:0 auto; padding:64px 32px 0; }
+.blog-hero { max-width:860px; margin:0 auto; padding:64px 32px 0; }
 .blog-back { font-size:14px; color:var(--text-muted); display:inline-flex; align-items:center; gap:4px; margin-bottom:28px; transition:color .2s; }
 .blog-back:hover { color:var(--accent); }
 .blog-date { font-family:var(--mono); font-size:13px; color:var(--text-muted); letter-spacing:.5px; text-transform:uppercase; margin-bottom:16px; }
@@ -61,7 +61,7 @@ nav .princeton-badge:hover img { opacity:1; }
 .tag-rf { background:var(--tag-rf-bg); color:var(--tag-rf); }
 .blog-divider { width:48px; height:1.5px; background:var(--border); margin:40px auto; }
 
-article { max-width:720px; margin:0 auto; padding:0 32px 80px; }
+article { max-width:860px; margin:0 auto; padding:0 32px 80px; }
 article h2 { font-family:var(--serif); font-size:1.75rem; font-weight:400; margin:52px 0 16px; line-height:1.25; letter-spacing:-.01em; }
 article h3 { font-size:1.05rem; font-weight:600; margin:32px 0 10px; letter-spacing:-.01em; }
 article p { margin-bottom:16px; text-align:justify; }
@@ -109,7 +109,7 @@ article li { margin-bottom:6px; }
 
 blockquote { border-left:3px solid var(--accent); padding:4px 0 4px 20px; margin:24px 0; color:var(--text-secondary); font-style:italic; }
 code { font-family:var(--mono); font-size:.88em; background:var(--border-light); padding:2px 6px; border-radius:4px; }
-pre { background:var(--border-light); padding:16px 20px; border-radius:var(--radius-sm); font-size:13px; font-family:var(--mono); overflow-x:auto; line-height:1.6; color:#444; margin:20px 0; }
+pre { background:var(--border-light); padding:16px 20px; border-radius:var(--radius-sm); font-size:13px; font-family:var(--mono); overflow-x:auto; line-height:1.6; color:#444; margin:20px 0; width:fit-content; max-width:100%; }
 
 .detail-box { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:22px 26px; margin:24px 0; }
 .detail-box h4 { font-size:15px; font-weight:600; margin-bottom:8px; display:flex; align-items:center; gap:8px; }
@@ -391,7 +391,7 @@ Each step brings templates closer to the core of the model's reasoning process: 
 <div style="margin-top:48px; padding-top:28px; border-top:1px solid var(--border);">
 <h3 style="margin-top:0;">Citation</h3>
 <p style="font-size:14px; color:var(--text-muted); margin-bottom:12px;">If you find our work useful, please consider citing:</p>
-<pre style="margin-left:0; margin-right:0; width:100%; box-sizing:border-box; white-space:pre-wrap; word-break:break-all;">@article{yang2024bot,
+<pre>@article{yang2024bot,
   title={Buffer of Thoughts: Thought-Augmented
          Reasoning with Large Language Models},
   author={Yang, Ling and Yu, Zhaochen and Zhang,
