@@ -29,7 +29,7 @@ body { font-family:var(--sans); background:var(--bg); color:var(--text); line-he
 a { color:var(--accent); text-decoration:none; transition:color .2s; }
 a:hover { color:var(--accent-warm); }
 
-/* --- Nav (same as homepage) --- */
+/* --- Nav --- */
 nav { position:sticky; top:0; z-index:100; background:rgba(250,249,247,.85); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); border-bottom:1px solid var(--border-light); }
 nav .inner { max-width:var(--max-w); margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:14px 32px; }
 nav .logo { font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-.02em; }
@@ -44,7 +44,7 @@ nav .princeton-badge img { height:90px; width:auto; opacity:.9; }
 nav .princeton-badge:hover img { opacity:1; }
 
 /* --- Blog Hero --- */
-.blog-hero { max-width:780px; margin:0 auto; padding:64px 32px 0; }
+.blog-hero { max-width:860px; margin:0 auto; padding:64px 32px 0; }
 .blog-back { font-size:14px; color:var(--text-muted); display:inline-flex; align-items:center; gap:4px; margin-bottom:28px; transition:color .2s; }
 .blog-back:hover { color:var(--accent); }
 .blog-date { font-family:var(--mono); font-size:13px; color:var(--text-muted); letter-spacing:.5px; text-transform:uppercase; margin-bottom:16px; }
@@ -64,7 +64,7 @@ nav .princeton-badge:hover img { opacity:1; }
 .blog-divider { width:48px; height:1.5px; background:var(--border); margin:40px auto; }
 
 /* --- Article Body --- */
-article { max-width:720px; margin:0 auto; padding:0 32px 80px; }
+article { max-width:860px; margin:0 auto; padding:0 32px 80px; }
 article h2 { font-family:var(--serif); font-size:1.75rem; font-weight:400; margin:52px 0 16px; line-height:1.25; letter-spacing:-.01em; }
 article h3 { font-size:1.05rem; font-weight:600; margin:32px 0 10px; letter-spacing:-.01em; }
 article p { margin-bottom:16px; text-align:justify; }
@@ -118,7 +118,7 @@ blockquote { border-left:3px solid var(--accent); padding:4px 0 4px 20px; margin
 
 /* --- Code --- */
 code { font-family:var(--mono); font-size:.88em; background:var(--border-light); padding:2px 6px; border-radius:4px; }
-pre { background:var(--border-light); padding:16px 20px; border-radius:var(--radius-sm); font-size:13px; font-family:var(--mono); overflow-x:auto; line-height:1.6; color:#444; margin:20px 0; }
+pre { background:var(--border-light); padding:16px 20px; border-radius:var(--radius-sm); font-size:13px; font-family:var(--mono); overflow-x:auto; line-height:1.6; color:#444; margin:20px 0; width:fit-content; max-width:100%; }
 
 /* --- Detail Box --- */
 .detail-box { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:22px 26px; margin:24px 0; }
@@ -130,7 +130,7 @@ pre { background:var(--border-light); padding:16px 20px; border-radius:var(--rad
 .detail-box p, .detail-box ul { font-size:15px; color:var(--text-secondary); line-height:1.7; }
 .detail-box ul { margin-left:18px; }
 
-/* --- Footer (same as homepage) --- */
+/* --- Footer --- */
 footer { max-width:var(--max-w); margin:0 auto; padding:28px 32px; border-top:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; }
 footer p { font-size:13.5px; color:var(--text-muted); }
 footer .foot-links { display:flex; gap:16px; flex-wrap:wrap; }
@@ -222,9 +222,7 @@ Each project inherits the lessons from the one before it. CURE's pairwise reward
 </div>
 
 
-<!-- ========================================= -->
 <!-- ===== CURE ===== -->
-<!-- ========================================= -->
 <h2>CURE: When Coders and Testers Co-Evolve</h2>
 
 <div class="callout callout-cure">
@@ -283,9 +281,7 @@ The resulting <strong>ReasonFlux-Coder</strong> models (7B & 14B) outperform sim
 </p>
 
 
-<!-- ========================================= -->
 <!-- ===== RLAnything ===== -->
-<!-- ========================================= -->
 <h2>RLAnything: Forging the Complete RL System</h2>
 
 <div class="callout callout-rla">
@@ -357,9 +353,7 @@ We release both the policy models (RLAnything-7B/8B) and reward models (RLAnythi
 </p>
 
 
-<!-- ========================================= -->
 <!-- ===== OpenClaw-RL ===== -->
-<!-- ========================================= -->
 <h2>OpenClaw-RL: Your Agent Gets Better as You Use It</h2>
 
 <div class="callout callout-ocrl">
@@ -452,9 +446,7 @@ Your agent gets better the more you use it. That's the promise — and with Open
 </blockquote>
 
 
-<!-- ========================================= -->
 <!-- ===== BIGGER PICTURE ===== -->
-<!-- ========================================= -->
 <h2>The Bigger Picture: Stop Treating RL Components as Fixed</h2>
 
 <p>
@@ -485,7 +477,7 @@ The goal is a future where AI systems don't just follow instructions — they ev
 <div style="margin-top:48px; padding-top:28px; border-top:1px solid var(--border);">
 <h3 style="margin-top:0;">Citation</h3>
 <p style="font-size:14px; color:var(--text-muted); margin-bottom:12px;">If you find our work useful, please consider citing:</p>
-<pre style="margin-left:0; margin-right:0; width:100%; box-sizing:border-box; white-space:pre-wrap; word-break:break-all;">@article{wang2025cure,
+<pre>@article{wang2025cure,
   title={Co-Evolving LLM Coder and Unit Tester via
          Reinforcement Learning},
   author={Wang, Yinjie and Yang, Ling and Tian, Ye
