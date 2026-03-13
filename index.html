@@ -161,6 +161,16 @@ footer .foot-links { display:flex; gap:16px; flex-wrap:wrap; }
 footer .foot-links a { font-size:13.5px; color:var(--text-muted); }
 footer .foot-links a:hover { color:var(--text); }
 
+.gh-stars {
+  display:inline-flex; align-items:center; gap:3px;
+  font-family:var(--mono); font-size:12px; padding:3px 8px;
+  border-radius:5px; background:#fef9c3; color:#854d0e;
+  border:1px solid #fde68a; transition:all .3s; white-space:nowrap;
+}
+.gh-stars svg { width:12px; height:12px; fill:#eab308; flex-shrink:0; }
+.gh-stars.loading { background:var(--tag-bg); color:var(--text-muted); border-color:transparent; }
+.gh-stars.loading svg { fill:var(--text-muted); opacity:.4; }
+
 @media (max-width:768px) {
   .top-block { padding:36px 20px 36px; gap:28px; }
   .hero { grid-template-columns:1fr; gap:20px; text-align:center; }
@@ -422,6 +432,64 @@ document.getElementById('navbar').querySelector('.mobile-toggle') && document.ad
   var nav = document.getElementById('navbar');
   if(!nav.contains(e.target)) nav.classList.remove('open');
 });
+
+// Fetch GitHub Stars for publication code links
+(function(){
+  var starSvg = '<svg viewBox="0 0 16 16"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/></svg>';
+  var cache = {};
+
+  function formatStars(n){
+    if(n >= 1000) return (n/1000).toFixed(1).replace(/\.0$/,'') + 'k';
+    return String(n);
+  }
+
+  function fetchStars(owner, repo){
+    var key = owner + '/' + repo;
+    if(!cache[key]){
+      cache[key] = fetch('https://api.github.com/repos/' + key)
+        .then(function(r){ return r.json(); })
+        .then(function(data){
+          return (typeof data.stargazers_count === 'number') ? data.stargazers_count : null;
+        })
+        .catch(function(){ return null; });
+    }
+    return cache[key];
+  }
+
+  // Find all Code links inside #publications that point to GitHub
+  var pubSection = document.getElementById('publications');
+  if(!pubSection) return;
+
+  var codeLinks = pubSection.querySelectorAll('.pub-links a');
+  codeLinks.forEach(function(link){
+    var href = link.getAttribute('href') || '';
+    var match = href.match(/github\.com\/([^\/]+)\/([^\/\?#]+)/);
+    if(!match) return;
+
+    var owner = match[1];
+    var repo = match[2].replace(/\.git$/, '');
+
+    // Only add badge after the first GitHub link per pub-item (the Code link)
+    var pubItem = link.closest('.pub-item');
+    if(!pubItem) return;
+    if(pubItem.querySelector('.gh-stars')) return; // already added one
+
+    // Create placeholder badge
+    var badge = document.createElement('span');
+    badge.className = 'gh-stars loading';
+    badge.innerHTML = starSvg + ' ...';
+    link.after(badge);
+
+    fetchStars(owner, repo).then(function(stars){
+      if(stars !== null && stars > 0){
+        badge.className = 'gh-stars';
+        badge.innerHTML = starSvg + ' ' + formatStars(stars);
+      } else {
+        badge.remove();
+      }
+    });
+  });
+})();
 </script>
 </body>
 </html>
