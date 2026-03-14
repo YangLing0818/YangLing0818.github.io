@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>OpenClaw-RL: Where All Research Lines Converge — Ling Yang, Princeton University</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #faf9f7; --bg-card: #ffffff; --text: #1a1a1a; --text-secondary: #555;
+  --text-muted: #888; --accent: #2563eb; --accent-warm: #c2410c;
+  --border: #e8e5e0; --border-light: #f0ede8; --tag-bg: #f0ede8;
+  --shadow-sm: 0 1px 3px rgba(0,0,0,0.04); --shadow-md: 0 4px 20px rgba(0,0,0,0.06);
+  --radius: 12px; --radius-sm: 8px;
+  --serif: 'Instrument Serif', Georgia, serif;
+  --sans: 'DM Sans', -apple-system, sans-serif;
+  --mono: 'JetBrains Mono', monospace;
+  --max-w: 1080px;
+  --tag-reward: #059669; --tag-reward-bg: #d1fae5;
+  --tag-feedback: #7c3aed; --tag-feedback-bg: #ede9fe;
+  --tag-async: #ea580c; --tag-async-bg: #ffedd5;
+  --tag-ocrl: #2563eb; --tag-ocrl-bg: #dbeafe;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+body { font-family:var(--sans); background:var(--bg); color:var(--text); line-height:1.7; font-size:17px; -webkit-font-smoothing:antialiased; }
+::selection { background:#2563eb22; }
+a { color:var(--accent); text-decoration:none; transition:color .2s; }
+a:hover { color:var(--accent-warm); }
+
+/* --- Nav --- */
+nav { position:sticky; top:0; z-index:100; background:rgba(250,249,247,.85); backdrop-filter:blur(16px); -webkit-backdrop-filter:blur(16px); border-bottom:1px solid var(--border-light); }
+nav .inner { max-width:var(--max-w); margin:0 auto; display:flex; align-items:center; justify-content:space-between; padding:14px 32px; }
+nav .logo { font-family:var(--serif); font-size:20px; color:var(--text); letter-spacing:-.02em; }
+nav .links { display:flex; gap:24px; flex-wrap:wrap; }
+nav .links a { font-size:14.5px; font-weight:500; color:var(--text-secondary); letter-spacing:.01em; position:relative; transition:color .2s; }
+nav .links a:hover { color:var(--text); }
+nav .links a.active { color:var(--text); }
+nav .links a.active::after { content:''; position:absolute; bottom:-4px; left:0; right:0; height:1.5px; background:var(--text); border-radius:1px; }
+nav .mobile-toggle { display:none; background:none; border:none; font-size:22px; cursor:pointer; }
+nav .princeton-badge { display:flex; align-items:center; gap:8px; text-decoration:none; border-bottom:none !important; }
+nav .princeton-badge img { height:90px; width:auto; opacity:.9; }
+nav .princeton-badge:hover img { opacity:1; }
+
+/* --- Blog Hero --- */
+.blog-hero { max-width:860px; margin:0 auto; padding:64px 32px 0; }
+.blog-back { font-size:14px; color:var(--text-muted); display:inline-flex; align-items:center; gap:4px; margin-bottom:28px; transition:color .2s; }
+.blog-back:hover { color:var(--accent); }
+.blog-date { font-family:var(--mono); font-size:13px; color:var(--text-muted); letter-spacing:.5px; text-transform:uppercase; margin-bottom:16px; }
+.blog-hero h1 { font-family:var(--serif); font-size:clamp(2rem, 4.5vw, 2.8rem); font-weight:400; line-height:1.18; letter-spacing:-.02em; margin-bottom:18px; }
+.blog-hero h1 em { font-style:italic; color:var(--accent); }
+.blog-subtitle { font-size:17.5px; color:var(--text-secondary); line-height:1.7; margin-bottom:20px; }
+.blog-authors { font-size:15px; color:var(--text-secondary); margin-bottom:6px; }
+.blog-authors a { border-bottom:1px solid #2563eb33; }
+.blog-authors a:hover { border-bottom-color:var(--accent); }
+.blog-affil { font-size:13.5px; color:var(--text-muted); margin-bottom:24px; }
+.blog-tags { display:flex; gap:8px; flex-wrap:wrap; margin-bottom:12px; }
+.tag { font-family:var(--mono); font-size:12.5px; padding:5px 14px; border-radius:100px; font-weight:500; display:inline-flex; align-items:center; gap:5px; transition:transform .15s; }
+.tag:hover { transform:translateY(-1px); }
+.tag-ocrl { background:var(--tag-ocrl-bg); color:var(--tag-ocrl); }
+.tag-reward { background:var(--tag-reward-bg); color:var(--tag-reward); }
+.tag-feedback { background:var(--tag-feedback-bg); color:var(--tag-feedback); }
+.tag-async { background:var(--tag-async-bg); color:var(--tag-async); }
+.blog-divider { width:48px; height:1.5px; background:var(--border); margin:40px auto; }
+
+/* --- Article Body --- */
+article { max-width:860px; margin:0 auto; padding:0 32px 80px; }
+article h2 { font-family:var(--serif); font-size:1.75rem; font-weight:400; margin:52px 0 16px; line-height:1.25; letter-spacing:-.01em; }
+article h3 { font-size:1.05rem; font-weight:600; margin:32px 0 10px; letter-spacing:-.01em; }
+article p { margin-bottom:16px; text-align:justify; }
+article a { border-bottom:1px solid transparent; transition:border-color .2s; }
+article a:hover { border-color:var(--accent); }
+article strong { font-weight:600; }
+article ul, article ol { margin:0 0 16px 20px; }
+article li { margin-bottom:6px; }
+
+/* --- Callout Card --- */
+.callout { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px 28px; margin:28px 0; position:relative; overflow:hidden; transition:box-shadow .3s; }
+.callout:hover { box-shadow:var(--shadow-md); }
+.callout::before { content:''; position:absolute; left:0; top:0; bottom:0; width:4px; }
+.callout-ocrl::before { background:var(--tag-ocrl); }
+.callout-label { font-family:var(--mono); font-size:12px; font-weight:600; text-transform:uppercase; letter-spacing:1px; margin-bottom:6px; }
+.callout-ocrl .callout-label { color:var(--tag-ocrl); }
+.callout-title { font-family:var(--serif); font-size:1.25rem; margin-bottom:8px; line-height:1.3; }
+.callout p { font-size:14.5px; color:var(--text-secondary); margin-bottom:10px; line-height:1.6; text-align:left; }
+.callout-links { display:flex; gap:5px; flex-wrap:wrap; }
+.callout-links a { font-family:var(--mono); font-size:12.5px; padding:3px 10px; border-radius:5px; background:var(--tag-bg); color:var(--text-secondary); border:1px solid transparent; transition:all .2s; }
+.callout-links a:hover { background:var(--bg); border-color:var(--border); color:var(--accent); }
+
+/* --- Stats --- */
+.stats-row { display:grid; grid-template-columns:repeat(auto-fit, minmax(170px,1fr)); gap:12px; margin:24px 0; }
+.stat-card { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius-sm); padding:18px; text-align:center; transition:all .2s; }
+.stat-card:hover { box-shadow:var(--shadow-sm); }
+.stat-num { font-family:var(--serif); font-size:1.85rem; font-weight:400; line-height:1.1; }
+.stat-num.blue { color:var(--tag-ocrl); }
+.stat-num.green { color:var(--tag-reward); }
+.stat-num.purple { color:var(--tag-feedback); }
+.stat-num.orange { color:var(--tag-async); }
+.stat-label { font-size:13px; color:var(--text-muted); margin-top:4px; }
+
+/* --- Convergence Map --- */
+.convergence-map { display:grid; grid-template-columns:1fr; gap:16px; margin:28px 0; }
+.conv-line { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:24px 28px; position:relative; overflow:hidden; transition:all .3s; }
+.conv-line:hover { box-shadow:var(--shadow-md); transform:translateY(-2px); }
+.conv-line::before { content:''; position:absolute; left:0; top:0; bottom:0; width:4px; }
+.conv-line.reward::before { background:var(--tag-reward); }
+.conv-line.feedback::before { background:var(--tag-feedback); }
+.conv-line.async::before { background:var(--tag-async); }
+.conv-line-num { font-family:var(--mono); font-size:11px; font-weight:700; text-transform:uppercase; letter-spacing:1px; margin-bottom:6px; }
+.conv-line.reward .conv-line-num { color:var(--tag-reward); }
+.conv-line.feedback .conv-line-num { color:var(--tag-feedback); }
+.conv-line.async .conv-line-num { color:var(--tag-async); }
+.conv-line h3 { font-family:var(--serif); font-size:1.2rem; font-weight:400; margin:0 0 8px; line-height:1.3; }
+.conv-line p { font-size:15px; color:var(--text-secondary); line-height:1.7; margin:0; text-align:left; }
+.conv-line .line-projects { display:flex; flex-wrap:wrap; gap:4px; margin-top:12px; }
+.conv-line .line-projects a { font-family:var(--mono); font-size:12px; padding:3px 10px; border-radius:5px; background:var(--tag-bg); color:var(--text-secondary); border:1px solid transparent; transition:all .2s; }
+.conv-line .line-projects a:hover { background:var(--bg); border-color:var(--border); color:var(--accent); }
+
+/* --- Detail Box --- */
+.detail-box { background:var(--bg-card); border:1px solid var(--border); border-radius:var(--radius); padding:22px 26px; margin:24px 0; }
+.detail-box h4 { font-size:15px; font-weight:600; margin-bottom:8px; display:flex; align-items:center; gap:8px; }
+.detail-box h4::before { content:''; width:3px; height:14px; border-radius:2px; }
+.detail-box.reward h4::before { background:var(--tag-reward); }
+.detail-box.feedback h4::before { background:var(--tag-feedback); }
+.detail-box.async h4::before { background:var(--tag-async); }
+.detail-box.ocrl h4::before { background:var(--tag-ocrl); }
+.detail-box p, .detail-box ul { font-size:15px; color:var(--text-secondary); line-height:1.7; }
+.detail-box ul { margin-left:18px; }
+
+/* --- Blockquote --- */
+blockquote { border-left:3px solid var(--accent); padding:4px 0 4px 20px; margin:24px 0; color:var(--text-secondary); font-style:italic; }
+
+/* --- Code --- */
+code { font-family:var(--mono); font-size:.88em; background:var(--border-light); padding:2px 6px; border-radius:4px; }
+pre { background:var(--border-light); padding:16px 20px; border-radius:var(--radius-sm); font-size:13px; font-family:var(--mono); overflow-x:auto; line-height:1.6; color:#444; margin:20px 0; width:fit-content; max-width:100%; }
+
+/* --- Footer --- */
+footer { max-width:var(--max-w); margin:0 auto; padding:28px 32px; border-top:1px solid var(--border); display:flex; justify-content:space-between; align-items:center; flex-wrap:wrap; gap:12px; }
+footer p { font-size:13.5px; color:var(--text-muted); }
+footer .foot-links { display:flex; gap:16px; flex-wrap:wrap; }
+footer .foot-links a { font-size:13.5px; color:var(--text-muted); }
+footer .foot-links a:hover { color:var(--text); }
+
+@media (max-width:768px) {
+  .blog-hero { padding:40px 20px 0; }
+  .blog-hero h1 { font-size:1.7rem; }
+  article { padding:0 20px 60px; }
+  article h2 { font-size:1.4rem; }
+  .stats-row { grid-template-columns:1fr 1fr; }
+  nav .links { display:none; }
+  nav .mobile-toggle { display:block; }
+  nav.open .links { display:flex; flex-direction:column; position:absolute; top:100%; left:0; right:0; background:var(--bg); padding:16px 32px; border-bottom:1px solid var(--border); gap:12px; }
+}
+@keyframes fadeUp { from { opacity:0; transform:translateY(16px); } to { opacity:1; transform:translateY(0); } }
+</style>
+</head>
+<body>
+
+<nav id="navbar">
+  <div class="inner">
+    <a href="index.html" class="logo">Ling Yang</a>
+    <button class="mobile-toggle" onclick="document.getElementById('navbar').classList.toggle('open')">&#9776;</button>
+    <div class="links">
+      <a href="index.html">About</a>
+      <a href="index.html#research">Research</a>
+      <a href="index.html#news">News</a>
+      <a href="index.html#publications">Publications</a>
+      <a href="index.html#talks">Talks</a>
+      <a href="index.html#honors">Honors</a>
+      <a href="index.html#services">Services</a>
+      <a href="blog.html" class="active">Blog</a>
+    </div>
+    <a href="https://www.princeton.edu" class="princeton-badge" target="_blank">
+      <img src="https://yangling0818.github.io/images/prince.png" alt="Princeton University">
+    </a>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="blog-hero">
+  <a href="blog.html" class="blog-back">&larr; All Posts</a>
+  <div class="blog-date">March 2026 &middot; Research Blog</div>
+  <h1>OpenClaw-RL: Let Your Agent <em>Evolve</em> Through Conversation</h1>
+  <p class="blog-subtitle">Every interaction with an agent produces a free training signal — a correction, a tool error, a follow-up question. OpenClaw-RL is the framework that finally recovers all of them. This post tells the story of how our team's research lines in process rewards, structured feedback, and async RL systems converge into a single, unified framework.</p>
+  <p class="blog-authors"><a href="https://yangling0818.github.io">Ling Yang</a></p>
+  <p class="blog-affil">Gen-Verse &middot; Princeton AI Lab &middot; Princeton University</p>
+  <div class="blog-tags">
+    <a class="tag tag-ocrl" href="https://github.com/Gen-Verse/OpenClaw-RL">🦞 OpenClaw-RL · #1 HF Daily Papers</a>
+    <a class="tag tag-reward" href="https://github.com/Gen-Verse/ReasonFlux">🎯 ReasonFlux-PRM</a>
+    <a class="tag tag-feedback" href="https://arxiv.org/pdf/2406.04271">💡 Buffer of Thoughts</a>
+    <a class="tag tag-async" href="https://arxiv.org/abs/2602.02488">⚡ RLAnything</a>
+  </div>
+  <div class="blog-divider"></div>
+</header>
+
+<!-- ============ ARTICLE ============ -->
+<article>
+
+<p>
+You correct your AI agent — "no, check the file first." The agent calls a tool, it returns an error. You ask a follow-up because the first answer was wrong. These are all <strong>next-state signals</strong>: free, naturally occurring training signals that every agent interaction produces. Yet no existing agentic RL system recovers them as a live, online learning source.
+</p>
+<p>
+That observation motivated <strong>OpenClaw-RL</strong>: a fully asynchronous RL framework that turns everyday conversations into gradient updates — so your agent evolves simply by being used. The same framework also scales to terminal, GUI, SWE, and tool-call settings for general-purpose agent training.
+</p>
+<p>
+But OpenClaw-RL is not an isolated project. It is the natural convergence point of several research lines our team has pursued over the past two years. This post tells the story of that convergence — how separate ideas about reward signals, structured feedback, and async systems came together into one unified framework.
+</p>
+
+<div class="callout callout-ocrl">
+  <div class="callout-label">Technical Report · March 2026 · #1 HF Daily Papers</div>
+  <div class="callout-title">OpenClaw-RL: Train Any Agent Simply by Talking</div>
+  <p>Yinjie Wang, Xuyang Chen, Xiaolong Jin, Mengdi Wang, Ling Yang</p>
+  <div class="callout-links">
+    <a href="https://arxiv.org/abs/2603.10165">Paper</a>
+    <a href="https://github.com/Gen-Verse/OpenClaw-RL">Code</a>
+    <a href="https://yinjjiew.github.io/projects/openclawrl1">Blog</a>
+    <a href="https://openclaw.ai">OpenClaw</a>
+  </div>
+</div>
+
+
+<!-- ===== THREE LINES ===== -->
+<h2>Three Research Lines, One Framework</h2>
+
+<p>
+OpenClaw-RL sits at the intersection of three questions our team has been pursuing independently. Each question led to a series of projects; OpenClaw-RL is where all three answers meet.
+</p>
+
+<div class="convergence-map">
+
+<div class="conv-line reward">
+  <div class="conv-line-num">Line 1 — How to give reward signals</div>
+  <h3>From Process Rewards to Conversational Judgment</h3>
+  <p>Good process reward is the prerequisite for agentic RL to work at all. From ReasonFlux-PRM's chain-of-thought process rewards, to RLAnything's co-evolving reward model that adapts as the policy improves, we have repeatedly validated one principle: <strong>step-level reward signals vastly outperform sparse outcome-only signals</strong>. In OpenClaw-RL, we bring this insight to its most natural form — the user's next utterance <em>is</em> the judgment on the agent's last turn. A PRM converts these conversational reactions into binary rewards via majority voting. No human annotation required.</p>
+  <div class="line-projects">
+    <a href="https://github.com/Gen-Verse/ReasonFlux">ReasonFlux-PRM</a>
+    <a href="https://arxiv.org/abs/2602.02488">RLAnything</a>
+    <a href="https://github.com/Gen-Verse/OpenClaw-RL">OpenClaw-RL</a>
+  </div>
+</div>
+
+<div class="conv-line feedback">
+  <div class="conv-line-num">Line 2 — Feedback is more than a score</div>
+  <h3>From Thought Templates to Token-Level Distillation</h3>
+  <p>A scalar reward tells the model "wrong." But it doesn't tell the model <em>how</em> to change. From Buffer of Thoughts and SuperCorrect — which distill structured thought templates into smaller models — to ReasonFlux's hierarchical reasoning library, this line has always been about converting rich feedback into learnable signal. OpenClaw-RL's <strong>On-Policy Distillation (OPD)</strong> is the culmination: extract textual hints from the next state, construct an enhanced teacher context, and provide token-level directional advantage at every position. Not just "you were wrong" — but "here's how each token should have been different."</p>
+  <div class="line-projects">
+    <a href="https://arxiv.org/pdf/2406.04271">Buffer of Thoughts</a>
+    <a href="https://arxiv.org/abs/2410.09008">SuperCorrect</a>
+    <a href="https://github.com/Gen-Verse/ReasonFlux">ReasonFlux</a>
+    <a href="https://github.com/Gen-Verse/OpenClaw-RL">OpenClaw-RL OPD</a>
+  </div>
+</div>
+
+<div class="conv-line async">
+  <div class="conv-line-num">Line 3 — The system must be fully asynchronous</div>
+  <h3>From Co-Evolution to Zero-Blocking Infrastructure</h3>
+  <p>Nobody wants to wait for an agent that's "still training." From CURE's co-evolving coder-tester system, to RLAnything's closed-loop optimization of environment, policy, and reward model, we progressively learned that <strong>decoupling is everything</strong>. OpenClaw-RL takes this to its logical endpoint: four fully independent async loops — SGLang serving, environment rollout, PRM judging, Megatron training — each running at its own pace with zero coordination overhead. The model keeps serving live requests while training happens in the background.</p>
+  <div class="line-projects">
+    <a href="https://github.com/Gen-Verse/CURE">CURE</a>
+    <a href="https://arxiv.org/abs/2602.02488">RLAnything</a>
+    <a href="https://github.com/Gen-Verse/OpenClaw-RL">OpenClaw-RL</a>
+  </div>
+</div>
+
+</div>
+
+
+<!-- ===== CORE INSIGHT ===== -->
+<h2>The Core Insight: Next-State Signals Are Universal</h2>
+
+<p>
+Every agent interaction generates a next-state signal: the user's reply, a tool output, a terminal state change, a GUI transition. These signals are ubiquitous yet wasted — no existing system recovers them as live learning sources. OpenClaw-RL is built on a simple but powerful observation: <strong>these next-state signals encode two complementary forms of information</strong>, and you need both.
+</p>
+
+<h3>Evaluative Signals → Binary RL</h3>
+<p>
+The first form is <em>evaluative</em>: how well did the action perform? A PRM judge reads the next-state signal and assigns a scalar reward. In the personal-agent setting, the user's next message itself is the judgment — a correction means the last turn was bad; continued engagement means it was good. The scalar rewards drive <strong>GRPO advantage estimation</strong> with PPO-style clipped surrogate loss. This covers broad interaction patterns with reliable, if coarse, supervision.
+</p>
+
+<h3>Directive Signals → On-Policy Distillation</h3>
+<p>
+The second form is <em>directive</em>: how should the action have been different? When the next state contains rich textual information — "you should have checked the file first," a tool returning a detailed error trace — the system extracts <strong>hindsight hints</strong> and uses them to construct an enhanced teacher context. The log-probability gap between this enhanced teacher and the current student becomes a <strong>token-level directional advantage signal</strong>, orders of magnitude richer than any scalar reward.
+</p>
+
+<div class="detail-box ocrl">
+  <h4>Why Both Signals Are Essential</h4>
+  <p>
+    Binary RL has broad coverage — every turn can receive a score — but the signal is coarse: a single scalar per turn. OPD provides dense, token-level guidance, but only when the next state contains sufficiently informative hints — making it sparser in coverage. The two are fundamentally complementary: evaluative signals tell the model <em>what</em> went wrong; directive signals tell it <em>how</em> to fix it.
+  </p>
+</div>
+
+
+<!-- ===== COMBINATION ===== -->
+<h2>The Combination: Better Together</h2>
+
+<p>
+The complementarity is not just theoretical. When we combine Binary RL and OPD in a unified training recipe, the results speak for themselves:
+</p>
+
+<div class="stats-row">
+  <div class="stat-card"><div class="stat-num blue">0.17</div><div class="stat-label">Binary RL alone<br>(personalization score)</div></div>
+  <div class="stat-card"><div class="stat-num purple">0.24</div><div class="stat-label">OPD alone<br>(personalization score)</div></div>
+  <div class="stat-card"><div class="stat-num green">0.76</div><div class="stat-label">Combined<br>(personalization score)</div></div>
+</div>
+
+<p>
+The jump from 0.17/0.24 to <strong>0.76</strong> is striking. Binary RL provides broad scalar supervision across all turns; OPD injects dense token-level corrections where rich feedback is available. The combination leverages the coverage of one and the precision of the other. Evaluative signal and directive signal are two sides of the same next-state coin — you need both.
+</p>
+
+
+<!-- ===== ARCHITECTURE ===== -->
+<h2>Architecture: Four Async Loops, Zero Blocking</h2>
+
+<p>
+The engineering lesson from CURE to RLAnything to OpenClaw-RL has been consistent: <strong>decouple everything</strong>. OpenClaw-RL runs four fully independent async components built on the <a href="https://github.com/THUDM/slime">Slime</a> RL framework:
+</p>
+
+<div class="detail-box async">
+  <h4>Fully Decoupled 4-Component Architecture</h4>
+  <ul>
+    <li><strong>Agent Serving (SGLang):</strong> The policy model is wrapped in <a href="https://openclaw.ai">OpenClaw</a> as an OpenAI-compatible API, serving live user requests in real time.</li>
+    <li><strong>Rollout Collection:</strong> Multi-turn conversations are automatically tracked per-session. API messages are classified into main-line (trainable) vs. side (non-trainable) turns. The next user/tool/environment response serves as the natural next-state signal.</li>
+    <li><strong>PRM Judging:</strong> A process reward model evaluates each assistant turn asynchronously. Majority voting across multiple assessments ensures robust scoring.</li>
+    <li><strong>Policy Training (Megatron):</strong> Ready samples are submitted to the trainer as they become available. Weight updates are graceful — submission pauses during checkpointing, then resumes automatically.</li>
+  </ul>
+  <p>None of these components block one another. Your agent keeps serving requests while training runs in the background. This is the same design principle we validated in CURE's co-evolving system and RLAnything's closed-loop optimization — but taken to its engineering extreme.</p>
+</div>
+
+
+<!-- ===== TWO TRACKS ===== -->
+<h2>Personal Agents and General Agents — Unified</h2>
+
+<p>
+A key design decision in OpenClaw-RL is that <strong>personal and general agent training share the same infrastructure</strong>. The difference is not in the system — it's in the source of next-state signals.
+</p>
+
+<h3>Track 1: Personal Agent Optimization</h3>
+<p>
+In the personal-agent setting, the model is deployed as your everyday coding assistant via OpenClaw. You chat normally; the system intercepts live multi-turn conversations in the background. Your re-queries, corrections, and explicit feedback are all automatically recovered as training signals. The agent improves simply by being used — no manual labeling, no batch data collection, no training interruption. Everything runs on your own infrastructure, fully self-hosted and private.
+</p>
+
+<h3>Track 2: General Agent Training at Scale</h3>
+<p>
+The same async infrastructure powers scalable RL for general-purpose agents. We provide ready-to-use implementations across four real-world settings — <strong>terminal</strong>, <strong>GUI</strong>, <strong>SWE</strong>, and <strong>tool-call</strong> — with large-scale environment parallelization. In these settings, next-state signals come from environment state changes rather than user feedback, but the learning loop is identical: serve, collect, judge, train.
+</p>
+
+<div class="detail-box ocrl">
+  <h4>Supported Real-World Settings (Track 2)</h4>
+  <ul>
+    <li><strong>Terminal RL:</strong> Agents interact with real shell environments; terminal output serves as next-state signal.</li>
+    <li><strong>GUI RL:</strong> Agents operate desktop environments (via OSWorld); screenshot state transitions provide feedback.</li>
+    <li><strong>SWE RL:</strong> Agents resolve real GitHub issues; test suite results and code review signals drive learning.</li>
+    <li><strong>Tool-Call RL:</strong> Agents invoke external APIs; tool outputs and error traces inform optimization.</li>
+  </ul>
+</div>
+
+
+<!-- ===== LOOKING BACK ===== -->
+<h2>Looking Back: A Natural Convergence</h2>
+
+<p>
+When we started <a href="https://arxiv.org/abs/2506.03136">CURE</a>, the question was narrow: can a coder and a unit tester teach each other without ground truth? When we built <a href="https://arxiv.org/abs/2602.02488">RLAnything</a>, the question expanded: can we jointly optimize the environment, reward model, and policy? When we developed <a href="https://github.com/Gen-Verse/ReasonFlux">ReasonFlux</a> and <a href="https://arxiv.org/pdf/2406.04271">Buffer of Thoughts</a>, the question was: how do we convert structured reasoning feedback into learnable signals?
+</p>
+<p>
+In hindsight, all of these were different angles on the same problem: <strong>how to extract maximal learning signal from every interaction, and do it without stopping the system</strong>. OpenClaw-RL is where these answers converge — process rewards from the ReasonFlux line, structured feedback distillation from the BoT/SuperCorrect line, and fully async co-evolution from the CURE/RLAnything line, all fused into a single framework that serves both personal and general agents.
+</p>
+
+<blockquote>
+Every conversation is a training opportunity. Every tool error is a reward signal. Every correction is a distillation target. OpenClaw-RL just makes sure none of them go to waste.
+</blockquote>
+
+
+<!-- ===== QUICK START ===== -->
+<h2>Getting Started</h2>
+
+<p>
+OpenClaw-RL ships multiple training recipes. Pick the one that matches your setup:
+</p>
+
+<pre>
+# Personal agent — Binary RL
+cd slime && bash ../openclaw-rl/run_qwen3_4b_openclaw_rl.sh
+
+# Personal agent — On-Policy Distillation
+cd slime && bash ../openclaw-opd/run_qwen3_4b_openclaw_opd.sh
+
+# Personal agent — Combined (recommended)
+cd slime && bash ../openclaw-combine/run_qwen3_4b_openclaw_combine.sh
+
+# General agent — Terminal RL
+cd slime && bash ../terminal-rl/terminal_qwen3_8b_rl.sh
+
+# General agent — Tool-Call RL
+cd slime && bash ../toolcall-rl/retool_qwen3_4b_rl.sh
+</pre>
+
+<p>
+LoRA training and <a href="https://thinkingmachines.ai/tinker/">Tinker</a> cloud deployment are also supported. See the <a href="https://github.com/Gen-Verse/OpenClaw-RL">GitHub repository</a> for full documentation.
+</p>
+
+
+<!-- ===== CITATION ===== -->
+<div style="margin-top:48px; padding-top:28px; border-top:1px solid var(--border);">
+<h3 style="margin-top:0;">Citation</h3>
+<p style="font-size:14px; color:var(--text-muted); margin-bottom:12px;">If you find our work useful, please consider citing:</p>
+<pre>@article{wang2026openclawrl,
+  title={OpenClaw-RL: Train Any Agent Simply by Talking},
+  author={Wang, Yinjie and Chen, Xuyang and Jin, Xiaolong
+          and Wang, Mengdi and Yang, Ling},
+  journal={arXiv preprint arXiv:2603.10165},
+  year={2026}
+}
+
+@article{wang2025cure,
+  title={Co-Evolving LLM Coder and Unit Tester via
+         Reinforcement Learning},
+  author={Wang, Yinjie and Yang, Ling and Tian, Ye
+          and Shen, Ke and Wang, Mengdi},
+  journal={arXiv preprint arXiv:2506.03136},
+  year={2025}
+}
+
+@article{wang2026rlanything,
+  title={RLAnything: Forge Environment, Policy, and
+         Reward Model in Completely Dynamic RL System},
+  author={Wang, Yinjie and Xie, Tianbao and Shen, Ke
+          and Wang, Mengdi and Yang, Ling},
+  journal={arXiv preprint arXiv:2602.02488},
+  year={2026}
+}</pre>
+</div>
+
+</article>
+
+<footer>
+  <p>&copy; 2026 Ling Yang &middot; Princeton University</p>
+  <div class="foot-links">
+    <a href="mailto:yangling0818@163.com">Email</a>
+    <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">Google Scholar</a>
+    <a href="https://github.com/Gen-Verse">GitHub</a>
+    <a href="https://x.com/LingYang_PU">Twitter/X</a>
+  </div>
+</footer>
+
+<script>
+document.addEventListener('click', function(e){
+  var nav = document.getElementById('navbar');
+  if(!nav.contains(e.target)) nav.classList.remove('open');
+});
+</script>
+</body>
+</html>
