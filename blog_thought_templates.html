@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Scaling LLM Reasoning via Thought Templates — Ling Yang, Princeton University</title>
+<title>From Thought Templates to Agent Skills — Ling Yang, Princeton University</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -163,8 +163,8 @@ footer .foot-links a:hover { color:var(--text); }
 <div class="blog-hero">
   <a href="blog.html" class="blog-back">&larr; All Posts</a>
   <div class="blog-date">2024 – 2025</div>
-  <h1>Scaling LLM Reasoning via <em>Thought Templates</em></h1>
-  <p class="blog-subtitle">Three tightly connected projects — Buffer of Thoughts, SuperCorrect, and ReasonFlux — that evolve a single idea from prompting-time retrieval to training-time distillation to RL-optimized hierarchical reasoning, culminating in a 32B model that surpasses o1-preview on MATH and AIME.</p>
+  <h1>From <em>Thought Templates</em> to Agent Skills</h1>
+  <p class="blog-subtitle">We proved in the LLM reasoning era that high-level structured guidelines — reusable blueprints for <em>how</em> to approach a problem — are a uniquely powerful representation. Today the agent community calls them skills. This post traces how three tightly connected projects evolved the idea from inference-time retrieval to training-time distillation to RL-optimized planning, and how it now powers agentic RL.</p>
   <p class="blog-authors"><a href="https://yangling0818.github.io">Ling Yang</a></p>
   <p class="blog-affil">Gen-Verse &middot; Princeton AI Lab &middot; Princeton University</p>
   <div class="blog-tags">
@@ -182,40 +182,40 @@ footer .foot-links a:hover { color:var(--text); }
 The idea behind this research line is deceptively simple: <strong>humans don't solve hard problems from scratch every time — they recall high-level strategies, adapt them to the specific problem, and refine their approach when things go wrong.</strong> Can we teach LLMs to do the same?
 </p>
 <p>
-We call these high-level strategies <em>thought templates</em>: abstract, reusable reasoning blueprints that tell a model how to <em>approach</em> a problem class rather than how to solve any single instance. If this sounds familiar, it should — in today's agent era, the same concept goes by a different name: <strong>skills</strong>. Reusable high-level procedures that guide how agents act. We proved the importance of this structured-guideline representation well before the agent wave arrived, starting in mid-2024 with Buffer of Thoughts.
+We call these high-level strategies <em>thought templates</em>: abstract, reusable reasoning blueprints that tell a model how to <em>approach</em> a problem class rather than how to solve any single instance. In today's agent era, the same concept goes by a different name: <strong>skills</strong> — reusable high-level procedures that guide how agents act. The structural parallel is exact: both are composable, transferable, and far more efficient than learning every behavior from scratch. We proved the importance of this structured-guideline representation well before agents became the dominant paradigm.
 </p>
 <p>
-We started with a prompting framework that stores and retrieves reusable thought templates. The results were striking — an 8B model equipped with BoT could rival a 70B model — but the templates lived outside the model, as a retrieval system at inference time. This naturally led to two follow-up questions: (1) can we bake these templates into the model's weights through training? and (2) can we use RL to learn optimal sequences of templates for complex, multi-step problems?
+The journey began in mid-2024 with Buffer of Thoughts, a prompting framework that stores and retrieves reusable thought templates — the earliest form of "skills for reasoning." The results were striking — an 8B model equipped with BoT could rival a 70B model — but the templates lived outside the model. This naturally led to two follow-up questions: (1) can we bake these skills into the model's weights through training? and (2) can we use RL to learn optimal sequences of skills for complex, multi-step problems?
 </p>
 <p>
-<strong>SuperCorrect</strong> answers the first question. It distills hierarchical thought templates from a large teacher model into a smaller student model via SFT, and uses a novel cross-model collaborative DPO to teach the student to self-correct using the teacher's error-correction traces. <strong>ReasonFlux</strong> answers the second. It builds a structured library of ~500 thought templates and trains the model via hierarchical RL to plan optimal template trajectories — sequences of high-level strategies that decompose complex problems into manageable sub-problems.
+<strong>SuperCorrect</strong> answers the first question. It distills hierarchical thought templates — reasoning skills — from a large teacher model into a smaller student model via SFT, and uses a novel cross-model collaborative DPO to teach the student to self-correct using the teacher's error-correction traces. <strong>ReasonFlux</strong> answers the second. It builds a structured library of ~500 thought templates and trains the model via hierarchical RL to plan optimal skill trajectories — sequences of high-level strategies that decompose complex problems into manageable sub-problems.
 </p>
 <p>
-Each project inherits and extends the core concept from the one before it. BoT's thought templates became SuperCorrect's hierarchical templates; SuperCorrect's template-guided reasoning became ReasonFlux's template trajectory optimization. This blog traces that evolution in detail.
+Each project inherits and extends the core concept from the one before it. BoT's thought templates became SuperCorrect's distilled reasoning skills; SuperCorrect's skill-guided reasoning became ReasonFlux's skill trajectory optimization. This blog traces that evolution — and connects it forward to the agent era.
 </p>
 
 <!-- Timeline -->
 <div class="timeline">
   <div class="tl-item tl-bot">
     <div class="tl-time">Jun 2024 · NeurIPS 2024 Spotlight</div>
-    <div class="tl-title">Step 1: Buffer of Thoughts — Templates as a Retrieval System</div>
-    <div class="tl-desc">Introduces "thought templates" — high-level reasoning strategies distilled from solved problems and stored in a meta-buffer for retrieval. Achieves +51% on Checkmate-in-One at 12% the cost of Tree of Thoughts.</div>
+    <div class="tl-title">Step 1: Buffer of Thoughts — Skills as a Retrieval System</div>
+    <div class="tl-desc">Introduces "thought templates" — reusable high-level reasoning skills distilled from solved problems and stored in a meta-buffer for retrieval. Achieves +51% on Checkmate-in-One at 12% the cost of Tree of Thoughts.</div>
   </div>
   <div class="tl-item tl-sc">
     <div class="tl-time">Oct 2024 · ICLR 2025</div>
-    <div class="tl-title">Step 2: SuperCorrect — Templates Distilled into Weights</div>
-    <div class="tl-desc">Building on BoT's template concept, distills hierarchical thought templates from a teacher into a student via SFT, then adds cross-model collaborative DPO for self-correction. SuperCorrect-7B surpasses DeepSeekMath-7B by 7.8% on MATH.</div>
+    <div class="tl-title">Step 2: SuperCorrect — Distilling Skills into Weights</div>
+    <div class="tl-desc">Building on BoT's template concept, distills hierarchical reasoning skills from a teacher into a student via SFT, then adds cross-model collaborative DPO for self-correction. SuperCorrect-7B surpasses DeepSeekMath-7B by 7.8% on MATH.</div>
   </div>
   <div class="tl-item tl-rf">
     <div class="tl-time">Feb 2025 · NeurIPS 2025 Spotlight</div>
-    <div class="tl-title">Step 3: ReasonFlux — RL over Template Trajectories</div>
-    <div class="tl-desc">Culmination of the line: hierarchical RL optimizes sequences of thought templates rather than raw token chains. ReasonFlux-32B trained on 8 GPUs surpasses o1-preview by 6.7% on MATH and solves 56.7% of AIME problems.</div>
+    <div class="tl-title">Step 3: ReasonFlux — RL over Skill Trajectories</div>
+    <div class="tl-desc">Culmination of the reasoning line: hierarchical RL optimizes sequences of thought templates (skill trajectories) rather than raw token chains. ReasonFlux-32B trained on 8 GPUs surpasses o1-preview by 6.7% on MATH and solves 56.7% of AIME problems.</div>
   </div>
 </div>
 
 
 <!-- ========== Buffer of Thoughts ========== -->
-<h2>Buffer of Thoughts: Learning to Reuse Reasoning Strategies</h2>
+<h2>Buffer of Thoughts: The First Reasoning Skills</h2>
 
 <div class="callout callout-bot">
   <div class="callout-label">Buffer of Thoughts</div>
@@ -271,7 +271,7 @@ BoT demonstrates significant improvements across 10 reasoning-intensive tasks: +
 
 
 <!-- ========== SuperCorrect ========== -->
-<h2>SuperCorrect: Baking Templates into Weights</h2>
+<h2>SuperCorrect: Distilling Skills into Model Weights</h2>
 
 <div class="callout callout-sc">
   <div class="callout-label">SuperCorrect</div>
@@ -283,9 +283,9 @@ BoT demonstrates significant improvements across 10 reasoning-intensive tasks: +
   </div>
 </div>
 
-<h3>From Retrieval to Distillation</h3>
+<h3>From Retrieved Skills to Internalized Skills</h3>
 <p>
-BoT showed that thought templates dramatically improve reasoning, but the templates lived in an external buffer — they needed to be retrieved at inference time, and the model itself didn't internalize the reasoning patterns. SuperCorrect asks: what if we distill these templates directly into the model's weights?
+BoT showed that thought templates — reasoning skills — dramatically improve LLM problem-solving, but the skills lived in an external buffer. They needed to be retrieved at inference time, and the model itself didn't internalize them. SuperCorrect asks: what if we distill these skills directly into the model's weights?
 </p>
 
 <div class="detail-box sc">
@@ -324,7 +324,7 @@ SuperCorrect-7B achieves 70.2% on MATH and 89.5% on GSM8K, establishing new SOTA
 
 
 <!-- ========== ReasonFlux ========== -->
-<h2>ReasonFlux: Hierarchical RL over Template Trajectories</h2>
+<h2>ReasonFlux: Learning to Plan with Skills via RL</h2>
 
 <div class="callout callout-rf">
   <div class="callout-label">ReasonFlux</div>
@@ -337,35 +337,35 @@ SuperCorrect-7B achieves 70.2% on MATH and 89.5% on GSM8K, establishing new SOTA
   </div>
 </div>
 
-<h3>From Single Templates to Template Trajectories</h3>
+<h3>From Single Skills to Skill Trajectories</h3>
 <p>
-BoT retrieves one template per problem; SuperCorrect distills a two-level template per problem. But truly complex reasoning — competition-level math, multi-step proofs, olympiad problems — often requires composing multiple strategies in sequence: first formulate the problem algebraically, then identify a symmetry, then apply an inequality bound, then verify edge cases. ReasonFlux makes this explicit by optimizing over <strong>template trajectories</strong>: ordered sequences of thought templates, where each template guides one phase of the overall solution.
+BoT retrieves one skill per problem; SuperCorrect distills a two-level skill per problem. But truly complex reasoning — competition-level math, multi-step proofs, olympiad problems — often requires composing multiple skills in sequence: first formulate the problem algebraically, then identify a symmetry, then apply an inequality bound, then verify edge cases. ReasonFlux makes this explicit by optimizing over <strong>skill trajectories</strong>: ordered sequences of thought templates, where each template guides one phase of the overall solution.
 </p>
 
 <div class="detail-box rf">
-<h4>Structured Template Library</h4>
+<h4>Structured Skill Library</h4>
 <p>
-ReasonFlux constructs a library of approximately <strong>500 high-level thought templates</strong>, each representing a reusable reasoning strategy (e.g., "apply Cauchy-Schwarz inequality," "reduce to modular arithmetic," "use pigeonhole principle on the complement"). Templates are structured for efficient retrieval with metadata about applicable problem types, prerequisite conditions, and expected outcomes. Unlike BoT's dynamically growing buffer, this library is curated and fixed, making it more stable for RL training.
+ReasonFlux constructs a library of approximately <strong>500 high-level thought templates</strong> — each one a reusable reasoning skill (e.g., "apply Cauchy-Schwarz inequality," "reduce to modular arithmetic," "use pigeonhole principle on the complement"). Skills are structured for efficient retrieval with metadata about applicable problem types, prerequisite conditions, and expected outcomes. Unlike BoT's dynamically growing buffer, this library is curated and fixed, making it more stable for RL training.
 </p>
 </div>
 
 <div class="detail-box rf">
-<h4>Hierarchical Reinforcement Learning</h4>
+<h4>Hierarchical Reinforcement Learning over Skills</h4>
 <p>
-The key innovation is performing RL not on raw token-level CoT trajectories (which can be thousands of tokens long) but on the <strong>high-level template trajectory</strong>. For a given problem, the model proposes a sequence of templates — a "plan" — and then instantiates each template to produce detailed reasoning steps. RL optimizes over the template sequence using preference pairs: multiple candidate trajectories are sampled, evaluated against the ground-truth answer, and the model learns to prefer trajectories that lead to correct solutions.
+The key innovation is performing RL not on raw token-level CoT trajectories (which can be thousands of tokens long) but on the <strong>high-level skill trajectory</strong>. For a given problem, the model proposes a sequence of skills — a "plan" — and then instantiates each skill to produce detailed reasoning steps. RL optimizes over the skill sequence using preference pairs: multiple candidate trajectories are sampled, evaluated against the ground-truth answer, and the model learns to prefer trajectories that lead to correct solutions.
 </p>
 <p>
-This hierarchical approach has two major advantages. First, it dramatically reduces the search space: instead of exploring the combinatorial space of all possible token sequences, RL operates over a much smaller space of template orderings. Second, the resulting reasoning is more <strong>explainable</strong> — each step in the solution is labeled with its high-level strategy, making the reasoning structure transparent and interpretable.
+This hierarchical approach has two major advantages. First, it dramatically reduces the search space: instead of exploring the combinatorial space of all possible token sequences, RL operates over a much smaller space of skill orderings. Second, the resulting reasoning is more <strong>explainable</strong> — each step in the solution is labeled with its high-level strategy, making the reasoning structure transparent and interpretable.
 </p>
 </div>
 
 <div class="detail-box rf">
-<h4>Inference-Time Template Scaling</h4>
+<h4>Inference-Time Skill Scaling</h4>
 <p>
-ReasonFlux introduces a novel inference scaling system that dynamically adjusts the number and complexity of templates at test time. For simpler problems, one or two templates suffice; for competition-level problems, the system may allocate many templates with deeper instantiation at each step. This adaptive scaling achieves a better <strong>exploration-exploitation trade-off</strong>: the model explores broadly when uncertain (sampling diverse template combinations) and exploits confidently when a clear strategy emerges (committing to a specific template trajectory and refining execution).
+ReasonFlux introduces a novel inference scaling system that dynamically adjusts the number and complexity of skills at test time. For simpler problems, one or two skills suffice; for competition-level problems, the system may allocate many skills with deeper instantiation at each step. This adaptive scaling achieves a better <strong>exploration-exploitation trade-off</strong>: the model explores broadly when uncertain (sampling diverse skill combinations) and exploits confidently when a clear strategy emerges (committing to a specific skill trajectory and refining execution).
 </p>
 <p>
-Concretely, the system retrieves candidate templates for each sub-problem, scores them using the RL-trained policy, and either commits to the top-scoring template or explores alternatives based on a confidence threshold. This produces template trajectories that are more explainable than the raw long-CoT outputs of models like DeepSeek-R1, because each reasoning phase has an explicit strategic label.
+Concretely, the system retrieves candidate skills for each sub-problem, scores them using the RL-trained policy, and either commits to the top-scoring skill or explores alternatives based on a confidence threshold. This produces skill trajectories that are more explainable than the raw long-CoT outputs of models like DeepSeek-R1, because each reasoning phase has an explicit strategic label.
 </p>
 </div>
 
@@ -376,37 +376,37 @@ Concretely, the system retrieves candidate templates for each sub-problem, score
 </div>
 
 <p>
-ReasonFlux-32B achieves 91.2% on MATH (surpassing o1-preview by 6.7%) and solves an average of 56.7% of AIME problems (surpassing o1-preview by 27% and DeepSeek-V3 by 45%). These results are achieved training with only 8 GPUs, demonstrating the efficiency gains from operating in template space rather than raw token space. The model family has since expanded to include ReasonFlux-F1-7B/14B/32B (SFT distillations of ReasonFlux-Zero trajectories), ReasonFlux-Coder, and ReasonFlux-PRM (trajectory-aware process reward models).
+ReasonFlux-32B achieves 91.2% on MATH (surpassing o1-preview by 6.7%) and solves an average of 56.7% of AIME problems (surpassing o1-preview by 27% and DeepSeek-V3 by 45%). These results are achieved training with only 8 GPUs, demonstrating the efficiency gains from operating in skill space rather than raw token space. The model family has since expanded to include ReasonFlux-F1-7B/14B/32B (SFT distillations of ReasonFlux-Zero trajectories), ReasonFlux-Coder, and ReasonFlux-PRM (trajectory-aware process reward models).
 </p>
 
 
 <!-- ========== Unified Philosophy ========== -->
-<h2>The Common Thread</h2>
+<h2>The Common Thread: Skills All the Way Down</h2>
 
-<blockquote>The best reasoning systems don't just think harder — they think more strategically, by reusing and composing high-level problem-solving patterns rather than generating every reasoning step from scratch.</blockquote>
+<blockquote>The best reasoning systems don't just think harder — they think more strategically, by reusing and composing high-level skills rather than generating every reasoning step from scratch.</blockquote>
 
 <p>
-Across these three projects, one idea evolves through three levels of integration. BoT introduces thought templates as an external retrieval system at inference time — powerful but separate from the model. SuperCorrect integrates templates into the model's weights through distillation, and adds the ability to self-correct using teacher-derived error traces. ReasonFlux makes templates first-class objects in the training loop itself, using RL to learn which sequences of templates lead to correct solutions on the hardest problems.
+Across these three projects, one idea evolves through three levels of integration. BoT introduces thought templates — reasoning skills — as an external retrieval system at inference time: powerful but separate from the model. SuperCorrect internalizes these skills into the model's weights through distillation, and adds the ability to self-correct using teacher-derived error traces. ReasonFlux makes skills first-class objects in the training loop itself, using RL to learn which sequences of skills lead to correct solutions on the hardest problems.
 </p>
 <p>
-Each step brings templates closer to the core of the model's reasoning process: from external retrieval (BoT) to weight-level internalization (SuperCorrect) to RL-optimized planning (ReasonFlux). And each step produces stronger results: BoT closes a 10× parameter gap; SuperCorrect sets 7B SOTA; ReasonFlux surpasses o1-preview on competition math with 8 GPUs. The lesson is clear: teaching models <em>how</em> to reason — not just giving them more tokens to reason with — is a remarkably efficient path to stronger AI.
+Each step brings skills closer to the core of the model's reasoning process: from external retrieval (BoT) to weight-level internalization (SuperCorrect) to RL-optimized planning (ReasonFlux). And each step produces stronger results: BoT closes a 10× parameter gap; SuperCorrect sets 7B SOTA; ReasonFlux surpasses o1-preview on competition math with 8 GPUs. The lesson is clear: teaching models <em>which skills to apply and when</em> — not just giving them more tokens to reason with — is a remarkably efficient path to stronger AI.
 </p>
 
 
 <!-- ========== Beyond Reasoning ========== -->
-<h2>Beyond Reasoning: Thought Templates as a Design Principle</h2>
+<h2>Beyond Reasoning: From Reasoning Skills to Agent Skills</h2>
 
 <p>
-The thought template idea did not stop at mathematical reasoning. In retrospect, what we discovered with BoT, SuperCorrect, and ReasonFlux is a <strong>general design principle</strong>: high-level structured guidelines — abstract blueprints that tell a system <em>how to approach</em> a class of problems — are a uniquely powerful representation for improving AI systems. The specific domain (math, code, tool use) is secondary; what matters is the level of abstraction.
+The thought template idea did not stop at mathematical reasoning. In retrospect, what we discovered with BoT, SuperCorrect, and ReasonFlux is a <strong>general design principle</strong>: high-level structured skills — abstract blueprints that tell a system <em>how to approach</em> a class of problems — are a uniquely powerful representation for improving AI systems. The specific domain (math, code, tool use) is secondary; what matters is the level of abstraction.
 </p>
 <p>
-In today's agent ecosystem, this same principle appears under a new name: <strong>skills</strong>. An agent skill is a reusable procedure — "how to debug a failing test," "how to navigate a complex UI form," "how to structure a multi-step API call" — that guides the agent's behavior at a strategic level, just as a thought template guides reasoning at a strategic level. The structural parallel is exact: both are high-level, composable, transferable across instances, and far more efficient than learning every behavior from scratch.
+In today's agent ecosystem, skills are everywhere: "how to debug a failing test," "how to navigate a complex UI form," "how to structure a multi-step API call." These agent skills guide behavior at a strategic level, just as our thought templates guide reasoning at a strategic level. The structural parallel is exact: both are high-level, composable, transferable across instances, and far more efficient than learning every behavior from scratch. <strong>Thought templates were reasoning skills before the word "skill" became the standard vocabulary.</strong>
 </p>
 <p>
-We proved the importance of this representation in the LLM reasoning era, before the agent wave arrived. And the insight carries forward directly. In our recent work on <a href="blog_openclaw_rl.html">OpenClaw-RL</a>, the <strong>On-Policy Distillation (OPD)</strong> mechanism extracts textual hints from next-state signals — corrections, tool errors, environment feedback — and uses them to construct enhanced teacher contexts for token-level distillation. These hindsight hints are, in essence, <em>on-the-fly thought templates</em> generated from live interactions: high-level structured guidance that tells the model not just that it was wrong, but how each token should have been different.
+And the insight carries forward directly. In our recent work on <a href="blog_openclaw_rl.html">OpenClaw-RL</a>, the <strong>On-Policy Distillation (OPD)</strong> mechanism extracts textual hints from next-state signals — corrections, tool errors, environment feedback — and uses them to construct enhanced teacher contexts for token-level distillation. These hindsight hints are, in essence, <em>on-the-fly skills</em> generated from live interactions: high-level structured guidance that tells the model not just that it was wrong, but how each token should have been different.
 </p>
 <p>
-The evolution is clear: from static template retrieval (BoT) → weight-level distillation (SuperCorrect) → RL-optimized planning (ReasonFlux) → <strong>live, interaction-driven template generation</strong> (OpenClaw-RL OPD). Each step makes the structured-guideline representation more dynamic, more tightly integrated with the learning loop, and more broadly applicable — from math problems to agent behaviors to personalized AI assistants.
+The evolution is clear: from static skill retrieval (BoT) → weight-level skill distillation (SuperCorrect) → RL-optimized skill planning (ReasonFlux) → <strong>live, interaction-driven skill generation</strong> (OpenClaw-RL OPD). Each step makes skills more dynamic, more tightly integrated with the learning loop, and more broadly applicable — from math problems to agent behaviors to personalized AI assistants.
 </p>
 
 
