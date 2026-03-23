@@ -243,8 +243,8 @@ OpenClaw-RL sits at the intersection of three questions our team has been pursui
 
 <div class="conv-line feedback">
   <div class="conv-line-num">Line 2 — Feedback is more than a score</div>
-  <h3>From Thought Templates to Token-Level Distillation</h3>
-  <p>A scalar reward tells the model "wrong." But it doesn't tell the model <em>how</em> to change. From Buffer of Thoughts and SuperCorrect — which distill structured thought templates into smaller models — to ReasonFlux's hierarchical reasoning library, this line has always been about converting rich feedback into learnable signal. OpenClaw-RL's <strong>On-Policy Distillation (OPD)</strong> is the culmination: extract textual hints from the next state, construct an enhanced teacher context, and provide token-level directional advantage at every position. Not just "you were wrong" — but "here's how each token should have been different."</p>
+  <h3>From Thought Templates to Agent Skills to Token-Level Distillation</h3>
+  <p>A scalar reward tells the model "wrong." But it doesn't tell the model <em>how</em> to change. This line has always been about one thing: <strong>high-level structured guidelines matter</strong>. In <a href="https://arxiv.org/pdf/2406.04271">Buffer of Thoughts</a>, we showed that distilling reusable thought templates — abstract reasoning blueprints that tell the model <em>how to approach</em> a problem class — dramatically improves LLM problem-solving. <a href="https://arxiv.org/abs/2410.09008">SuperCorrect</a> extended this by distilling both templates and self-correction strategies from large teachers into smaller models. <a href="https://github.com/Gen-Verse/ReasonFlux">ReasonFlux</a> scaled it further into a hierarchical library of thought templates that grows and refines itself. In today's agent era, this same concept has a new name — <strong>skills</strong>: reusable high-level procedures that guide how agents act. We proved the importance of this structured-guideline representation well before the agent wave arrived. OpenClaw-RL's <strong>On-Policy Distillation (OPD)</strong> is the natural next step: extract textual hints from the next state, construct an enhanced teacher context, and provide token-level directional advantage at every position. Not just "you were wrong" — but "here's how each token should have been different."</p>
   <div class="line-projects">
     <a href="https://arxiv.org/pdf/2406.04271">Buffer of Thoughts</a>
     <a href="https://arxiv.org/abs/2410.09008">SuperCorrect</a>
@@ -281,7 +281,7 @@ The first form is <em>evaluative</em>: how well did the action perform? A PRM ju
 
 <h3>Directive Signals → On-Policy Distillation</h3>
 <p>
-The second form is <em>directive</em>: how should the action have been different? When the next state contains rich textual information — "you should have checked the file first," a tool returning a detailed error trace — the system extracts <strong>hindsight hints</strong> and uses them to construct an enhanced teacher context. The log-probability gap between this enhanced teacher and the current student becomes a <strong>token-level directional advantage signal</strong>, orders of magnitude richer than any scalar reward.
+The second form is <em>directive</em>: how should the action have been different? This is the same question that thought templates answer for reasoning and skills answer for agents — providing structured, high-level guidance rather than just a pass/fail verdict. When the next state contains rich textual information — "you should have checked the file first," a tool returning a detailed error trace — the system extracts <strong>hindsight hints</strong>, which function as on-the-fly thought templates for the specific interaction. These hints are used to construct an enhanced teacher context, and the log-probability gap between this enhanced teacher and the current student becomes a <strong>token-level directional advantage signal</strong>, orders of magnitude richer than any scalar reward.
 </p>
 
 <div class="detail-box ocrl">
@@ -361,10 +361,10 @@ The same async infrastructure powers scalable RL for general-purpose agents. We 
 <h2>Looking Back: A Natural Convergence</h2>
 
 <p>
-When we started <a href="https://arxiv.org/abs/2506.03136">CURE</a>, the question was narrow: can a coder and a unit tester teach each other without ground truth? When we built <a href="https://arxiv.org/abs/2602.02488">RLAnything</a>, the question expanded: can we jointly optimize the environment, reward model, and policy? When we developed <a href="https://github.com/Gen-Verse/ReasonFlux">ReasonFlux</a> and <a href="https://arxiv.org/pdf/2406.04271">Buffer of Thoughts</a>, the question was: how do we convert structured reasoning feedback into learnable signals?
+When we started <a href="https://arxiv.org/abs/2506.03136">CURE</a>, the question was narrow: can a coder and a unit tester teach each other without ground truth? When we built <a href="https://arxiv.org/abs/2602.02488">RLAnything</a>, the question expanded: can we jointly optimize the environment, reward model, and policy? When we developed <a href="https://arxiv.org/pdf/2406.04271">Buffer of Thoughts</a> and <a href="https://github.com/Gen-Verse/ReasonFlux">ReasonFlux</a>, the question was: can high-level structured guidelines — what we called thought templates, and what the agent community now calls skills — be distilled and reused to make models fundamentally better? We proved that answer was yes, long before "agent skills" became a common concept.
 </p>
 <p>
-In hindsight, all of these were different angles on the same problem: <strong>how to extract maximal learning signal from every interaction, and do it without stopping the system</strong>. OpenClaw-RL is where these answers converge — process rewards from the ReasonFlux line, structured feedback distillation from the BoT/SuperCorrect line, and fully async co-evolution from the CURE/RLAnything line, all fused into a single framework that serves both personal and general agents.
+In hindsight, all of these were different angles on the same problem: <strong>how to extract maximal learning signal from every interaction, and do it without stopping the system</strong>. OpenClaw-RL is where these answers converge — process rewards from the ReasonFlux line, structured guideline distillation (from thought templates to OPD hints) from the BoT/SuperCorrect line, and fully async co-evolution from the CURE/RLAnything line, all fused into a single framework that serves both personal and general agents.
 </p>
 
 <blockquote>
