@@ -149,7 +149,10 @@ footer .foot-links a:hover { color:var(--text); }
       <a href="index.html#research">Research</a>
       <a href="index.html#news">News</a>
       <a href="index.html#publications">Publications</a>
-      <a href="#" class="active">Blog</a>
+      <a href="index.html#talks">Talks</a>
+      <a href="index.html#honors">Honors</a>
+      <a href="index.html#services">Services</a>
+      <a href="blog.html" class="active">Blog</a>
     </div>
     <a href="https://www.princeton.edu" class="princeton-badge" target="_blank">
       <img src="https://yangling0818.github.io/images/prince.png" alt="Princeton University">
@@ -158,7 +161,7 @@ footer .foot-links a:hover { color:var(--text); }
 </nav>
 
 <div class="blog-hero">
-  <a href="index.html" class="blog-back">&larr; Back to Home</a>
+  <a href="blog.html" class="blog-back">&larr; All Posts</a>
   <div class="blog-date">2024 – 2025</div>
   <h1>Scaling LLM Reasoning via <em>Thought Templates</em></h1>
   <p class="blog-subtitle">Three tightly connected projects — Buffer of Thoughts, SuperCorrect, and ReasonFlux — that evolve a single idea from prompting-time retrieval to training-time distillation to RL-optimized hierarchical reasoning, culminating in a 32B model that surpasses o1-preview on MATH and AIME.</p>
@@ -179,7 +182,10 @@ footer .foot-links a:hover { color:var(--text); }
 The idea behind this research line is deceptively simple: <strong>humans don't solve hard problems from scratch every time — they recall high-level strategies, adapt them to the specific problem, and refine their approach when things go wrong.</strong> Can we teach LLMs to do the same?
 </p>
 <p>
-We started exploring this question in mid-2024 with Buffer of Thoughts, a prompting framework that stores and retrieves reusable "thought templates." The results were striking — an 8B model equipped with BoT could rival a 70B model — but the templates lived outside the model, as a retrieval system at inference time. This naturally led to two follow-up questions: (1) can we bake these templates into the model's weights through training? and (2) can we use RL to learn optimal sequences of templates for complex, multi-step problems?
+We call these high-level strategies <em>thought templates</em>: abstract, reusable reasoning blueprints that tell a model how to <em>approach</em> a problem class rather than how to solve any single instance. If this sounds familiar, it should — in today's agent era, the same concept goes by a different name: <strong>skills</strong>. Reusable high-level procedures that guide how agents act. We proved the importance of this structured-guideline representation well before the agent wave arrived, starting in mid-2024 with Buffer of Thoughts.
+</p>
+<p>
+We started with a prompting framework that stores and retrieves reusable thought templates. The results were striking — an 8B model equipped with BoT could rival a 70B model — but the templates lived outside the model, as a retrieval system at inference time. This naturally led to two follow-up questions: (1) can we bake these templates into the model's weights through training? and (2) can we use RL to learn optimal sequences of templates for complex, multi-step problems?
 </p>
 <p>
 <strong>SuperCorrect</strong> answers the first question. It distills hierarchical thought templates from a large teacher model into a smaller student model via SFT, and uses a novel cross-model collaborative DPO to teach the student to self-correct using the teacher's error-correction traces. <strong>ReasonFlux</strong> answers the second. It builds a structured library of ~500 thought templates and trains the model via hierarchical RL to plan optimal template trajectories — sequences of high-level strategies that decompose complex problems into manageable sub-problems.
@@ -387,6 +393,23 @@ Each step brings templates closer to the core of the model's reasoning process: 
 </p>
 
 
+<!-- ========== Beyond Reasoning ========== -->
+<h2>Beyond Reasoning: Thought Templates as a Design Principle</h2>
+
+<p>
+The thought template idea did not stop at mathematical reasoning. In retrospect, what we discovered with BoT, SuperCorrect, and ReasonFlux is a <strong>general design principle</strong>: high-level structured guidelines — abstract blueprints that tell a system <em>how to approach</em> a class of problems — are a uniquely powerful representation for improving AI systems. The specific domain (math, code, tool use) is secondary; what matters is the level of abstraction.
+</p>
+<p>
+In today's agent ecosystem, this same principle appears under a new name: <strong>skills</strong>. An agent skill is a reusable procedure — "how to debug a failing test," "how to navigate a complex UI form," "how to structure a multi-step API call" — that guides the agent's behavior at a strategic level, just as a thought template guides reasoning at a strategic level. The structural parallel is exact: both are high-level, composable, transferable across instances, and far more efficient than learning every behavior from scratch.
+</p>
+<p>
+We proved the importance of this representation in the LLM reasoning era, before the agent wave arrived. And the insight carries forward directly. In our recent work on <a href="blog_openclaw_rl.html">OpenClaw-RL</a>, the <strong>On-Policy Distillation (OPD)</strong> mechanism extracts textual hints from next-state signals — corrections, tool errors, environment feedback — and uses them to construct enhanced teacher contexts for token-level distillation. These hindsight hints are, in essence, <em>on-the-fly thought templates</em> generated from live interactions: high-level structured guidance that tells the model not just that it was wrong, but how each token should have been different.
+</p>
+<p>
+The evolution is clear: from static template retrieval (BoT) → weight-level distillation (SuperCorrect) → RL-optimized planning (ReasonFlux) → <strong>live, interaction-driven template generation</strong> (OpenClaw-RL OPD). Each step makes the structured-guideline representation more dynamic, more tightly integrated with the learning loop, and more broadly applicable — from math problems to agent behaviors to personalized AI assistants.
+</p>
+
+
 <!-- ========== Citation ========== -->
 <div style="margin-top:48px; padding-top:28px; border-top:1px solid var(--border);">
 <h3 style="margin-top:0;">Citation</h3>
@@ -425,7 +448,7 @@ Each step brings templates closer to the core of the model's reasoning process: 
 </article>
 
 <footer>
-  <p>&copy; 2025 Ling Yang &middot; Princeton University</p>
+  <p>&copy; 2026 Ling Yang &middot; Princeton University</p>
   <div class="foot-links">
     <a href="mailto:yangling0818@163.com">Email</a>
     <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">Google Scholar</a>
