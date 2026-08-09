@@ -419,6 +419,24 @@ footer a:hover{color:var(--text)}
   .hero-v9-social{grid-template-columns:1fr!important}
 }
 
+/* ---------- V18: project families in the ecosystem ---------- */
+.eco{display:flex!important;flex-direction:column;height:100%}
+.eco-name{display:inline-block;color:inherit;text-decoration:none;align-self:flex-start}
+.eco-name b{transition:color .18s}
+.eco-name:hover b{color:#fff;text-decoration:none}
+.eco-name:hover{text-decoration:none}
+.eco-subs{display:flex;flex-wrap:wrap;gap:5px;margin-top:11px}
+.eco-subs a{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10.5px;letter-spacing:-.01em;color:#c4c4c4;background:#2c2c2c;border:1px solid #3d3d3d;border-radius:6px;padding:2px 7px;text-decoration:none;white-space:nowrap;transition:all .18s}
+.eco-subs a:hover{background:#3b3b3b;border-color:#666;color:#fff;text-decoration:none}
+.eco .eco-tag{margin-top:auto;padding-top:0;align-self:flex-start}
+.eco-subs + .eco-tag{margin-top:12px!important}
+
+/* ---------- V20: GitHub star badges ---------- */
+.stars{display:inline-flex;align-items:center;gap:4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:5px;background:#fdf6e0;border:1px solid #f0e2b8;color:#8a6410;white-space:nowrap}
+.stars svg{width:11px;height:11px;fill:#d9a521;flex-shrink:0}
+.stars.loading{background:var(--soft);border-color:var(--line);color:var(--muted)}
+.stars.loading svg{fill:var(--muted);opacity:.45}
+
 </style>
 </head>
 <body>
@@ -466,7 +484,7 @@ footer a:hover{color:var(--text)}
     <h2 class="hero-v9-thesis" data-en="Learning, Evolution, and Discovery Infrastructure for Next-Generation Models and Agents">面向下一代模型与智能体学习、进化与发现的基础设施</h2>
 
 <div class="hero-v9-body">
-  <p data-en="Ling Yang is an incoming Assistant Professor (PI) and Ph.D. advisor. He is currently a Postdoctoral Researcher in ECE / Princeton AI Lab at Princeton University, working with Prof. Mengdi Wang. He received his Ph.D. from Peking University, jointly supervised by Prof. Bin Cui and Prof. Luxia Zhang, and was selected for the ByteDance Top Seed Talent Program during his doctoral studies. His current research focuses on LLM and agent post-training, reinforcement learning systems and theory, recursive self-improvement (RSI), and AI for Discovery, with 70+ publications at leading AI and machine learning venues including NeurIPS, ICML, ICLR, CVPR and ACL. Several of these works received Spotlight (Top 3%), Oral (Top 1%) and Best Paper Awards, and have been featured by MIT Technology Review, QbitAI, Synced and other technology media.">杨灵，Incoming 助理教授（PI）、研究员、博士生导师。现为 普林斯顿大学 ECE / Princeton AI Lab 博士后研究员，与王梦迪教授合作。博士毕业于北京大学，导师是崔斌教授和张路霞教授，博士期间入选 ByteDance Top Seed Talent Program。当前主要研究LLM / Agent Post-Training、Reinforcement Learning System/Framework、Recursive Self-Improvement (RSI)，以及 AI for Discovery，累计发表论文 70 余篇，相关成果发表于 NeurIPS、ICML、ICLR、CVPR、ACL 等国际人工智能与机器学习顶级会议。多项工作获得顶会 Spotlight（Top 3%）、Oral（Top 1%）和 Best Paper Award 等高评价。研究成果多次被麻省理工科技评论、量子位、机器之心等国内外权威科技媒体专题报道。</p>
+  <p data-en="Ling Yang is an incoming Assistant Professor (PI) and Ph.D. advisor. He is currently a Postdoctoral Researcher in ECE / Princeton AI Lab at Princeton University, working with Prof. Mengdi Wang. He received his Ph.D. from Peking University, jointly supervised by Prof. Bin Cui and Prof. Luxia Zhang, and was selected for the ByteDance Top Seed Talent Program during his doctoral studies. His current research focuses on LLM and agent post-training, reinforcement learning systems and frameworks, recursive self-improvement (RSI), and AI for Discovery, with 70+ publications at leading AI and machine learning venues including NeurIPS, ICML, ICLR, CVPR and ACL. Several of these works received Spotlight (Top 3%), Oral (Top 1%) and Best Paper Awards, and have been featured by MIT Technology Review, QbitAI, Synced and other technology media.">杨灵，Incoming 助理教授（PI）、研究员、博士生导师。现为 普林斯顿大学 ECE / Princeton AI Lab 博士后研究员，与王梦迪教授合作。博士毕业于北京大学，导师是崔斌教授和张路霞教授，博士期间入选 ByteDance Top Seed Talent Program。当前主要研究 LLM / Agent Post-Training、Reinforcement Learning System/Infra、Recursive Self-Improvement (RSI)，AI for Discovery，累计发表论文 70 余篇，相关成果发表于 NeurIPS、ICML、ICLR、CVPR、ACL 等国际人工智能与机器学习顶级会议。多项工作获得顶会 Spotlight（Top 3%）、Oral（Top 1%）和 Best Paper Award 等高评价。研究成果多次被麻省理工科技评论、量子位、机器之心等国内外权威科技媒体专题报道。</p>
 </div>
 
 <div class="hero-v9-cards">
@@ -566,12 +584,53 @@ footer a:hover{color:var(--text)}
 <div class="ecosys">
 <div class="eco-title"><h3>Gen-Verse Research Ecosystem</h3><p>Research ideas → reusable systems → open-source community</p></div>
 <div class="eco-grid">
-<a class="eco" href="https://github.com/Gen-Verse/ReasonFlux"><b>ReasonFlux</b><span>Reasoning templates, process supervision and verification.</span><em class="eco-tag">REASONING · PRM</em></a>
-<a class="eco" href="https://github.com/Gen-Verse/Open-AgentRL"><b>RLAnything</b><span>Dynamic environment, policy and reward learning for general RL.</span><em class="eco-tag">GENERAL RL</em></a>
-<a class="eco" href="https://github.com/Gen-Verse/OpenClaw-RL"><b>OpenClaw-RL</b><span>Fully asynchronous RL for interactive and long-horizon agents.</span><em class="eco-tag">ASYNC AGENT RL</em></a>
-<a class="eco" href="https://github.com/Gen-Verse/GenEnv"><b>GenEnv</b><span>Environment construction and evolution for agent learning.</span><em class="eco-tag">ENVIRONMENTS</em></a>
-<a class="eco" href="https://github.com/Gen-Verse/MMaDA"><b>MMaDA</b><span>Multimodal large diffusion language models.</span><em class="eco-tag">MULTIMODAL dLLM</em></a>
-<a class="eco" href="https://github.com/Gen-Verse/dLLM-RL"><b>dLLM-RL</b><span>Reinforcement learning infrastructure for diffusion language models.</span><em class="eco-tag">dLLM POST-TRAINING</em></a>
+<div class="eco">
+  <a class="eco-name" href="https://github.com/Gen-Verse/ReasonFlux"><b>ReasonFlux</b></a>
+  <span>A family of reasoning systems: thought templates, process reward models, and co-evolving coders.</span>
+  <div class="eco-subs">
+    <a href="https://arxiv.org/abs/2502.06772">ReasonFlux</a>
+    <a href="https://arxiv.org/abs/2506.18896">ReasonFlux-PRM</a>
+    <a href="https://github.com/Gen-Verse/CURE">ReasonFlux-Coder</a>
+  </div>
+  <em class="eco-tag">REASONING · PRM</em>
+</div>
+<div class="eco">
+  <a class="eco-name" href="https://github.com/Gen-Verse/Open-AgentRL"><b>RLAnything</b></a>
+  <span>Dynamic environment, policy and reward learning for general RL.</span>
+  <div class="eco-subs">
+    <a href="https://arxiv.org/abs/2602.02488">RLAnything</a>
+    <a href="https://arxiv.org/abs/2510.11701">Open-AgentRL</a>
+  </div>
+  <em class="eco-tag">GENERAL RL</em>
+</div>
+<div class="eco">
+  <a class="eco-name" href="https://github.com/Gen-Verse/OpenClaw-RL"><b>OpenClaw-RL</b></a>
+  <span>Fully asynchronous RL for interactive and long-horizon agents.</span>
+  <em class="eco-tag">ASYNC AGENT RL</em>
+</div>
+<div class="eco">
+  <a class="eco-name" href="https://github.com/Gen-Verse/GenEnv"><b>GenEnv</b></a>
+  <span>Environment construction and evolution for agent learning.</span>
+  <em class="eco-tag">ENVIRONMENTS</em>
+</div>
+<div class="eco">
+  <a class="eco-name" href="https://github.com/Gen-Verse/MMaDA"><b>MMaDA</b></a>
+  <span>Multimodal large diffusion language models.</span>
+  <div class="eco-subs">
+    <a href="https://arxiv.org/abs/2505.15809">MMaDA</a>
+    <a href="https://arxiv.org/abs/2511.09611">MMaDA-Parallel</a>
+  </div>
+  <em class="eco-tag">MULTIMODAL dLLM</em>
+</div>
+<div class="eco">
+  <a class="eco-name" href="https://github.com/Gen-Verse/dLLM-RL"><b>dLLM-RL</b></a>
+  <span>Reinforcement learning infrastructure for diffusion language models.</span>
+  <div class="eco-subs">
+    <a href="https://arxiv.org/abs/2509.06949">TraceRL</a>
+    <a href="https://arxiv.org/abs/2509.06949">TraDo</a>
+  </div>
+  <em class="eco-tag">dLLM POST-TRAINING</em>
+</div>
 </div>
 <div class="eco-foot">
 <div class="eco-stat"><b>20K+</b><span>GITHUB STARS</span></div>
@@ -643,6 +702,8 @@ footer a:hover{color:var(--text)}
 <div class="pubrow"><div class="venue">NEURIPS 2024<span class="award">Spotlight · Top 3%</span></div><div><div class="pubtitle">Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models</div><div class="pubmeta" data-en="Structured reasoning with thought templates">基于思维模板的结构化推理</div><div class="pubtags"><a href="https://arxiv.org/pdf/2406.04271">Paper</a><a href="https://github.com/YangLing0818/buffer-of-thought-llm">Code</a></div></div></div>
 <div class="pubrow"><div class="venue">NEURIPS 2025</div><div><div class="pubtitle">MMaDA: Multimodal Large Diffusion Language Models</div><div class="pubmeta" data-en="Unified multimodal generative modeling">统一的多模态生成建模</div><div class="pubtags"><a href="https://arxiv.org/abs/2505.15809">Paper</a><a href="https://github.com/Gen-Verse/MMaDA">Code</a></div></div></div>
 <div class="pubrow"><div class="venue">PREPRINT</div><div><div class="pubtitle">ReasonFlux: Hierarchical LLM Reasoning via Scaling Thought Templates</div><div class="pubmeta" data-en="Structured reasoning and post-training">结构化推理与后训练</div><div class="pubtags"><a href="https://arxiv.org/abs/2502.06772">Paper</a><a href="https://github.com/Gen-Verse/ReasonFlux">Code</a></div></div></div>
+<div class="pubrow"><div class="venue">NEURIPS 2025<span class="award">Spotlight · Top 3%</span></div><div><div class="pubtitle">Co-Evolving LLM Coder and Unit Tester via Reinforcement Learning (ReasonFlux-Coder)</div><div class="pubmeta" data-en="Co-evolving coder and unit tester via RL · corresponding-author work">代码与单元测试的协同进化强化学习 · 通讯作者工作</div><div class="pubtags"><a href="https://arxiv.org/abs/2506.03136">Paper</a><a href="https://github.com/Gen-Verse/CURE">Code</a></div></div></div>
+<div class="pubrow"><div class="venue">NEURIPS 2025</div><div><div class="pubtitle">ReasonFlux-PRM: Trajectory-Aware PRMs for Long Chain-of-Thought Reasoning in LLMs</div><div class="pubmeta" data-en="Trajectory-aware process reward models for long CoT · corresponding-author work">面向长链推理的轨迹感知过程奖励模型 · 通讯作者工作</div><div class="pubtags"><a href="https://arxiv.org/abs/2506.18896">Paper</a><a href="https://github.com/Gen-Verse/ReasonFlux">Code</a></div></div></div>
 <div class="pubrow"><div class="venue">ICML 2024</div><div><div class="pubtitle">Mastering Text-to-Image Diffusion: Recaptioning, Planning, and Generating with Multimodal LLMs</div><div class="pubmeta" data-en="Generative modeling foundation (RPG)">生成模型基础（RPG）</div><div class="pubtags"><a href="https://openreview.net/forum?id=DgLFkAPwuZ">Paper</a><a href="https://github.com/YangLing0818/RPG-DiffusionMaster">Code</a></div></div></div>
 </section>
 
@@ -717,6 +778,64 @@ footer a:hover{color:var(--text)}
       document.body.removeChild(ta);
     }
   });
+
+  /* ---------- GitHub stars on publication code links ---------- */
+  (function(){
+    var papers = document.getElementById('papers');
+    if(!papers) return;
+    var STAR = '<svg viewBox="0 0 16 16" aria-hidden="true"><path d="M8 .25a.75.75 0 01.673.418l1.882 3.815 4.21.612a.75.75 0 01.416 1.279l-3.046 2.97.719 4.192a.75.75 0 01-1.088.791L8 12.347l-3.766 1.98a.75.75 0 01-1.088-.79l.72-4.194L.818 6.374a.75.75 0 01.416-1.28l4.21-.611L7.327.668A.75.75 0 018 .25z"/></svg>';
+    var TTL = 6 * 3600 * 1000;
+    var pending = {};
+
+    function fmt(n){
+      if(n >= 1000) return (n/1000).toFixed(1).replace(/\.0$/, '') + 'k';
+      return String(n);
+    }
+    function cached(key){
+      try {
+        var raw = localStorage.getItem('gh:' + key);
+        if(!raw) return null;
+        var o = JSON.parse(raw);
+        return (Date.now() - o.t < TTL) ? o.n : null;
+      } catch(e){ return null; }
+    }
+    function store(key, n){
+      try { localStorage.setItem('gh:' + key, JSON.stringify({n:n, t:Date.now()})); } catch(e){}
+    }
+    function stars(key){
+      var hit = cached(key);
+      if(hit !== null) return Promise.resolve(hit);
+      if(!pending[key]){
+        pending[key] = fetch('https://api.github.com/repos/' + key)
+          .then(function(r){ return r.ok ? r.json() : null; })
+          .then(function(d){
+            var n = (d && typeof d.stargazers_count === 'number') ? d.stargazers_count : null;
+            if(n !== null) store(key, n);
+            return n;
+          })
+          .catch(function(){ return null; });
+      }
+      return pending[key];
+    }
+
+    var links = papers.querySelectorAll('.pubtags a');
+    for(var i = 0; i < links.length; i++){
+      (function(link){
+        var m = (link.getAttribute('href') || '').match(/github\.com\/([^\/?#]+)\/([^\/?#]+)/);
+        if(!m) return;
+        var key = m[1] + '/' + m[2].replace(/\.git$/, '');
+        var badge = document.createElement('span');
+        badge.className = 'stars loading';
+        badge.innerHTML = STAR + ' ···';
+        link.parentNode.insertBefore(badge, link.nextSibling);
+        stars(key).then(function(n){
+          if(n === null || n === 0){ badge.remove(); return; }
+          badge.className = 'stars';
+          badge.innerHTML = STAR + ' ' + fmt(n);
+        });
+      })(links[i]);
+    }
+  })();
 
   /* ---------- news carousel ---------- */
   var track = document.getElementById('newsTrack');
