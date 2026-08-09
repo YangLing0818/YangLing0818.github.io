@@ -370,6 +370,55 @@ footer a{color:var(--muted)}
 footer a:hover{color:var(--text)}
 @media(max-width:620px){.mailbox .addr{font-size:13px}}
 
+/* ---------- V17: mobile hero — photo beside the name ---------- */
+@media(max-width:900px){
+  .hero-v9{
+    display:grid!important;
+    grid-template-columns:150px minmax(0,1fr);
+    column-gap:18px;row-gap:0;align-items:start;
+  }
+  .hero-v9-left,.hero-v9-right{display:contents}
+  .hero-v9-photo{grid-area:1/1;width:150px;height:175px;align-self:start;margin:0}
+  .hero-v9-id{grid-area:1/2;align-self:center}
+  .hero-v9-contact{grid-area:2/1/auto/-1;margin:18px 0 0}
+  .hero-v9-thesis{grid-area:3/1/auto/-1;margin-top:14px}
+  .hero-v9-body{grid-area:4/1/auto/-1}
+  .hero-v9-social{grid-area:5/1/auto/-1;max-width:none!important;margin-top:4px!important}
+  .hero-v9-address{grid-area:6/1/auto/-1;margin-top:14px}
+  .hero-v9-cards{grid-area:7/1/auto/-1;margin-top:18px}
+  .hero-v9-actions{grid-area:8/1/auto/-1}
+  /* social links: wrap into columns instead of one tall stack */
+  .hero-v9-social{display:grid!important;grid-template-columns:1fr 1fr!important;gap:7px!important}
+  .hero-v9-social a{font-size:12.5px!important;padding:8px 6px!important}
+  .hero-v9-social a.mail-inline{grid-column:1/-1!important}
+}
+@media(max-width:620px){
+  .hero-v9{grid-template-columns:96px minmax(0,1fr);column-gap:13px}
+  .hero-v9-photo{width:96px;height:112px;border-radius:10px}
+  .hero-v9-kicker{font-size:9.5px;letter-spacing:.07em;line-height:1.5}
+  .hero-v9-name{font-size:27px!important;margin:2px 0 3px}
+  .hero-v9-name span{font-size:.72em}
+  .hero-v9-title{font-size:12.5px;line-height:1.5}
+  .hero-v9-thesis{font-size:20px!important;line-height:1.35}
+  .hero-v9-contact{margin-top:15px;gap:8px}
+  .hero-v9-social a{font-size:11.5px!important;padding:8px 4px!important}
+  .hero-v9-actions a{flex:1 1 auto;text-align:center}
+  .mailbox{padding:5px 6px 5px 11px;gap:7px}
+  .copybtn{padding:4px 8px}
+  .contact-note{font-size:12px;line-height:1.55}
+  .eco-foot{gap:14px 22px}
+  .eco-stat b{font-size:18px}
+  .news-head h2{font-size:24px}
+  .news-card{flex-basis:82vw;min-height:0}
+  footer{flex-direction:column;align-items:flex-start;gap:6px}
+}
+@media(max-width:380px){
+  .hero-v9{grid-template-columns:84px minmax(0,1fr);column-gap:11px}
+  .hero-v9-photo{width:84px;height:98px}
+  .hero-v9-name{font-size:24px!important}
+  .hero-v9-social{grid-template-columns:1fr!important}
+}
+
 </style>
 </head>
 <body>
@@ -391,9 +440,10 @@ footer a:hover{color:var(--text)}
   <div class="hero-v9-left">
     <img class="hero-v9-photo" src="images/ling-yang.jpg" alt="Ling Yang">
 <div class="hero-v9-social">
+  <a class="mail-inline" href="mailto:yangling0818@163.com">✉ yangling0818@163.com</a>
   <a href="https://yangling0818.github.io/_pages/image-1.png">💬 WeChat</a>
   <a href="https://github.com/Gen-Verse">◉ Gen-Verse</a>
-  <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">◆ Google-Scholar</a>
+  <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">◆ Scholar</a>
   <a href="https://x.com/LingYang_PU">𝕏 Twitter/X</a>
   <a href="https://huggingface.co/Gen-Verse">🤗 HuggingFace</a>
   <a href="https://www.xiaohongshu.com/user/profile/5bf9033627150f0001533e35" data-en="RedNote">小红书</a>
@@ -401,21 +451,22 @@ footer a:hover{color:var(--text)}
 <div class="hero-v9-address" data-en="&lt;strong&gt;Address:&lt;/strong&gt; Jingyuan Courtyard No.6, Peking University, 5 Yiheyuan Road, Haidian District, Beijing"><strong>地址：</strong>北京市海淀区颐和园路5号，北京大学静园六院</div>
   </div>
 
-  <div>
+  <div class="hero-v9-right">
+    <div class="hero-v9-id">
     <div class="hero-v9-kicker">ARTIFICIAL INTELLIGENCE · AGENTS · REINFORCEMENT LEARNING</div>
     <h1 class="hero-v9-name">Ling Yang <span>杨灵</span></h1>
     <div class="hero-v9-title" data-en="Incoming Assistant Professor (PI) and Ph.D. Advisor · Currently Postdoctoral Researcher, Princeton University">Incoming 助理教授（PI）、研究员、博士生导师 · 现为 普林斯顿大学 博士后研究员</div>
+    </div>
 
     <div class="hero-v9-contact">
       <span class="mailbox"><a class="addr" href="mailto:yangling0818@163.com">yangling0818@163.com</a><button class="copybtn" type="button" data-copy="yangling0818@163.com" data-en="Copy">复制</button></span>
       <span class="contact-note" data-en="Email is the best way to reach me — please include your research direction, name and affiliation in the subject line.">欢迎邮件联系，邮件标题请注明「申请方向 + 姓名 + 学校」</span>
     </div>
 
-    <h2 class="hero-v9-thesis" data-en="Learning, Evolution, and Discovery Infrastructure for Next-Generation Models and Agents">面向下一代模型与智能体的学习、进化与发现基础设施</h2>
+    <h2 class="hero-v9-thesis" data-en="Learning, Evolution, and Discovery Infrastructure for Next-Generation Models and Agents">面向下一代模型与智能体学习、进化与发现的基础设施</h2>
 
 <div class="hero-v9-body">
-  <p data-en="Ling Yang is an incoming Assistant Professor (PI) and Ph.D. advisor. He is currently a Postdoctoral Researcher in ECE / Princeton AI Lab at Princeton University, working with Prof. Mengdi Wang. He received his Ph.D. from Peking University, jointly supervised by Prof. Bin Cui and Prof. Luxia Zhang, and was selected for the ByteDance Top Seed Talent Program during his doctoral studies. His current research focuses on LLM and agent post-training, reinforcement learning systems and theory, recursive self-improvement (RSI), and AI for Discovery.">杨灵，Incoming 助理教授（PI）、研究员、博士生导师。现为 普林斯顿大学 ECE / Princeton AI Lab 博士后研究员，与王梦迪教授合作。博士毕业于北京大学，导师是崔斌教授和张路霞教授，博士期间入选 ByteDance Top Seed Talent Program。当前主要研究大语言模型与智能体后训练、强化学习系统与理论、Recursive Self-Improvement (RSI)，以及 AI for Discovery。</p>
-  <p data-en="His recent work spans LLM / agent post-training, reinforcement learning, self-evolving agents and diffusion models, with 70+ publications at leading AI and machine learning venues including NeurIPS, ICML, ICLR, CVPR and ACL. Several of these works received Spotlight (Top 3%), Oral (Top 1%) and Best Paper Awards, and have been featured by MIT Technology Review, QbitAI, Synced and other technology media.">近年来围绕 LLM / Agent Post-Training、Reinforcement Learning、Self-Evolving Agents 与 Diffusion Models 开展系列研究，累计发表论文 70 余篇，相关成果发表于 NeurIPS、ICML、ICLR、CVPR、ACL 等国际人工智能与机器学习顶级会议。多项工作获得顶会 Spotlight（Top 3%）、Oral（Top 1%）和 Best Paper Award 等高评价。研究成果多次被麻省理工科技评论、量子位、机器之心等国内外权威科技媒体专题报道。</p>
+  <p data-en="Ling Yang is an incoming Assistant Professor (PI) and Ph.D. advisor. He is currently a Postdoctoral Researcher in ECE / Princeton AI Lab at Princeton University, working with Prof. Mengdi Wang. He received his Ph.D. from Peking University, jointly supervised by Prof. Bin Cui and Prof. Luxia Zhang, and was selected for the ByteDance Top Seed Talent Program during his doctoral studies. His current research focuses on LLM and agent post-training, reinforcement learning systems and theory, recursive self-improvement (RSI), and AI for Discovery, with 70+ publications at leading AI and machine learning venues including NeurIPS, ICML, ICLR, CVPR and ACL. Several of these works received Spotlight (Top 3%), Oral (Top 1%) and Best Paper Awards, and have been featured by MIT Technology Review, QbitAI, Synced and other technology media.">杨灵，Incoming 助理教授（PI）、研究员、博士生导师。现为 普林斯顿大学 ECE / Princeton AI Lab 博士后研究员，与王梦迪教授合作。博士毕业于北京大学，导师是崔斌教授和张路霞教授，博士期间入选 ByteDance Top Seed Talent Program。当前主要研究LLM / Agent Post-Training、Reinforcement Learning System/Framework、Recursive Self-Improvement (RSI)，以及 AI for Discovery，累计发表论文 70 余篇，相关成果发表于 NeurIPS、ICML、ICLR、CVPR、ACL 等国际人工智能与机器学习顶级会议。多项工作获得顶会 Spotlight（Top 3%）、Oral（Top 1%）和 Best Paper Award 等高评价。研究成果多次被麻省理工科技评论、量子位、机器之心等国内外权威科技媒体专题报道。</p>
 </div>
 
 <div class="hero-v9-cards">
@@ -483,7 +534,7 @@ footer a:hover{color:var(--text)}
 <span class="num">01</span>
 <h3>LLM / Agent Post-Training</h3>
 <p data-en="Post-training paradigms for large language models and agents: reasoning, agentic behavior, reward and verifier design, process supervision, long-horizon credit assignment, environment interaction and generalization — with a focus on transferable, scalable reasoning and acting capabilities in complex, interactive settings.">研究面向大语言模型与智能体的后训练范式，包括 reasoning、agentic behavior、reward / verifier、process supervision、long-horizon credit assignment、environment interaction 与 generalization。重点关注如何让模型在复杂任务与真实交互环境中形成可迁移、可扩展的推理与行动能力。</p>
-<div class="papers">ReasonFlux 系列 · Buffer of Thoughts · AgentDistill · Verifier / Reward Modeling</div>
+<div class="papers">ReasonFlux/PRM/Coder · Buffer of Thoughts · AgentDistill · Verifier / Reward Modeling</div>
 </div>
 
 <div class="rbox">
