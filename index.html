@@ -435,6 +435,12 @@ footer a:hover{color:var(--text)}
 .stars.loading{background:var(--soft);border-color:var(--line);color:var(--muted)}
 .stars.loading svg{fill:var(--muted);opacity:.45}
 
+/* ---------- V21: GitHub / HuggingFace links in impact card ---------- */
+.hero-v9-card-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
+.hero-v9-card-links a{display:inline-flex;align-items:center;gap:5px;padding:4px 8px;border:1px solid var(--line);border-radius:6px;background:var(--soft);color:var(--sub);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10.8px;line-height:1.35;text-decoration:none;white-space:nowrap}
+.hero-v9-card-links a:hover{background:white;border-color:#cbc6bd;color:var(--text);text-decoration:none}
+@media(max-width:620px){.hero-v9-card-links a{font-size:10.3px}}
+
 </style>
 </head>
 <body>
@@ -456,12 +462,12 @@ footer a:hover{color:var(--text)}
   <div class="hero-v9-left">
    <img class="hero-v9-photo" src="images/ling-yang.jpg" alt="Ling Yang">
   <div class="hero-v9-social">
-  <a href="mailto:yangling0818@163.com">✉ Email</a>
-  <a href="https://yangling0818.github.io/_pages/image-1.png">💬 WeChat</a>
-  <a href="https://github.com/Gen-Verse">◉ Gen-Verse</a>
-  <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">◆ Scholar</a>
-  <a href="https://x.com/LingYang_PU">𝕏 Twitter/X</a>
-  <a href="https://huggingface.co/Gen-Verse">🤗 HuggingFace</a>
+  <a href="mailto:yangling0818@163.com">Email</a>
+  <a href="https://github.com/Gen-Verse">Gen-Verse</a>
+  <a href="https://huggingface.co/Gen-Verse">HuggingFace</a>
+  <a href="https://gen-verse.github.io/DIG/">DIG Group</a>
+  <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">Google Scholar</a>
+  <a href="https://x.com/LingYang_PU">Twitter/X</a>
   <a href="https://www.xiaohongshu.com/user/profile/5bf9033627150f0001533e35" data-en="RedNote">小红书</a>
 </div>
 <div class="hero-v9-address" data-en="&lt;strong&gt;Address:&lt;/strong&gt; Jingyuan Courtyard No.6, Peking University, 5 Yiheyuan Road, Haidian District, Beijing"><strong>地址：</strong>北京市海淀区颐和园路5号，北京大学静园六院</div>
@@ -476,7 +482,7 @@ footer a:hover{color:var(--text)}
 <h2 class="hero-v9-thesis" data-en="Learning, Evolution, and Discovery Infrastructure for Next-Generation Models and Agents">面向下一代模型与智能体学习、进化与发现的基础设施</h2>
 
 <div class="hero-v9-body">
-  <p data-en="Ling Yang is an incoming Assistant Professor (PI), Researcher, and Ph.D. advisor. He is currently a Postdoctoral Researcher in ECE / Princeton AI Lab at Princeton University, working with Prof. Mengdi Wang. He received his Ph.D. from Peking University, jointly supervised by Prof. Bin Cui and Prof. Luxia Zhang, and was selected for the ByteDance Top Seed Talent Program during his doctoral studies. His current research focuses on <strong>LLM / Agent Post-Training, Reinforcement Learning Systems / Infrastructure, Recursive Self-Improvement (RSI), and AI for Discovery</strong>. I found the <strong>Discovery Intelligence Group (DIG) at Peking University</strong>, and has built Gen-Verse, an open-source research community whose projects have reached tens of millions of cumulative uses across GitHub and Hugging Face. He has published 70+ papers at leading AI and machine learning venues including NeurIPS, ICML, ICLR, CVPR and ACL. Several works received Spotlight (Top 3%), Oral (Top 1%) and Best Paper Award recognition. <strong>I am actively recruiting self-motivated PhD students, master's students, postdoctoral researchers, and research interns. I am also open to academic and industrial collaborations. Please feel free to reach out at yangling0818@163.com.</strong>">杨灵，Incoming 助理教授（PI）、研究员、博士生导师。现为 普林斯顿大学 ECE / Princeton AI Lab 博士后研究员，与王梦迪教授合作。博士毕业于北京大学，导师是崔斌教授和张路霞教授，博士期间入选 ByteDance Top Seed 顶尖人才计划。当前主要研究 <strong>LLM / Agent Post-Training、Reinforcement Learning System/Infra、Recursive Self-Improvement (RSI)、AI for Discovery</strong>。在北大创立 <strong>Discovery Intelligence Group (DIG，发现智能课题组)</strong>，并建立 Gen-Verse 开源研究社区，相关项目在 GitHub 与 HuggingFace 累计达到千万级使用量。累计发表论文 70 余篇，相关成果发表于 NeurIPS、ICML、ICLR、CVPR、ACL 等国际人工智能与机器学习顶级会议。多项工作获得顶会 Spotlight（Top 3%）、Oral（Top 1%）和 Best Paper Award 等。<strong>我长期招收积极主动、具有较强研究驱动力的博士生、硕士生、博士后和研究实习生，同时也欢迎学术界与产业界开展科研合作。欢迎随时与我联系（email: yangling0818@163.com）。</strong></p>
+  <p data-en="Ling Yang is an incoming Assistant Professor (PI), Researcher, and Ph.D. advisor. He is currently a Postdoctoral Researcher in ECE / Princeton AI Lab at Princeton University, working with Prof. Mengdi Wang. He received his Ph.D. from Peking University, jointly supervised by Prof. Bin Cui and Prof. Luxia Zhang, and was selected for the ByteDance Top Seed Talent Program during his doctoral studies. His current research focuses on <strong>LLM / Agent Post-Training, Reinforcement Learning Systems / Infrastructure, Recursive Self-Improvement (RSI), and AI for Discovery</strong>. I found the <a href="https://gen-verse.github.io/DIG/"><strong>Discovery Intelligence Group (DIG) at Peking University</strong></a>, and has built Gen-Verse, an open-source research community whose projects have reached tens of millions of cumulative uses across GitHub and Hugging Face. He has published 70+ papers at leading AI and machine learning venues including NeurIPS, ICML, ICLR, CVPR and ACL. Several works received Spotlight (Top 3%), Oral (Top 1%) and Best Paper Award recognition. <strong>I am actively recruiting self-motivated PhD students, master's students, postdoctoral researchers, and research interns. I am also open to academic and industrial collaborations. Please feel free to reach out at yangling0818@163.com.</strong>">杨灵，Incoming 助理教授（PI）、研究员、博士生导师。现为 普林斯顿大学 ECE / Princeton AI Lab 博士后研究员，与王梦迪教授合作。博士毕业于北京大学，导师是崔斌教授和张路霞教授，博士期间入选 ByteDance Top Seed 顶尖人才计划。当前主要研究 <strong>LLM / Agent Post-Training、Reinforcement Learning System/Infra、Recursive Self-Improvement (RSI)、AI for Discovery</strong>。在北大创立 <a href="https://gen-verse.github.io/DIG/"><strong>Discovery Intelligence Group (DIG，发现智能课题组)</strong></a>，并建立 Gen-Verse 开源研究社区，相关项目在 GitHub 与 HuggingFace 累计达到千万级使用量。累计发表论文 70 余篇，相关成果发表于 NeurIPS、ICML、ICLR、CVPR、ACL 等国际人工智能与机器学习顶级会议。多项工作获得顶会 Spotlight（Top 3%）、Oral（Top 1%）和 Best Paper Award 等。<strong>我长期招收积极主动、具有较强研究驱动力的博士生、硕士生、博士后和研究实习生，同时也欢迎学术界与产业界开展科研合作。欢迎随时与我联系（email: yangling0818@163.com）。</strong></p>
 </div>
 
 <div class="hero-v9-cards">
@@ -495,6 +501,10 @@ footer a:hover{color:var(--text)}
       <div class="hero-v9-card">
         <h3 data-en="Open Research Impact">开放研究影响力</h3>
         <p data-en="Gen-Verse projects have reached tens of millions of cumulative uses across GitHub and Hugging Face, while continuing to grow an open research ecosystem and community.">Gen-Verse 系列项目在 GitHub 与 HuggingFace 累计达到千万级使用量，并持续建设开放研究系统与社区。</p>
+        <div class="hero-v9-card-links">
+          <a href="https://github.com/Gen-Verse" target="_blank" rel="noopener">◉ github.com/Gen-Verse ↗</a>
+          <a href="https://huggingface.co/Gen-Verse" target="_blank" rel="noopener">🤗 huggingface.co/Gen-Verse ↗</a>
+        </div>
       </div>
     </div>
 
