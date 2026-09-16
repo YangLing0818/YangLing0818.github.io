@@ -446,6 +446,12 @@ footer a:hover{color:var(--text)}
 .hero-v9-card-links a:hover{background:white;border-color:#cbc6bd;color:var(--text);text-decoration:none}
 @media(max-width:620px){.hero-v9-card-links a{font-size:10.3px}}
 
+/* ---------- Discovery Intelligence research family ---------- */
+.eco-discovery{grid-column:1/-1}
+.discovery-projects{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+.discovery-projects strong{color:#f3f0ea}
+@media(max-width:620px){.discovery-projects{grid-template-columns:1fr;gap:6px}}
+
 </style>
 </head>
 <body>
@@ -507,10 +513,11 @@ footer a:hover{color:var(--text)}
 
   <div class="hero-v9-card">
   <h3 data-en="Selected Research Systems">代表性研究系统</h3>
-  <p data-en="1. LLM: Buffer of Thoughts, ReasonFlux, ReasonFlux-Coder, ReasonFlux-PRM, OmniVerifier &lt;br&gt;2. Agentic System: OpenClaw-RL, GenEnv, LatentMAS, Recuris &lt;br&gt;3. Reinforcement Learning: RLAnything, MMaDA, TraceRL">
+  <p data-en="1. LLM: Buffer of Thoughts, ReasonFlux, ReasonFlux-Coder, ReasonFlux-PRM, OmniVerifier &lt;br&gt;2. Agentic System: OpenClaw-RL, GenEnv, LatentMAS, Recuris &lt;br&gt;3. Reinforcement Learning: RLAnything, MMaDA, TraceRL &lt;br&gt;4. Discovery Intelligence: &lt;a href=&quot;https://arxiv.org/abs/2609.15973&quot;&gt;DFM&lt;/a&gt;, &lt;a href=&quot;https://github.com/Gen-Verse/ScienceBuddy&quot;&gt;ScienceBuddy&lt;/a&gt;">
     1. 大语言模型：Buffer of Thoughts、ReasonFlux、ReasonFlux-Coder、ReasonFlux-PRM、OmniVerifier <br>
     2. Agent系统：OpenClaw-RL、GenEnv、LatentMAS、Recuris <br>
-    3. 强化学习：RLAnything、MMaDA、TraceRL
+    3. 强化学习：RLAnything、MMaDA、TraceRL <br>
+    4. Discovery Intelligence：DFM、ScienceBuddy
   </p>
 </div>
 
@@ -567,15 +574,15 @@ footer a:hover{color:var(--text)}
 <div class="rbox">
 <span class="num">03</span>
 <h3>Recursive Self-Improvement</h3>
-<p data-en="How agents improve themselves through experience, memory, skills, data and environment feedback rather than one-shot parameter updates — covering environment–policy co-evolution, skill and memory evolution, active exploration, and self-optimizing discovery harnesses.">研究智能体如何通过经验、记忆、技能、数据和环境反馈不断改进自身，而不仅依赖一次性的参数更新。重点探索 Environment–Policy Co-Evolution、skill / memory evolution、active exploration，以及 discovery system harnesses 的自我优化。</p>
-<div class="papers">RLAnything · GenEnv · Recuris</div>
+<p data-en="How agents improve themselves through experience, memory, skills, data and environment feedback rather than one-shot parameter updates — covering environment–policy co-evolution, skill and memory evolution, active exploration, and recursive co-improvement of agent harnesses and models through scientific interaction.">研究智能体如何通过经验、记忆、技能、数据和环境反馈不断改进自身，而不仅依赖一次性的参数更新。重点探索 Environment–Policy Co-Evolution、skill / memory evolution、active exploration，以及通过科研交互实现 agent harness 与模型学习的递归协同改进。</p>
+<div class="papers">RLAnything · GenEnv · Recuris · <a href="https://arxiv.org/abs/2609.17523">ScienceBuddy</a></div>
 </div>
 
 <div class="rbox">
 <span class="num">04</span>
-<h3>AI for Discovery</h3>
+<h3>Discovery Intelligence</h3>
 <p data-en="A paradigm beyond “given a problem, produce an answer”: models that discover and define problems, construct and revise variables and representations, form hypotheses, design interventions and experiments, and refine the research process against external evidence — toward general model systems that participate in real scientific and open-ended discovery.">研究超越“给定问题—求解答案”的基础模型新范式：模型需要主动发现和定义问题，构造或修正变量与表征，形成假设，设计干预与实验，并根据外部证据持续修正研究过程。目标是构建能够参与真实科学与开放式发现过程的通用模型系统。</p>
-<div class="papers">Discovery Post-Training · AI for Science</div>
+<div class="papers"><a href="https://arxiv.org/abs/2609.15973">Discovery Foundation Models</a> · <a href="https://arxiv.org/abs/2609.17523">ScienceBuddy</a></div>
 </div>
 
 </div>
@@ -586,6 +593,22 @@ footer a:hover{color:var(--text)}
 <div class="ecosys">
 <div class="eco-title"><h3>Gen-Verse Research Ecosystem</h3><p>Research ideas → reusable systems → open-source community</p></div>
 <div class="eco-grid">
+<div class="eco eco-discovery">
+  <a class="eco-name" href="https://github.com/Gen-Verse/DFM-Plans"><b>Discovery Intelligence</b></a>
+  <span data-en="Foundation models for open-ended discovery, with scientific agents that learn through researcher interaction.">面向开放式发现的基础模型，以及通过科研交互持续学习的科学智能体。</span>
+  <div class="discovery-projects">
+    <span data-en="&lt;strong&gt;DFM&lt;/strong&gt; — A capability framework and research roadmap for open-ended discovery."><strong>DFM</strong> — 开放式发现的能力框架与研究路线。</span>
+    <span data-en="&lt;strong&gt;ScienceBuddy&lt;/strong&gt; — An interactive scientific agent that recursively improves its harness and model."><strong>ScienceBuddy</strong> — 递归改进工作流程与模型的交互式科学智能体。</span>
+  </div>
+  <div class="eco-subs">
+    <a href="https://arxiv.org/abs/2609.15973">DFM Paper</a>
+    <a href="https://github.com/Gen-Verse/DFM-Plans">DFM Roadmap</a>
+    <a href="https://arxiv.org/abs/2609.17523">ScienceBuddy Paper</a>
+    <a href="https://github.com/Gen-Verse/ScienceBuddy">ScienceBuddy Code</a>
+    <a href="http://science-buddy.io/">Try ScienceBuddy ↗</a>
+  </div>
+  <em class="eco-tag">DISCOVERY INTELLIGENCE</em>
+</div>
 <div class="eco">
   <a class="eco-name" href="https://github.com/Gen-Verse/ReasonFlux"><b>ReasonFlux</b></a>
   <span>A family of reasoning systems: thought templates, process reward models, and co-evolving coders.</span>
@@ -641,7 +664,7 @@ footer a:hover{color:var(--text)}
 <div class="eco-foot">
 <div class="eco-stat"><b>20K+</b><span>GITHUB STARS</span></div>
 <div class="eco-stat"><b>1M+</b><span>HUGGINGFACE DOWNLOADS</span></div>
-<div class="eco-stat"><b>6</b><span>CORE OPEN-SOURCE SYSTEMS</span></div>
+<div class="eco-stat"><b>7</b><span data-en="RESEARCH FAMILIES">研究系列</span></div>
 <div class="eco-links">
 <a href="https://github.com/Gen-Verse">GitHub ↗</a>
 <a href="https://huggingface.co/Gen-Verse">HuggingFace ↗</a>
@@ -688,6 +711,8 @@ footer a:hover{color:var(--text)}
 </div>
 <div class="news-wrap">
   <div class="news-track" id="newsTrack">
+<article class="news-card hi"><div class="nc-tag">2026.09 · SCIENCEBUDDY</div><p class="nc-body" data-en="Released &lt;a href=&quot;https://arxiv.org/abs/2609.17523&quot;&gt;&lt;strong&gt;ScienceBuddy&lt;/strong&gt;&lt;/a&gt;, an interactive scientific agent that recursively improves its harness and model through researcher collaboration. &lt;a href=&quot;https://github.com/Gen-Verse/ScienceBuddy&quot;&gt;Code&lt;/a&gt; · &lt;a href=&quot;http://science-buddy.io/&quot;&gt;Try it&lt;/a&gt;">发布 <a href="https://arxiv.org/abs/2609.17523"><strong>ScienceBuddy</strong></a>：通过科研交互，递归改进 agent harness 与模型的科学智能体。<a href="https://github.com/Gen-Verse/ScienceBuddy">代码</a> · <a href="http://science-buddy.io/">在线体验</a></p></article>
+<article class="news-card hi"><div class="nc-tag">2026.09 · DFM</div><p class="nc-body" data-en="Released &lt;a href=&quot;https://arxiv.org/abs/2609.15973&quot;&gt;&lt;strong&gt;Discovery Foundation Models&lt;/strong&gt;&lt;/a&gt;, a technical report introducing seven core capabilities and the Zetema reference architecture for open-ended discovery. &lt;a href=&quot;https://github.com/Gen-Verse/DFM-Plans&quot;&gt;Research roadmap&lt;/a&gt;">发布 <a href="https://arxiv.org/abs/2609.15973"><strong>Discovery Foundation Models</strong></a> 技术报告，提出面向开放式发现的七项核心能力与 Zetema 参考架构。<a href="https://github.com/Gen-Verse/DFM-Plans">研究版图</a></p></article>
 <article class="news-card hi"><div class="nc-tag">RECRUITING</div><p class="nc-body" data-en="&lt;strong&gt;I will soon be an Assistant Professor (PI).&lt;/strong&gt; I am recruiting &lt;strong&gt;Master&#x27;s students, PhD students, postdocs, and online / on-site research interns&lt;/strong&gt; in LLM / Agent Post-Training and Infra, Physical AI, and AI for Discovery. Feel free to &lt;a href=&quot;mailto:yangling0818@163.com&quot;&gt;contact me by email&lt;/a&gt;."><strong>即将出任助理教授（PI）</strong>，长期招收 <strong>硕士生、博士生、博士后与线上 / 线下研究实习生</strong>，方向包括 LLM / Agent Post-Training 与 Infra、Physical AI、AI for Discovery。欢迎<a href="mailto:yangling0818@163.com">邮件联系</a>。</p></article>
 <article class="news-card"><div class="nc-tag">2026 · AWARD</div><p class="nc-body" data-en="Received the &lt;strong&gt;2026 WAIC Yunfan Award&lt;/strong&gt; — 15 selected worldwide. &lt;a href=&quot;https://www.shlab.org.cn/news/5444250&quot;&gt;[Link]&lt;/a&gt;">获 <strong>2026 WAIC 云帆奖</strong>，全球 15 位入选者之一。<a href="https://www.shlab.org.cn/news/5444250">[链接]</a></p></article>
 <article class="news-card"><div class="nc-tag">ICML 2026</div><p class="nc-body" data-en="&lt;strong&gt;6 papers accepted&lt;/strong&gt; (1 spotlight) on LLMs, agents and multimodal reinforcement learning, including &lt;a href=&quot;https://arxiv.org/abs/2602.02488&quot;&gt;RLAnything&lt;/a&gt;, &lt;a href=&quot;https://arxiv.org/abs/2512.13278&quot;&gt;AutoTool&lt;/a&gt; and &lt;a href=&quot;https://arxiv.org/abs/2511.20639&quot;&gt;LatentMAS&lt;/a&gt;."><strong>6 篇论文接收</strong>（含 1 篇 Spotlight），覆盖 LLM、Agent 与多模态强化学习，包括 <a href="https://arxiv.org/abs/2602.02488">RLAnything</a>、<a href="https://arxiv.org/abs/2512.13278">AutoTool</a> 与 <a href="https://arxiv.org/abs/2511.20639">LatentMAS</a>。</p></article>
@@ -722,12 +747,14 @@ footer a:hover{color:var(--text)}
 <article class="news-card"><div class="nc-tag">CVPR 2020</div><p class="nc-body" data-en="&lt;strong&gt;1 paper accepted&lt;/strong&gt;."><strong>1 篇论文接收</strong>。</p></article>
   </div>
   <div class="news-bar"><i id="newsBar"></i></div>
-  <div class="news-hint" data-en="← drag or scroll to browse all 32 updates →">← 横向拖动或滚动查看全部 32 条动态 →</div>
+  <div class="news-hint" data-en="← drag or scroll to browse all 34 updates →">← 横向拖动或滚动查看全部 34 条动态 →</div>
 </div>
 </section>
 
 <section class="section" id="papers">
 <div class="section-head"><h2 data-en="Selected Publications">代表论文</h2></div>
+<div class="pubrow"><div class="venue">TECH REPORT</div><div><div class="pubtitle">Discovery Foundation Models: Toward Open-Ended Discovery Intelligence</div><div class="pubmeta" data-en="A framework for open-ended discovery intelligence">面向开放式发现智能的能力框架与研究纲领</div><div class="pubtags"><a href="https://arxiv.org/abs/2609.15973">Paper</a><a href="https://github.com/Gen-Verse/DFM-Plans">Research Roadmap</a></div></div></div>
+<div class="pubrow"><div class="venue">TECH REPORT</div><div><div class="pubtitle">ScienceBuddy: Recursive-in-Recursive Self-Improvement for Interactive Scientific Agents</div><div class="pubmeta" data-en="Recursive co-improvement of agent harnesses and models through scientific interaction">通过科研交互实现 agent harness 与模型的递归协同改进</div><div class="pubtags"><a href="https://arxiv.org/abs/2609.17523">Paper</a><a href="https://github.com/Gen-Verse/ScienceBuddy">Code</a><a href="http://science-buddy.io/">Demo</a></div></div></div>
 <div class="pubrow"><div class="venue">Preprint</div><div><div class="pubtitle">Recuris: Recursive Experiential–Working Memory Evolution for Long-Horizon Agent Harnesses</div><div class="pubmeta" data-en="Recursive memory evolution for long-horizon agents · corresponding-author work">长程智能体的递归记忆进化 · 通讯作者工作</div><div class="pubtags"><a href="https://arxiv.org/abs/2608.24876">Paper</a><a href="https://github.com/Gen-Verse/Recuris">Code</a></div></div></div>
 <div class="pubrow"><div class="venue">ICML 2026</div><div><div class="pubtitle">RLAnything: Forge Environment, Policy, and Reward Model in Completely Dynamic RL System</div><div class="pubmeta" data-en="General agentic RL · corresponding-author work">通用 agentic RL · 通讯作者工作</div><div class="pubtags"><a href="https://www.arxiv.org/abs/2602.02488">Paper</a><a href="https://github.com/Gen-Verse/Open-AgentRL">Code</a></div></div></div>
 <div class="pubrow"><div class="venue">ICML 2026<span class="award">Spotlight · Top 3%</span></div><div><div class="pubtitle">Latent Collaboration in Multi-Agent Systems (LatentMAS)</div><div class="pubmeta" data-en="Efficient multi-agent reasoning in latent space · corresponding-author work">隐空间中的高效多智能体协作 · 通讯作者工作</div><div class="pubtags"><a href="https://arxiv.org/abs/2511.20639">Paper</a><a href="https://github.com/Gen-Verse/LatentMAS">Code</a></div></div></div>
@@ -922,3 +949,4 @@ footer a:hover{color:var(--text)}
 </script>
 
 </body></html>
+
