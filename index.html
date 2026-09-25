@@ -14,271 +14,89 @@
 <meta name="twitter:card" content="summary_large_image"/>
 <link rel="icon" href="images/ling-yang.jpg"/>
 <style>
-
-:root {
-  --bg:#fbfaf7; --paper:#fff; --text:#171717; --sub:#55534f; --muted:#8a8780;
-  --line:#e7e3dc; --soft:#f3f0ea; --blue:#174ea6; --red:#9d2b24; --gold:#9a6a12;
-  --green:#246b4a; --radius:14px; --max:1180px;
-}
-*{box-sizing:border-box} html{scroll-behavior:smooth}
+:root{--bg:#fbfaf7;--paper:#fff;--text:#171717;--sub:#55534f;--muted:#8a8780;--line:#e7e3dc;--soft:#f3f0ea;--blue:#174ea6;--red:#9d2b24;--gold:#9a6a12;--green:#246b4a;--max:1180px}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
 body{margin:0;background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",Arial,sans-serif;line-height:1.7}
-a{color:var(--blue);text-decoration:none} a:hover{text-decoration:underline}
+a{color:var(--blue);text-decoration:none}
+a:hover{text-decoration:underline}
 nav{position:sticky;top:0;z-index:20;background:rgba(251,250,247,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
 .navin{max-width:var(--max);margin:auto;padding:13px 28px;display:flex;justify-content:space-between;align-items:center;gap:25px}
 .brand{font-family:Georgia,serif;font-size:20px;font-weight:700}
 .links{display:flex;gap:23px;align-items:center;font-size:14px;color:var(--sub)}
-.lang{border:1px solid var(--line);background:white;border-radius:20px;padding:5px 11px;cursor:pointer}
 main{max-width:var(--max);margin:auto;padding:42px 28px 80px}
-.hero{display:grid;grid-template-columns:235px 1fr;gap:42px;align-items:start}
-.portrait{width:235px;height:270px;object-fit:cover;object-position:50% 34%;border-radius:12px;border:1px solid var(--line);background:#eee}
-.social{display:grid;grid-template-columns:1fr 1fr;gap:7px;margin-top:10px}
-.social a{border:1px solid var(--line);background:white;color:var(--sub);font-size:12px;text-align:center;padding:7px;border-radius:7px}
-.eyebrow{font-size:12px;letter-spacing:.12em;color:var(--muted);font-weight:700;margin-bottom:7px}
-h1{font:700 48px/1.15 Georgia,"Times New Roman",serif;margin:0 0 4px} h1 span{font:500 27px/1.2 -apple-system;color:var(--muted);margin-left:9px}
-.title{font-size:18px;margin-bottom:12px} .title strong{font-weight:700}
-.bio{font-size:15.5px;color:var(--sub);margin:7px 0}
-.bio strong{color:var(--text);font-weight:600}
-.badges{display:flex;gap:7px;flex-wrap:wrap;margin-top:13px}
-.badge{font-size:12px;padding:4px 10px;border-radius:999px;background:var(--soft);border:1px solid var(--line);font-weight:500;color:#4b4945}
-.cta{display:flex;gap:9px;flex-wrap:wrap;margin-top:15px}
+h1{font:700 48px/1.15 Georgia,"Times New Roman",serif;margin:0 0 4px}
+h1 span{font:500 27px/1.2 -apple-system;color:var(--muted);margin-left:9px}
 .btn{padding:8px 15px;border-radius:8px;border:1px solid #222;background:#222;color:white;font-size:13px;font-weight:650}
-.btn.alt{background:white;color:#222;border-color:var(--line)}
-.stats{display:grid;grid-template-columns:repeat(6,1fr);gap:9px;margin:28px 0 38px}
-.stat{background:white;border:1px solid var(--line);border-radius:11px;padding:13px 14px;min-height:93px}
-.stat b{display:block;font:700 24px/1.1 Georgia,serif;margin-bottom:6px}
-.stat span{display:block;font-size:11.5px;color:var(--muted);line-height:1.35}
 .section{margin-top:42px}
 .section-head{display:flex;align-items:end;gap:13px;margin-bottom:18px}
 .section-head h2{font:700 30px/1.2 Georgia,serif;margin:0}
-.section-head .zh{font-size:17px;color:var(--muted);font-weight:500;margin-left:5px}
 .section-head:after{content:"";height:1px;background:var(--line);flex:1;margin-bottom:7px}
-.grid4{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
-.highlight{background:white;border:1px solid var(--line);border-radius:12px;padding:17px}
-.highlight .k{font-size:11px;letter-spacing:.08em;color:var(--muted);font-weight:800}
-.highlight h3{font-size:16px;line-height:1.35;margin:8px 0}
-.highlight p{font-size:13px;color:var(--sub);line-height:1.55;margin:0}
-.highlight.award{border-top:3px solid #b78a2f}
-.highlight.paper{border-top:3px solid #244f9c}
-.highlight.open{border-top:3px solid #267257}
-.highlight.service{border-top:3px solid #8b4f7a}
 .research-intro{font-size:15.5px;color:var(--sub);max-width:980px;margin:-4px 0 17px}
 .research-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:11px}
 .rbox{background:white;border:1px solid var(--line);border-radius:12px;padding:19px}
-.rbox .num{font:700 12px/1 monospace;color:var(--muted)} .rbox h3{margin:9px 0 6px;font-size:18px}
+.rbox .num{font:700 12px/1 monospace;color:var(--muted)}
+.rbox h3{margin:9px 0 6px;font-size:18px}
 .rbox p{font-size:13.5px;color:var(--sub);margin:0 0 9px}
 .papers{font-size:12.5px;color:var(--blue);font-weight:650}
 .ecosys{background:#191919;color:#eee;border-radius:14px;padding:23px}
 .eco-title{display:flex;justify-content:space-between;align-items:end;gap:20px}
-.eco-title h3{font:700 27px/1.2 Georgia,serif;margin:0} .eco-title p{font-size:12.5px;color:#aaa;margin:0}
-.eco-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:9px;margin-top:16px}
-.eco{border:1px solid #393939;background:#222;border-radius:10px;padding:14px}
-.eco b{font-size:15px} .eco span{display:block;color:#aaa;font-size:11.5px;line-height:1.45;margin-top:6px}
-.news{display:grid;grid-template-columns:110px 1fr;gap:6px 20px;font-size:14px}
-.news .date{color:var(--muted);font-family:monospace}
-.news .item{border-bottom:1px solid var(--line);padding-bottom:8px;margin-bottom:7px}
+.eco-title h3{font:700 27px/1.2 Georgia,serif;margin:0}
+.eco-title p{font-size:12.5px;color:#aaa;margin:0}
+.eco-grid{display:grid}
+.eco{border:1px solid #393939;background:#222;border-radius:10px}
+.eco span{display:block;color:#aaa;font-size:11.5px;line-height:1.45;margin-top:6px}
 .join{display:grid;grid-template-columns:1.05fr 1fr;gap:20px;background:white;border:1px solid var(--line);border-radius:14px;padding:23px}
-.join h3{font:700 27px/1.2 Georgia,serif;margin:0 0 10px} .join p{font-size:14px;color:var(--sub)}
-.roles{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0} .role{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:5px 10px;font-size:12px;font-weight:700}
+.join h3{font:700 27px/1.2 Georgia,serif;margin:0 0 10px}
+.join p{font-size:14px;color:var(--sub)}
+.roles{display:flex;gap:7px;flex-wrap:wrap;margin:12px 0}
+.role{background:var(--soft);border:1px solid var(--line);border-radius:999px;padding:5px 10px;font-size:12px;font-weight:700}
 .why{display:grid;grid-template-columns:1fr 1fr;gap:8px}
 .why div{background:var(--soft);border-radius:9px;padding:10px 11px;font-size:12px;color:var(--sub)}
 .why b{display:block;color:var(--text);margin-bottom:2px}
 .pubrow{display:grid;grid-template-columns:130px 1fr;gap:15px;border-top:1px solid var(--line);padding:12px 0}
 .venue{font-size:11px;font-family:monospace;color:var(--muted);font-weight:700}
-.pubtitle{font-size:14px;font-weight:700} .pubmeta{font-size:11.5px;color:var(--muted)}
+.pubtitle{font-size:14px;font-weight:700}
+.pubmeta{font-size:11.5px;color:var(--muted)}
 footer{margin-top:55px;padding-top:20px;border-top:1px solid var(--line);font-size:12px;color:var(--muted);display:flex;justify-content:space-between}
-.en{display:none} 
-@media(max-width:900px){.hero{grid-template-columns:1fr}.portrait{width:190px;height:220px}.stats{grid-template-columns:repeat(3,1fr)}.grid4{grid-template-columns:1fr 1fr}.research-grid{grid-template-columns:1fr}.eco-grid{grid-template-columns:1fr 1fr}.join{grid-template-columns:1fr}}
-@media(max-width:620px){main{padding:28px 18px}.links a:not(.keep){display:none}.stats{grid-template-columns:1fr 1fr}.grid4,.eco-grid{grid-template-columns:1fr}h1{font-size:40px}}
-
-.profile-detail{margin-top:16px;border-top:1px solid var(--line);padding-top:13px;display:grid;grid-template-columns:1fr;gap:9px}
-.profile-row{display:grid;grid-template-columns:145px 1fr;gap:14px;align-items:start}
-.profile-label{font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:800;padding-top:2px}
-.profile-value{font-size:13.5px;color:var(--sub);line-height:1.58}
-.profile-value strong{color:var(--text);font-weight:600}
-.profile-value .mark{color:var(--red);font-weight:750}
-.bio-lead{font-size:16px!important;line-height:1.72!important}
-.bio-compact{font-size:14.5px!important;line-height:1.66!important}
-@media(max-width:700px){.profile-row{grid-template-columns:1fr;gap:2px}}
-
-
-/* V9: keep the original visual style; only borrow Wentao-style text organization */
-.hero-v9{
-  display:grid;
-  grid-template-columns:220px 1fr;
-  gap:38px;
-  align-items:start;
-}
-.hero-v9-left{
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-}
-.hero-v9-photo{
-  width:220px;
-  height:255px;
-  object-fit:cover;
-  object-position:50% 34%;
-  border-radius:12px;
-  border:1px solid var(--line);
-  background:white;
-  box-shadow:0 4px 18px rgba(0,0,0,.045);
-}
-.hero-v9-social{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:7px;
-  width:100%;
-  margin-top:10px;
-}
-.hero-v9-social a{
-  border:1px solid var(--line);
-  background:white;
-  color:var(--sub);
-  font-size:12px;
-  text-align:center;
-  padding:7px 6px;
-  border-radius:7px;
-}
-.hero-v9-kicker{
-  font-size:11.5px;
-  letter-spacing:.11em;
-  color:var(--muted);
-  font-weight:650;
-  margin-bottom:8px;
-}
-.hero-v9-name{
-  margin:0 0 3px;
-  font:700 47px/1.12 Georgia,"Times New Roman",serif;
-  letter-spacing:-.025em;
-}
-.hero-v9-name span{
-  font:500 26px/1.2 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;
-  color:var(--muted);
-  margin-left:8px;
-}
-.hero-v9-title{
-  font-size:16px;
-  color:var(--sub);
-  margin-bottom:18px;
-}
-.hero-v9-thesis{
-  font:700 31px/1.33 Georgia,"Times New Roman","Songti SC",serif;
-  letter-spacing:-.018em;
-  margin:2px 0 18px;
-  color:var(--text);
-}
-.hero-v9-body p{
-  font-size:15.2px;
-  color:var(--sub);
-  line-height:1.78;
-  margin:0 0 11px;
-  text-align:justify;
-}
-.hero-v9-body a{
-  color:var(--blue);
-}
-.hero-v9-body .em{
-  color:var(--text);
-  font-weight:600;
-}
-.hero-v9-cards{
-  display:grid;
-  grid-template-columns:1fr 1fr;
-  gap:10px;
-  margin-top:19px;
-}
-.hero-v9-card{
-  background:var(--paper);
-  border:1px solid var(--line);
-  border-radius:10px;
-  padding:15px 16px 14px;
-  min-height:103px;
-}
-.hero-v9-card h3{
-  font-size:14.5px;
-  margin:0 0 6px;
-  font-weight:650;
-}
-.hero-v9-card p{
-  font-size:12.5px;
-  line-height:1.55;
-  color:var(--muted);
-  margin:0;
-}
-.hero-v9-actions{
-  display:flex;
-  gap:8px;
-  flex-wrap:wrap;
-  margin-top:15px;
-}
-.hero-v9-actions a{
-  padding:7px 12px;
-  border-radius:7px;
-  border:1px solid var(--line);
-  background:white;
-  color:var(--sub);
-  font-size:12px;
-}
-.hero-v9-actions a.primary{
-  background:var(--text);
-  color:white;
-  border-color:var(--text);
-}
 @media(max-width:900px){
-  .hero-v9{grid-template-columns:1fr}
-  .hero-v9-left{align-items:flex-start}
-  .hero-v9-photo{width:180px;height:210px}
-  .hero-v9-social{max-width:220px}
+.research-grid{grid-template-columns:1fr}
+.join{grid-template-columns:1fr}
 }
 @media(max-width:620px){
-  .hero-v9-name{font-size:40px}
-  .hero-v9-thesis{font-size:26px}
-  .hero-v9-cards{grid-template-columns:1fr}
+main{padding:28px 18px}
+.links a:not(.keep){display:none}
+h1{font-size:40px}
 }
-
-
-.hero-v9-social{
-  display:flex!important;
-  flex-direction:column!important;
-  gap:8px!important;
-  width:100%!important;
-  margin-top:12px!important;
+.hero-v9{display:grid;grid-template-columns:220px 1fr;gap:38px;align-items:start}
+.hero-v9-left{display:flex;flex-direction:column;align-items:center}
+.hero-v9-photo{width:220px;height:255px;object-fit:cover;object-position:50% 34%;border-radius:12px;border:1px solid var(--line);background:white;box-shadow:0 4px 18px rgba(0,0,0,.045)}
+.hero-v9-social{grid-template-columns:1fr 1fr}
+.hero-v9-kicker{font-size:11.5px;letter-spacing:.11em;color:var(--muted);font-weight:650;margin-bottom:8px}
+.hero-v9-name{margin:0 0 3px;font:700 47px/1.12 Georgia,"Times New Roman",serif;letter-spacing:-.025em}
+.hero-v9-name span{font:500 26px/1.2 -apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;color:var(--muted);margin-left:8px}
+.hero-v9-title{font-size:16px;color:var(--sub);margin-bottom:18px}
+.hero-v9-thesis{font:700 31px/1.33 Georgia,"Times New Roman","Songti SC",serif;letter-spacing:-.018em;margin:2px 0 18px;color:var(--text)}
+.hero-v9-body p{font-size:15.2px;color:var(--sub);line-height:1.78;margin:0 0 11px;text-align:justify}
+.hero-v9-body a{color:var(--blue)}
+.hero-v9-cards{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-top:19px}
+.hero-v9-card{background:var(--paper);border:1px solid var(--line);border-radius:10px;padding:15px 16px 14px;min-height:103px}
+.hero-v9-card h3{font-size:14.5px;margin:0 0 6px;font-weight:650}
+.hero-v9-card p{font-size:12.5px;line-height:1.55;color:var(--muted);margin:0}
+.hero-v9-actions{display:flex;gap:8px;flex-wrap:wrap;margin-top:15px}
+.hero-v9-actions a{padding:7px 12px;border-radius:7px;border:1px solid var(--line);background:white;color:var(--sub);font-size:12px}
+.hero-v9-actions a.primary{background:var(--text);color:white;border-color:var(--text)}
+@media(max-width:900px){
+.hero-v9-left{align-items:flex-start}
 }
-.hero-v9-social a{
-  display:flex!important;
-  align-items:center!important;
-  justify-content:center!important;
-  gap:8px!important;
-  width:100%!important;
-  border:1px solid var(--line)!important;
-  background:white!important;
-  color:var(--sub)!important;
-  font-size:13px!important;
-  text-align:center!important;
-  padding:9px 8px!important;
-  border-radius:8px!important;
-  text-decoration:none!important;
+@media(max-width:620px){
+.hero-v9-cards{grid-template-columns:1fr}
 }
-.hero-v9-social a:hover{
-  border-color:#cfcac2!important;
-  color:var(--text)!important;
-  background:#fdfcf9!important;
-}
-.hero-v9-address{
-  margin-top:12px;
-  padding-top:12px;
-  border-top:1px solid var(--line);
-  font-size:12.5px;
-  line-height:1.6;
-  color:var(--muted);
-  width:100%;
-}
-.hero-v9-address strong{
-  color:var(--sub);
-  font-weight:600;
-}
-
-
+.hero-v9-social{display:flex!important;flex-direction:column!important;gap:8px!important;width:100%!important;margin-top:12px!important}
+.hero-v9-social a{display:flex!important;align-items:center!important;justify-content:center!important;gap:8px!important;width:100%!important;border:1px solid var(--line)!important;background:white!important;color:var(--sub)!important;font-size:13px!important;text-align:center!important;padding:9px 8px!important;border-radius:8px!important;text-decoration:none!important}
+.hero-v9-social a:hover{border-color:#cfcac2!important;color:var(--text)!important;background:#fdfcf9!important}
+.hero-v9-address{margin-top:12px;padding-top:12px;border-top:1px solid var(--line);font-size:12.5px;line-height:1.6;color:var(--muted);width:100%}
+.hero-v9-address strong{color:var(--sub);font-weight:600}
 .network-section{margin-top:34px;margin-bottom:6px}
 .network-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}
 .network-card{background:var(--paper);border:1px solid var(--line);border-radius:12px;padding:19px 20px 18px}
@@ -287,27 +105,28 @@ footer{margin-top:55px;padding-top:20px;border-top:1px solid var(--line);font-si
 .network-card p{margin:0;font-size:13.5px;line-height:1.68;color:var(--sub)}
 .network-names{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0 11px}
 .network-name{display:inline-flex;align-items:center;padding:4px 9px;border-radius:999px;background:var(--soft);border:1px solid var(--line);color:#4a4844;font-size:11.5px;font-weight:500}
-.network-note{margin-top:9px!important;color:var(--muted)!important;font-size:12.5px!important}
-@media(max-width:760px){.network-grid{grid-template-columns:1fr}}
-
-
-/* ---------- V14: open-source ecosystem ---------- */
+@media(max-width:760px){
+.network-grid{grid-template-columns:1fr}
+}
 .eco-grid{grid-template-columns:repeat(3,1fr)!important;gap:10px!important;margin-top:18px!important}
-.eco{display:block;text-decoration:none;color:inherit;padding:15px 16px 14px;transition:border-color .18s,background .18s,transform .18s}
+.eco{text-decoration:none;color:inherit;padding:15px 16px 14px;transition:border-color .18s,background .18s,transform .18s}
 .eco:hover{border-color:#5c5c5c;background:#262626;transform:translateY(-2px);text-decoration:none}
 .eco b{font-size:15.5px;letter-spacing:-.01em}
 .eco span{min-height:34px}
-.eco .eco-tag{display:inline-block;margin-top:10px;font-size:10.5px;letter-spacing:.06em;color:#8d8d8d;border:1px solid #3a3a3a;border-radius:999px;padding:2px 8px;font-style:normal}
+.eco .eco-tag{display:inline-block;font-size:10.5px;letter-spacing:.06em;color:#8d8d8d;border:1px solid #3a3a3a;border-radius:999px;padding:2px 8px;font-style:normal}
 .eco-foot{display:flex;align-items:center;flex-wrap:wrap;gap:12px 34px;margin-top:17px;padding-top:15px;border-top:1px solid #333}
 .eco-stat b{display:block;font:700 21px/1.15 Georgia,serif;color:#f2f2f2}
 .eco-stat span{display:block;font-size:11px;letter-spacing:.05em;color:#8d8d8d;margin-top:3px}
 .eco-links{margin-left:auto;display:flex;gap:8px;flex-wrap:wrap}
 .eco-links a{border:1px solid #3d3d3d;border-radius:8px;padding:7px 13px;font-size:12px;color:#ddd;background:#232323}
 .eco-links a:hover{background:#2e2e2e;border-color:#5c5c5c;text-decoration:none}
-@media(max-width:900px){.eco-grid{grid-template-columns:1fr 1fr!important}.eco-links{margin-left:0}}
-@media(max-width:620px){.eco-grid{grid-template-columns:1fr!important}}
-
-/* ---------- V14: news carousel ---------- */
+@media(max-width:900px){
+.eco-grid{grid-template-columns:1fr 1fr!important}
+.eco-links{margin-left:0}
+}
+@media(max-width:620px){
+.eco-grid{grid-template-columns:1fr!important}
+}
 .news-head{display:flex;align-items:end;gap:13px;margin-bottom:14px}
 .news-head h2{font:700 30px/1.2 Georgia,serif;margin:0}
 .news-head .rule{height:1px;background:var(--line);flex:1;margin-bottom:7px}
@@ -334,95 +153,75 @@ footer{margin-top:55px;padding-top:20px;border-top:1px solid var(--line);font-si
 .news-bar{height:3px;border-radius:99px;background:var(--line);margin-top:13px;overflow:hidden}
 .news-bar i{display:block;height:100%;width:18%;border-radius:99px;background:#2b2b2b;transition:all .18s}
 .news-hint{font-size:11.5px;color:var(--muted);margin-top:8px}
-@media(max-width:620px){.news-card{flex-basis:79vw}.news-head h2{font-size:26px}}
-
-/* ---------- V14: publications ---------- */
 .pubrow{align-items:start}
 .pubtitle{line-height:1.45;margin-bottom:3px}
 .pubtags{display:flex;flex-wrap:wrap;gap:5px;margin-top:7px}
 .pubtags a{font-family:monospace;font-size:11.5px;padding:2px 9px;border-radius:5px;background:var(--soft);border:1px solid var(--line);color:var(--sub)}
 .pubtags a:hover{background:white;color:var(--blue);text-decoration:none}
 .venue .award{display:block;margin-top:5px;font-size:10px;color:var(--red);letter-spacing:.02em}
-@media(max-width:620px){.pubrow{grid-template-columns:1fr;gap:6px}.venue .award{display:inline;margin-left:6px}}
-
-
-
-/* ---------- V15: language switch ---------- */
+@media(max-width:620px){
+.pubrow{grid-template-columns:1fr;gap:6px}
+.venue .award{display:inline;margin-left:6px}
+}
 .langbtn{border:1px solid var(--line);background:white;border-radius:999px;padding:5px 14px;cursor:pointer;font-size:12.5px;font-weight:650;color:var(--sub);font-family:inherit;letter-spacing:.03em;transition:all .18s}
 .langbtn:hover{border-color:#bdb8af;color:var(--text)}
 .navin .links a{color:var(--sub)}
 .navin .links a:hover{color:var(--text);text-decoration:none}
-html[lang="en"] .cn-only{display:none}
-/* Intro uses separate language blocks to avoid mixing long HTML inside data-en. */
 .zh-only{display:block}
 .en-only{display:none}
 html[lang="en"] .zh-only{display:none}
 html[lang="en"] .en-only{display:block}
-
-/* ---------- V16: visible email ---------- */
-.hero-v9-contact{display:flex;align-items:center;flex-wrap:wrap;gap:9px 11px;margin:0 0 17px}
 .mailbox{display:inline-flex;align-items:center;gap:9px;border:1px solid var(--line);background:white;border-radius:10px;padding:6px 7px 6px 13px}
 .mailbox .addr{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:14.5px;font-weight:600;color:var(--text);letter-spacing:-.01em;text-decoration:none}
 .mailbox .addr:hover{color:var(--blue);text-decoration:none}
 .copybtn{border:1px solid var(--line);background:var(--soft);border-radius:7px;padding:4px 10px;font-size:11.5px;color:var(--sub);cursor:pointer;font-family:inherit;white-space:nowrap;transition:all .18s}
 .copybtn:hover{border-color:#bdb8af;color:var(--text)}
 .copybtn.done{background:#e8f2ec;border-color:#bcd8c6;color:var(--green)}
-.contact-note{font-size:12.5px;color:var(--muted)}
-.hero-v9-social a.mail-inline{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;letter-spacing:-.02em;color:var(--text);font-weight:600}
 .join-mail{display:flex;align-items:center;flex-wrap:wrap;gap:9px 11px;margin:15px 0 0}
 .join-mail .mailbox{background:var(--soft)}
 footer a{color:var(--muted)}
 footer a:hover{color:var(--text)}
-@media(max-width:620px){.mailbox .addr{font-size:13px}}
-
-/* ---------- V17: mobile hero — photo beside the name ---------- */
+@media(max-width:620px){
+.mailbox .addr{font-size:13px}
+}
 @media(max-width:900px){
-  .hero-v9{
-    display:grid!important;
-    grid-template-columns:150px minmax(0,1fr);
-    column-gap:18px;row-gap:0;align-items:start;
-  }
-  .hero-v9-left,.hero-v9-right{display:contents}
-  .hero-v9-photo{grid-area:1/1;width:150px;height:175px;align-self:start;margin:0}
-  .hero-v9-id{grid-area:1/2;align-self:center}
-  .hero-v9-thesis{grid-area:2/1/auto/-1;margin-top:18px}
-  .hero-v9-body{grid-area:3/1/auto/-1}
-  .hero-v9-social{grid-area:4/1/auto/-1;max-width:none!important;margin-top:4px!important}
-  .hero-v9-address{grid-area:5/1/auto/-1;margin-top:14px}
-  .hero-v9-cards{grid-area:6/1/auto/-1;margin-top:18px}
-  .hero-v9-actions{grid-area:7/1/auto/-1}
-  /* social links: wrap into columns instead of one tall stack */
-  .hero-v9-social{display:grid!important;grid-template-columns:1fr 1fr!important;gap:7px!important}
-  .hero-v9-social a{font-size:12.5px!important;padding:8px 6px!important}
-  .hero-v9-social a.mail-inline{grid-column:1/-1!important}
+.hero-v9{display:grid!important;grid-template-columns:150px minmax(0,1fr);column-gap:18px;row-gap:0;align-items:start}
+.hero-v9-left,.hero-v9-right{display:contents}
+.hero-v9-photo{grid-area:1/1;width:150px;height:175px;align-self:start;margin:0}
+.hero-v9-id{grid-area:1/2;align-self:center}
+.hero-v9-thesis{grid-area:2/1/auto/-1;margin-top:18px}
+.hero-v9-body{grid-area:3/1/auto/-1}
+.hero-v9-social{grid-area:4/1/auto/-1;max-width:none!important;margin-top:4px!important}
+.hero-v9-address{grid-area:5/1/auto/-1;margin-top:14px}
+.hero-v9-cards{grid-area:6/1/auto/-1;margin-top:18px}
+.hero-v9-actions{grid-area:7/1/auto/-1}
+.hero-v9-social{display:grid!important;grid-template-columns:1fr 1fr!important;gap:7px!important}
+.hero-v9-social a{font-size:12.5px!important;padding:8px 6px!important}
 }
 @media(max-width:620px){
-  .hero-v9{grid-template-columns:96px minmax(0,1fr);column-gap:13px}
-  .hero-v9-photo{width:96px;height:112px;border-radius:10px}
-  .hero-v9-kicker{font-size:9.5px;letter-spacing:.07em;line-height:1.5}
-  .hero-v9-name{font-size:27px!important;margin:2px 0 3px}
-  .hero-v9-name span{font-size:.72em}
-  .hero-v9-title{font-size:12.5px;line-height:1.5}
-  .hero-v9-thesis{font-size:20px!important;line-height:1.35}
-  .hero-v9-social a{font-size:11.5px!important;padding:8px 4px!important}
-  .hero-v9-actions a{flex:1 1 auto;text-align:center}
-  .mailbox{padding:5px 6px 5px 11px;gap:7px}
-  .copybtn{padding:4px 8px}
-  .contact-note{font-size:12px;line-height:1.55}
-  .eco-foot{gap:14px 22px}
-  .eco-stat b{font-size:18px}
-  .news-head h2{font-size:24px}
-  .news-card{flex-basis:82vw;min-height:0}
-  footer{flex-direction:column;align-items:flex-start;gap:6px}
+.hero-v9{grid-template-columns:96px minmax(0,1fr);column-gap:13px}
+.hero-v9-photo{width:96px;height:112px;border-radius:10px}
+.hero-v9-kicker{font-size:9.5px;letter-spacing:.07em;line-height:1.5}
+.hero-v9-name{font-size:27px!important;margin:2px 0 3px}
+.hero-v9-name span{font-size:.72em}
+.hero-v9-title{font-size:12.5px;line-height:1.5}
+.hero-v9-thesis{font-size:20px!important;line-height:1.35}
+.hero-v9-social a{font-size:11.5px!important;padding:8px 4px!important}
+.hero-v9-actions a{flex:1 1 auto;text-align:center}
+.mailbox{padding:5px 6px 5px 11px;gap:7px}
+.copybtn{padding:4px 8px}
+.eco-foot{gap:14px 22px}
+.eco-stat b{font-size:18px}
+.news-head h2{font-size:24px}
+.news-card{flex-basis:82vw;min-height:0}
+footer{flex-direction:column;align-items:flex-start;gap:6px}
 }
 @media(max-width:380px){
-  .hero-v9{grid-template-columns:84px minmax(0,1fr);column-gap:11px}
-  .hero-v9-photo{width:84px;height:98px}
-  .hero-v9-name{font-size:24px!important}
-  .hero-v9-social{grid-template-columns:1fr!important}
+.hero-v9{grid-template-columns:84px minmax(0,1fr);column-gap:11px}
+.hero-v9-photo{width:84px;height:98px}
+.hero-v9-name{font-size:24px!important}
+.hero-v9-social{grid-template-columns:1fr!important}
 }
-
-/* ---------- V18: project families in the ecosystem ---------- */
 .eco{display:flex!important;flex-direction:column;height:100%}
 .eco-name{display:inline-block;color:inherit;text-decoration:none;align-self:flex-start}
 .eco-name b{transition:color .18s}
@@ -433,25 +232,16 @@ footer a:hover{color:var(--text)}
 .eco-subs a:hover{background:#3b3b3b;border-color:#666;color:#fff;text-decoration:none}
 .eco .eco-tag{margin-top:auto;padding-top:0;align-self:flex-start}
 .eco-subs + .eco-tag{margin-top:12px!important}
-
-/* ---------- V20: GitHub star badges ---------- */
 .stars{display:inline-flex;align-items:center;gap:4px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:11.5px;font-weight:600;padding:2px 8px;border-radius:5px;background:#fdf6e0;border:1px solid #f0e2b8;color:#8a6410;white-space:nowrap}
 .stars svg{width:11px;height:11px;fill:#d9a521;flex-shrink:0}
 .stars.loading{background:var(--soft);border-color:var(--line);color:var(--muted)}
 .stars.loading svg{fill:var(--muted);opacity:.45}
-
-/* ---------- V21: GitHub / HuggingFace links in impact card ---------- */
-.hero-v9-card-links{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px}
-.hero-v9-card-links a{display:inline-flex;align-items:center;gap:5px;padding:4px 8px;border:1px solid var(--line);border-radius:6px;background:var(--soft);color:var(--sub);font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:10.8px;line-height:1.35;text-decoration:none;white-space:nowrap}
-.hero-v9-card-links a:hover{background:white;border-color:#cbc6bd;color:var(--text);text-decoration:none}
-@media(max-width:620px){.hero-v9-card-links a{font-size:10.3px}}
-
-/* ---------- Discovery Intelligence research family ---------- */
 .eco-discovery{grid-column:1/-1}
 .discovery-projects{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
 .discovery-projects strong{color:#f3f0ea}
-@media(max-width:620px){.discovery-projects{grid-template-columns:1fr;gap:6px}}
-
+@media(max-width:620px){
+.discovery-projects{grid-template-columns:1fr;gap:6px}
+}
 </style>
 </head>
 <body>
@@ -493,11 +283,10 @@ footer a:hover{color:var(--text)}
 <h2 class="hero-v9-thesis" data-en="Learning, Evolution, and Discovery Infrastructure for Large Language Models and Agents">面向下一代大语言模型与智能体学习、进化与发现的基础设施</h2>
 
 <div class="hero-v9-body">
-  <p class="zh-only">杨灵，即将入职北京大学国际机器学习研究中心担任助理教授（PI）、研究员、博士生导师。现为普林斯顿大学 ECE / Princeton AI Lab 博士后研究员，与王梦迪教授合作。博士毕业于北京大学，导师为崔斌教授和张路霞教授，博士期间入选 ByteDance Top Seed 顶尖人才计划。当前主要研究 <strong>LLM / Agent Post-Training、Recursive Self-Improvement (RSI) 与 Discovery Intelligence</strong>。在北京大学创立 <a href="https://gen-verse.github.io/DIG/"><strong>Discovery Intelligence Group (DIG，发现智能课题组)</strong></a>，并建立 <a href="https://github.com/Gen-Verse"><strong>Gen-Verse</strong></a> 开源研究社区，相关项目在 GitHub 与 Hugging Face 累计达到千万级使用量。累计发表论文 70 余篇，成果发表于 NeurIPS、ICML、ICLR、CVPR、ACL 等国际人工智能与机器学习顶级会议，多项工作获得 Spotlight（Top 3%）、Oral（Top 1%）和 Best Paper Award。<strong>长期招收积极主动、具有较强研究驱动力的博士生、硕士生、博士后和研究实习生，同时欢迎学术界与产业界开展科研合作。欢迎联系：yangling0818@163.com。</strong></p>
+  <p class="zh-only">杨灵，即将入职北京大学国际机器学习研究中心担任助理教授（PI）、研究员、博士生导师。现为普林斯顿大学 ECE / Princeton AI Lab 博士后研究员，与王梦迪教授合作。博士毕业于北京大学，导师为崔斌教授和张路霞教授，博士期间入选 ByteDance Top Seed 顶尖人才计划。当前主要研究 <strong>LLM / Agent Post-Training、Recursive Self-Improvement (RSI) 与 Discovery Intelligence</strong>。在北京大学创立 <a href="https://gen-verse.github.io/DIG/"><strong>Discovery Intelligence Group (DIG，发现智能课题组)</strong></a>，并建立 <a href="https://github.com/Gen-Verse"><strong>Gen-Verse</strong></a> 开源研究社区，相关项目在 GitHub 与 Hugging Face 累计达到千万级使用量。累计发表论文 70 余篇，成果发表于 NeurIPS、ICML、ICLR、CVPR、ACL 等国际人工智能与机器学习顶级会议，多项工作获得 Spotlight（Top 3%）、Oral（Top 1%）和 Best Paper Award。<strong>每年招收 3 名硕士生、4–6 名博士生；博士后和研究实习生长期开放，研究实习时长需为 3 个月及以上。欢迎积极主动、具有较强研究驱动力的同学申请，同时欢迎学术界与产业界开展科研合作。欢迎联系：yangling0818@163.com。</strong></p>
 
-  <p class="en-only">Ling Yang is an incoming Assistant Professor (PI), Researcher, and Ph.D. advisor at Peking University. He is currently a Postdoctoral Researcher in ECE / Princeton AI Lab at Princeton University, working with Prof. Mengdi Wang. He received his Ph.D. from Peking University, supervised by Prof. Bin Cui and Prof. Luxia Zhang, and was selected for the ByteDance Top Seed Talent Program during his doctoral studies. His research focuses on <strong>LLM / Agent Post-Training, Recursive Self-Improvement (RSI), and Discovery Intelligence</strong>. He founded the <a href="https://gen-verse.github.io/DIG/"><strong>Discovery Intelligence Group (DIG) at Peking University</strong></a> and built <a href="https://github.com/Gen-Verse"><strong>Gen-Verse</strong></a>, an open-source research community whose projects have reached tens of millions of cumulative uses across GitHub and Hugging Face. He has published 70+ papers at leading AI and machine learning venues including NeurIPS, ICML, ICLR, CVPR, and ACL, with several works receiving Spotlight (Top 3%), Oral (Top 1%), and Best Paper Award recognition. <strong>He is actively recruiting highly motivated Ph.D. students, master's students, postdoctoral researchers, and research interns, and welcomes academic and industrial collaborations. Contact: yangling0818@163.com.</strong></p>
+  <p class="en-only">Ling Yang is an incoming Assistant Professor (PI), Researcher, and Ph.D. advisor at Peking University. He is currently a Postdoctoral Researcher in ECE / Princeton AI Lab at Princeton University, working with Prof. Mengdi Wang. He received his Ph.D. from Peking University, supervised by Prof. Bin Cui and Prof. Luxia Zhang, and was selected for the ByteDance Top Seed Talent Program during his doctoral studies. His research focuses on <strong>LLM / Agent Post-Training, Recursive Self-Improvement (RSI), and Discovery Intelligence</strong>. He founded the <a href="https://gen-verse.github.io/DIG/"><strong>Discovery Intelligence Group (DIG) at Peking University</strong></a> and built <a href="https://github.com/Gen-Verse"><strong>Gen-Verse</strong></a>, an open-source research community whose projects have reached tens of millions of cumulative uses across GitHub and Hugging Face. He has published 70+ papers at leading AI and machine learning venues including NeurIPS, ICML, ICLR, CVPR, and ACL, with several works receiving Spotlight (Top 3%), Oral (Top 1%), and Best Paper Award recognition. <strong>He recruits 3 master's students and 4–6 Ph.D. students each year. Postdoctoral and research internship positions are open year-round; research internships require a minimum commitment of 3 months. Highly motivated applicants and academic and industrial collaborators are welcome. Contact: yangling0818@163.com.</strong></p>
 </div>
-
 
 <div class="hero-v9-cards">
 
@@ -509,7 +298,6 @@ footer a:hover{color:var(--text)}
       本组面向下一代 Discovery Intelligence，探索模型如何从被动问题求解器演化为能够学习、交互、自我改进与发现的智能系统。研究覆盖 LLM / Agent Post-Training、RL Systems / Infrastructure、Recursive Self-Improvement 和 AI for Discovery。
     </p>
   </div>
-
 
   <div class="hero-v9-card">
   <h3 data-en="Selected Research Systems">代表性研究系统</h3>
@@ -546,9 +334,8 @@ footer a:hover{color:var(--text)}
   <a href="#research" data-en="Research">研究方向</a>
   <a href="#systems" data-en="Open Source">开源体系</a>
 </div>
+</div>
 </section>
-
-
 
 <section class="section" id="research">
 <div class="section-head"><h2 data-en="Research">研究方向</h2></div>
@@ -762,7 +549,8 @@ footer a:hover{color:var(--text)}
 <div class="join">
 <div>
 <h3 data-en="Looking for students with real ambition in frontier AI">招收对前沿 AI 真正有追求的学生</h3>
-<p data-en="I am continuously recruiting &lt;strong&gt;Master&amp;#39;s students, PhD students, postdocs, and online / on-site research interns&lt;/strong&gt;, with a focus on LLM and agent post-training, reinforcement learning, self-improving agents, and AI for Discovery.">长期招收 <strong>硕士生、博士生、博士后、线上/线下研究实习生</strong>，重点方向包括 LLM/Agent Post-Training、Reinforcement Learning、Self-Improving Agents 与 AI for Discovery。</p>
+<p data-en="&lt;strong&gt;Each year, I recruit 3 master&#x27;s students and 4–6 Ph.D. students. Postdoctoral and research internship positions are open year-round; research internships require a minimum commitment of 3 months.&lt;/strong&gt;"><strong>每年招收 3 名硕士生、4–6 名博士生；博士后和研究实习生长期开放，研究实习时长需为 3 个月及以上。</strong></p>
+<p data-en="Research internships are available online or on-site. Our research focuses on LLM / Agent Post-Training, Reinforcement Learning, Self-Improving Agents, and AI for Discovery.">研究实习支持线上或线下，重点方向包括 LLM / Agent Post-Training、Reinforcement Learning、Self-Improving Agents 与 AI for Discovery。</p>
 <div class="roles"><span class="role">Master</span><span class="role">PhD</span><span class="role">Postdoc</span><span class="role">Research Intern</span></div>
 <div class="join-mail">
 <span class="mailbox"><a class="addr" href="mailto:yangling0818@163.com">yangling0818@163.com</a><button class="copybtn" type="button" data-copy="yangling0818@163.com" data-en="Copy">复制</button></span>
@@ -780,7 +568,6 @@ footer a:hover{color:var(--text)}
 
 <footer><span>© 2026 Ling Yang · Peking University</span><span><a href="mailto:yangling0818@163.com">yangling0818@163.com</a> · <a href="https://scholar.google.com.hk/citations?user=sIKujqAAAAAJ&hl=en">Scholar</a> · <a href="https://github.com/Gen-Verse">GitHub</a> · <a href="https://x.com/LingYang_PU">X</a></span></footer>
 </main>
-
 
 <script>
 (function(){
@@ -938,3 +725,4 @@ footer a:hover{color:var(--text)}
 </script>
 
 </body></html>
+
